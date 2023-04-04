@@ -1,0 +1,15 @@
+.carreras .titulo{
+    text-align: center;
+}
+
+.carrerasimg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+.carreras .texto{
+    text-align: center;
+}
