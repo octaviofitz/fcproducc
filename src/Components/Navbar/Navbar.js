@@ -14,10 +14,10 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Nosotros</Nav.Link>
-            <Nav.Link href="#link">Nuestras carreras</Nav.Link>
-            <Nav.Link href="#link">Galería</Nav.Link>
-            <Nav.Link href="#link">Contacto</Nav.Link>
+            <Nav.Link><Link to='/nosotros'>Nosotros</Link></Nav.Link>
+            <Nav.Link><Link to='/carreras'>Nuestras carreras</Link></Nav.Link>
+            <Nav.Link><Link to='/galeria'>Galería</Link></Nav.Link>
+            <Nav.Link><Link to='/contacto'>Contacto</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
