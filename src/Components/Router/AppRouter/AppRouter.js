@@ -19,8 +19,9 @@ const AppRouter = () => {
 
             <Navbar />
 {/*             <Header />
- */}            <Banner />
+ */}            
             <div className='main'>
+            <Banner />
             <Routes >
            
             <Route path='/' element={<Carreras />} />

@@ -3,7 +3,7 @@
 }
 
 .logo{
-    width: 60vw;
+    width: 58vw;
 }
 
 .nav-link{
@@ -18,4 +18,38 @@
 
 .nav-link:hover{
     font-weight: 700;
+}
+
+@media(min-width: 768px) {
+    .logo{
+        width: 38vw;
+    }
+
+    .nav-link{
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width:1024px){
+    .navbar{
+        padding: 0rem;
+    }
+
+    .logo{
+        width: 24vw;
+    }
+
+    .nav-link{
+        font-size: 1.1vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .logo{
+        width: 22vw;
+    }
+
+    .nav-link{
+        font-size: 1vw;
+    }
 }

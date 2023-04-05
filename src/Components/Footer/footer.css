@@ -15,3 +15,33 @@
     display: flex;
     justify-content: space-around;
 }
+
+.footer .listado{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.footer a:hover{
+    font-weight: 900;
+}
+
+@media (min-width: 768px){
+ 
+   .footer .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .seguinos{
+        display: none;
+    }
+
+
+}
