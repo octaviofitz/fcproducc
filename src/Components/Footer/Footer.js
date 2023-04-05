@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Icon } from 'semantic-ui-react'
 
 import '../Footer/footer.css'
 
@@ -8,19 +9,26 @@ function Footer() {
         <div className='footer'>
 
             <div className='container'>
-            <div>
-                <p>Contacto</p>
-                <p>Whatsapp: 11 5668-8314</p>
-                <p>Correo: info@fcproducciones.com.ar</p>
+            <div className='contacto'>
+                <p className='titulo'>FC PRODUCCIONES</p>
+                <Link to='#home'><p  className='correo'>Correo: info@fcproducciones.com.ar</p></Link> 
+                <Link to='home'><p className='whatsapp'>Whatsapp: 11 5668-8314</p></Link>
+                <ul className='listaRedesDesktop'>
+                        <li className='iconosMobile' id='ig' > <Icon bordered name='instagram' /> </li>
+                        <li className='iconosMobile' id='yt'> <Icon bordered name='youtube' /> </li>
+                        <li className='iconosMobile' id='fb'> <Icon bordered name='facebook' /> </li>
+                    </ul>
             </div>
 
             <div className='subcontainer'>
            
             <div className='seguinos'>
-                <p>Seguinos</p>
+                <p className='titulo'>Seguinos</p>
                 <nav>
-                    <ul>
-                        <li></li>
+                    <ul className='listaRedes'>
+                        <li className='iconosMobile' id='ig' > <Icon bordered name='instagram' /> </li>
+                        <li className='iconosMobile' id='yt'> <Icon bordered name='youtube' /> </li>
+                        <li className='iconosMobile' id='fb'> <Icon bordered name='facebook' /> </li>
                     </ul>
                 </nav>
                 </div>
@@ -28,12 +36,11 @@ function Footer() {
                 <div>
                     <nav>
                         <ul className='listado'>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='#home'>Nosotros</Link></li>
-                        <li><Link to='#home'>Carreras</Link></li>
-                        <li><Link to='#home'>Galería</Link></li>
+                        <li><Link to='/' className='enlaces'>Home</Link></li>
+                        <li><Link to='#home' className='enlaces'>Nosotros</Link></li>
+                        <li><Link to='#home' className='enlaces'>Carreras</Link></li>
+                        <li><Link to='#home' className='enlaces'>Galería</Link></li>
                         </ul>
-                    
                     </nav>
                 </div>
 

@@ -1,3 +1,4 @@
+/* General */
 .footer{
     display: flex;
     flex-direction: column;
@@ -6,6 +7,7 @@
     align-items: center;
     text-align: center;
     padding: 1.75rem;
+    padding-bottom: -1rem;
     margin-top: 3.5rem;
     background-color: #efeeee;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -14,12 +16,75 @@
 .subcontainer{
     display: flex;
     justify-content: space-around;
+    margin-top: 2rem;
 }
+
+.footer .listaRedesDesktop{
+    display: none;
+}
+
+/* Contacto */
+
+.footer .titulo{
+    font-size: 4vw;
+    font-weight: 900;
+    margin-bottom: 0rem;
+}
+
+.footer .correo,
+.footer .whatsapp{
+    font-size: 3.5vw;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.footer .contacto{
+    border-bottom: 3px solid #f1b111;
+    padding-bottom: 1.5rem;
+    margin: 0 10vw;
+}
+
+/* Redes */
+
+.footer .seguinos .titulo{
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.footer #ig{
+    color: #b83ab2;
+    cursor: pointer;
+}
+
+.footer #yt{
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.footer #fb{
+    color: #3b5998;
+    cursor: pointer;
+}
+
+
+.footer .listaRedes{
+    list-style: none;
+    display: flex;
+    margin-left: -2rem;
+    color: black;
+}
+
+.footer .iconosMobile{
+    font-size: 1.4rem;
+}
+
+/* Enlaces */
 
 .footer .listado{
     text-decoration: none;
     list-style: none;
     color: black;
+    cursor: pointer;
 }
 
 .footer a{
@@ -30,6 +95,7 @@
 
 .footer a:hover{
     font-weight: 900;
+    color: #f1b111;
 }
 
 @media (min-width: 768px){
@@ -43,5 +109,52 @@
         display: none;
     }
 
+
+    /* Contacto */
+
+.footer .titulo{
+    font-size: 2.5vw;
+    font-weight: 900;
+    margin-bottom: 0rem;
+}
+
+.footer .correo,
+.footer .whatsapp{
+    font-size: 1.8vw;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.footer .contacto{
+    border-bottom: 0px;
+    padding-bottom: 1.5rem;
+    margin: 0vw;
+}
+
+.footer .listaRedesDesktop{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto 0;
+    margin-right: 2vw;
+}
+
+.footer .subcontainer{
+    margin-top: 3.5vh;
+}
+
+.footer .listado{
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.footer .listado li{
+    padding: 0.15rem 0;
+}
+
+.footer .enlaces{
+    margin: 1vh 0;
+    font-size: 2vw;
+}
 
 }
