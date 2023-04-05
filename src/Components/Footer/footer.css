@@ -29,7 +29,7 @@
     font-size: 20px;
     font-weight: 900;
     margin-bottom: 0rem;
-    padding-top: 3rem;
+    padding-top: 2.2rem;
 }
 
 .footer .correo,
@@ -60,6 +60,7 @@
 .footer .seguinos .titulo{
     font-weight: 700;
     margin-bottom: 0.75rem;
+    padding-top: 0;
 }
 
 .footer #ig{
