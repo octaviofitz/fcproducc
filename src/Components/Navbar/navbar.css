@@ -1,0 +1,21 @@
+.NavBar{
+    background-color: #efeeee;
+}
+
+.logo{
+    width: 60vw;
+}
+
+.nav-link{
+    margin-left: 5vw;
+    color: black;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0.35rem 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+}

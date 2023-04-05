@@ -1,15 +1,49 @@
-.carreras .titulo{
-    text-align: center;
+.carreras{
+    margin-top: 5vh;
 }
 
-.carrerasimg1{
+.carreras .container{
+    border: 3px solid red;
+    
+}
+
+.carreras .titulo{
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.carrerasimg{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 60vw;
     margin: auto;
 }
 
 .carreras .texto{
     text-align: center;
+    padding: 1rem 0;
+}
+
+.carreras .botonm42{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #a98b30;
+    color: #fff;
+    border: none;
+}
+
+.carreras .botondesafio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #a0bf09;
+    color: #fff;
+    border: none;
 }

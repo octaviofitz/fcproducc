@@ -10,23 +10,24 @@ import Carreras from '../../Carreras/Carreras';
 import Patrocinios from '../../Patrocinios/Patrocinios';
 
 /* Css */
+import '../AppRouter/appRouter.css'
 
 const AppRouter = () => {
     return (
         <div>
             <BrowserRouter>
 
-            <Header />
             <Navbar />
-            <Banner />
-
+{/*             <Header />
+ */}            <Banner />
+            <div className='main'>
             <Routes >
-
+           
             <Route path='/' element={<Carreras />} />
             <Route path='/' element={<Patrocinios />} />
             
             </Routes>
-
+            </div>
             <Footer />
 
             </ BrowserRouter>

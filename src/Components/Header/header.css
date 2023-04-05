@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#ig,
+#youtube,
+#facebook{
+    color: #f1b111;
+}

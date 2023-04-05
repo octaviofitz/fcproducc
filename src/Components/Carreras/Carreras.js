@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import m42 from '../../Img/index/m42.jpg'
+import Button from 'react-bootstrap/Button';
+
+import m42 from '../../Img/index/m42.png'
+import eldesafio from '../../Img/index/eldesafio.png'
 
 import '../Carreras/carreras.css'
 
@@ -8,12 +11,17 @@ function Carreras() {
     return (
         <section className='carreras'>
             <h1 className='titulo'>Nuestras carreras</h1>
-            <article>
-            <Link to='m42'><img src={m42} className="carrerasimg1" ></img></Link>
+           
+            <article className='container'>
+            <Link to='m42'><img src={m42} className="carrerasimg" ></img></Link>
             <p className='texto'>El M42 es una carrera que te adentra en la naturaleza. Una carrera que te hace disfrutar de una parte de Buenos Aires que no todos conocen y que tiene mucho para mostrar; y nada que envidiar a otras partes del país</p>
+             <Button variant="warning" size='lg' className='botonm42'>Más información</Button>
             </article>
-            <article>
-            <button ><Link to='eldesafio'> EL DESAFÍO</Link></button>
+
+            <article className='container'>
+            <Link to='m42'><img src={eldesafio} className="carrerasimg" ></img></Link>
+            <p className='texto'>El M42 es una carrera que te adentra en la naturaleza. Una carrera que te hace disfrutar de una parte de Buenos Aires que no todos conocen y que tiene mucho para mostrar; y nada que envidiar a otras partes del país</p>
+             <Button variant="success" size='lg' className='botondesafio'>Más información</Button>
             </article>
            
         </section>
