@@ -12,3 +12,18 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
+.galeria .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.galeria .video{
+    padding: 2rem 0;
+}
+
+.galeria .video:last-child{
+    padding-bottom: 0;
+}

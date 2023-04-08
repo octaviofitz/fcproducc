@@ -1,3 +1,9 @@
 .carousel-indicators [data-bs-target]{
     display: none;
 }
+
+@media (min-widt: 1024px){
+    .prueba{
+       display: none;
+    }
+}

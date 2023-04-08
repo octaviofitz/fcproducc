@@ -17,6 +17,7 @@ function Banner() {
           className="d-block w-100"
           src={Carrusel1}
           alt="First slide"
+          id='prueba'
         />
       </Carousel.Item>
 
@@ -25,6 +26,7 @@ function Banner() {
           className="d-block w-100"
           src={Carrusel2}
           alt="Second slide"
+          id='prueba'
         />
       </Carousel.Item>
 
@@ -33,6 +35,7 @@ function Banner() {
           className="d-block w-100"
           src={Carrusel3}
           alt="Third slide"
+          id='prueba'
         />
       </Carousel.Item>
 
@@ -41,6 +44,7 @@ function Banner() {
           className="d-block w-100"
           src={Carrusel4}
           alt="Third slide"
+          id='prueba'
         />
       </Carousel.Item>
 

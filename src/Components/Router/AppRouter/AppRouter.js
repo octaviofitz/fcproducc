@@ -17,6 +17,7 @@ import ElDesafio from '../../ElDesafio/ElDesafio';
 
 /* Css */
 import '../AppRouter/appRouter.css'
+import BotonWP from '../../BotonWP/BotonWP';
 
 const AppRouter = () => {
     return (
@@ -28,6 +29,7 @@ const AppRouter = () => {
  */}            
             <div className='main'>
             <Banner />
+            <BotonWP />
             <Routes >
            
             <Route path='/' element={<Carreras />} />
