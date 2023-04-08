@@ -12,6 +12,8 @@ import Nosotros from '../../Nosotros/Nosotros';
 import NuestrasCarreras from '../../NuestrasCarreras/NuestrasCarreras';
 import Galeria from '../../Galeria/Galeria';
 import Contacto from '../../Contacto/Contacto';
+import M42 from '../../M42/M42';
+import ElDesafio from '../../ElDesafio/ElDesafio';
 
 /* Css */
 import '../AppRouter/appRouter.css'
@@ -30,6 +32,8 @@ const AppRouter = () => {
            
             <Route path='/' element={<Carreras />} />
             <Route path='/' element={<Patrocinios />} />
+            <Route path='/el-desafio' element={<ElDesafio />} />
+            <Route path='/m42' element={<M42 />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/carreras' element={<NuestrasCarreras />} />
             <Route path='/galeria' element={<Galeria />} />
