@@ -18,9 +18,10 @@
 .carreras .titulo{
     text-align: center;
     font-size: 10vw;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 2rem;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .carreras .carrerasimg{
@@ -44,6 +45,7 @@
     background-color: #a98b30;
     color: #fff;
     border: none;
+    text-transform: uppercase;
 }
 
 .carreras .botondesafio{
@@ -54,6 +56,12 @@
     background-color: #a0bf09;
     color: #fff;
     border: none;
+    text-transform: uppercase;
+}
+
+.carreras .botonm42 a:hover,
+.carreras .botondesafio a:hover{
+    color: #fff;
 }
 
 

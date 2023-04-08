@@ -1,0 +1,72 @@
+.elDesafio .flyer{
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.elDesafio .titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elDesafio .descripcion{
+    font-weight: 600;
+    margin: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elDesafio .botones{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 6rem;
+    color: white;
+    text-decoration: none;
+}
+
+.elDesafio .boton{
+    margin: 0.5rem 0;
+    padding: 0.8rem 0;
+    background-color: #a0bf09;
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.elDesafio .boton a{
+    color: white;
+}
+
+.elDesafio h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.8rem 3rem;
+}
+
+.elDesafio h4,
+.elDesafio h5{
+    margin: 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elDesafio ul{
+    margin: 1rem;
+}
+
+.elDesafio p{
+    margin: 1rem 2rem;
+}
+
+.elDesafio .mapas{
+    width: 95vw;
+    height: 50vh;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    border-radius: 5%;
+}

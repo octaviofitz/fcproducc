@@ -13,7 +13,6 @@ function M42() {
             <h2 className='titulo'>M42 MARATÓN DE MONTAÑA LOS ALERCES</h2>
             <img src={m42General} alt='Maratón M42' className='flyer' />
             <p className='descripcion'>AÑO TRAS AÑO SE CONSOLIDA ESTE EVENTO CONVIRTIÉNDOSE EN EL CLÁSICO DE TRAIL Y ULTRA DE LA COMARCA DESDE HACE 11 AÑOS <br></br> UNA CARRERA COMPETITIVA Y SOCIAL A LA VEZ EN UN MARCO DE PAISAJES INCREÍBLES Y CON MÁS DE 2.000 CORREDORES.<br></br> PLANTEAMOS CARRERAS COMPETITIVAS DE 50, 42, 25 Y 10 KM, REALIZANDO UNO DE LOS RECORRIDOS MÁS EXIGENTES DEL TRAIL RUNNING<br></br>.EL M42 LOS ALERCES ES UNA CARRERA QUE TE INVITA A VIVIR UNA MARAVILLOSA EXPERIENCIA CON AMIGOS Y FAMILIA. DISFRUTANDO DEL PAISAJE CON SIERRAS, ARROYOS, SENDEROS Y BOSQUES CON GRAN VARIEDAD DE PINOS, CEDROS, ÁLAMOS, AROMOS Y OLMOS.</p>
-            <article>
 
                 <div className='botones'>
                 <Button variant="warning" size='lg' className='boton'><Link to='#cartas'>Cartas</Link></Button>
@@ -31,7 +30,6 @@ function M42() {
                 <p>Concepto: Carrera de Ultra trail - trail - aventura.</p>
                 <p>Distancias: 50K, 42K, 25K, 10K, KIDS.</p>
                 <p>Modalidad: Individual</p>
-            </article>
 
                 <h4>CATEGORÍAS</h4>
                 <p>INDIVIDUAL: Damas y caballeros *</p>

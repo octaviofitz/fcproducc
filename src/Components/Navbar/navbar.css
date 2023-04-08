@@ -21,8 +21,9 @@
     color: #000;
 }
 
-.nav-link:hover{
+.nav-link a:hover{
     font-weight: 700;
+    color: #f1b111;
 }
 
 @media(min-width: 768px) {

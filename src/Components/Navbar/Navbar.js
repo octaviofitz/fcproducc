@@ -8,7 +8,7 @@ import '../Navbar/navbar.css'
 
 function BasicExample() {
   return (
-    <Navbar className='NavBar' bg="" expand="lg">
+    <Navbar className='NavBar' bg="" expand="lg" id='home'>
       <Container>
         <Navbar.Brand><Link to='/'><img src={logo} className='logo' alt='FC producciones' /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
