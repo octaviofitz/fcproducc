@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 
-import m42General from '../../Img/m42/flyerM42.jpg'
+import m42General from '../../Img/m42/flyerM42.webp'
 import '../M42/m42.css'
 
 function M42() {

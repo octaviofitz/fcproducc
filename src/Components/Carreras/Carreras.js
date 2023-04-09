@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
-import m42 from '../../Img/index/m42.png'
-import eldesafio from '../../Img/index/eldesafio.png'
+import m42 from '../../Img/index/m42.webp'
+import eldesafio from '../../Img/index/eldesafio.webp'
 
 import '../Carreras/carreras.css'
 

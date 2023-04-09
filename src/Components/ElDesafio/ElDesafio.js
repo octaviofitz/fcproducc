@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 
-import elDesafio from '../../Img/elDesafio/elDesafio.jpg'
+import elDesafio from '../../Img/elDesafio/elDesafio.webp';
 import '../ElDesafio/elDesafio.css'
 
 function ElDesafio() {

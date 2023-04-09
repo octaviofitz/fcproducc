@@ -1,7 +1,6 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
 
-import nosotrosImg from '../../Img/nosotros/nosotros.jpg'
+import nosotrosImg from '../../Img/nosotros/nosotros.webp'
 import '../Nosotros/nosotros.css';
 
 function Nosotros() {
