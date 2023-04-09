@@ -7,7 +7,7 @@ function BotonWP() {
     return (
         <div>
             <a
-      href="https://wa.me/1234567890"
+      href="https://api.whatsapp.com/send?phone=+541156688314&text=Hola 😁"
       className="whatsapp-button"
       target="_blank"
       rel="noopener noreferrer"

@@ -23,34 +23,34 @@ function ElDesafio() {
                 <h3 id='cartas'>Cartas</h3>
 
                 <h4>DATOS GENERALES</h4>
-                <p>Carrera: El Desafío Columbia</p>
-                <p>Fecha: 28 y 29 de octubre 2023</p>
-                <p>Lugar: Sierra de La Ventana a Saldungaray, comarca de Tornquist, provincia de Buenos Aires.</p>
-                <p>Concepto: Carrera de trail running</p>
+                <p><strong>Carrera:</strong> El Desafío Columbia</p>
+                <p><strong>Fecha:</strong> 28 y 29 de octubre 2023</p>
+                <p><strong>Lugar:</strong> Sierra de La Ventana a Saldungaray, comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p><strong>Concepto:</strong> Carrera de trail running</p>
 
                 <h3>Modalidad</h3>
                 <h4>DOS MODALIDADES EN UN MISMO FIN DE SEMANA ¡VOS ELEGÍS CUÁL!</h4>
-                <p>- 2 días: 25K el sábado y 21K el domingo con campamento obligatorio</p>
-                <p>- 1 día: 21K, 10K o kids, solo domingo</p>
+                <p><strong>- 2 días:</strong> 25K el sábado y 21K el domingo con campamento obligatorio</p>
+                <p><strong>- 1 día:</strong> 21K, 10K o kids, solo domingo</p>
 
                 <h3>INDIVIDUAL O EN EQUIPOS</h3>
-                <p>- INDIVIDUAL: Ambas modalidades</p>
-                <p>- EQUIPOS: Únicamente en la modalidad de 2 días y será de 2 integrantes. Puede ser MASCULINO, FEMENINO Y/O MIXTO. Los participantes tendrán que realizar juntos el total del recorrido.</p>
+                <p><strong>- INDIVIDUAL:</strong> Ambas modalidades</p>
+                <p><strong>- EQUIPOS:</strong> Únicamente en la modalidad de 2 días y será de 2 integrantes. Puede ser MASCULINO, FEMENINO Y/O MIXTO. <b>Los participantes tendrán que realizar juntos el total del recorrido.</b></p>
 
                 <h3>CATEGORÍAS DESAFÍO COLUMBIA</h3>
-                <p>- INDIVIDUAL: Damas y caballeros (Hasta 35 años / 36 a 45 años / 46 a 55 años / más 56 años)*</p>
-                <p>- EQUIPO MIXTO: Sin categoría. *</p>
-                <p>- EQUIPO MASC Y FEM: Sin categoría. *</p>
+                <p><strong>- INDIVIDUAL:</strong> Damas y caballeros (Hasta 35 años / 36 a 45 años / 46 a 55 años / más 56 años)*</p>
+                <p><strong>- EQUIPO MIXTO:</strong> Sin categoría. *</p>
+                <p><strong>- EQUIPO MASC Y FEM:</strong> Sin categoría. *</p>
                 <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad.</p>
-                <p>LAS EDADES SERÁN COMPUTADAS AL 29 DE OCTUBRE 2023</p>
-                <p>*La edad mínima para poder correr El Desafío Columbia es a partir de los 16 años.</p>
-                <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar. (BOTÓN DE DESCARGA)</p>
+                <p><b>LAS EDADES SERÁN COMPUTADAS AL 29 DE OCTUBRE 2023</b></p>
+                <p><b>*La edad mínima para poder correr El Desafío Columbia es a partir de los 16 años.</b></p>
+                <p><b>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar. (BOTÓN DE DESCARGA)</b></p>
 
                 <h3>DESCUENTO PARA TEAMS DE ENTRENAMIENTO</h3>
-                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
+                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail <b>info@fcproducciones.com.ar</b>, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
 
                 <h3>REMERAS</h3>
-                <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
+                <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse <b>no tiene cambio</b>.</p>
 
                 <h3>LA INSCRIPCIÓN A EL DESAFÍO COLUMBIA INCLUYE</h3>
                 <ul>
@@ -71,7 +71,7 @@ function ElDesafio() {
                     <li>Premiación ganadores categoría</li>
                     <li>Premiación ganadores general</li>
                 </ul>
-                <p>La organización pondrá micro y/o autos para trasladar a quienes no tengan como ir desde el camping a la largada del sábado.</p>
+                <p><b>La organización pondrá micro y/o autos para trasladar a quienes no tengan como ir desde el camping a la largada del sábado.</b></p>
 
                 <h3>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <h4>INSCRIPCIÓN ONLINE</h4>
@@ -80,15 +80,15 @@ function ElDesafio() {
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero</li>
                     <li>Elegir la distancia y si abonás el TOTAL o en 3 pagos por transferencia bancaria o depósito*</li>
                     <li>Completar los datos personales</li>
-                    <li>Abonar vía transferencia o depósito y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</li>
+                    <li>Abonar vía transferencia o depósito y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b></li>
                 </ol>
                 <p>*Quienes abonen en 3 pagos, serán los próximos dos a 30 y 60 días. Por mail les avisará el momento en el que esté disponible. Si no abonan en fecha cada pago, el costo se actualizará al precio vigente</p>
 
                 <h4>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h4>
-                <p>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos</p>
+                <p><b>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos</b></p>
 
                 <h3>INSCRIPCIÓN PRESENCIAL</h3>
-                <p>Se abona el TOTAL de la carrera únicamente en EFECTIVO en los centros de inscripción.</p>
+                <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
                 <h4>CENTROS DE INSCRIPCIÓN:</h4>
                 <ul>
                     <li>Aerorunners: Av. Córdoba 1360, CABA. Tel: 011-5811-1043</li>
@@ -110,7 +110,7 @@ function ElDesafio() {
                 <h4>- DOMINGO 29/10 de 7:30 a 9:30 am</h4>
                 <p>Centro de Interpretación de la obra de Francisco Salamone (300, Av. Corrales 202) (Predio del camping Fortin Pavón).</p>
 
-                <p>Por razones operativas, recomendamos no venir el último día. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>
+                <p>Por razones operativas, <b>recomendamos no venir el último día</b>. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>
 
 
                 <h3>PAPELES A PRESENTAR EN ACREDITACIÓN</h3>
@@ -125,39 +125,39 @@ function ElDesafio() {
                 <h3>LUGAR Y HORARIOS DE LARGADA</h3>
 
                 <h4>MODALIDAD 2 DÍAS:</h4>
-                <p>- DÍA: SÁBADO 28/10</p>
-                <p>- LUGAR DE SALIDA: Hotel Provincial, Drago 130, Sierra de la Ventana</p>
-                <p>- HORARIO DE SALIDA: 15 horas</p>
-                <p>- LUGAR DE LLEGADA: Camping Fortín Pavón, Saldungaray.</p>
+                <p><strong>- DÍA:</strong> SÁBADO 28/10</p>
+                <p><strong>- LUGAR DE SALIDA:</strong> Hotel Provincial, Drago 130, Sierra de la Ventana</p>
+                <p><strong>- HORARIO DE SALIDA:</strong> 15 horas</p>
+                <p>-<strong>- LUGAR DE LLEGADA:</strong> Camping Fortín Pavón, Saldungaray.</p>
 
                 <h4>MODALIDAD 2 DÍAS Y TAMBIÉN 1 DÍA: </h4>
-                <p>- DÍA: DOMINGO 29/10</p>
-                <p>- LUGAR DE SALIDA: Camping Fortín Pavón, Saldungaray</p>
-                <p>- HORARIO DE SALIDA: 10 horas</p>
-                <p>- LUGAR DE LLEGADA: Camping Fortín Pavón, Saldungaray</p>
+                <p><strong>- DÍA:</strong> DOMINGO 29/10</p>
+                <p><strong>- LUGAR DE SALIDA:</strong> Camping Fortín Pavón, Saldungaray</p>
+                <p><strong>- HORARIO DE SALIDA:</strong> 10 horas</p>
+                <p><strong>- LUGAR DE LLEGADA:</strong> Camping Fortín Pavón, Saldungaray</p>
 
                 
                 <h3>CAMPAMENTO OBLIGATORIO</h3>
                 <ul>
-                    <li>El campamento es OBLIGATORIO para aquellos que participen de la modalidad de dos días de carrera. LA CARPA CORRE POR CUENTA DEL CORREDOR.</li>
-                    <li>Los corredores deberán primero acreditarse para luego poder acceder al camping. Cada corredor contará con un voucher y una pulsera para ingresar al predio, otorgado en la acreditación.</li>
-                    <li>El camping de Saldungaray abrirá sus puertas a partir del sábado 28 de octubre desde temprano para aquellos que quieran armar su carpa antes de correr. Es lo recomendado. Caso contrario, podrán armarla una vez finalizado el primer día de carrera, pudiendo dejar sus objetos para acampar en el Hotel Provincial al momento de la acreditación, y posteriormente se retiran en el predio de acampe al llegar de la carrera.</li>
-                    <li>La distancia entre Sierra de La Ventana y Saldungaray es de 8.5 kilómetros. La organización pondrá micro y/o autos para trasladar a quienes no tengan como ir desde el camping a la largada del sábado.</li>
+                    <li>El campamento es <b>OBLIGATORIO</b> para aquellos que participen de la modalidad de <b>dos días</b> de carrera. <b>LA CARPA CORRE POR CUENTA DEL CORREDOR</b>.</li>
+                    <li>Los corredores deberán <b>primero acreditarse</b> para luego poder acceder al camping. Cada corredor contará con un voucher y una pulsera para ingresar al predio, otorgado en la acreditación.</li>
+                    <li>El camping de Saldungaray <b>abrirá sus puertas a partir del sábado 28 de octubre</b> desde temprano para aquellos que quieran armar su carpa antes de correr. Es lo recomendado. Caso contrario, podrán armarla una vez finalizado el primer día de carrera, pudiendo dejar sus objetos para acampar en el Hotel Provincial al momento de la acreditación, y posteriormente se retiran en el predio de acampe al llegar de la carrera.</li>
+                    <li>La distancia entre Sierra de La Ventana y Saldungaray es de 8.5 kilómetros. La organización pondrá micro y/o autos <b>para trasladar a quienes no tengan como ir</b> desde el camping a la largada del sábado.</li>
                     <li>Los dos días de carrera incluyen: estadía en el camping, cena del día sábado y desayuno del domingo.</li>
                 </ul>
-                <p>Cena: Pollo o asado al horno con ensaladas.</p>
-                <p>Postre: Frutas</p>
-                <p>Bebida: Gaseosas o agua mineral</p>
-                <p>Desayuno: Té, café, mate cocido con o sin leche. Tostadas y torta casera</p>
+                <p><strong>Cena:</strong> Pollo o asado al horno con ensaladas.</p>
+                <p><strong>Postre:</strong> Frutas</p>
+                <p><strong>Bebida:</strong> Gaseosas o agua mineral</p>
+                <p><strong>Desayuno:</strong> Té, café, mate cocido con o sin leche. Tostadas y torta casera</p>
                 <ul>
-                    <li>HORARIO DE CENA SÁBADO 28/10: 20 a 21:30 horas</li>
-                    <li>HORARIO DE DESAYUNO 29/10: 7 a 8:30 horas</li>
+                    <li><strong>HORARIO DE CENA SÁBADO 28/10:</strong> 20 a 21:30 horas</li>
+                    <li><strong>HORARIO DE DESAYUNO 29/10:</strong> 7 a 8:30 horas</li>
                 </ul>
 
                 <h3>CAMPAMENTO OPCIONAL</h3>
                 <h4>SI SOS UN ACOMPAÑANTE, O UN CORREDOR DE UN DÍA Y QUERÉS ACAMPAR, PODÉS</h4>
-                <p>Todos los corredores de un día o acompañantes que quieran participar del campamento, podrán. Se les cobrará un adicional que incluye alojamiento en camping desde el sábado, cena y desayuno.</p>
-                <p>Deberán solicitar la estadía y costo en info@fcproducciones.com.ar y deberán retirar el voucher en la acreditación.</p>
+                <p>Todos los <b>corredores de un día o acompañantes</b> que quieran <b>participar del campamento</b>, podrán. Se les cobrará un adicional que incluye alojamiento en camping desde el sábado, cena y desayuno.</p>
+                <p>Deberán solicitar la estadía y costo en <b>info@fcproducciones.com.ar</b> y deberán retirar el voucher en la acreditación.</p>
                 
                 <h3>ELEMENTOS OBLIGATORIOS PARA EL CAMPAMENTO</h3>
                 <ul>
@@ -173,10 +173,10 @@ function ElDesafio() {
                
                <h3>ELEMENTOS OBLIGATORIOS PARA LA CARRERA</h3>
                <ul>
-                <li>NÚMERO DE CORREDOR con CHIP incluido.<br></br>
+                <li><strong>NÚMERO DE CORREDOR con CHIP incluido</strong>.<br></br>
                 Será provisto por la organización y deberá estar visible en todo momento.</li>
-                <li>APTO MÉDICO</li>
-                <li>REMERA OFICIAL DE CORREDOR <br></br>
+                <li><strong>APTO MÉDICO</strong></li>
+                <li><strong>REMERA OFICIAL DE CORREDOR</strong> <br></br>
                 Será provista por la organización.</li>
                </ul>
 
@@ -197,18 +197,18 @@ function ElDesafio() {
                </ul>
 
                <h3>CRONOGRAMA</h3>
-               <h4>VIERNES 27/10</h4>
+               <h4><strong>VIERNES 27/10</strong></h4>
                <ul>
                 <li>16 a 19 hs: Acreditación y entrega de kits</li>
                </ul>
-               <h4>SÁBADO 28/10</h4>
+               <h4><strong>SÁBADO 28/10</strong></h4>
                <ul>
                 <li>10 a 17 hs: Acreditación y entrega de kits</li>
                 <li>14:45 hs: Charla técnica dos días</li>
                 <li>15 hs: Largada de la modalidad de 2 días: 21k </li>
                 <li>20 a 21:30 hs: Cena en el camping.</li>
                </ul>
-               <h4>DOMINGO 29/10</h4>
+               <h4><strong>DOMINGO 29/10</strong></h4>
                <ul>
                 <li>7 a 8:30 hs: Desayuno en el camping</li>
                 <li>7:30 a 9:30 hs: Entrega de Kits (modalidad un día)</li>
@@ -221,7 +221,7 @@ function ElDesafio() {
                <h3>CAMBIO DE DISTANCIA O DE OTRO TIPO</h3>
                <p>Aquellos corredores inscriptos que se quieran cambiar de distancia, tengan en cuenta lo siguiente:</p>
                <ol>
-                <li>Solo se considerarán aquellos casos en que se solicite al mail de la organización: info@fcproducciones.com.ar</li>
+                <li>Solo se considerarán aquellos casos en que se solicite al mail de la organización: <b>info@fcproducciones.com.ar</b></li>
                 <li>Solo hasta el séptimo día antes de la fecha de la carrera podrán cambiar</li>
                 <li>Si el cambio es a una distancia mayor, abona la diferencia del monto de inscripción</li>
                 <li>Si el cambio es a una distancia menor, NO se le devolverá dinero</li>
@@ -245,6 +245,14 @@ function ElDesafio() {
                     <li>Solo dejar la huella de tu calzado y no de tu basura</li>
                 </ul>
 
+                <h3>REGLAMENTO</h3>
+                <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
+                <p>Hasta 2 semanas antes de la fecha de la carrera, podrá transferir el 100% de lo abonado a otro corredor. Deberá tener en cuenta que: sólo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 7 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+              <p> <b>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</b></p>
+
+                <h4>TRANSFERENCIA POR NO PODER PARTICIPAR</h4>
+                <p>Hasta 2 semanas antes de la fecha de la carrera, podrá transferir el 100% de lo abonado a cuenta de la inscripción de la edición de próximas carreras de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+               <p><b> En caso de no avisar con ese tiempo de anticipación se pierde la inscripción ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</b></p>
         </section>
     );
 }
