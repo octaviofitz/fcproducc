@@ -1,3 +1,11 @@
+.m42{
+    margin: 1.5rem 0.75rem;
+    background-color: #efeeee;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 1.5rem 0;
+}
+
 .m42 .flyer{
     width: 90vw;
     display: flex;
@@ -8,13 +16,14 @@
 .m42 .titulo{
     text-align: center;
     font-size: 2.5rem;
-    margin: 2rem;
+    margin: 0 0.65rem;
+    margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .m42 .descripcion{
     font-weight: 600;
-    margin: 1.5rem;
+    margin: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,21 +54,21 @@
     text-transform: uppercase;
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
-    margin: 1.8rem 3rem;
+    margin: 1.8rem 1rem;
 }
 
 .m42 h4,
 .m42 h5{
-    margin: 1rem 2rem;
+    margin: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .m42 ul{
-    margin: 1rem;
+    margin: 0rem;
 }
 
 .m42 p{
-    margin: 1rem 2rem;
+    margin: 1rem;
 }
 
 .m42 .mapas{

@@ -1,14 +1,24 @@
 
+.imgElDesafio{
+    margin: 1.5rem 0.75rem;
+    background-color: #efeeee;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 1.5rem 0;
+    padding-top: 0;
+}
+
 .imgElDesafio .goBack{
-    background-color: #ffffff;
+    background-color: #efeeee;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
   color: #333333;
   cursor: pointer;
   font-size: 16px;
-  padding: 8px 16px;
+  padding: 6px 16px;
   transition: all 0.2s ease-in-out;
   width: 9rem;
+  margin-top: 1rem;
 }
 
 .goBack:hover {

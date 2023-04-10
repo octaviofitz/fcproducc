@@ -8,7 +8,7 @@ function Galeria() {
     return (
         <section className='galeria'>
             <h2 className='titulo'>Galería</h2>
-            <p className='descripcion'>Aquí podrás ver la cobertura de las mejores carreras de aventura y calle del año, revivir los mejores momentos y conocer a los corredores a través de la FERCam.</p>
+            <p className='descripcion'>Aquí podrás ver la cobertura de las mejores carreras de aventura y calle del año, revivir los mejores momentos y conocer a los corredores a través de la <b>FERCam</b>.</p>
             <p className='descripcion'>También podés seguirnos en nuestro canal de Youtube donde encontrarás mucho más contenido de las carreras.</p>
             <div className='container'>
             <Ratio aspectRatio="16x9">
