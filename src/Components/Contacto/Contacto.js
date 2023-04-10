@@ -7,7 +7,7 @@ import '../Contacto/contacto.css'
 function Contacto() {
     return (
         <section className='contacto'>
-            <h3 className='titulo'>Contacto</h3>
+            <h2 className='titulo'>Contacto</h2>
             <p className='texto'>Si tenés alguna consulta o querés saber más acerca de nuestros servicios, no dudes en ponerte en contacto con nosotros. Estamos disponibles a través de varios medios:</p>
             <ul>
                 <li className='texto'>Correo electrónico: envíanos un mensaje a <Link to='mailto:info@fcproducciones.com.ar:' target="_blank" rel="noopener noreferrer"><b>info@fcproducciones.com.ar</b></Link> y te responderemos lo antes posible.</li>
