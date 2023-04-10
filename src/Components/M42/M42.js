@@ -8,7 +8,7 @@ import '../M42/m42.css'
 
 function M42() {
     return (
-        <section className='m42'>
+        <section className='m42' id='m42'>
 
             <h2 className='titulo'>M42 MARATÓN DE MONTAÑA LOS ALERCES</h2>
             <img src={m42General} alt='Maratón M42' className='flyer' />

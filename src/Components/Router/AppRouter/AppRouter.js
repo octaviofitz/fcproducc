@@ -14,6 +14,7 @@ import Galeria from '../../Galeria/Galeria';
 import Contacto from '../../Contacto/Contacto';
 import M42 from '../../M42/M42';
 import ElDesafio from '../../ElDesafio/ElDesafio';
+import ScrollToTop from '../../ScrollToTop/ScrollToTop';
 
 /* Css */
 import '../AppRouter/appRouter.css'
@@ -23,7 +24,7 @@ const AppRouter = () => {
     return (
         <div>
             <BrowserRouter>
-
+            <ScrollToTop />
             <Navbar />
 {/*             <Header />
  */}            

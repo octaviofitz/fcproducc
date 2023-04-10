@@ -9,7 +9,7 @@ import '../ElDesafio/elDesafio.css'
 function ElDesafio() {
     return (
         <section className='elDesafio'>
-            <h2 className='titulo'>EL DESAFÍO</h2>
+            <h2 className='titulo' id='elDesafio'>EL DESAFÍO</h2>
             <img src={elDesafio} alt='Maratón El Desafío' className='flyer' />
             <p className='descripcion'>El Desafío es una carrera que te enfrenta como corredor no solo con tus ganas de vivir la naturaleza desde el deporte sino de ser parte de ella al 100%, realizando un recorrido único y la experiencia de acampar y vivir el clima de camaradería entre deportistas que buscan lo mismo que vos, disfrutar la Aventura.</p>
 
