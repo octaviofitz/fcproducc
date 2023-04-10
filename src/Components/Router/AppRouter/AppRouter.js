@@ -15,6 +15,8 @@ import Contacto from '../../Contacto/Contacto';
 import M42 from '../../M42/M42';
 import ElDesafio from '../../ElDesafio/ElDesafio';
 import ScrollToTop from '../../ScrollToTop/ScrollToTop';
+import ImagenesM42 from '../../M42/Imagenes/ImagenesM42';
+import ImagenesElDesafio from '../../ElDesafio/Imagenes/ImagenesElDesafio';
 
 /* Css */
 import '../AppRouter/appRouter.css'
@@ -37,6 +39,8 @@ const AppRouter = () => {
             <Route path='/' element={<Patrocinios />} />
             <Route path='/el-desafio' element={<ElDesafio />} />
             <Route path='/m42' element={<M42 />} />
+            <Route path='/m42/fotos2022' element={<ImagenesM42 />} />
+            <Route path='/el-desafio/fotos2022' element={<ImagenesElDesafio />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/carreras' element={<NuestrasCarreras />} />
             <Route path='/galeria' element={<Galeria />} />

@@ -17,7 +17,7 @@ function ElDesafio() {
                 <Button variant="success" size='lg' className='boton'><Link to='#cartas'>Cartas</Link></Button>
                 <Button variant="success" size='lg' className='boton'><Link to='/m42/resultados2022'>Resultados 2022</Link></Button>
                 <Button variant="success" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2022</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/fotos2022'>Fotos 2022</Link></Button>
                 </div>
 
                 <h3 id='cartas'>Cartas</h3>

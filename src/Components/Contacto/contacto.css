@@ -1,5 +1,5 @@
 .contacto{
-    margin: 2rem 0;
+    margin: 2rem 0.5rem;
 }
 
 .contacto .titulo{
@@ -15,6 +15,10 @@
 
 .contacto .texto{
     margin: 1rem;
+}
+
+.contacto b{
+    text-decoration: underline;
 }
 
 .contacto .social-media-icons {
