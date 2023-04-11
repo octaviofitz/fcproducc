@@ -11,12 +11,12 @@ function Footer() {
             <div className='container'>
             <div className='datos'>
                 <p className='titulo'>FC PRODUCCIONES</p>
-                <a href='mailto:info@fcproducciones.com.ar' rel="noreferrer"><p  className='correo'><Icon className='mail' name='mail outline'/>info@fcproducciones.com.ar</p></a> 
-                <a href='https://api.whatsapp.com/send?phone=+541156688314&text=Hola 😁' target='_blank' rel="noreferrer"><p className='whatsapp'><Icon className='wp' name='whatsapp' />11 5668 8314</p></a>
+                <Link to='mailto:info@fcproducciones.com.ar' rel="noopener noreferrer"><p className='correo'><Icon className='mail' name='mail outline'/>info@fcproducciones.com.ar</p></Link> 
+                <Link to='https://api.whatsapp.com/send?phone=+541156688314&text=Hola 😁' target='_blank' rel="noopener noreferrer"><p className='whatsapp'><Icon className='wp' name='whatsapp' />11 5668 8314</p></Link>
                 <ul className='listaRedesDesktop'>
-                       <a href='https://www.instagram.com/fcproducc/' target='_blank' rel="noreferrer"></a> <li className='iconosMobile' id='ig' > <Icon name='instagram' /> </li>
-                        <li className='iconosMobile' id='yt'> <Icon name='youtube' /> </li>
-                        <li className='iconosMobile' id='fb'> <Icon name='facebook' /> </li>
+                        <li className='iconosMobile' id='ig'> <Link to='https://www.instagram.com/fcproducc/' target='_blank' rel="noopener noreferrer"> <Icon name='instagram' /> </Link></li>
+                        <li className='iconosMobile' id='yt'><Link to='https://www.youtube.com/user/RevistaDesafios' target='_blank' rel="noopener noreferrer"> <Icon name='youtube' /></Link></li>
+                        <li className='iconosMobile' id='fb'><Link to='https://www.facebook.com/fcproducc/' target='_blank' rel="noopener noreferrer"> <Icon name='facebook' /></Link></li>
                     </ul>
             </div>
 
@@ -26,9 +26,9 @@ function Footer() {
                 <p className='titulo'>Seguinos</p>
                 <nav>
                     <ul className='listaRedes'>
-                        <li className='iconosMobile' id='ig'><a rel="noreferrer" href='https://www.instagram.com/fcproducc/' target='_blank'><Icon name='instagram' /></a></li>
-                        <li className='iconosMobile' id='yt'><a rel="noreferrer" href='https://www.youtube.com/user/RevistaDesafios' target='_blank'><Icon name='youtube' /></a></li>
-                        <li className='iconosMobile' id='fb'><a rel="noreferrer" href='https://www.facebook.com/fcproducc/' target='_blank'><Icon name='facebook' /></a> </li>
+                        <li className='iconosMobile' id='ig'><Link to='https://www.instagram.com/fcproducc/' target='_blank' rel="noopener noreferrer"><Icon name='instagram' /></Link></li>
+                        <li className='iconosMobile' id='yt'><Link to='https://www.youtube.com/user/RevistaDesafios' target='_blank' rel="noopener noreferrer"><Icon name='youtube' /></Link></li>
+                        <li className='iconosMobile' id='fb'><Link to='https://www.facebook.com/fcproducc/' target='_blank' rel="noopener noreferrer"><Icon name='facebook' /></Link> </li>
                     </ul>
                 </nav>
                 </div>
