@@ -1,12 +1,14 @@
 .main{
     background-color: #fff;
+    scroll-behavior: smooth;
 }
 
  @media (min-width: 1440px){
+
     .main{
         margin: auto;
         width: 70vw;
         justify-content: center;
         align-items: center;
     }
-} 
+ }

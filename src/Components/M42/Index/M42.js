@@ -3,10 +3,31 @@ import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 
-import m42General from '../../Img/m42/flyerM42.webp'
-import '../M42/m42.css'
+import m42General from '../../../Img/m42/flyerM42.webp'
+import '../Index/m42.css'
 
 function M42() {
+
+    function scrollCartas() {
+        const section = document.getElementById('cartas');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function scrollInscripcion() {
+        const section = document.getElementById('inscripcion');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function scrollCronograma() {
+        const section = document.getElementById('cronograma');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+      
+      function scrollReglamento() {
+        const section = document.getElementById('reglamento');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+
     return (
         <section className='m42' id='m42'>
 
@@ -15,12 +36,15 @@ function M42() {
             <p className='descripcion'>AÑO TRAS AÑO SE CONSOLIDA ESTE EVENTO CONVIRTIÉNDOSE EN EL CLÁSICO DE TRAIL Y ULTRA DE LA COMARCA DESDE HACE 11 AÑOS <br></br> UNA CARRERA COMPETITIVA Y SOCIAL A LA VEZ EN UN MARCO DE PAISAJES INCREÍBLES Y CON MÁS DE 2.000 CORREDORES.<br></br> PLANTEAMOS CARRERAS COMPETITIVAS DE 50, 42, 25 Y 10 KM, REALIZANDO UNO DE LOS RECORRIDOS MÁS EXIGENTES DEL TRAIL RUNNING<br></br>.EL M42 LOS ALERCES ES UNA CARRERA QUE TE INVITA A VIVIR UNA MARAVILLOSA EXPERIENCIA CON AMIGOS Y FAMILIA. DISFRUTANDO DEL PAISAJE CON SIERRAS, ARROYOS, SENDEROS Y BOSQUES CON GRAN VARIEDAD DE PINOS, CEDROS, ÁLAMOS, AROMOS Y OLMOS.</p>
 
                 <div className='botones'>
-                <Button variant="warning" size='lg' className='boton'><Link to='#cartas'>Cartas</Link></Button>
-                <Button variant="warning" size='lg' className='boton'><Link to='/m42/resultados2022'>Resultados 2022</Link></Button>
-                <Button variant="warning" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="warning" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2022</Link></Button>
-
+                <Button variant="danger" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
+                <Button variant="danger" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
+                <Button variant="danger" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link to='#reglamento'>Reglamento</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados 2022</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2022</Link></Button>
                 </div>
+                
                 <h3 id='cartas'>Cartas</h3>
 
                 <h4>DATOS GENERALES</h4>
@@ -61,7 +85,7 @@ function M42() {
                 <h4>DESCUENTO TEAMS DE ENTRENAMIENTO</h4>
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail <b>info@fcproducciones.com.ar</b>, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
                 
-                <h3>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
+                <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <h4>INSCRIPCIÓN ONLINE</h4>
                 <p>Los pasos para inscribirse online son:</p>
 
@@ -77,8 +101,7 @@ function M42() {
                 <p>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
 
                 <h4>INSCRIPCIÓN PRESENCIAL</h4>
-                <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.
-</p>
+                <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
                 <h5>CENTROS DE INSCRIPCIÓN:</h5>
                 <ul>
                     <li><strong>Aerorunners</strong>: Av. Córdoba 1360 CABA Tel 011 5811-1043</li>
@@ -118,7 +141,7 @@ function M42() {
                 <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
                 <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
                 <p>¿CÓMO LLEGAR A LOS ALERCES?</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.399580909211!2d-62.08592658843749!3d-38.065062030645144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c36c812b09%3A0x129922352fe697!2sGnena-Kena%20%26%20Melica%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1680915042499!5m2!1ses-419!2sar" width="600" height="450" className='mapas'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.399580909211!2d-62.08592658843749!3d-38.065062030645144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c36c812b09%3A0x129922352fe697!2sGnena-Kena%20%26%20Melica%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1680915042499!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe>
 
                 <h4>►SÁBADO 27/05</h4>
                 <p>Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -130,7 +153,7 @@ function M42() {
                 <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados gratuitos desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar en el mismo a <b>info@fcproducciones.com.ar</b></p>
 
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1680915128426!5m2!1ses-419!2sar" width="600" height="450" className='mapas'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1680915128426!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
                 <h4>►DOMINGO 29/05</h4>
                 <p>Estancia Las Vertientes, Villa Ventana</p>
@@ -142,7 +165,7 @@ function M42() {
                 <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO VENIR EL ÚLTIMO DÍA. EL KIT PUEDE RETIRARLO OTRA PERSONA LLEVANDO LOS PAPELES FIRMADOS POR EL TITULAR (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
 
                 <p>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1680915183851!5m2!1ses!2sus" width="600" height="450" className='mapas'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1680915183851!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa La Estancia Las Vertientes'></iframe>
 
                 <h4>PAPELES A PRESENTAR EN ACREDITACIÓN*:</h4>
                 <p>Los inscriptos deberán acreditarse y retirar su kit con la siguiente documentación:</p>
@@ -162,7 +185,7 @@ function M42() {
                 </ul>
                 <p><strong>De no contar con estos requisitos la organización NO entregará el Kit.</strong></p>
 
-                <h3>►LARGADAS: LUGARES Y HORARIOS</h3>
+                <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
                 <h4>• SÁBADO 27 DE MAYO 2023 | 50 y 42K</h4>
                 <p><strong>- LARGADA</strong>: Los Alerces. Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
@@ -182,11 +205,11 @@ function M42() {
 
                 <h3>RECORRIDO 50 Y 42K:</h3>
                 <p>Destildar la distancia que no se quiera ver.</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas'></iframe>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
                 <h3>RECORRIDO 25 Y 10K:</h3>
                 <p>Destildar la distancia que no se quiera ver.</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas'></iframe>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
 
                 <h4>ALTIMETRÍAS</h4>
 
@@ -217,7 +240,7 @@ function M42() {
                 <p>⬇  Altura mínima: 369 msnm</p>
 
 
-                <h3>CRONOGRAMA GENERAL:</h3>
+                <h3 id='cronograma'>CRONOGRAMA GENERAL:</h3>
                 <h4>VIERNES 26 DE MAYO:</h4>
                 <p><strong>De 10 a 18 hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
                 

@@ -3,10 +3,32 @@ import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 
-import elDesafio from '../../Img/elDesafio/elDesafio.webp';
-import '../ElDesafio/elDesafio.css'
+import elDesafio from '../../../Img/elDesafio/elDesafio.webp'
+import '../Index/elDesafio.css'
 
 function ElDesafio() {
+
+    function scrollCartas() {
+        const section = document.getElementById('cartas');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function scrollInscripcion() {
+        const section = document.getElementById('inscripcion');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function scrollCronograma() {
+        const section = document.getElementById('cronograma');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+      
+      function scrollReglamento() {
+        const section = document.getElementById('reglamento');
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+
+
     return (
         <section className='elDesafio'>
             <h2 className='titulo' id='elDesafio'>EL DESAFÍO</h2>
@@ -14,9 +36,12 @@ function ElDesafio() {
             <p className='descripcion'>El Desafío es una carrera que te enfrenta como corredor no solo con tus ganas de vivir la naturaleza desde el deporte sino de ser parte de ella al 100%, realizando un recorrido único y la experiencia de acampar y vivir el clima de camaradería entre deportistas que buscan lo mismo que vos, disfrutar la Aventura.</p>
 
             <div className='botones'>
-                <Button variant="success" size='lg' className='boton'><Link to='#cartas'>Cartas</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/m42/resultados2022'>Resultados 2022</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
+                <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
+                <Button variant="success" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
+                <Button variant="success" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
+                <Button variant="success" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/resultados'>Resultados 2022</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/alojamientos'>Alojamientos</Link></Button>
                 <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/fotos2022'>Fotos 2022</Link></Button>
                 </div>
 
@@ -46,7 +71,7 @@ function ElDesafio() {
                 <p><b>*La edad mínima para poder correr El Desafío Columbia es a partir de los 16 años.</b></p>
                 <p><b>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar. (BOTÓN DE DESCARGA)</b></p>
 
-                <h3>DESCUENTO PARA TEAMS DE ENTRENAMIENTO</h3>
+                <h3>DESCUENTO PARA TEAMS</h3>
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail <b>info@fcproducciones.com.ar</b>, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
 
                 <h3>REMERAS</h3>
@@ -73,7 +98,7 @@ function ElDesafio() {
                 </ul>
                 <p><b>La organización pondrá micro y/o autos para trasladar a quienes no tengan como ir desde el camping a la largada del sábado.</b></p>
 
-                <h3>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
+                <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <h4>INSCRIPCIÓN ONLINE</h4>
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
@@ -196,7 +221,7 @@ function ElDesafio() {
                 <li>Toallitas higiénicas</li>
                </ul>
 
-               <h3>CRONOGRAMA</h3>
+               <h3 id='cronograma'>CRONOGRAMA</h3>
                <h4><strong>VIERNES 27/10</strong></h4>
                <ul>
                 <li>16 a 19 hs: Acreditación y entrega de kits</li>
@@ -245,7 +270,7 @@ function ElDesafio() {
                     <li>Solo dejar la huella de tu calzado y no de tu basura</li>
                 </ul>
 
-                <h3>REGLAMENTO</h3>
+                <h3 id='reglamento'>REGLAMENTO</h3>
                 <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
                 <p>Hasta 2 semanas antes de la fecha de la carrera, podrá transferir el 100% de lo abonado a otro corredor. Deberá tener en cuenta que: sólo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 7 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
               <p> <b>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</b></p>

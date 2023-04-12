@@ -48,11 +48,20 @@
     .nav-link{
         font-size: 1.1vw;
     }
+
+    .navbar-expand-lg .navbar-collapse{
+        margin-left: 4rem;
+    }
 }
 
 @media (min-width: 1440px){
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        margin-left: 14vw;
+    }
+
+
     .logo{
-        width: 22vw;
+        width: 18rem;
     }
 
     .nav-link{

@@ -10,7 +10,8 @@ import '../Banner/banner.css'
 
 function Banner() {
   return (
-    <Carousel fade>
+    <section id='carrusel'>
+    <Carousel fade >
 
       <Carousel.Item>
         <img
@@ -50,6 +51,7 @@ function Banner() {
 
 
     </Carousel>
+    </section>
   );
 }
 

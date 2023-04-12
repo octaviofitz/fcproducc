@@ -15,9 +15,25 @@
     font-size: 2.5rem;
 }
 
-.galeria .descripcion{
+.galeria .descripcion,
+.galeria .lista{
     margin: 0rem 1.5rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+.galeria .texto{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem 1.5rem;
+}
+
+.galeria .lista{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.galeria .li{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.6rem 0;
 }
 
 .galeria .container{
@@ -33,4 +49,24 @@
 
 .galeria .video:last-child{
     padding-bottom: 0;
+}
+
+.galeria .boton{
+    background-color: #ff0000;
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.galeria .boton:hover{
+    background-color: #ff0000;
+    color: white;
+}
+
+.galeria .boton a{
+    color: white;
+    text-transform: uppercase;
 }

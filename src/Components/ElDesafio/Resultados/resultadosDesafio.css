@@ -1,0 +1,69 @@
+.resultadosDesafio .cards{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 3%;
+    background-color: #efeeee;
+    padding: 2rem;
+}
+
+.resultadosDesafio .titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.resultadosDesafio .goBack{
+    background-color: #efeeee;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 16px;
+  transition: all 0.2s ease-in-out;
+  width: 9rem;
+  margin-top: 1rem;
+}
+
+.resultadosDesafio .goBack:hover {
+    background-color: #97161a;
+    border-color: #fff;
+    color: #dcdcdc;
+  }
+
+  .resultadosDesafio .contenedorBoton{
+    display: flex;
+    justify-content: right;
+    margin: 2rem 1.5rem 1rem -2rem;
+}
+
+.resultadosDesafio .logo{
+    display: flex;
+    margin: auto;
+}
+
+.resultadosDesafio .texto{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.resultadosDesafio .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #a0bf09;
+    border: none;
+    text-transform: uppercase;
+    width: 15rem;
+}
+
+.resultadosDesafio a{
+    color: white;
+}

@@ -3,7 +3,7 @@
 }
 
 @media (min-widt: 1024px){
-    .prueba{
-       display: none;
+    #carrusel{
+       width: 10vw;
     }
 }

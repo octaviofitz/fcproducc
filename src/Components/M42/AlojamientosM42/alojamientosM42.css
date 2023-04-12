@@ -1,0 +1,82 @@
+.AlojamientosM42{
+    margin: 1rem;
+    padding: 2rem 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #efeeee;
+    border-radius: 10px;
+}
+
+.AlojamientosM42 .goBack{
+    background-color: #efeeee;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 16px;
+  transition: all 0.2s ease-in-out;
+  width: 9rem;
+}
+
+.AlojamientosM42 .goBack:hover {
+    background-color: #97161a;
+    border-color: #fff;
+  }
+  
+.AlojamientosM42 .contenedorBoton{
+    display: flex;
+    justify-content: right;
+    margin: 2rem 1.5rem 1rem -2rem;
+}
+
+.AlojamientosM42 h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.AlojamientosM42 h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #97161a;
+}
+
+.AlojamientosM42 h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.AlojamientosM42 .img{
+    width: 80vw;
+    border-radius: 5px;
+}
+
+.AlojamientosM42 ul{
+    margin: 1.5rem 0;
+    margin-left: -0.65rem;
+}
+
+.AlojamientosM42 li{
+    margin: 0.65rem 0;
+}
+
+.AlojamientosM42 p{
+    margin: 1rem 0;
+}
+
+.AlojamientosM42 .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #97161a;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+.AlojamientosM42 .boton a{
+    color: #fff;
+}

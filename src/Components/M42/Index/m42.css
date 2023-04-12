@@ -1,4 +1,4 @@
-.elDesafio{
+.m42{
     margin: 1.5rem 0.75rem;
     background-color: #efeeee;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -6,27 +6,28 @@
     padding: 1.5rem 0;
 }
 
-.elDesafio .flyer{
+.m42 .flyer{
     width: 90vw;
     display: flex;
     margin: auto;
     border-radius: 3%;
 }
 
-.elDesafio .titulo{
+.m42 .titulo{
     text-align: center;
     font-size: 2.5rem;
+    margin: 0 0.65rem;
     margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.elDesafio .descripcion{
+.m42 .descripcion{
     font-weight: 600;
     margin: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.elDesafio .botones{
+.m42 .botones{
     display: flex;
     flex-direction: column;
     margin: 2rem 6rem;
@@ -34,43 +35,48 @@
     text-decoration: none;
 }
 
-.elDesafio .boton{
+.m42 .boton{
     margin: 0.5rem 0;
     padding: 0.8rem 0;
-    background-color: #a0bf09;
+    background-color: #97161a;
     color: white;
     text-decoration: none;
     border: none;
     text-transform: uppercase;
 }
 
-.elDesafio .boton a{
+.m42 .boton a{
     color: white;
 }
 
-.elDesafio h3{
+.m42 h3{
     text-align: center;
     text-transform: uppercase;
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
-    margin: 1.8rem 3rem;
+    margin: 1.8rem 1rem;
+    color: #97161a;
 }
 
-.elDesafio h4,
-.elDesafio h5{
+.m42 h4,
+.m42 h5{
     margin: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.elDesafio ul{
+.m42 ul{
     margin: 0rem;
 }
 
-.elDesafio p{
+.m42 li{
+    margin: 0.6rem 0;
+}
+
+.m42 p{
     margin: 1rem;
 }
 
-.elDesafio .mapas{
+.m42 .mapas{
     width: 95vw;
     height: 50vh;
     display: flex;

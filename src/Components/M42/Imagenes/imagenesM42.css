@@ -31,6 +31,7 @@
     justify-content: right;
     margin: 2rem 1.5rem 1rem -2rem;
 }
+
 .imgM42 .titulo{
     text-align: center;
     font-size: 2.5rem;
@@ -50,7 +51,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #a98b30;
+    background-color: #97161a;
     color: #fff;
     border: none;
     text-transform: uppercase;
