@@ -3,7 +3,14 @@
 }
 
 @media (min-widt: 1024px){
-    #carrusel{
-       width: 10vw;
+    /* .carousel-inner{
+        display: none;
+    } */
+
+}
+
+@media (min-width: 1440px){
+    .carrusel{
+       display: none;
     }
 }

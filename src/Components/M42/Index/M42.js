@@ -33,7 +33,10 @@ function M42() {
 
             <h2 className='titulo'>M42 MARATÓN DE MONTAÑA LOS ALERCES</h2>
             <img src={m42General} alt='Maratón M42' className='flyer' />
-            <p className='descripcion'>AÑO TRAS AÑO SE CONSOLIDA ESTE EVENTO CONVIRTIÉNDOSE EN EL CLÁSICO DE TRAIL Y ULTRA DE LA COMARCA DESDE HACE 11 AÑOS <br></br> UNA CARRERA COMPETITIVA Y SOCIAL A LA VEZ EN UN MARCO DE PAISAJES INCREÍBLES Y CON MÁS DE 2.000 CORREDORES.<br></br> PLANTEAMOS CARRERAS COMPETITIVAS DE 50, 42, 25 Y 10 KM, REALIZANDO UNO DE LOS RECORRIDOS MÁS EXIGENTES DEL TRAIL RUNNING<br></br>.EL M42 LOS ALERCES ES UNA CARRERA QUE TE INVITA A VIVIR UNA MARAVILLOSA EXPERIENCIA CON AMIGOS Y FAMILIA. DISFRUTANDO DEL PAISAJE CON SIERRAS, ARROYOS, SENDEROS Y BOSQUES CON GRAN VARIEDAD DE PINOS, CEDROS, ÁLAMOS, AROMOS Y OLMOS.</p>
+            <p className='descripcion'>El Maratón M42 Los Alerces se convirtió, hace años, en el clásico de trail y ultra trail de Villa Ventana, en la comarca de Tornquist. Con más de 1.800 corredores en las últimas ediciones, la fiesta que se vive es total y muy esperada por los competidores. </p>
+            <p className='descripcion'>El M42, que este año llega a su 11° edición, busca llevar tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único.</p>
+            <p className='descripcion'>Las sierras de Villa Ventana y San Andrés de la Sierra te harán olvidar tu estresante día a día para vivir un fin de semana largo inmerso en una naturaleza que ofrece paisajes inolvidables, cruces de arroyos, senderos, bosques y una compañía única de los demás corredores y del personal del staff de FC Producciones.</p>
+            <p className='descripcion'>50K, 42K, 25K, 10K y KIDS son las 5 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos corredores lo hacen, volver a elevar la distancia en la próxima edición.</p>
 
                 <div className='botones'>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>

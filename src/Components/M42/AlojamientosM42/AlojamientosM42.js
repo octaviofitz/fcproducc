@@ -25,13 +25,14 @@ function AlojamientosM42() {
 
 
     return (
-        <section className='AlojamientosM42'>
+        <section>
+        <div className='AlojamientosM42'>
              
         <h2>ALOJAMIENTOS</h2>
         <h3>ALOJAMIENTOS EN VILLA VENTANA</h3>
 
         <article>
-            <h4>LA GRAN CABAÑA</h4>
+            <h4><mark className='marcador'>LA GRAN CABAÑA</mark></h4>
             <img src={Cabania} className='img' alt='La Gran Cabaña' />
             <ul>
                 <li>Calle: Belisario entre picaflor y colibri , Villa Ventana, Bs As. </li>
@@ -42,7 +43,7 @@ function AlojamientosM42() {
         </article>
 
         <article>
-            <h4>CABAÑAS COCOLONANEL</h4>
+            <h4><mark className='marcador'>CABAÑAS COCOLONANEL</mark></h4>
             <img src={Cocolanel} className='img' alt='Cocolanel' />
             <ul>
                 <li>Calle: Chingolo s/n, entre Curamalal y Las Piedras, Villa Ventana, Bs As.</li>
@@ -55,7 +56,7 @@ function AlojamientosM42() {
 
 
         <article>
-            <h4>COMPLEJO ROCIO DE LUNA</h4>
+            <h4><mark className='marcador'>COMPLEJO ROCIO DE LUNA</mark></h4>
             <img src={RocioDeLuna} className='img' alt='Cocolanel' />
             <ul>
                 <li>Calle: Chingolo s/n entre Cruz del Sur y Curamalal, Villa Ventana, Bs As.</li>
@@ -70,7 +71,7 @@ function AlojamientosM42() {
         <p>San Andrés de la Sierra se encuentra ubicado a 13,1km de la Estancia Las Vertientes.</p>
 
         <article>
-            <h4>COMPLEJO PUESTA DEL SOL</h4>
+            <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>
             <img src={PuestaDelSol} className='img' alt='Complejo Puesta del Sol' />
             <ul>
                 <li>Calle:Gnena Kena y Chilca, San Andrés de la Sierra</li>
@@ -84,7 +85,7 @@ function AlojamientosM42() {
         <p>Sierra de La Ventana se encuentra ubicado a 19,7 km de la Estancia Las Vertientes.</p>
         
         <article>
-        <h4>HOTEL PROVINCIAL</h4>
+        <h4><mark className='marcador'>HOTEL PROVINCIAL</mark></h4>
         <img src={HotelProv} className='img' alt='Hotel Provincial' />
         <ul>
             <li>Calle: Drago 130, Sierra de La Ventana, Bs. As.</li>
@@ -96,7 +97,7 @@ function AlojamientosM42() {
         </article>
 
         <article>
-            <h4>YMCAPOLIS</h4>
+            <h4><mark className='marcador'>YMCAPOLIS</mark></h4>
             <img src={YMCA} className='img' alt='YMCA'/>
             <ul>
                 <li>Calle: Av. Ymcapolis 298 (entre Av. Rayces y Cnel. Suárez), Villa La Arcadia - Coronel Suárez</li>
@@ -106,7 +107,7 @@ function AlojamientosM42() {
         </article>
         
         <article>
-           <h4>COMPLEJO EL MIRADOR</h4>
+           <h4><mark className='marcador'>COMPLEJO EL MIRADOR</mark></h4>
            <img src={ElMirador} className='img' alt='El Mirador'  />
            <ul>
             <li>Calle: Ruta Provincial 76 Km 226, Sierra de La Ventana.</li>
@@ -118,7 +119,7 @@ function AlojamientosM42() {
 
 
         <article>
-            <h4>COMPLEJO LUZ DEL CIELO</h4>
+            <h4><mark className='marcador'>COMPLEJO LUZ DEL CIELO</mark></h4>
             <img src={LuzDelCielo} className='img' alt='Complejo Luz del Cielo' />
             <ul>
                 <li>Calle: Mz Los Cedros B Parque Golf, Sierra de la Ventana, Bs As.</li>
@@ -129,7 +130,7 @@ function AlojamientosM42() {
         </article>
 
         <article>
-            <h4>JORGE SAVISKY PROPIEDADES</h4>
+            <h4><mark className='marcador'>JORGE SAVISKY PROPIEDADES</mark></h4>
             <img src={Jorge} className='img' alt='Jorge Savisky'/>
             <ul>
                 <li>Calle:Galeria Sierra Center- Av San Martin y Los Tilos, Sierra de La Ventana.</li>
@@ -139,17 +140,18 @@ function AlojamientosM42() {
             </ul>
         </article>
         
-        <h4>MÁS ALOJAMIENTOS DE TORNQUIST</h4>
+        <h4><mark className='marcador'>MÁS ALOJAMIENTOS DE TORNQUIST</mark></h4>
         <img src={Tornquist} className='img' alt='Tornquist' />
         <p>ALOJAMIENTOS EN VILLA VENTANA, SIERRA DE LA VENTANA, SAN ANDRES, Y MÁS, HABILITADOS POR LA DIRECCIÓN DE TURISMO DE TORNQUIST</p>
-        <Button variant="success" size='lg' className='boton'><Link to='https://www.sierrasdelaventana.com.ar/alojamientos/' target='_blank' rel="noopener noreferrer">VER AQUÍ</Link></Button>
+        <Button variant="danger" size='lg' className='boton'><Link to='https://www.sierrasdelaventana.com.ar/alojamientos/' target='_blank' rel="noopener noreferrer">VER AQUÍ</Link></Button>
         
-        <div className='contenedorBoton'>
-            <Button onClick={volverAtras} className='goBack'>Volver ←</Button>
-            </div>
-    </section>
+    </div>
 
-    
+        <div className='contenedorBotonM42'>
+        <Button variant="danger" onClick={volverAtras} className='goBack'>Volver ←</Button>
+        </div>
+
+        </section>
     );
 }
 

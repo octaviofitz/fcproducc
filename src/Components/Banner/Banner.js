@@ -10,7 +10,7 @@ import '../Banner/banner.css'
 
 function Banner() {
   return (
-    <section id='carrusel'>
+    <section class='carrusel'>
     <Carousel fade >
 
       <Carousel.Item>
@@ -48,7 +48,6 @@ function Banner() {
           id='prueba'
         />
       </Carousel.Item>
-
 
     </Carousel>
     </section>

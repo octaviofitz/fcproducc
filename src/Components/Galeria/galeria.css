@@ -70,3 +70,43 @@
     color: white;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px){
+    .galeria{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    .galeria .titulo{
+        margin: 0.5rem 2rem;
+    }
+
+    .galeria .descripcion,
+    .galeria .texto{
+        margin: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .galeria li{
+        padding-top: 0.6rem;
+        margin: 0rem;
+        font-size: 1.25rem;
+    }
+
+    .galeria .video{
+        padding: 2rem 0;
+    }
+    
+    .galeria .video:last-child{
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 1440px){
+
+}

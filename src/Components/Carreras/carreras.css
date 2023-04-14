@@ -69,39 +69,63 @@
 @media (min-width: 768px){
     .carreras .titulo{
         text-align: center;
-        font-size: 7vw;
-        font-weight: 900;
-        margin-bottom: 2rem;
-        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 2rem;      
+    }
+    
+    .carreras{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .carreras .containerGeneral{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carreras .container{
+        width: 45vw;
     }
 
     .carreras .carrerasimg{
-        width: 40vw;
+        width: 12rem;
+    }
+
+    .carreras .texto{
+        font-size: 1.25rem;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
 @media (min-width: 1024px){
 
-    .carreras .titulo{
-        font-size: 6vw;
+    .carreras{
+        margin: auto;
+        width: 70vw;
     }
 
-    .carreras .articulos{
-        display: flex;
-        justify-content: center;
+    .carreras .titulo{
+        font-size: 4rem;
     }
 
     .carreras .carrerasimg{
-        width: 20vw;
+        width: 17rem;
     }
 
     .carreras .container{
-        width: 40vw;
+        width: 45vw;
     }
 }
 
 @media (min-width: 1440px){
     .carreras .titulo{
-        font-size: 4vw;
+        font-size: 4rem;
     } 
+
+    .carreras .container{
+        width: 35vw;
+    }
 }

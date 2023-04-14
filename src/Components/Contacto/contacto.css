@@ -41,3 +41,20 @@
 .contacto .ig{
     color: #833AB4;
 }
+
+@media (min-width: 768px){
+    .contacto{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    .contacto .titulo{
+        margin: 0.5rem 2rem;
+    }
+
+    .contacto .texto{
+        margin: 2rem;
+        font-size: 1.25rem;
+    }
+}

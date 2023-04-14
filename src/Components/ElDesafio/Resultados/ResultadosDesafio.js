@@ -27,8 +27,8 @@ function ResultadosDesafio() {
             <Button variant="success" size='lg' className='boton'><Link to='https://www.bahiacorre.com.ar/subir/mispdf/CATEGORIASM42A.pdf' target="_blank" rel="noopener noreferrer">RESULTADOS</Link></Button>
             </article>
 
-            <div className='contenedorBoton'>
-            <Button onClick={volverAtras} className='goBack'>Volver ←</Button>
+            <div className='contenedorBotonDesafio'>
+            <Button variant='success' onClick={volverAtras} className='goBack'>Volver ←</Button>
                      </div>
         </section>
     );

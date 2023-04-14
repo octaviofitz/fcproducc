@@ -65,6 +65,10 @@
     width: 15rem;
 }
 
+.resultadosM42 .boton a{
+    color: #fff;
+}
+
 .resultadosM42 a{
     color: white;
 }

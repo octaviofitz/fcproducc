@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-.AlojamientosM42 .goBack{
+.goBack{
     background-color: #efeeee;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
@@ -18,12 +18,12 @@
   width: 9rem;
 }
 
-.AlojamientosM42 .goBack:hover {
+.goBack:hover {
     background-color: #97161a;
     border-color: #fff;
   }
   
-.AlojamientosM42 .contenedorBoton{
+.contenedorBotonM42{
     display: flex;
     justify-content: right;
     margin: 2rem 1.5rem 1rem -2rem;
@@ -78,5 +78,10 @@
 }
 
 .AlojamientosM42 .boton a{
+    color: #fff;
+}
+
+.AlojamientosM42 .marcador{
+    background-color: #97161a;
     color: #fff;
 }

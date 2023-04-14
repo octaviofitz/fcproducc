@@ -8,7 +8,12 @@
     padding-top: 0;
 }
 
-.imgM42 .goBack{
+.ImagenContainer .containerNav{
+    display: flex;
+    flex-direction: row;
+}
+
+.ImagenContainer .goBack{
     background-color: #efeeee;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
@@ -21,12 +26,12 @@
   margin-top: 1rem;
 }
 
-.imgM42 .goBack:hover {
-    background-color: #a98b30;
+.ImagenContainer .goBack:hover {
+    background-color: #97161a;
     border-color: #fff;
   }
   
-.imgM42 .contenedorBoton{
+.ImagenContainer .contenedorBoton{
     display: flex;
     justify-content: right;
     margin: 2rem 1.5rem 1rem -2rem;
@@ -36,8 +41,9 @@
     text-align: center;
     font-size: 2.5rem;
     margin: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    padding-top: 1.75rem;
     font-family: 'Montserrat', sans-serif;
 }
 

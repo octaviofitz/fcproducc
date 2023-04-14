@@ -30,11 +30,16 @@
   margin-top: 1rem;
 }
 
-.resultadosDesafio .goBack:hover {
-    background-color: #97161a;
+.resultadosDesafio .goBack:hover{
+    background-color: #a0bf09;
     border-color: #fff;
     color: #dcdcdc;
   }
+
+  .resultadosDesafio .boton a{
+    color: #fff;
+  }
+
 
   .resultadosDesafio .contenedorBoton{
     display: flex;

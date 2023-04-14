@@ -8,7 +8,7 @@
     padding-top: 0;
 }
 
-.imgElDesafio .goBack{
+.ImagenContainerDesafio .goBack{
     background-color: #efeeee;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
@@ -21,12 +21,12 @@
   margin-top: 1rem;
 }
 
-.goBack:hover {
+.ImagenContainerDesafio .goBack:hover {
     background-color: #a0bf09;
     border-color: #fff;
   }
   
-.imgElDesafio .contenedorBoton{
+.ImagenContainerDesafio .contenedorBoton{
     display: flex;
     justify-content: right;
     margin: 2rem 1.5rem 1rem -2rem;
@@ -38,6 +38,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 1.75rem;
 }
 
 .imgElDesafio .texto{

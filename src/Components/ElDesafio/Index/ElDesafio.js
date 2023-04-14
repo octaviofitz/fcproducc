@@ -33,7 +33,9 @@ function ElDesafio() {
         <section className='elDesafio'>
             <h2 className='titulo' id='elDesafio'>EL DESAFÍO</h2>
             <img src={elDesafio} alt='Maratón El Desafío' className='flyer' />
-            <p className='descripcion'>El Desafío es una carrera que te enfrenta como corredor no solo con tus ganas de vivir la naturaleza desde el deporte sino de ser parte de ella al 100%, realizando un recorrido único y la experiencia de acampar y vivir el clima de camaradería entre deportistas que buscan lo mismo que vos, disfrutar la Aventura.</p>
+            <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de un evento que te motiva a dejar atrás las exigencias y el estrés diario para pasar a una conexión total y plena con la naturaleza.</p>
+            <p className='descripcion'>Correr, cenar, relajar en el fogón, acampar, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único. </p>
+            <p className='descripcion'>Y para aquellos que quieran vivir la experiencia de correr un único día, con o sin camping, también lo podrán hacer. Chequeá toda la información aquí abajo.</p>
 
             <div className='botones'>
                 <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
@@ -47,14 +49,14 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
-                <h4>DATOS GENERALES</h4>
+                <h4><mark className='mark'>DATOS GENERALES</mark></h4>
                 <p><strong>Carrera:</strong> El Desafío Columbia</p>
                 <p><strong>Fecha:</strong> 28 y 29 de octubre 2023</p>
                 <p><strong>Lugar:</strong> Sierra de La Ventana a Saldungaray, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <p><strong>Concepto:</strong> Carrera de trail running</p>
 
                 <h3>Modalidad</h3>
-                <h4>DOS MODALIDADES EN UN MISMO FIN DE SEMANA ¡VOS ELEGÍS CUÁL!</h4>
+                <h4><mark className='mark'>DOS MODALIDADES EN UN MISMO FIN DE SEMANA ¡VOS ELEGÍS CUÁL!</mark></h4>
                 <p><strong>- 2 días:</strong> 25K el sábado y 21K el domingo con campamento obligatorio</p>
                 <p><strong>- 1 día:</strong> 21K, 10K o kids, solo domingo</p>
 
@@ -99,7 +101,7 @@ function ElDesafio() {
                 <p><b>La organización pondrá micro y/o autos para trasladar a quienes no tengan como ir desde el camping a la largada del sábado.</b></p>
 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <h4>INSCRIPCIÓN ONLINE</h4>
+                <h4><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero</li>
@@ -109,7 +111,7 @@ function ElDesafio() {
                 </ol>
                 <p>*Quienes abonen en 3 pagos, serán los próximos dos a 30 y 60 días. Por mail les avisará el momento en el que esté disponible. Si no abonan en fecha cada pago, el costo se actualizará al precio vigente</p>
 
-                <h4>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h4>
+                <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</mark></h4>
                 <p><b>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos</b></p>
 
                 <h3>INSCRIPCIÓN PRESENCIAL</h3>
@@ -125,14 +127,14 @@ function ElDesafio() {
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
 
-                <h4>- VIERNES 27/10 de 16 a 19hs</h4>
+                <h4><mark className='mark'>- VIERNES 27/10 de 16 a 19hs</mark></h4>
                 <p>Hotel Provincial de Sierra de la Ventana (Drago 130)</p>
 
-                <h4>- SÁBADO 28/10 de 10 a 17hs</h4>
+                <h4><mark className='mark'>- SÁBADO 28/10 de 10 a 17hs</mark></h4>
                 <p>Hotel Provincial de Sierra de la Ventana (Drago 130)</p>
                 <p>(Habrá prioridad hasta las 14 hs para quienes corren los dos días)</p>
 
-                <h4>- DOMINGO 29/10 de 7:30 a 9:30 am</h4>
+                <h4><mark className='mark'>- DOMINGO 29/10 de 7:30 a 9:30 am</mark></h4>
                 <p>Centro de Interpretación de la obra de Francisco Salamone (300, Av. Corrales 202) (Predio del camping Fortin Pavón).</p>
 
                 <p>Por razones operativas, <b>recomendamos no venir el último día</b>. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>
@@ -149,13 +151,13 @@ function ElDesafio() {
 
                 <h3>LUGAR Y HORARIOS DE LARGADA</h3>
 
-                <h4>MODALIDAD 2 DÍAS:</h4>
+                <h4><mark className='mark'>MODALIDAD 2 DÍAS:</mark></h4>
                 <p><strong>- DÍA:</strong> SÁBADO 28/10</p>
                 <p><strong>- LUGAR DE SALIDA:</strong> Hotel Provincial, Drago 130, Sierra de la Ventana</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 15 horas</p>
                 <p>-<strong>- LUGAR DE LLEGADA:</strong> Camping Fortín Pavón, Saldungaray.</p>
 
-                <h4>MODALIDAD 2 DÍAS Y TAMBIÉN 1 DÍA: </h4>
+                <h4><mark className='mark'>MODALIDAD 2 DÍAS Y TAMBIÉN 1 DÍA: </mark></h4>
                 <p><strong>- DÍA:</strong> DOMINGO 29/10</p>
                 <p><strong>- LUGAR DE SALIDA:</strong> Camping Fortín Pavón, Saldungaray</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 10 horas</p>
@@ -180,7 +182,7 @@ function ElDesafio() {
                 </ul>
 
                 <h3>CAMPAMENTO OPCIONAL</h3>
-                <h4>SI SOS UN ACOMPAÑANTE, O UN CORREDOR DE UN DÍA Y QUERÉS ACAMPAR, PODÉS</h4>
+                <h4><mark className='mark'>SI SOS UN ACOMPAÑANTE, O UN CORREDOR DE UN DÍA Y QUERÉS ACAMPAR, PODÉS</mark></h4>
                 <p>Todos los <b>corredores de un día o acompañantes</b> que quieran <b>participar del campamento</b>, podrán. Se les cobrará un adicional que incluye alojamiento en camping desde el sábado, cena y desayuno.</p>
                 <p>Deberán solicitar la estadía y costo en <b>info@fcproducciones.com.ar</b> y deberán retirar el voucher en la acreditación.</p>
                 
@@ -222,18 +224,18 @@ function ElDesafio() {
                </ul>
 
                <h3 id='cronograma'>CRONOGRAMA</h3>
-               <h4><strong>VIERNES 27/10</strong></h4>
+               <h4><strong><mark className='mark'>VIERNES 27/10</mark></strong></h4>
                <ul>
                 <li>16 a 19 hs: Acreditación y entrega de kits</li>
                </ul>
-               <h4><strong>SÁBADO 28/10</strong></h4>
+               <h4><strong><mark className='mark'>SÁBADO 28/10</mark></strong></h4>
                <ul>
                 <li>10 a 17 hs: Acreditación y entrega de kits</li>
                 <li>14:45 hs: Charla técnica dos días</li>
                 <li>15 hs: Largada de la modalidad de 2 días: 21k </li>
                 <li>20 a 21:30 hs: Cena en el camping.</li>
                </ul>
-               <h4><strong>DOMINGO 29/10</strong></h4>
+               <h4><strong><mark className='mark'>DOMINGO 29/10</mark></strong></h4>
                <ul>
                 <li>7 a 8:30 hs: Desayuno en el camping</li>
                 <li>7:30 a 9:30 hs: Entrega de Kits (modalidad un día)</li>
@@ -271,11 +273,11 @@ function ElDesafio() {
                 </ul>
 
                 <h3 id='reglamento'>REGLAMENTO</h3>
-                <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
+                <h4><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
                 <p>Hasta 2 semanas antes de la fecha de la carrera, podrá transferir el 100% de lo abonado a otro corredor. Deberá tener en cuenta que: sólo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 7 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
               <p> <b>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</b></p>
 
-                <h4>TRANSFERENCIA POR NO PODER PARTICIPAR</h4>
+                <h4><mark className='mark'>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
                 <p>Hasta 2 semanas antes de la fecha de la carrera, podrá transferir el 100% de lo abonado a cuenta de la inscripción de la edición de próximas carreras de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
                <p><b> En caso de no avisar con ese tiempo de anticipación se pierde la inscripción ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</b></p>
         </section>
