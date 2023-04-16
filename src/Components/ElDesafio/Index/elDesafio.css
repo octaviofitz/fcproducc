@@ -87,3 +87,156 @@
 .elDesafio .mark{
     background-color: #a0bf09;
 }
+
+@media (min-width: 768px){
+    .elDesafio{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    .elDesafio .flyer{
+        width: 80vw;
+        display: flex;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .elDesafio .titulo{
+        margin: 1rem 2rem;
+    }
+
+    .elDesafio .descripcion{
+        margin: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .elDesafio .botones{
+        padding: 1rem 8rem;
+    }
+
+    .elDesafio h3{
+        font-size: 2.5rem;
+        margin: 1.8rem 3.3rem;
+    }
+    
+    .elDesafio h4,
+    .elDesafio h5{
+        margin: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .elDesafio li,
+    .elDesafio p{
+        font-size: 1.1rem;
+    }
+    
+    .elDesafio .mapas{
+        width: 95vw;
+        height: 50vh;
+        margin: 2rem auto;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .elDesafio{
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
+    }
+
+    .elDesafio .flyer{
+        width: 40vw;
+        border-radius: 3%;
+        margin-top: 2rem;
+    }
+
+    .elDesafio .titulo{
+        margin: 1rem 2rem;
+    }
+
+    .elDesafio .descripcion{
+        margin: 0 5rem;
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .elDesafio .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        margin: 2rem 4rem;
+    }
+
+    .elDesafio .boton{
+        padding: 1rem 2rem;
+        margin: 0.25rem;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elDesafio h3{
+        font-size: 3rem;
+    }
+    
+    .elDesafio h4,
+    .elDesafio h5{
+        margin: 1rem 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .elDesafio li,
+    .elDesafio p{
+        font-size: 1.25rem;
+        margin: 1rem 2.5rem;
+    }
+    
+}
+
+@media (min-width: 1440px){
+    .elDesafio{
+        width: 73vw;
+    }
+
+    .elDesafio .flyer{
+        width: 30vw;
+        border-radius: 3%;
+        margin-top: 2rem;
+    }
+
+    .elDesafio .titulo{
+       font-size: 4rem;
+    }
+
+    .elDesafio .descripcion{
+        margin: 0 10rem;
+        margin-top: 2rem;
+        font-size: 1.35rem;
+    }
+
+  /*   .elDesafio .botones{
+        padding: 1rem 20rem;
+    } */
+
+    .elDesafio h3{
+        font-size: 4rem;
+    }
+    
+    .elDesafio h4,
+    .elDesafio h5{
+        margin: 1rem 5rem;
+        font-size: 1.9rem;
+    }
+
+    .elDesafio li,
+    .elDesafio p{
+        font-size: 1.25rem;
+        margin: 1rem 5rem;
+    }
+}

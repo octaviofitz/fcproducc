@@ -59,7 +59,7 @@ function M42() {
                 <p><strong>Modalidad:</strong> Individual</p>
 
                 <h4>CATEGORÍAS</h4>
-                <p><strong>INDIVIDUAL:</strong> Damas y caballeros *</p>
+                <p><strong>INDIVIDUAL:</strong> Damas y caballeros*</p>
                 <p>Hasta 25 años | 26 a 35 | 36 a 45 años | 46 a 55 años | 56 a 65 años | +66 años. Las edades serán computadas al 28/5/2023</p>
                 <p>*La edad para poder correr el M42 es a partir de los 16 años.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar. (BOTÓN DE DESCARGA)</p>

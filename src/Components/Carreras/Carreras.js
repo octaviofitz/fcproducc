@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 
 import m42 from '../../Img/index/m42.webp'
 import eldesafio from '../../Img/index/eldesafio.webp'
-import ALCEC from '../../Img/index/alerces.png'
+import ALCEC from '../../Img/index/alcec2.png';
+import Circuito from '../../Img/index/circuito.png';
 
 import '../Carreras/carreras.css'
 
@@ -35,15 +36,15 @@ function Carreras() {
             <div className='containerGeneral'>
 
             <article className='container'>
-           <img src={ALCEC} className="carrerasimg" alt='Carrera El Desafío'></img>
+           <img src={ALCEC} className="carrerasimg" alt='Carrera Alecec'></img>
             <p className='texto'>El Desafío Columbia es un evento único de dos modalidades. 2 días de competencia de 25K y 21K con campamento obligatorio o 1 día de 21K, 10K o KIDS por Sierra de la Ventana y Saldungaray en Buenos Aires. ¡Te esperamos el 28 y 29 de octubre!</p>
-             <Button variant="success" size='lg' className='botondesafio'> <Link to='el-desafio'>PRÓXIMAMENTE</Link></Button>
+             <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alecec'>Más información</Link></Button>
             </article> 
 
             <article className='container'>
-           <img src={ALCEC} className="carrerasimg" alt='Carrera El Desafío'></img>
+           <img src={Circuito} className="carrerasimg" alt='Carrera Circuito'></img>
             <p className='texto'>El Desafío Columbia es un evento único de dos modalidades. 2 días de competencia de 25K y 21K con campamento obligatorio o 1 día de 21K, 10K o KIDS por Sierra de la Ventana y Saldungaray en Buenos Aires. ¡Te esperamos el 28 y 29 de octubre!</p>
-             <Button variant="success" size='lg' className='botondesafio'> <Link to='el-desafio'>2024</Link></Button>
+             <Button variant="info" size='lg' className='botonCircuito'> <Link to='circuito'>Más información</Link></Button>
             </article> 
             </div>
 

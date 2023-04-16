@@ -21,6 +21,8 @@ import ResultadosM42 from '../../M42/Resultados/ResultadosM42';
 import ResultadosDesafio from '../../ElDesafio/Resultados/ResultadosDesafio';
 import AlojamientosM42 from '../../M42/AlojamientosM42/AlojamientosM42';
 import AlojamientosDesafio from '../../ElDesafio/Alojamientos/AlojamientosDesafio';
+import Alecec from '../../Alecec/Alecec';
+import Circuito from '../../Circuito/Circuito';
 
 /* Css */
 import '../AppRouter/appRouter.css'
@@ -47,6 +49,8 @@ const AppRouter = () => {
             <Route path='/m42/fotos2022' element={<ImagenesM42 />} />
             <Route path='/m42/resultados' element={<ResultadosM42 />} />
             <Route path='/m42/alojamientos' element={<AlojamientosM42 />} />
+            <Route path='/alecec' element={<Alecec />} />
+            <Route path='/circuito' element={<Circuito />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/carreras' element={<NuestrasCarreras />} />
             <Route path='/galeria' element={<Galeria />} />

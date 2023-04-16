@@ -38,30 +38,39 @@
     padding: 1rem 0;
 }
 
-.carreras .botonm42{
+.carreras .botonm42,
+.carreras .botondesafio,
+.carreras .botonAlecec,
+.carreras .botonCircuito{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #a98b30;
     color: #fff;
     border: none;
     text-transform: uppercase;
+}
+
+.carreras .botonm42{
+    background-color: #a98b30;
 }
 
 .carreras .botondesafio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
     background-color: #a0bf09;
-    color: #fff;
-    border: none;
-    text-transform: uppercase;
+}
+
+.carreras .botonAlecec{
+    background-color: #fd0081;
+}
+
+.carreras .botonCircuito{
+    background-color: #69bfd5;
 }
 
 .carreras .botonm42 a:hover,
-.carreras .botondesafio a:hover{
+.carreras .botondesafio a:hover,
+.carreras .botonAlecec a:hover,
+.carreras .botonCircuito a:hover{
     color: #fff;
 }
 
@@ -104,8 +113,16 @@
 
     .carreras{
         margin: auto;
-        width: 70vw;
+        width: 100vw;
     }
+
+    .carreras .containerGeneral{
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: auto;
+        width: 100vw;
+    }
+
 
     .carreras .titulo{
         font-size: 4rem;
@@ -116,8 +133,18 @@
     }
 
     .carreras .container{
-        width: 45vw;
+        width: 40vw;
+        padding: 1rem;
+        margin: 1rem 3rem;
     }
+
+    .carreras .botonm42,
+.carreras .botondesafio,
+.carreras .botonAlecec,
+.carreras .botonCircuito{
+    margin: 0rem auto 1rem;
+
+}
 }
 
 @media (min-width: 1440px){
@@ -126,6 +153,6 @@
     } 
 
     .carreras .container{
-        width: 35vw;
+        width: 30vw;
     }
 }
