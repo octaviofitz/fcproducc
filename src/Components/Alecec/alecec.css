@@ -65,6 +65,10 @@
         color: black;
     }
 
+    .Alecec .categorias .container h4{
+        padding-top: 1rem;
+    }
+
 .Alecec p{
     margin: 1rem;
 }
@@ -97,6 +101,11 @@
 }
 
 .Alecec .botonResultados a{
+    color: #fff;
+}
+
+.Alecec mark{
+    background-color: #fd0081;
     color: #fff;
 }
 

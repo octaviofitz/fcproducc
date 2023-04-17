@@ -20,11 +20,11 @@ function Alecec() {
             <p className='descripcion'>Cada octubre, mes rosa, mes de la sensibilización sobre el cáncer de mama, o en una fecha cercana, se realiza el Maratón Solidario Todos Somos ALCEC. Con distancias de 8 kilómetros competitivos y 4 kilómetros participativos, en los cuales muchos compiten a su máximo rendimiento, pero muchos otros participan con simple fin de colaborar, por lo tanto se pueden ver caminantes, cochecitos de bebés, adultos mayores y mucho más. </p>
             <p className='descripcion'>Cada año se vive una fiesta solidaria en familia. Y este 2023 se cumplen 10 años, ¡te esperamos el 23 de septiembre!</p>
 
-            <h3>INSCRIPCIONES PRÓXIMAMENTE</h3>
+            <h3><mark>INSCRIPCIONES PRÓXIMAMENTE</mark></h3>
             
             <div className='container'>
             <Ratio aspectRatio="16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/lTBvSelSzyo" title="Carrera Alecec"allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lTBvSelSzyo" title="Carrera Alecec"></iframe>
             </Ratio>
             </div>
 

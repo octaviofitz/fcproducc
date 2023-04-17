@@ -3,8 +3,14 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Ratio from 'react-bootstrap/Ratio';
 
+/* Imágenes */
 import CircuitoLogo from '../../Img/index/circuito.png';
 import gralBelgrano from '../../Img/Circuito/gralBelgrano.jpg';
+import GeneralBelgrano from '../../Img/Circuito/gralBelgrano2.jpg';
+import Sierra from '../../Img/Circuito/sierra.JPG';
+import MarDeLasPampas from '../../Img/Circuito/marDeLasPampas.jpg';
+import PampaFly from '../../Img/Circuito/pampaFly.jpg';
+
 import '../Circuito/circuito.css';
 
 function Circuito() {
@@ -49,7 +55,7 @@ function Circuito() {
 
             <article className='carreras'>
                  <h3 id='marDeLasPampas'>MAR DE LAS PAMPAS 2022</h3>
-                 <img />
+                 <img src={MarDeLasPampas}  className='img' alt='Mar de las Pampas 2022'/>
                  <p>Se trata de una carrera en la costa atlántica para despejarse de lo cotidiano y disfrutar del aire del mar. Apta tanto para disfrutar de un domingo completo en la playa como para ir el fin de semana y compartirlo en familia.</p>
                  <p>El corredor puede elegir entre 21K o 10K competitivos, pero también abrimos la posibilidad de 5K para aquellos que recién comienzan en el mundo del running de aventura (o en el running en general) y quieren probarse a sí mismos en una distancia corta y participativa.</p>
                  <h4><mark>EN 2023 NO SE LLEVARÁ A CABO.</mark></h4>
@@ -79,7 +85,7 @@ function Circuito() {
 
             <article className='carreras'>
                  <h3 id='GeneralBelgrano'>GENERAL BELGRANO 2022</h3>
-                 <img />
+                 <img src={GeneralBelgrano}  className='img' alt='General Belgrano 2022'/>
                  <p>Una carrera a 160 kilómetros de Capital Federal. Apta tanto para disfrutar de un domingo completo en la naturaleza bonaerense como para ir el fin de semana y compartirlo en familia.</p>
                  <p>Es un recorrido árido y pintoresco, cerca del Río Salado y las termas. Para aquellos que no conocen General Belgrano, es un lugar mágico, tranquilo y hermoso. </p>
                  <p>El corredor puede elegir entre 21K o 10K competitivos, pero también abrimos la posibilidad de 5K para aquellos que recién comienzan en el mundo del running de aventura (o en el running en general) y quieren probarse a sí mismos en una distancia corta y participativa.</p>
@@ -111,7 +117,7 @@ function Circuito() {
 
             <article className='carreras'>
                  <h3 id='SierraDeLaVentana'>SIERRA DE LA VENTANA Y SALDUNGARAY 2022</h3>
-                 <img />
+                 <img src={Sierra}  className='img' alt='Sierra de la Ventana 2022'/>
                  <p>La última fecha del Circuito M21 es en Saldungaray, a escasos kilómetros de Sierra de la Ventana. El mismo fin de semana que el Desafío Cross Trail, se corren los 21K, 10K, 5K y la distancia KIDS por las sierras de Saldungaray, en la comarca de Tornquist, provincia de Buenos Aires.</p>
                  <p>A diferencia de las fechas anteriores, la exigencia aumenta con respecto al recorrido: sierras con subidas y bajadas, terreno más técnico con piedras, pastizales, pozos y cruces de arroyos con el agua hasta el pecho.</p>
                  <p>Sin dudas, un cierra mágico para la recorrida del Circuito M21. </p>
@@ -148,7 +154,7 @@ function Circuito() {
 
             <article className='carreras'>
                  <h3 id='PampaFly'>PAMPA FLY, LA PLATA 2021</h3>
-                 <img />
+                 <img src={PampaFly} className='img' alt='Pampa Fly 2022'/>
                  <p>En 2021 realizamos, con FC Producciones, nuevamente una carrera en La Plata. En este caso fue en Pampa Fly, Ala Delta Sur, Buenos Aires. 21K, 10K, 5K y KIDS fueron las distancias. Reviví acá abajo todo lo vivido. </p>
 
                 <div className='imagenes'>

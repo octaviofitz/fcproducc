@@ -48,6 +48,13 @@
     color: white;
 }
 
+.Circuito .img{
+    width: 85vw;
+    border-radius: 10px;
+    display: flex;
+    margin: 1rem auto;
+}
+
 .Circuito h3{
     text-align: center;
     text-transform: uppercase;
@@ -87,16 +94,8 @@
     justify-content: center;
     margin: auto;
     align-items: center;
-}
-
-.Circuito .containerVideo .video{
-    background-color: red;
-    width: 80vw;
-    margin: 1.15rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    width: 85vw;
+    padding: 1rem 0 0;
 }
 
 .Circuito .imagenes{
