@@ -1,0 +1,304 @@
+.Circuito .carreras{
+    margin: 2rem 0.6rem 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #efeeee;
+    border-radius: 10px;
+    padding: 2rem 0 0rem;
+}
+
+.Circuito .flyer{
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.Circuito .titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Circuito .descripcion{
+    font-weight: 600;
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Circuito .botones{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.Circuito .boton{
+    margin: 0.5rem 0;
+    padding: 0.8rem 0;
+    background-color: #69bfd5;
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.Circuito .boton a{
+    color: white;
+}
+
+.Circuito h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.8rem 3.3rem 0rem;
+    color: #69bfd5
+}
+
+.Circuito h4{
+        margin: 1rem;
+        font-size: 1.6rem;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+
+    .Circuito .carreras .imagenes .titulo{
+        font-size: 1.75rem;
+        margin: 1rem 0 0;
+    }
+
+    .Circuito .carreras .imagenes .texto{
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .Circuito .carreras .imagenes .texto:last-child{
+        padding-bottom: 3rem;
+    }
+
+.Circuito p{
+    margin: 0rem 1rem;
+}
+
+.Circuito .containerVideo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.Circuito .containerVideo .video{
+    background-color: red;
+    width: 80vw;
+    margin: 1.15rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Circuito .imagenes{
+    margin: 2rem 0 1rem;
+}
+
+.Circuito .imagenes h4{
+    text-align: center;
+    margin-top: -1.5rem;
+}
+
+.Circuito .categorias{
+    margin: 2rem 0;
+}
+
+.Circuito .categorias .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.Circuito .categorias .container .imgResultados{
+    width: 50vw;
+    margin-top: -1rem;
+}
+
+.Circuito .categorias .container .titulo{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.Circuito .botonResultados{
+    background-color: #69bfd5;
+    border: none;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.Circuito .botonResultados a{
+    color: #fff;
+}
+
+.Circuito mark{
+    background-color: #69bfd5;
+}
+
+
+@media (min-width: 768px){
+    .Circuito{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    .Circuito .flyer{
+        width: 80vw;
+        display: flex;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .Circuito .titulo{
+        margin: 1rem 2rem;
+    }
+
+    .Circuito .descripcion{
+        margin: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .Circuito .botones{
+        padding: 1rem 8rem;
+    }
+
+    .Circuito h3{
+        font-size: 2.5rem;
+        margin: 1.8rem 3.3rem;
+    }
+    
+    .Circuito h4,
+    .Circuito h5{
+        margin: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .Circuito li,
+    .Circuito p{
+        font-size: 1.1rem;
+    }
+    
+    .Circuito .mapas{
+        width: 95vw;
+        height: 50vh;
+        margin: 2rem auto;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .Circuito{
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
+    }
+
+    .Circuito .flyer{
+        width: 40vw;
+        border-radius: 3%;
+        margin-top: 2rem;
+    }
+
+    .Circuito .titulo{
+        margin: 1rem 2rem;
+    }
+
+    .Circuito .descripcion{
+        margin: 0 5rem;
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .Circuito .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        margin: 2rem 4rem;
+    }
+
+    .Circuito .boton{
+        padding: 1rem 2rem;
+        margin: 0.25rem;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Circuito h3{
+        font-size: 3rem;
+    }
+    
+    .Circuito h4,
+    .Circuito h5{
+        margin: 1rem 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .Circuito li,
+    .Circuito p{
+        font-size: 1.25rem;
+        margin: 1rem 2.5rem;
+    }
+    
+}
+
+@media (min-width: 1440px){
+    .Circuito{
+        width: 73vw;
+    }
+
+    .Circuito .flyer{
+        width: 30vw;
+        border-radius: 3%;
+        margin-top: 2rem;
+    }
+
+    .Circuito .titulo{
+       font-size: 4rem;
+    }
+
+    .Circuito .descripcion{
+        margin: 0 10rem;
+        margin-top: 2rem;
+        font-size: 1.35rem;
+    }
+
+  /*   .Circuito .botones{
+        padding: 1rem 20rem;
+    } */
+
+    .Circuito h3{
+        font-size: 4rem;
+    }
+    
+    .Circuito h4,
+    .Circuito h5{
+        margin: 1rem 5rem;
+        font-size: 1.9rem;
+    }
+
+    .Circuito li,
+    .Circuito p{
+        font-size: 1.25rem;
+        margin: 1rem 5rem;
+    }
+}
