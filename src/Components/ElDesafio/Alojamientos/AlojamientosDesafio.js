@@ -30,7 +30,11 @@ function AlojamientosDesafio() {
             
             <article>
             <h4><mark className='marcador'>HOTEL PROVINCIAL</mark></h4>
-            <img src={HotelProv} className='img' alt='Hotel Provincial' />
+            <div className='containerTop'>
+                <div>      
+                    <img src={HotelProv} className='img' alt='Hotel Provincial' />
+                    </div>
+            <div>
             <ul>
                 <li>Calle: Drago 130, Sierra de La Ventana, Bs. As.</li>
                 <li>Tel: (0291) 5024 / 25</li>
@@ -38,75 +42,113 @@ function AlojamientosDesafio() {
                 <li>Facebook: Hotel Provincial Sierra de la Ventana</li>
                 <li>Web: <Link to='https://www.hotelprovincialsierra.com' target='_blank' rel="noopener noreferrer">www.hotelprovincialsierra.com</Link></li>
             </ul>
+            </div>
+            </div>
             </article>
             
             <article>
                <h4><mark className='marcador'>COMPLEJO EL MIRADOR</mark></h4>
+               <div className='containerTop'>
+                <div>
                <img src={ElMirador} className='img' alt='El Mirador'  />
+               </div>
+               <div>
                <ul>
                 <li>Calle: Ruta Provincial 76 Km 226, Sierra de La Ventana.</li>
                 <li>Tel: (0291) 4941 338</li>
                 <li>Email:info@complejoelmirador.com.ar</li>
                 <li>Web: <Link to='http://www.complejoelmirador.com.ar/' target='_blank' rel="noopener noreferrer">http://www.complejoelmirador.com.ar/</Link></li>
                </ul>
+               </div>
+               </div>
             </article>
 
             <article>
                 <h4><mark className='marcador'>COMPLEJO LUZ DEL CIELO</mark></h4>
-                <img src={LuzDelCielo} className='img' alt='Complejo Luz del Cielo' />
-                <ul>
-                    <li>Calle: Mz Los Cedros B Parque Golf, Sierra de la Ventana, Bs As.</li>
-                    <li>Tel o Whatsapp: 0291-154133899</li>
-                    <li>Email: complejoluzdelcielo@gmail.com</li>
-                    <li>Web: <Link to='http://www.complejoluzdelcielo.com' target='_blank' rel="noopener noreferrer">www.complejoluzdelcielo.com</Link></li>
-                </ul>
-            </article>
+                <div className='containerTop'>
+                    <div>
+                        <img src={LuzDelCielo} className='img' alt='Complejo Luz del Cielo' />
+                            </div>
+                                    <div>
+                                        <ul>
+                                            <li>Calle: Mz Los Cedros B Parque Golf, Sierra de la Ventana, Bs As.</li>
+                                            <li>Tel o Whatsapp: 0291-154133899</li>
+                                            <li>Email: complejoluzdelcielo@gmail.com</li>
+                                            <li>Web: <Link to='http://www.complejoluzdelcielo.com' target='_blank' rel="noopener noreferrer">www.complejoluzdelcielo.com</Link></li>  
+                                                </ul>
+                                                    </div>
+                                                      </div>
+                                                              </article>
 
             <article>
                 <h4><mark className='marcador'>JORGE SAVISKY PROPIEDADES</mark></h4>
+                <div className='containerTop'>
+                    <div>
                 <img src={Jorge} className='img' alt='Jorge Savisky'/>
-                <ul>
+                </div>
+                <div>           
+                     <ul>
                     <li>Calle:Galeria Sierra Center- Av San Martin y Los Tilos, Sierra de La Ventana.</li>
                     <li>Tel: (0291) 4915 499 / (0291) 15-5021258</li>
                     <li>Email: jorgesavisky@sierradelaventana.com</li>
                     <li>Web: <Link to='https://jorgesavisky.com.ar/' target='_blank' rel="noopener noreferrer">www.jorgesavisky.com.ar</Link></li>
                 </ul>
+                </div>
+                </div>
             </article>
 
             <article>
                 <h4><mark className='marcador'>YMCAPOLIS</mark></h4>
+                <div className='containerTop'> 
+                <div>
                 <img src={YMCA} className='img' alt='YMCA'/>
+                </div>
+                <div>
                 <ul>
                     <li>Calle: Av. Ymcapolis 298 (entre Av. Rayces y Cnel. Suárez), Villa La Arcadia - Coronel Suárez</li>
                     <li>Tel: 4311-4785 (int 250)</li>
                     <li>Email: facundo.zuccoli@ymca.org.ar</li>
                 </ul>
+                </div>
+                </div>
             </article>
 
             <h3>ALOJAMIENTOS EN VILLA VENTANA</h3>
 
             <article>
                 <h4><mark className='marcador'>LA GRAN CABAÑA</mark></h4>
+                <div className='containerTop'> 
+                <div>
                 <img src={Cabania} className='img' alt='La Gran Cabaña' />
+                </div>
+                <div>
                 <ul>
                     <li>Calle: Belisario entre picaflor y colibri , Villa Ventana, Bs As. </li>
                     <li>Tel: (0291) 4 910 175 / 265</li>
                     <li>Email: info@lagrancabania.com.ar </li>
                     <li>Web: <Link to='http://www.lagrancabania.com.ar/' target='_blank' rel="noopener noreferrer">www.lagrancabania.com.ar</Link></li>
                 </ul>
+                </div>
+                </div>
             </article>
 
             <h3>ALOJAMIENTOS EN SAN ANDRES DE LA SIERRA</h3>
 
             <article>
                 <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>
-                <img src={PuestaDelSol} className='img' alt='Complejo Puesta del Sol' />
+                <div className='containerTop'>
+                    <div>
+                        <img src={PuestaDelSol} className='img' alt='Complejo Puesta del Sol' />
+                            </div>
+                    <div>
                 <ul>
                     <li>Calle:Gnena Kena y Chilca, San Andrés de la Sierra</li>
                     <li>Tel: +54 9 11 5561 8000</li>
                     <li>info@complejopuestadelsol.com.ar</li>
                     <li>Web: <Link to='https://www.complejopuestadelsol.com.ar' target='_blank' rel="noopener noreferrer">www.complejopuestadelsol.com.ar</Link></li>
                 </ul>
+                </div>
+                </div>
             </article>
             
             <article>

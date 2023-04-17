@@ -30,6 +30,10 @@
     font-size: 2.5rem;
 }
 
+.contacto ul{
+    margin-left: -1rem;
+}
+
 .contacto .yt{
     color: red;
 }
@@ -55,6 +59,37 @@
 
     .contacto .texto{
         margin: 2rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1024px){
+     .contacto{
+        margin: 3rem 5rem;
+        border-radius: 15px;
+        padding: 2rem;
+    }
+
+    .contacto .titulo{
+        margin: 1rem 2.25rem;
+        font-size: 2.5rem;
+    }
+
+    .contacto .texto{
+        margin: 2rem 5rem;
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .contacto{
+        margin: 3rem auto;
+        width: 70vw;
+    }
+
+    .contacto .texto{
+        margin: 2rem 8rem;
         font-size: 1.25rem;
     }
 }
