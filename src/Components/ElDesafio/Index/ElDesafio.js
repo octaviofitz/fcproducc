@@ -32,10 +32,21 @@ function ElDesafio() {
     return (
         <section className='elDesafio'>
             <h2 className='titulo' id='elDesafio'>EL DESAFÍO</h2>
-            <img src={elDesafio} alt='Maratón El Desafío' className='flyer' />
-            <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de un evento que te motiva a dejar atrás las exigencias y el estrés diario para pasar a una conexión total y plena con la naturaleza.</p>
-            <p className='descripcion'>Correr, cenar, relajar en el fogón, acampar, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único. </p>
-            <p className='descripcion'>Y para aquellos que quieran vivir la experiencia de correr un único día, con o sin camping, también lo podrán hacer. Chequeá toda la información aquí abajo.</p>
+            <div className='containerFlyerDescripcion'>
+
+                <div>
+                <img src={elDesafio} alt='Maratón El Desafío' className='flyer' />
+                 </div>
+                    
+                     <div>
+                    <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de un evento que te motiva a dejar atrás las exigencias y el estrés diario para pasar a una conexión total y plena con la naturaleza.</p>
+                    <p className='descripcion'>Correr, cenar, relajar en el fogón, acampar, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único. </p>
+                    <p className='descripcion'>Y para aquellos que quieran vivir la experiencia de correr un único día, con o sin camping, también lo podrán hacer. Chequeá toda la información aquí abajo.</p>
+                    </div>
+
+                    </div>
+           
+          
 
             <div className='botones'>
                 <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>

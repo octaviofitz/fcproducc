@@ -97,3 +97,65 @@
     justify-content: center;
     border-radius: 5%;
 }
+
+@media (min-width: 768px){
+
+    .m42{
+        margin: 3rem 2rem;
+    }
+
+    .m42 .titulo{
+        font-size: 2.25rem;
+        margin: 1rem 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .m42 .flyer{
+        width: 65vw;
+        padding-bottom: 1rem;
+    }
+    
+    .m42 .descripcion{
+        margin: 1rem 2rem 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .m42 .botones{
+        margin: 2rem 14rem;
+    }
+    
+    .m42 h3{
+        font-size: 2.5rem;
+    }
+    
+    .m42 h4,
+    .m42 h5{
+        font-size: 1.25rem;
+        margin: 1.5rem 2rem;
+    }
+
+    .m42 ul{
+        margin: 0rem 1rem;
+    }
+    
+    .m42 li{
+        margin: 0.6rem 0;
+    }
+    
+    .m42 p{
+        margin: 1rem 2rem;
+    }
+    
+    .m42 .img{
+        width: 65vw;
+    }
+    
+    .m42 .mapas{
+        width: 65vw;
+        height: 50vh;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        border-radius: 5%;
+    }
+}

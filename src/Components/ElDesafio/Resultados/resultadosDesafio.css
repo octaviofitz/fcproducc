@@ -72,3 +72,43 @@
 .resultadosDesafio a{
     color: white;
 }
+
+@media (min-width: 768px){
+
+    .resultadosDesafio {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .resultadosDesafio .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+        width: 50vw;
+    }
+    
+    .resultadosDesafio .titulo{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+    
+    .resultadosDesafio .goBack{
+      margin-top: -1rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .resultadosDesafio .titulo{
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+
+    .resultadosDesafio .texto{
+        width: 20vw;
+        display: flex;
+        margin: 0rem auto 1.25rem;
+
+    }
+}

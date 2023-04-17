@@ -169,7 +169,7 @@ function M42() {
                 </ul>
                 <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO VENIR EL ÚLTIMO DÍA. EL KIT PUEDE RETIRARLO OTRA PERSONA LLEVANDO LOS PAPELES FIRMADOS POR EL TITULAR (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
 
-                <p>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</p>
+                <h5>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1680915183851!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa La Estancia Las Vertientes'></iframe>
 
                 <h4><mark>PAPELES A PRESENTAR EN ACREDITACIÓN*:</mark></h4>
