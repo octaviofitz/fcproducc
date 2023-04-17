@@ -12,7 +12,7 @@ function Contacto() {
             <ul>
                 <li className='texto'><strong>Correo electrónico:</strong> envíanos un mail a <Link to='mailto:info@fcproducciones.com.ar:' target="_blank" rel="noopener noreferrer"><b>info@fcproducciones.com.ar</b></Link> y te responderemos lo antes posible.</li>
                 <li className='texto'><strong>Whatsapp:</strong> presionando el botón que se encuentra en el inferior derecho de nuestra página web, podrás comunicarte con nosotros directamente y obtendrás una respuesta a la brevedad.</li>
-                <li className='texto'><strong>Redes sociales:</strong>también podés encontrarnos en cualquiera de nuestras redes sociales y seguirnos para estar al tanto de nuestras últimas noticias y novedades. Aquí abajo te dejamos los accesos directos.</li>
+                <li className='texto'><strong>Redes sociales:</strong> también podés encontrarnos en cualquiera de nuestras redes sociales y seguirnos para estar al tanto de nuestras últimas noticias y novedades. Aquí abajo te dejamos los accesos directos.</li>
             </ul>
 
                 <div className="social-media-icons">

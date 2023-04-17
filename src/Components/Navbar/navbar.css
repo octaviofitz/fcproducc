@@ -26,6 +26,43 @@
     color: #f1b111;
 }
 
+.dropdown-menu{
+    background-color: #efeeee;
+    --bs-dropdown-padding-y: 0;
+    margin-left: 0.25rem;
+}
+
+#alerces{
+    background-color: #a98b30;
+    font-weight: 700;
+    padding: 0.5rem 4vw;
+}
+
+#el-Desafio{
+    background-color: #a0bf09;
+    font-weight: 700;
+    padding: 0.5rem 4vw;
+}
+
+#alecec{
+    background-color: #fd0081;
+    font-weight: 700;
+    padding: 0.5rem 4vw;
+}
+
+#circuito{
+    background-color: #69bfd5;
+    font-weight: 700;
+    padding: 0.5rem 4vw;
+}
+
+#alerces a,
+#el-Desafio a,
+#alecec a,
+#circuito a{
+    color: #fff;
+}
+
 @media(min-width: 768px) {
     .logo{
         width: 38vw;

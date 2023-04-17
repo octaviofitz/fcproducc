@@ -10,7 +10,7 @@ import '../Banner/banner.css'
 
 function Banner() {
   return (
-    <section class='carrusel'>
+    <section className='carrusel'>
     <Carousel fade >
 
       <Carousel.Item>

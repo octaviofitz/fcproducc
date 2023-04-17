@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import logo from '../../Img/index/logo.webp'
 import '../Navbar/navbar.css'
@@ -23,13 +24,23 @@ function BasicExample() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link as={Link} to='/nosotros' onClick={handleNavClick}>Nosotros</Nav.Link>
-          <Nav.Link as={Link} to='/carreras' onClick={handleNavClick}>Nuestras carreras</Nav.Link>
-          <Nav.Link as={Link} to='/galeria' onClick={handleNavClick}>Galería</Nav.Link>
+          <NavDropdown title="Carreras" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1" id='alerces'><Link to='/m42'>M42 LOS ALERCES</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" id='el-Desafio'>
+               <Link to='el-desafio'>EL DESAFÍO</Link> 
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" id='alecec'><Link to='alecec'>ALECEC</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4" id='circuito'>
+               <Link to='/circuito'>M21 CIRCUITO</Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+        <Nav.Link as={Link} to='/galeria' onClick={handleNavClick}>Galería</Nav.Link>
           <Nav.Link as={Link} to='/contacto' onClick={handleNavClick}>Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
   </Navbar>
+
 
   );
 }
