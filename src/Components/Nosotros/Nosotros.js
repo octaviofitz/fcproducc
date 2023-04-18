@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import nosotrosImg from '../../Img/nosotros/nosotros.webp'
 import '../Nosotros/nosotros.css';
@@ -16,10 +17,10 @@ function Nosotros() {
             <p className='texto'>Nos apasiona lo que hacemos y trabajamos duro para asegurarnos de que cada evento sea un éxito y que mejore año tras año.</p>
             <h5>NUESTROS EVENTOS</h5>
             <ul>
-                <li>MARATÓN DE MONTAÑA M42 LOS ALERCES</li>
-                <li>DESAFÍO COLUMBIA</li>
-                <li>CIRCUITO M21</li>
-                <li>MARATÓN SOLIDARIO TODOS SOMOS ALCEC</li>
+                <li><Link to='/m42' id='btnAlerces'>MARATÓN DE MONTAÑA M42 LOS ALERCES</Link></li>
+                <li><Link to='/desafio-columbia' id='btnDesafio'>DESAFÍO COLUMBIA</Link></li>
+                <li><Link to='/circuito' id='btnCircuito'>CIRCUITO M21</Link></li>
+                <li><Link to='/alcec' id='btnAlcec'>MARATÓN SOLIDARIO TODOS SOMOS ALCEC</Link></li>
             </ul>
             
         </section>

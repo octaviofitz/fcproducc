@@ -5,6 +5,7 @@ import React from 'react';
 import Footer from '../../Footer/Footer';
 import Navbar from '../../Navbar/Navbar';
 import Banner from '../../Banner/Banner';
+import BannerDesktop from '../../BannerDesktop/BannerDesktop';
 import Carreras from '../../Carreras/Carreras';
 import Patrocinios from '../../Patrocinios/Patrocinios';
 import Nosotros from '../../Nosotros/Nosotros';
@@ -32,8 +33,9 @@ const AppRouter = () => {
         <div>
             <BrowserRouter>
             <ScrollToTop />
-            <Navbar />
+            <Navbar />            
             <Banner / >
+            {/* <BannerDesktop /> */}
             <div className='main'>
            
             <BotonWP />
@@ -41,15 +43,15 @@ const AppRouter = () => {
            
             <Route path='/' element={<Carreras />} />
             <Route path='/' element={<Patrocinios />} />
-            <Route path='/el-desafio' element={<ElDesafio />} />
-            <Route path='/el-desafio/fotos2022' element={<ImagenesElDesafio />} />
-            <Route path='/el-desafio/resultados' element={<ResultadosDesafio />} />
-            <Route path='/el-desafio/alojamientos' element={<AlojamientosDesafio />} />
+            <Route path='/desafio-columbia' element={<ElDesafio />} />
+            <Route path='/desafio-columbia/fotos2022' element={<ImagenesElDesafio />} />
+            <Route path='/desafio-columbia/resultados' element={<ResultadosDesafio />} />
+            <Route path='/desafio-columbia/alojamientos' element={<AlojamientosDesafio />} />
             <Route path='/m42' element={<M42 />} />
             <Route path='/m42/fotos2022' element={<ImagenesM42 />} />
             <Route path='/m42/resultados' element={<ResultadosM42 />} />
             <Route path='/m42/alojamientos' element={<AlojamientosM42 />} />
-            <Route path='/alecec' element={<Alecec />} />
+            <Route path='/alcec' element={<Alecec />} />
             <Route path='/circuito' element={<Circuito />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/carreras' element={<NuestrasCarreras />} />

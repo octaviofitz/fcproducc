@@ -66,3 +66,53 @@
 .imgElDesafio a:hover{
     color: #fff;
 }
+
+@media (min-width: 768px){
+    
+    .imgElDesafio{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+    
+    .imgElDesafio .titulo{
+        margin: 0.5rem 2rem;
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+    }
+    
+    .imgElDesafio .texto{
+        margin: 2rem;
+        font-size: 1.25rem;
+    }
+    }
+    
+    @media (min-width: 1024px){
+        .imgElDesafio{
+            margin: 3rem 5rem;
+            border-radius: 15px;
+            padding: 2rem;
+        }
+    
+        .imgElDesafio .titulo{
+            margin: 1rem 2.25rem 0;
+            font-size: 2.5rem;
+        }
+    
+        .imgElDesafio .texto{
+            margin: 2rem 5rem;
+            font-size: 1.25rem;
+        }
+    }
+    
+    @media (min-width: 1440px){
+        .imgElDesafio{
+            margin: 3rem auto;
+            width: 70vw;
+        }
+    
+        .imgElDesafio .texto{
+            margin: 2rem 8rem;
+            font-size: 1.25rem;
+        }
+    }

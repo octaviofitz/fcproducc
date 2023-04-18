@@ -24,7 +24,7 @@ function ImagenesM42() {
             <Button variant="danger" size='lg' className='botonm42'><Link to='https://drive.google.com/drive/folders/1b958l1MQaTtYXiAq6NyEulTbIWRCwNJT' target="_blank" rel="noopener noreferrer">Fotos</Link></Button>
         </div>
         <div className='contenedorBoton'>
-            <Button onClick={volverAtras} className='goBack'>Volver ←</Button>
+            <Button onClick={volverAtras} variant='danger' className='goBack'>Volver ←</Button>
             </div>
         </article>
     );

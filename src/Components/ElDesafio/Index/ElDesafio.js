@@ -53,9 +53,9 @@ function ElDesafio() {
                 <Button variant="success" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
                 <Button variant="success" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="success" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/resultados'>Resultados 2022</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/el-desafio/fotos2022'>Fotos 2022</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/alojamientos'>Alojamientos</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados 2022</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/fotos2022'>Fotos 2022</Link></Button>
                 </div>
 
                 <h3 id='cartas'>Cartas</h3>
@@ -122,7 +122,7 @@ function ElDesafio() {
                 </ol>
                 <p>*Quienes abonen en 3 pagos, serán los próximos dos a 30 y 60 días. Por mail les avisará el momento en el que esté disponible. Si no abonan en fecha cada pago, el costo se actualizará al precio vigente</p>
 
-                <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</mark></h4>
+                <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN</mark></h4>
                 <p><b>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos</b></p>
 
                 <h3>INSCRIPCIÓN PRESENCIAL</h3>
@@ -162,13 +162,13 @@ function ElDesafio() {
 
                 <h3>LUGAR Y HORARIOS DE LARGADA</h3>
 
-                <h4><mark className='mark'>MODALIDAD 2 DÍAS:</mark></h4>
+                <h4><mark className='mark'>MODALIDAD 2 DÍAS</mark></h4>
                 <p><strong>- DÍA:</strong> SÁBADO 28/10</p>
                 <p><strong>- LUGAR DE SALIDA:</strong> Hotel Provincial, Drago 130, Sierra de la Ventana</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 15 horas</p>
                 <p>-<strong>- LUGAR DE LLEGADA:</strong> Camping Fortín Pavón, Saldungaray.</p>
 
-                <h4><mark className='mark'>MODALIDAD 2 DÍAS Y TAMBIÉN 1 DÍA: </mark></h4>
+                <h4><mark className='mark'>MODALIDAD 2 DÍAS Y TAMBIÉN 1 DÍA</mark></h4>
                 <p><strong>- DÍA:</strong> DOMINGO 29/10</p>
                 <p><strong>- LUGAR DE SALIDA:</strong> Camping Fortín Pavón, Saldungaray</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 10 horas</p>

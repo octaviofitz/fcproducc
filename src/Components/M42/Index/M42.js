@@ -33,19 +33,26 @@ function M42() {
         <section className='m42' id='m42'>
 
             <h2 className='titulo'>M42 MARATÓN DE MONTAÑA LOS ALERCES</h2>
-            <img src={m42General} alt='Maratón M42' className='flyer' />
-            <p className='descripcion'>El Maratón M42 Los Alerces se convirtió, hace años, en el clásico de trail y ultra trail de Villa Ventana, en la comarca de Tornquist. Con más de 1.800 corredores en las últimas ediciones, la fiesta que se vive es total y muy esperada por los competidores. </p>
-            <p className='descripcion'>El M42, que este año llega a su 11° edición, busca llevar tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único.</p>
-            <p className='descripcion'>Las sierras de Villa Ventana y San Andrés de la Sierra te harán olvidar tu estresante día a día para vivir un fin de semana largo inmerso en una naturaleza que ofrece paisajes inolvidables, cruces de arroyos, senderos, bosques y una compañía única de los demás corredores y del personal del staff de FC Producciones.</p>
-            <p className='descripcion'>50K, 42K, 25K, 10K y KIDS son las 5 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos corredores lo hacen, volver a elevar la distancia en la próxima edición.</p>
+            <div className='containerFlyerDescripcion'>
+                <div>
+                    <img src={m42General} alt='Maratón M42' className='flyer' />
+                        </div>
+
+                            <div>           
+                                 <p className='descripcion'>El Maratón M42 Los Alerces se convirtió, hace años, en el clásico de trail y ultra trail de Villa Ventana, en la comarca de Tornquist. Con más de 1.800 corredores en las últimas ediciones, la fiesta que se vive es total y muy esperada por los competidores. </p>
+                                    <p className='descripcion'>El M42, que este año llega a su 11° edición, busca llevar tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único.</p>
+                                    <p className='descripcion'>Las sierras de Villa Ventana y San Andrés de la Sierra te harán olvidar tu estresante día a día para vivir un fin de semana largo inmerso en una naturaleza que ofrece paisajes inolvidables, cruces de arroyos, senderos, bosques y una compañía única de los demás corredores y del personal del staff de FC Producciones.</p>
+                                    <p className='descripcion'>50K, 42K, 25K, 10K y KIDS son las 5 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos corredores lo hacen, volver a elevar la distancia en la próxima edición.</p>
+                                        </div>
+                                             </div>
 
                 <div className='botones'>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='#reglamento'>Reglamento</Link></Button>
-                <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados 2022</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados 2022</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2022</Link></Button>
                 </div>
                 
@@ -56,14 +63,17 @@ function M42() {
                 <p><strong>Fechas:</strong> 27 Y 28 DE MAYO 2023</p>
                 <p><strong>Lugares:</strong> Los Alerces, San Andrés de la Sierra; Plaza Salerno, Villa Ventana; Estancia las Vertientes, Villa Ventana. Todo en comarca de Tornquist, provincia de Buenos Aires.</p>
                 <p><strong>Concepto:</strong> Carrera de trail y ultratrail running</p>
-                <p><strong>Distancias:</strong> 50K, 42K, 25K, 10K, KIDS.</p>
+                <p><strong>Distancias:</strong> 50K, 42K, 25K, 10K y KIDS.</p>
                 <p><strong>Modalidad:</strong> Individual</p>
 
                 <h4><mark>CATEGORÍAS</mark></h4>
                 <p><strong>INDIVIDUAL:</strong> Damas y caballeros*</p>
                 <p>Hasta 25 años | 26 a 35 | 36 a 45 años | 46 a 55 años | 56 a 65 años | +66 años. Las edades serán computadas al 28/5/2023</p>
                 <p>*La edad para poder correr el M42 es a partir de los 16 años.</p>
-                <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar. (BOTÓN DE DESCARGA)</p>
+                <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
+                <div className='contenedorBoton'>
+                <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización' to='Autorizacion.pdf'>DESCARGAR AUTORIZACIÓN</Link></Button>
+                </div>
 
                 <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
                 <ul>
@@ -79,8 +89,8 @@ function M42() {
                     <li>Transporte a la largada 50 y 42k</li>
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
-                    <li>Premiación ganadores categoría</li>
-                    <li>Premiación ganadores general</li>
+                    <li>Premiación ganadores de categoría</li>
+                    <li>Premiación ganadores de la general</li>
                 </ul>
 
                 <h4><mark>REMERAS</mark></h4>
@@ -89,56 +99,15 @@ function M42() {
 
                 <h4><mark>DESCUENTO TEAMS DE ENTRENAMIENTO</mark></h4>
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail <b>info@fcproducciones.com.ar</b>, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
-                
-                <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <h4><mark>INSCRIPCIÓN ONLINE</mark></h4>
-                <p>Los pasos para inscribirse online son:</p>
 
+                <h3>RUNNING KIDS</h3>
+                <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con <b>remera de corredor, hidratación y medalla finisher</b>.</p>
+                <p><strong>La carrera tendrá dos distancias:</strong></p>
                 <ul>
-                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
-                    <li>Elegir la distancia y si abonás el TOTAL de la inscripción o la SEÑA del 50% por transferencia o depósito bancario.</li>
-                    <li>Completar los datos personales.</li>
-                    <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b>.</li>
-                    <li>Si eligieron la opción de pago de seña, abonan lo restante en la acreditación el fin de semana de la carrera y en efectivo.</li>
+                    <li><strong>1K para niños de hasta 9 años</strong></li>
+                    <li><strong>3K para niños de 10 a 15 años</strong></li>
                 </ul>
-
-                <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
-                <p>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
-
-                <h4><mark>INSCRIPCIÓN PRESENCIAL</mark></h4>
-                <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
-                <h5>CENTROS DE INSCRIPCIÓN:</h5>
-                <ul>
-                    <li><strong>Aerorunners</strong>: Av. Córdoba 1360 CABA Tel 011 5811-1043</li>
-                    <li><strong>TriSport Necochea</strong>: Calle 57 3043. Tel 2262 52-6684</li>
-                    <li><strong>BicyShop Mar del Plata</strong>: Av. Independencia 3565. Tel 0223-474-9816.</li>
-                    <li><strong>La Fe Deportes</strong>: Loria 193, Lomas de Zamora. Tel 11-6069-3133</li>
-                    <li><strong>Adrogué Outdoors</strong>: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
-                </ul>
-
-                <h3>COSTOS</h3>
-                <p>Del 13/4 en adelante</p>
-                <ul>
-                    <li><strong>50K</strong>: $27.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>42K</strong>: $23.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>25K</strong>: $17.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>10K</strong>: $13.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>KIDS</strong>:
-                         <ul> 
-                            <li>Hasta 9 años: $3.000 <b>pago total</b></li>
-                            <li>De 10 a 14 años: $5.000 <b>pago total</b></li>
-                        </ul>
-                        </li>
-                </ul>
-
-                <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
-                <p>Para aquellos corredores de 50 o 42K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25 o 10K. Deberá solicitar el código de descuento online para inscribirse en el día domingo de competencia.</p>
-                <p><strong>CONSIDERACIONES:</strong></p>
-                <p>*No es acumulable con otros descuentos.</p>
-                <p>*La inscripción es únicamente online y de forma previa, no se inscribirá el mismo día.</p>
-                <p>*No se puede dar de baja ni modificar nada a partir del viernes 12/5/23.</p>
-                <p>*Se inscribe en dos carreras y realiza dos acreditaciones, dos largadas, dos premiaciones, todo por separado.</p>
-                <p>*No se harán devoluciones. (Ver política de devolución de inscripciones en reglamento)</p>
+                <p><b>Los padres o acompañantes podrán acompañar durante el recorrido a sus hijos de ser necesario por cuestiones de edad</b>.</p>
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
@@ -172,7 +141,7 @@ function M42() {
                 <h5>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1680915183851!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa La Estancia Las Vertientes'></iframe>
 
-                <h4><mark>PAPELES A PRESENTAR EN ACREDITACIÓN*:</mark></h4>
+                <h4><mark>PAPELES A PRESENTAR EN ACREDITACIÓN*</mark></h4>
                 <p>Los inscriptos deberán acreditarse y retirar su kit con la siguiente documentación:</p>
                 <ul>
                     <li>DNI</li>
@@ -244,12 +213,67 @@ function M42() {
                 <p>🔝 Altura máxima: 548 msnm</p>
                 <p>⬇  Altura mínima: 369 msnm</p>
 
+                
+                <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
+                <h4><mark>INSCRIPCIÓN ONLINE</mark></h4>
+                <p>Los pasos para inscribirse online son:</p>
 
-                <h3 id='cronograma'>CRONOGRAMA GENERAL:</h3>
-                <h4><mark>VIERNES 26 DE MAYO:</mark></h4>
+                <ol>
+                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
+                    <li>Elegir la distancia y si abonás el TOTAL de la inscripción o la SEÑA del 50% por transferencia o depósito bancario.</li>
+                    <li>Completar los datos personales.</li>
+                    <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b>.</li>
+                    <li>Si eligieron la opción de pago de seña, abonan lo restante en la acreditación el fin de semana de la carrera y en efectivo.</li>
+                </ol>
+
+                <div className='contenedorBoton'>
+                <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>
+                </div>
+                
+                <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
+                <p>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
+
+                <h4><mark>INSCRIPCIÓN PRESENCIAL</mark></h4>
+                <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
+                <h5>CENTROS DE INSCRIPCIÓN:</h5>
+                <ul>
+                    <li><strong>Aerorunners</strong>: Av. Córdoba 1360 CABA Tel 011 5811-1043</li>
+                    <li><strong>TriSport Necochea</strong>: Calle 57 3043. Tel 2262 52-6684</li>
+                    <li><strong>BicyShop Mar del Plata</strong>: Av. Independencia 3565. Tel 0223-474-9816.</li>
+                    <li><strong>La Fe Deportes</strong>: Loria 193, Lomas de Zamora. Tel 11-6069-3133</li>
+                    <li><strong>Adrogué Outdoors</strong>: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
+                </ul>
+
+                <h3>COSTOS</h3>
+                <p>Del 13/4 en adelante</p>
+                <ul>
+                    <li><strong>50K</strong>: $27.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>42K</strong>: $23.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>25K</strong>: $17.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>10K</strong>: $13.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>KIDS</strong>:
+                         <ul> 
+                            <li>Hasta 9 años: $3.000 <b>pago total</b></li>
+                            <li>De 10 a 14 años: $5.000 <b>pago total</b></li>
+                        </ul>
+                        </li>
+                </ul>
+
+                <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
+                <p>Para aquellos corredores de 50 o 42K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25 o 10K. Deberá solicitar el código de descuento online para inscribirse en el día domingo de competencia.</p>
+                <p><strong>CONSIDERACIONES:</strong></p>
+                <p>*No es acumulable con otros descuentos.</p>
+                <p>*La inscripción es únicamente online y de forma previa, no se inscribirá el mismo día.</p>
+                <p>*No se puede dar de baja ni modificar nada a partir del viernes 12/5/23.</p>
+                <p>*Se inscribe en dos carreras y realiza dos acreditaciones, dos largadas, dos premiaciones, todo por separado.</p>
+                <p>*No se harán devoluciones. (Ver política de devolución de inscripciones en reglamento)</p>
+
+
+                <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
+                <h4><mark>VIERNES 26 DE MAYO</mark></h4>
                 <p><strong>De 10 a 18 hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
                 
-                <h4><mark>SÁBADO 27 DE MAYO:</mark></h4>
+                <h4><mark>SÁBADO 27 DE MAYO</mark></h4>
                 <ul>
                     <li><strong>De 6.00 a 7.30 am</strong> acreditación de 50 y 42K. Lugar: Plaza Salerno, en el centro de Villa Ventana.</li>
                     <li><strong>9 am</strong> LARGADA 50 Y 42K Lugar: Los Alerces, San Andrés de la Sierra.</li>
@@ -259,7 +283,7 @@ function M42() {
                     <li><strong>18:30 hs</strong>: Desfile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
                 </ul>
 
-                <h4><mark>DOMINGO 28 DE MAYO:</mark></h4>
+                <h4><mark>DOMINGO 28 DE MAYO</mark></h4>
                 <p>Todo se llevará a cabo en Estancia Las Vertientes (Ruta 76, km 221, Villa Ventana).</p>
                 <ul>
                     <li><strong>De 8 a 9 am:</strong> ACREDITACIÓN 25K</li>
@@ -270,17 +294,18 @@ function M42() {
                     <li><strong>14 hs:</strong> PREMIACIÓN</li>
                 </ul>
 
-                <h3>RUNNING KIDS</h3>
-                <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con <b>remera de corredor, hidratación y medalla finisher</b>.</p>
-                <p><strong>La carrera tendrá dos distancias:</strong></p>
-                <ul>
-                    <li><strong>1K para niños de hasta 9 años</strong></li>
-                    <li><strong>3K para niños de 10 a 15 años</strong></li>
-                </ul>
-                <p><b>Los padres o acompañantes podrán acompañar durante el recorrido a sus hijos de ser necesario por cuestiones de edad</b>.</p>
+                <h3>REGLAMENTO M42 LOS ALERCES</h3>
+                <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
+                <h4>RECLAMOS</h4>
+                <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
+                <h4>CERTIFICADO MÉDICO</h4>
+                <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
+                <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
 
                 <h3>ELEMENTOS OBLIGATORIOS</h3>
-                <ul>
+                <ul>    
+                    <li><strong>APTO MÉDICO</strong><br></br></li>
+                    <li></li>
                     <li><strong>NÚMERO DE CORREDOR con CHIP incluído</strong>. El mismo debe estar visible en todo momento. (provisto por la organizacion)</li>
                     <li><strong>APTO MÉDICO</strong></li>
                     <li><strong>REMERA OFICIAL DE CORREDOR (provista por la organizacion)</strong></li>
@@ -299,6 +324,8 @@ function M42() {
                     <li>Mochila</li>
                 </ul>
 
+
+
                 <h3>MEDIO AMBIENTE</h3>
                 <p>Es importante que entre todos preservemos y cuidemos la naturaleza, es nuestro principal requisito. Por eso: </p>
                 <ul>
@@ -315,6 +342,10 @@ function M42() {
                 <p>*No se puede dar de baja ni modificar nada a partir del viernes 12/05/23.</p>
                 <p>*Se inscribe en dos carreras y realiza dos acreditaciones, dos largadas, dos premiaciones, todo por separado.</p>
                 <p>*No se harán devoluciones. (Ver política de devolución de inscripciones en reglamento)</p>
+                
+                <div className='contenedorBoton'>
+                <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>
+                </div>
 
         </section>
     );

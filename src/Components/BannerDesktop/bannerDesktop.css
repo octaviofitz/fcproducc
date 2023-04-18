@@ -1,0 +1,9 @@
+.carruseldesktop{
+    display: none;
+}
+
+@media (min-width: 1024px){
+    .carruseldesktop{
+        display: inline-block;
+    }
+}

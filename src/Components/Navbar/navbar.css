@@ -15,6 +15,7 @@
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    margin-top: 0.15rem;
 }
 
 .nav-link a{
@@ -92,12 +93,12 @@
     }
 
     #alerces,
-#el-Desafio ,
-#alecec ,
-#circuito {
-    margin-left: 3.6vw;
-    padding: 0.5rem;
-}
+    #el-Desafio ,
+    #alecec ,
+    #circuito {
+        margin-left: 3.6vw;
+        padding: 0.5rem;
+    }
 
 .dropdown-menu{
    padding: 1rem;
@@ -106,10 +107,11 @@
 }
 
 @media (min-width: 1440px){
-    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
-        margin-left: 14vw;
-    }
 
+    .navbar{
+       /* padding-left: 10; */
+      padding-left: 12rem;
+    }
 
     .logo{
         width: 18rem;

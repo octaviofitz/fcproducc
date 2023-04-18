@@ -22,7 +22,6 @@
 }
 
 .m42 .descripcion{
-    font-weight: 600;
     margin: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -95,7 +94,16 @@
     display: flex;
     margin: 2rem auto;
     justify-content: center;
-    border-radius: 5%;
+    border-radius: 3%;
+}
+
+.m42 .contenedorBoton .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+    padding: 1rem;
+
 }
 
 @media (min-width: 768px){
@@ -152,6 +160,131 @@
     
     .m42 .mapas{
         width: 65vw;
+        height: 50vh;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        border-radius: 5%;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .m42{
+        width: 85vw;
+        margin: 5rem auto;
+    }
+
+    .m42 .titulo{
+        margin: 1rem 2rem;
+        font-size: 2.5rem;
+    }
+
+    .m42 .containerFlyerDescripcion{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .m42 .flyer{
+        width: 40vw;
+        margin: 2rem 0 0;
+        margin-left: 2rem;
+    }
+
+    .m42 .descripcion{
+        margin: 0 2rem;
+        margin-top: 2.25rem;
+        font-size: 1.25vw;
+    }
+
+    .m42 .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        margin: 2rem 4rem;
+    }
+
+    .m42 .boton{
+        padding: 1rem 2rem;
+        margin: 0.25rem;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .m42 h3{
+        font-size: 3rem;
+    }
+    
+    .m42 h4,
+    .m42 h5{
+        margin: 1.5rem 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .m42 li,
+    .m42 p{
+        font-size: 1.25rem;
+        margin: 1rem 2.5rem;
+    }
+
+    .m42 ul{
+        margin-left: -1rem;
+    }
+
+    .m42 .img{
+        width: 40vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .m42{
+        width: 73vw;
+    }
+
+    .m42 .flyer{
+        width: 28vw;
+        margin: 2rem 0 0;
+        margin-left: 5rem;
+    }
+
+    .m42 .titulo{
+       font-size: 4rem;
+    }
+
+    .m42 .descripcion{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2.1rem;
+        font-size: 0.92vw;
+    }
+
+    .m42 h3{
+        font-size: 4rem;
+    }
+    
+    .m42 h4,
+    .m42 h5{
+        margin: 1.5rem 5rem;
+        font-size: 1.9rem;
+    }
+
+    .m42 li,
+    .m42 p{
+        font-size: 1.25rem;
+        margin: 1rem 5rem;
+    }
+
+    .m42 .img{
+        width: 25vw;
+        margin: 2rem auto;
+    }
+
+    .m42 .mapas{
+        width: 45vw;
         height: 50vh;
         display: flex;
         margin: 2rem auto;

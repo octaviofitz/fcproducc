@@ -44,6 +44,25 @@
 .nosotros li{
     font-family: 'Montserrat', sans-serif;
     padding-top: 0.6rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0rem 1rem;
+}
+
+.nosotros #btnAlerces{
+    color: #97161a;
+}
+
+.nosotros #btnDesafio{
+    color: #a0bf09;
+}
+
+.nosotros #btnCircuito{
+    color: #69bfd5;
+}
+
+.nosotros #btnAlcec{
+    color: #fd0081;
 }
 
 

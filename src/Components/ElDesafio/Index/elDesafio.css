@@ -21,7 +21,6 @@
 }
 
 .elDesafio .descripcion{
-    font-weight: 600;
     margin: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -164,7 +163,6 @@
         margin: 2rem 0 0;
         margin-left: 2rem;
     }
-
 
     .elDesafio .descripcion{
         margin: 0 2rem;
