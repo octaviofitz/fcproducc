@@ -7,7 +7,7 @@
 }
 
 .Circuito .flyer{
-    width: 90vw;
+    width: 85vw;
     display: flex;
     margin: auto;
     border-radius: 3%;
@@ -35,7 +35,7 @@
 
 .Circuito .boton{
     margin: 0.5rem 0;
-    padding: 0.8rem 0;
+    padding: 0.8rem 0.5rem;
     background-color: #69bfd5;
     color: white;
     text-decoration: none;
@@ -53,6 +53,7 @@
     display: flex;
     margin: 1rem auto;
 }
+
 
 .Circuito h3{
     text-align: center;
@@ -83,10 +84,6 @@
     .Circuito .carreras .imagenes .texto:last-child{
         padding-bottom: 3rem;
     }
-
-.Circuito p{
-    margin: 0rem 1rem;
-}
 
 .Circuito .containerVideo{
     display: flex;
@@ -137,6 +134,7 @@
     margin: auto;
     margin-top: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 0.75rem 3rem;
 }
 
 .Circuito .botonResultados a{
@@ -147,32 +145,38 @@
     background-color: #69bfd5;
 }
 
+.Circuito .texto{
+    font-family: 'Montserrat', sans-serif;
+    margin: -0.5rem 1rem;
+    text-align: left;
+}
 
 @media (min-width: 768px){
     .Circuito{
-        margin: 3rem 2rem;
+        margin: -1rem 2rem;
         border-radius: 15px;
         padding: 2rem 0;
     }
 
     .Circuito .flyer{
-        width: 80vw;
+        width: 70vw;
         display: flex;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 0.4rem;
+        margin-bottom: 1rem;
     }
 
     .Circuito .titulo{
-        margin: 1rem 2rem;
+        margin: 0.75rem 2rem;
     }
 
     .Circuito .descripcion{
-        margin: 2rem;
+        margin: 0.8rem 2rem;
         font-size: 1.25rem;
     }
 
     .Circuito .botones{
-        padding: 1rem 8rem;
+        padding: 0rem 7rem;
     }
 
     .Circuito h3{
@@ -182,39 +186,75 @@
     
     .Circuito h4,
     .Circuito h5{
-        margin: 1rem;
-        font-size: 1.3rem;
+        margin: 2rem 0;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .Circuito .containerVideo{
+        width: 70vw;
+        padding: 1rem 0;
+        margin-bottom: -1rem;
+    }
+
+    .Circuito .img{
+        width: 70vw;
+        margin: 0 auto 1.5rem;
     }
 
     .Circuito li,
     .Circuito p{
         font-size: 1.1rem;
     }
+
+    .Circuito .texto{
+        font-family: 'Montserrat', sans-serif;
+        margin: -0.5rem 2rem;
+        text-align: left;
+    }
+
+    .Circuito .categorias .container{
+        width: 60vw;
+        margin: 0rem auto 1rem;
+    }
+
+    .Circuito .carreras .imagenes .titulo{
+        margin-top: 0;
+    }
     
-    .Circuito .mapas{
-        width: 95vw;
-        height: 50vh;
-        margin: 2rem auto;
+    .Circuito .categorias .container .imgResultados{
+        width: 25vw;
+        margin-top: 0.25rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .Circuito .carreras .imagenes .texto{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0.5rem 2rem;
+        text-align: left;
     }
     
 }
 
 @media (min-width: 1024px){
-    .Circuito{
+    .Circuito .carreras{
         width: 85vw;
         display: flex;
         flex-direction: column;
         margin: 5rem auto;
     }
 
+
     .Circuito .flyer{
-        width: 40vw;
-        border-radius: 3%;
-        margin-top: 2rem;
+        width: 50vw;
+        padding-bottom: 1rem;
+        margin-left: 1rem;
+        display: flex;
+        margin: auto;
     }
 
     .Circuito .titulo{
-        margin: 1rem 2rem;
+        margin: 0rem 2rem 1rem;
     }
 
     .Circuito .descripcion{
@@ -229,16 +269,17 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 1rem;
-        margin: 2rem 4rem;
+        margin: 2rem 0rem;
     }
 
     .Circuito .boton{
-        padding: 1rem 2rem;
+        padding: 1.5rem 0.5rem;
         margin: 0.25rem;
         width: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 1.1rem;
     }
 
     .Circuito h3{
@@ -248,7 +289,7 @@
     .Circuito h4,
     .Circuito h5{
         margin: 1rem 2.5rem;
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .Circuito li,
@@ -256,16 +297,46 @@
         font-size: 1.25rem;
         margin: 1rem 2.5rem;
     }
-    
+
+    .Circuito .containerVideo{
+        width: 60vw;
+        margin: 1.5rem auto 0.25rem;
+    }
+
+    .Circuito .categorias .container{
+        width: 35vw;
+    }
+
+    .Circuito .categorias .container .titulo{
+        font-size: 1.5rem;
+      margin-top: 0rem;
+    }
+
+    .Circuito .categorias .container .imgResultados{
+        width: 20vw;
+    }
+
+    .Circuito .carreras .imagenes .titulo{
+        font-size: 2rem;
+    }
+
+    .Circuito .botonResultados{
+        margin-top: 1rem;
+        padding: 0.75rem 5rem;
+    }
+
+    .Circuito #categoriasDoble{
+        display: flex;
+    }
 }
 
 @media (min-width: 1440px){
-    .Circuito{
+    .Circuito .carreras{
         width: 73vw;
     }
 
     .Circuito .flyer{
-        width: 30vw;
+        width: 55vw;
         border-radius: 3%;
         margin-top: 2rem;
     }
@@ -280,12 +351,8 @@
         font-size: 1.35rem;
     }
 
-  /*   .Circuito .botones{
-        padding: 1rem 20rem;
-    } */
-
     .Circuito h3{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     
     .Circuito h4,
@@ -294,9 +361,45 @@
         font-size: 1.9rem;
     }
 
+    .Circuito .img{
+        width: 40vw;
+        border-radius: 10px;
+        display: flex;
+        margin: 1rem auto;
+    }
+    
     .Circuito li,
     .Circuito p{
         font-size: 1.25rem;
         margin: 1rem 5rem;
+    }
+
+    .Circuito .texto{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+
+    .Circuito .carreras .imagenes .texto{
+        margin: 0.5rem 10rem;
+        padding: 0;
+    }
+
+    .Circuito .categorias .container{
+        width: 25vw;
+    }
+
+    .Circuito .categorias .container .titulo{
+        font-size: 1.5rem;
+      margin-top: 0rem;
+    }
+
+
+    .Circuito .categorias .container .imgResultados{
+        width: 12vw;
+    }
+
+    .Circuito .containerVideo{
+        width: 40vw;
+        margin: 1.5rem auto 0.25rem;
     }
 }

@@ -71,6 +71,31 @@
     text-transform: uppercase;
 }
 
+.galeria li{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.6rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0rem 1rem;
+}
+
+.galeria #btnAlerces{
+    color: #97161a;
+}
+
+.galeria #btnDesafio{
+    color: #a0bf09;
+}
+
+.galeria #btnCircuito{
+    color: #69bfd5;
+}
+
+.galeria #btnAlcec{
+    color: #fd0081;
+}
+
+
 @media (min-width: 768px){
     .galeria{
         margin: 3rem 2rem;

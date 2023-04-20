@@ -35,7 +35,7 @@ const AppRouter = () => {
             <ScrollToTop />
             <Navbar />            
             <Banner / >
-            {/* <BannerDesktop /> */}
+            <BannerDesktop /> 
             <div className='main'>
            
             <BotonWP />

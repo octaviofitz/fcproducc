@@ -180,7 +180,7 @@
     }
 
     .elDesafio .boton{
-        padding: 1rem 2rem;
+        padding: 1rem 0rem;
         margin: 0.25rem;
         width: 20%;
         display: flex;

@@ -9,8 +9,8 @@ import '../BannerDesktop/bannerDesktop.css'
 
 function BannerDesktop() {
     return (
-        <section className='carruseldesktop'>
-    <Carousel fade >
+      <section>
+    <Carousel fade className='carruselDesktop'>
 
       <Carousel.Item>
         <img

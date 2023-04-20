@@ -10,11 +10,11 @@ function Galeria() {
         <section className='galeria'>
             <h2 className='titulo'>Galería</h2>
             <p className='descripcion'>¿Todavía no conocés los eventos de FC Producciones? ¿Los conocés y querés revivirlos? ¡Este es el lugar! Junto a <b>Revista Desafíos</b> y la <b>FerCam</b> te mostramos desde adentro lo más destacado de nuestros grandes eventos. Así se disfrutaron las ediciones de 2022 de los siguientes carreras: </p>
-            <ul className='lista'>
-                <li>MARATÓN DE MONTAÑA M42</li>
-                <li>DESAFÍO CROSS TRAIL</li>
-                <li>CIRCUITO M21</li>
-                <li>MARATÓN SOLIDARIO TODOS SOMOS ALCEC</li>
+            <ul>
+                <li><Link to='/m42' id='btnAlerces'>MARATÓN DE MONTAÑA M42 LOS ALERCES</Link></li>
+                <li><Link to='/desafio-columbia' id='btnDesafio'>DESAFÍO COLUMBIA</Link></li>
+                <li><Link to='/circuito' id='btnCircuito'>CIRCUITO M21</Link></li>
+                <li><Link to='/alcec' id='btnAlcec'>MARATÓN SOLIDARIO TODOS SOMOS ALCEC</Link></li>
             </ul>
             <div className='container'>
             <Ratio aspectRatio="16x9">

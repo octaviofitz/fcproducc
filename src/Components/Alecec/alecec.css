@@ -73,7 +73,11 @@
 }
 
 .Alecec .categorias{
-    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .Alecec .categorias .container{
@@ -138,6 +142,18 @@
         font-size: 2.5rem;
         padding: 1.5rem 0;
     }
+    
+    .Alecec .video .container{
+        width: 75vw;
+    }
+    .Alecec .categorias .container{
+        margin: 2rem 0;
+        width: 70vw;
+    }
+
+    .Alecec .categorias .container:last-child{
+        margin-bottom: -0.5rem;
+    }
 
     .Alecec .categorias .container h4{
         padding-top: 2rem;
@@ -145,11 +161,135 @@
     }
 
     .Alecec .categorias .container .imgResultados{
-        width: 25vw;
+        width: 23vw;
+    }
+}
+
+@media (min-width: 1024px){
+    .Alecec{
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
     }
 
+    .Alecec .titulo{
+        font-size: 2.25rem;
+        margin: 1rem 6rem;
+        margin-bottom: 2rem;
+    }
 
-    .Alecec .categorias .container{
+    .Alecec .containerFlyerDescripcion{
+        display: flex;
+    }
+    
+    .Alecec .flyer{
+        width: 38vw;
+        padding-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .Alecec .descripcion{
+        font-size: 1.25vw;
+        margin-top: 0rem;
+    }
        
+    .Alecec h3{
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .Alecec .botones{
+        margin: 2rem 14rem;
+    }
+    
+    .Alecec .video .container{
+        width: 65vw;
+    }
+
+    .Alecec .categorias{
+        display: flex;
+        flex-direction: row;
+    }
+    .Alecec .categorias .container{
+        margin: 0 2rem;
+        margin-top: 2rem;
+        width: 35vw;
+    }
+
+    .Alecec .categorias .container:last-child{
+        margin-bottom: 0rem;
+    }
+
+    .Alecec .categorias .container h4{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+    }
+
+    .Alecec .categorias .container .imgResultados{
+        width: 18vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .Alecec{
+        width: 73vw;
+    }
+
+    .Alecec .titulo{
+        font-size: 3rem;
+        margin: 1rem 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .Alecec .containerFlyerDescripcion{
+        display: flex;
+    }
+    
+    .Alecec .flyer{
+        width: 28vw;
+        margin: 2rem 0 0;
+        margin-left: 5rem;
+    }
+
+    .Alecec .descripcion:first-child{
+        margin-top: 2.25rem;
+    }
+    
+    .Alecec .descripcion{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
+        font-size: 0.97vw;
+    }
+       
+    .Alecec h3{
+        font-size: 3rem;
+        padding: 1.5rem 0;
+    }
+
+    .Alecec .botones{
+        margin: 2rem 14rem;
+    }
+    
+    .Alecec .video .container{
+        width: 55vw;
+    }
+
+  
+    .Alecec .categorias .container{
+        margin: 0 2rem;
+        margin-top: 2rem;
+        width: 28vw;
+    }
+
+    .Alecec .categorias .container h4{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+        margin: 0rem 5rem 1rem;
+    }
+
+    .Alecec .categorias .container .imgResultados{
+        width: 13vw;
     }
 }
