@@ -3,8 +3,15 @@ import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 
+/* Imágenes */
 import m42General from '../../../Img/m42/flyerM42.webp';
-import Remera from '../../../Img/m42/remera.jpg'
+import Remera from '../../../Img/m42/remera.jpg';
+
+/* Documentos */
+import AutorizacionMenores from '../../../PDF/autMenores.pdf';
+import Deslinde from '../../../PDF/deslinde.pdf';
+import AptoMedico from '../../../PDF/aptoMedico.pdf'
+
 import '../Index/m42.css'
 
 function M42() {
@@ -50,7 +57,7 @@ function M42() {
                 <Button variant="danger" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
-                <Button variant="danger" size='lg' className='boton'><Link to='#reglamento'>Reglamento</Link></Button>
+                <Button variant="danger" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados 2022</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2022</Link></Button>
@@ -71,8 +78,9 @@ function M42() {
                 <p>Hasta 25 años | 26 a 35 | 36 a 45 años | 46 a 55 años | 56 a 65 años | +66 años. Las edades serán computadas al 28/5/2023</p>
                 <p>*La edad para poder correr el M42 es a partir de los 16 años.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
+               
                 <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización' to='Autorizacion.pdf'>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                 <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
@@ -93,7 +101,7 @@ function M42() {
                     <li>Premiación ganadores de la general</li>
                 </ul>
 
-                <h4><mark>REMERAS</mark></h4>
+                <h4><mark>REMERA</mark></h4>
                 <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
                 <img src={Remera} className='img' alt='Remera M42' />
 
@@ -114,7 +122,7 @@ function M42() {
                 <h4><mark>VIERNES 26/05 de 10 a 18hs</mark></h4>
                 <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
                 <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
-                <p>¿CÓMO LLEGAR A LOS ALERCES?</p>
+                <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.399580909211!2d-62.08592658843749!3d-38.065062030645144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c36c812b09%3A0x129922352fe697!2sGnena-Kena%20%26%20Melica%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1680915042499!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe>
 
                 <h4><mark>SÁBADO 27/05</mark></h4>
@@ -141,22 +149,36 @@ function M42() {
                 <h5>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1680915183851!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa La Estancia Las Vertientes'></iframe>
 
-                <h4><mark>PAPELES A PRESENTAR EN ACREDITACIÓN*</mark></h4>
+                <h4><mark>PAPELES A PRESENTAR EN ACREDITACIÓN</mark></h4>
                 <p>Los inscriptos deberán acreditarse y retirar su kit con la siguiente documentación:</p>
-                <ul>
+                <ol>
                     <li>DNI</li>
-                    <li>CERTIFICADO MÉDICO. (No aceptamos foto del celular). La organización se quedará con el certificado por lo que si lo necesitan, traigan copia. (BOTÓN DE DESCARGA)</li>
-                    <li>3. DESLINDE DE RESPONSABILIDAD COMPLETO Y FIRMADO . (BOTÓN DE DESCARGA)</li>
-                    <li>4. AUTORIZACIÓN MENOR DE EDAD (En caso de pertenecer). (BOTÓN DE DESCARGA)</li>
-                </ul>
+                    <li>CERTIFICADO MÉDICO. (No aceptamos foto del celolar). La organización se quedará con el certificado por lo que si lo necesitan, traigan copia</li>
+                    
+                    <div className='contenedorBoton'>
+                         <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                          </div>
+
+                    <li>DESLINDE DE RESPONSABILIDAD COMPLETO Y FIRMADO </li>
+
+                    <div className='contenedorBoton'>
+                        <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Deslinde de Responsabilidad' to={Deslinde}>DESCARGAR DESLINDE</Link></Button>
+                            </div>
+
+                    <li>AUTORIZACIÓN MENOR DE EDAD (En caso de pertenecer)</li>
+
+                    <div className='contenedorBoton'>
+                         <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                             </div>
+                </ol>
 
                 <h4><mark>RETIRO DE KITS POR TERCEROS</mark></h4>
                 <p>El requisito es que se acerque con los siguientes documentos:</p>
-                <ul>
+                <ol>
                     <li>FOTOCOPIA DEL DNI DEL CORREDOR</li>
                     <li>DESLINDE DE RESPONSABILIDAD DEL CORREDOR COMPLETO Y FIRMADO POR ÉL</li>
                     <li>APTO FÍSICO DEL CORREDOR</li>
-                </ul>
+                </ol>
                 <p><strong>De no contar con estos requisitos la organización NO entregará el Kit.</strong></p>
 
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
@@ -181,10 +203,6 @@ function M42() {
                 <p>Destildar la distancia que no se quiera ver.</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
-                <h3>RECORRIDO 25 Y 10K:</h3>
-                <p>Destildar la distancia que no se quiera ver.</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
-
                 <h4><mark>ALTIMETRÍAS</mark></h4>
 
                 <h5>🏃50K</h5>
@@ -200,6 +218,12 @@ function M42() {
                 <p>⬇ Altura mínima: 390 msnm</p>
 
                 <br></br>
+
+                <h3>RECORRIDO 25 Y 10K:</h3>
+                <p>Destildar la distancia que no se quiera ver.</p>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
+
+                <h4><mark>ALTIMETRÍAS</mark></h4>
 
                 <h5>🏃25K</h5>
                 <p>📈 Desnivel: + 616 metros</p>
@@ -220,7 +244,7 @@ function M42() {
 
                 <ol>
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
-                    <li>Elegir la distancia y si abonás el TOTAL de la inscripción o la SEÑA del 50% por transferencia o depósito bancario.</li>
+                    <li>Elegir la distancia y si abonás el <b>TOTAL</b> de la inscripción o la SEÑA del 50% por transferencia o depósito bancario.</li>
                     <li>Completar los datos personales.</li>
                     <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b>.</li>
                     <li>Si eligieron la opción de pago de seña, abonan lo restante en la acreditación el fin de semana de la carrera y en efectivo.</li>
@@ -291,10 +315,10 @@ function M42() {
                     <li><strong>10 am:</strong> LARGADA 25K</li>
                     <li><strong>11 am:</strong> LARGADA 10K</li>
                     <li><strong>13 hs:</strong> LARGADA KIDS</li>
-                    <li><strong>14 hs:</strong> PREMIACIÓN</li>
+                    <li><strong>14 hs:</strong> PREMIACIÓN 10 y 25K</li>
                 </ul>
 
-                <h3>REGLAMENTO M42 LOS ALERCES</h3>
+                <h3 id='reglamento'>REGLAMENTO M42 LOS ALERCES</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
                 <h4>RECLAMOS</h4>
                 <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
@@ -304,27 +328,77 @@ function M42() {
 
                 <h3>ELEMENTOS OBLIGATORIOS</h3>
                 <ul>    
-                    <li><strong>APTO MÉDICO</strong><br></br></li>
-                    <li></li>
-                    <li><strong>NÚMERO DE CORREDOR con CHIP incluído</strong>. El mismo debe estar visible en todo momento. (provisto por la organizacion)</li>
-                    <li><strong>APTO MÉDICO</strong></li>
-                    <li><strong>REMERA OFICIAL DE CORREDOR (provista por la organizacion)</strong></li>
+                    <li><strong>APTO MÉDICO</strong><br></br>Entregar en acreditación</li>
+                    <li><strong>REMERA</strong><br></br>Provista por la organización</li>
+                    <li><strong>NÚMERO DE CORREDOR</strong><br></br> Con CHIP incluído. Debe estar visible en todo momento. Provisto por la organización</li>
+                   <li><strong>MANTA TÉRMICA</strong><br></br>Llevar en la mochila de carrera</li>
+                   <li><strong>REMERA TÉRMICA</strong><br></br>Puesta o en la mochila de carrera</li>
                 </ul>
 
                 <h3>ELEMENTOS RECOMENDADOS</h3>
                 <ul>
-                    <li>Hidratación propia (más allá de la provista por la organización en el recorrido de la carrera)</li>
-                    <li>Casco</li>
                     <li>Bastones</li>
-                    <li>Anteojos para sol</li>
-                    <li>Remera térmica</li>
-                    <li>Calza larga</li>
+                    <li>Casco</li>
+                    <li>Celular</li>
+                    <li>Calza larga o símil</li>
+                    <li>Hidratación propia (más allá de la provista por la organización en el recorrido de la carrera)</li>
+                    <li>Gorro</li>
+                    <li>Cuello térmico</li>
+                    <li>Manta térmica</li>
                     <li>Silbato</li>
-                    <li>Campera rompeviento</li>
-                    <li>Mochila</li>
+                    <li>Anteojos para sol</li>
+                    <li>Rompeviento</li>
+                    <li>Guantes</li>
                 </ul>
 
+                <h4>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h4>
+                <p>Las inscripciones NO tienen devolución.</p>
 
+                <h4>TRANSFERENCIA POR NO PODER PARTICIPAR</h4>
+                <p>Hasta el viernes 12/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+
+                <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
+                <p>Hasta el viernes 12/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
+
+                <h4>CAMBIO DE DISTANCIA O DE OTRO TIPO</h4>
+                <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
+                <ol>
+                    <li>Sólo se considerarán aquellos casos en que se solicite al mail de la organización.</li>
+                    <li>A partir del lunes 15/5 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
+                    <li>Si el cambio es a una distancia mayor, abona la diferencia del monto de inscripción.</li>
+                    <li>Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
+                </ol>
+
+                <h4>NÚMERO DE CORREDOR</h4>
+                <p>Disponible una semana antes del evento desde su inscripción.</p>
+
+                <h4>DERECHOS</h4>
+                <p>La organización se reserva el derecho de cualquier modificación que surja en cualquier momento del correspondiente a la carrera.</p>
+
+                <h4>MARCACIÓN</h4>
+                <p>Deberás guiarte por las cintas de la organización para poder confirmar que estás por la senda o circuito correcto. Siempre verás la próxima cinta. Seguir las marcaciones y no a los corredores. Si en algún momento no ves las cintas de la organización, deberás volver hasta el punto donde avistaste la última.</p>
+                <h5>ELEMENTOS</h5>
+                <ul>
+                    <li>Cintas blancas de Fc producciones a lo largo de todo el recorrido.</li>
+                    <li>Banderas de los sponsors y de la organización.</li>
+                    <li>Cartelería.</li>
+                    <li>Banderilleros en puntos claves.</li>
+                </ul>
+
+                <h4>PREMIACIÓN</h4>
+                <p>Todos los participantes que finalicen el recorrido de forma reglamentaria, recibirán medalla finisher.</p>
+                <p>Se premiará cada categoría en sus respectivos primeros 3 puestos, tanto hombre como mujer. También habrá premio para las generales (hombre y mujer) de cada distancia.</p>
+                <p>Los auspiciantes pueden disponer de premios especiales a los participantes, sin que esto implique responsabilidad alguna de la organización.</p>
+                <p>Los premios no tienen cambio.</p>
+
+                <h4>ENVÍO DE PREMIOS</h4>
+                <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y se le enviará por terminal de micros, Oca o Correo Argentino. El COSTO de ENVÍO corre por cuenta del corredor, sin excepción.</p>
+
+                <h4>TOMA DE TIEMPO Y CLASIFICACIONES</h4>
+                <p>La toma de tiempo y clasificación será electrónica con chip. Los participantes deberán retirar el chip en la acreditación y utilizarlo obligatoriamente en la carrera, a fin de poder ser clasificados. El chip deberá ser utilizado de forma VISIBLE.</p>
+                <p>El tiempo de los cronómetros comienza con la largada de la competencia y se detiene una vez cruzada la meta.</p>
+                <p>Los resultados se publicarán en esta página el mismo día a la noche o el día posterior al evento</p>
 
                 <h3>MEDIO AMBIENTE</h3>
                 <p>Es importante que entre todos preservemos y cuidemos la naturaleza, es nuestro principal requisito. Por eso: </p>
@@ -333,15 +407,6 @@ function M42() {
                     <li>Respetar la flora y fauna.</li>
                     <li>Sólo dejar la huella de tu calzado y no de tu basura.</li>
                 </ul>
-
-                <h3>DESCUENTO</h3>
-                <h4><mark>DESCUENTO ESPECIAL PARA CORREDORES DE 50 Y 42K QUE QUIERAN CORRER EL DOMINGO LOS 25K O 10K</mark></h4>
-                <p>Otorgamos un 20% de descuento en la inscripción de 25k o 10k. Deberá solicitar el código de descuento online para inscribirse en el día domingo (25 o 10k).</p>
-                <p>*No acumulable con otros descuentos.</p>
-                <p>*La inscripción es únicamente online y de forma previa, no se inscribirá el mismo día.</p>
-                <p>*No se puede dar de baja ni modificar nada a partir del viernes 12/05/23.</p>
-                <p>*Se inscribe en dos carreras y realiza dos acreditaciones, dos largadas, dos premiaciones, todo por separado.</p>
-                <p>*No se harán devoluciones. (Ver política de devolución de inscripciones en reglamento)</p>
                 
                 <div className='contenedorBoton'>
                 <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>

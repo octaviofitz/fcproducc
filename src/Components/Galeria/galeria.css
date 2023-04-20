@@ -127,6 +127,13 @@
     .galeria .video:last-child{
         padding-bottom: 0;
     }
+
+    .galeria li{
+        padding-top: 0.6rem;
+        margin: 0rem;
+        font-size: 1.25rem;
+        margin-left: 3.5rem;
+    }
 }
 
 @media (min-width: 1024px){
@@ -175,4 +182,12 @@
     .galeria .container{
         padding: 1rem 12rem;
     }
+
+    .galeria li{
+        padding-top: 0.6rem;
+        margin: 0rem;
+        font-size: 1.25rem;
+        margin-left: 7rem;
+    }
+
 }

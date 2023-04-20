@@ -101,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem auto;
+    margin: 2rem auto;
     padding: 1rem;
 
 }
@@ -148,6 +148,10 @@
     
     .m42 li{
         margin: 0.6rem 0;
+    }
+
+    .m42 ol{
+        margin-left: 1rem;
     }
     
     .m42 p{
@@ -229,6 +233,10 @@
     .m42 p{
         font-size: 1.25rem;
         margin: 1rem 2.5rem;
+    }
+
+    .m42 ol{
+        margin-left: -1rem;
     }
 
     .m42 ul{

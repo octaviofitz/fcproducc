@@ -31,7 +31,7 @@ function ElDesafio() {
 
     return (
         <section className='elDesafio'>
-            <h2 className='titulo' id='elDesafio'>EL DESAFÍO</h2>
+            <h2 className='titulo' id='elDesafio'>EL DESAFÍO COLUMBIA</h2>
             <div className='containerFlyerDescripcion'>
 
                 <div>
