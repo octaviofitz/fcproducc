@@ -9,7 +9,6 @@ import BannerDesktop from '../../BannerDesktop/BannerDesktop';
 import Carreras from '../../Carreras/Carreras';
 import Patrocinios from '../../Patrocinios/Patrocinios';
 import Nosotros from '../../Nosotros/Nosotros';
-import NuestrasCarreras from '../../NuestrasCarreras/NuestrasCarreras';
 import Galeria from '../../Galeria/Galeria';
 import Contacto from '../../Contacto/Contacto';
 import M42 from '../../M42/Index/M42';
@@ -54,10 +53,8 @@ const AppRouter = () => {
             <Route path='/alcec' element={<Alecec />} />
             <Route path='/circuito' element={<Circuito />} />
             <Route path='/nosotros' element={<Nosotros />} />
-            <Route path='/carreras' element={<NuestrasCarreras />} />
             <Route path='/galeria' element={<Galeria />} />
             <Route path='/contacto' element={<Contacto />} />
-
             
             </Routes>
             </div>

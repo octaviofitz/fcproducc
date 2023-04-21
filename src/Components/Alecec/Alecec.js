@@ -49,7 +49,7 @@ function Alecec() {
                 <div className='container'>
                     <h4>RESULTADOS GENERALES 2022</h4>
                     <img src={AlececResultados} alt='Resultados Alcec Generales' className='imgResultados'/>
-                    <Button variant="danger" size='lg' className='botonResultados'><Link to=' http://www.cronofrancolini.com.ar/files/alcec-urug-08k-categoria.pdf' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
+                    <Button variant="danger" size='lg' className='botonResultados'><Link to='http://www.cronofrancolini.com.ar/files/alcec-urug-08k-categoria.pdf' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
                 </div>
            </article>
         </section>

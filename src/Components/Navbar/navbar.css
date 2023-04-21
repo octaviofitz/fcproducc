@@ -16,6 +16,7 @@
     cursor: pointer;
     text-decoration: none;
     margin-top: 0.15rem;
+    font-family: 'Lato'
 }
 
 .nav-link a{
@@ -76,12 +77,16 @@
 }
 
 @media (min-width:1024px){
-    .navbar{
+    .NavBar{
         padding: 0rem;
     }
 
+    #opciones{
+        margin-left: 7vw;
+    }
+
     .logo{
-        width: 24vw;
+        width: 18vw;
     }
 
     .nav-link{
@@ -108,8 +113,7 @@
 
 @media (min-width: 1440px){
 
-    .navbar{
-       /* padding-left: 10; */
+    .Navbar{
       padding-left: 12rem;
     }
 

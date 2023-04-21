@@ -22,7 +22,7 @@ function BasicExample() {
       <Navbar.Brand><Link to='/'><img src={logo} className='logo' alt='FC producciones' /></Link></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
+        <Nav className="me-auto" id='opciones'>
           <Nav.Link as={Link} to='/nosotros' onClick={handleNavClick}>Nosotros</Nav.Link>
           <NavDropdown title="Carreras" id="basic-nav-dropdown">
   <NavDropdown.Item href="#action/3.1" id='alerces' onClick={() => setExpanded(false)}>

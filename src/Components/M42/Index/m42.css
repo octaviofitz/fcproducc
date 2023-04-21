@@ -1,7 +1,7 @@
 .m42{
     margin: 1.5rem 0.75rem;
     background-color: #efeeee;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 10px;
     padding: 1.5rem 0;
 }
@@ -32,6 +32,7 @@
     margin: 2rem 6rem;
     color: white;
     text-decoration: none;
+    
 }
 
 .m42 .boton{
@@ -42,6 +43,8 @@
     text-decoration: none;
     border: none;
     text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
 }
 
 .m42 .boton a{
@@ -76,6 +79,10 @@
     margin: 0.6rem 0;
 }
 
+.m42 ol{
+    margin-left: 0rem;
+}
+
 .m42 p{
     margin: 1rem;
 }
@@ -103,7 +110,10 @@
     align-items: center;
     margin: 2rem auto;
     padding: 1rem;
+}
 
+.m42 .contenedorBoton .botonIntermedio{
+    margin-left: -1rem;
 }
 
 @media (min-width: 768px){
@@ -169,6 +179,7 @@
         margin: 2rem auto;
         justify-content: center;
         border-radius: 5%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 }
 

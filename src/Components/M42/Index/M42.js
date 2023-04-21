@@ -135,7 +135,7 @@ function M42() {
                 <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados gratuitos desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar en el mismo a <b>info@fcproducciones.com.ar</b></p>
 
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1680915128426!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Plaza Salerno'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
                 <h4><mark>DOMINGO 29/05</mark></h4>
                 <p>Estancia Las Vertientes, Villa Ventana</p>
@@ -147,7 +147,7 @@ function M42() {
                 <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO VENIR EL ÚLTIMO DÍA. EL KIT PUEDE RETIRARLO OTRA PERSONA LLEVANDO LOS PAPELES FIRMADOS POR EL TITULAR (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
 
                 <h5>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1680915183851!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa La Estancia Las Vertientes'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1682008795355!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa Las Vertientes' loading="lazy"></iframe>
 
                 <h4><mark>PAPELES A PRESENTAR EN ACREDITACIÓN</mark></h4>
                 <p>Los inscriptos deberán acreditarse y retirar su kit con la siguiente documentación:</p>
@@ -156,20 +156,27 @@ function M42() {
                     <li>CERTIFICADO MÉDICO. (No aceptamos foto del celolar). La organización se quedará con el certificado por lo que si lo necesitan, traigan copia</li>
                     
                     <div className='contenedorBoton'>
+                        <div className='botonIntermedio'>
                          <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                          </div>
                           </div>
 
                     <li>DESLINDE DE RESPONSABILIDAD COMPLETO Y FIRMADO </li>
 
                     <div className='contenedorBoton'>
+                    <div className='botonIntermedio'>  
                         <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Deslinde de Responsabilidad' to={Deslinde}>DESCARGAR DESLINDE</Link></Button>
+                            </div>
                             </div>
 
                     <li>AUTORIZACIÓN MENOR DE EDAD (En caso de pertenecer)</li>
 
                     <div className='contenedorBoton'>
-                         <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                        <div className='botonIntermedio'>  
+             <Button variant="danger" size='lg' className='boton' id='botonesIntermedios'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                              </div>
+                             </div>
+
                 </ol>
 
                 <h4><mark>RETIRO DE KITS POR TERCEROS</mark></h4>
@@ -201,7 +208,7 @@ function M42() {
 
                 <h3>RECORRIDO 50 Y 42K:</h3>
                 <p>Destildar la distancia que no se quiera ver.</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
+                <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
                 <h4><mark>ALTIMETRÍAS</mark></h4>
 

@@ -1,7 +1,7 @@
 .AlojamientosM42{
     margin: 1rem;
     padding: 2rem 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     background-color: #efeeee;
     border-radius: 10px;
 }
@@ -84,4 +84,241 @@
 .AlojamientosM42 .marcador{
     background-color: #97161a;
     color: #fff;
+}
+
+@media (min-width: 768px){
+    .AlojamientosM42{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    
+    .AlojamientosM42 h2{
+        margin: 1rem 2rem;
+        font-family: 'Montserrat', sans-serif;
+         text-transform: uppercase;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .AlojamientosM42 h3{
+       font-size: 1.8rem;
+       margin-bottom: 2rem;
+       margin-left: 2rem;
+    }
+    
+    .AlojamientosM42 h4{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+    }
+    
+    .AlojamientosM42 .img{
+        width: 70vw;
+        border-radius: 5px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .AlojamientosM42 ul{
+        margin: 1.5rem 2rem;
+    }
+    
+    .AlojamientosM42 li{
+        margin: 0.65rem 0;
+        font-size: 1.15rem;
+    }
+    
+    .AlojamientosM42 p{
+        margin: 2rem;
+        text-align: center;
+        font-size: 1.15rem;
+    }
+    
+   
+    .AlojamientosM42 .marcador{
+        background-color: #97161a;
+        margin-left: 0rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .AlojamientosM42{
+        width: 73vw;
+        display: flex;
+        flex-direction: column;
+        margin: 4rem auto;
+    }
+
+    .AlojamientosM42 .containerTop{
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem 3rem;
+        padding: 3rem;
+    }
+    .AlojamientosM42 h2{
+        margin: 1rem 7rem;
+    }
+    
+    .AlojamientosM42 h3{
+       font-size: 2rem;
+       margin-bottom: 2rem;
+       text-align: center;
+       margin-left: 0;
+    }
+    
+    .AlojamientosM42 h4{
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    
+    .AlojamientosM42 .img{
+        width: 300px;
+    }
+    
+    .AlojamientosM42 ul{
+        margin-top: -0.8vh;
+        margin-left: 3rem;
+    }
+
+    .AlojamientosM42 li{
+        font-size: 1.5vw;
+        padding: 0.25rem ;
+    }
+    
+    .AlojamientosM42 p{
+        text-align: center;
+        font-size: 1.5vw;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        margin: -1rem auto 2rem;
+    }
+
+    .contenedorBotonDesafio .goBack{
+        margin-right: 15vw;
+    }
+
+    .AlojamientosM42 .tornquist{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .AlojamientosM42 .tornquist img{
+        width: 30vw;
+        margin-left: 4rem;
+    }
+
+    .AlojamientosM42 .tornquist p{
+        width: 35vw;
+        font-size: 1.3vw;
+        margin-top: 1.25rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;   
+    }
+
+     .contenedorBotonM42{
+        margin-right: 13vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .AlojamientosM42{
+        margin: 3rem auto;
+        width: 70vw;
+    }
+
+    
+    .AlojamientosM42 h2{
+        margin: 1rem 0rem;
+        font-family: 'Montserrat', sans-serif;
+         text-transform: uppercase;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .AlojamientosM42 h3{
+       font-size: 1.8rem;
+       margin-bottom: 2rem;
+       margin-left: 0rem;
+    }
+    
+    .AlojamientosM42 h4{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .AlojamientosM42 .containerTop{
+        justify-content: center;
+    }
+    
+    .AlojamientosM42 .img{
+        width: 20vw;
+        border-radius: 5px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .AlojamientosM42 ul{
+        margin: -2rem 2rem;
+        width: 33vw;
+        margin-left: 5rem;
+    }
+    
+    .AlojamientosM42 li{
+        margin: 2rem;
+        font-size: 1.3rem;
+    }
+    
+    .AlojamientosM42 p{
+        margin: 2rem;
+        text-align: center;
+        font-size: 1.15rem;
+    }
+    
+   
+    .AlojamientosM42 .marcador{
+        margin-left: 0rem;
+    }
+
+    .AlojamientosM42 .mas{
+        width: 60vw;
+        margin: 2.5rem auto;
+    }
+    
+    .AlojamientosM42 .mas:first-child{
+        margin-top: 4rem;
+    }
+
+    .AlojamientosM42 .mas:last-child{
+        margin-bottom: 4rem;
+    }
+
+    .AlojamientosM42 p{
+        font-size: 1.45rem;
+        font-weight: 600;
+       margin: 0rem auto 2rem;
+    }
+
+    .AlojamientosM42 .tornquist p{
+        width: 25vw;
+        font-size: 1vw;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 5rem;   
+    }
+
+    .AlojamientosM42 .boton{
+        padding: 1rem 4rem;
+    }
+
+    .contenedorBotonM42{
+        margin-right: 14vw;
+    }
 }

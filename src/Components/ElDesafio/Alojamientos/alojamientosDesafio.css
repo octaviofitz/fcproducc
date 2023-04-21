@@ -1,7 +1,7 @@
 .Alojamientos{
     margin: 1rem;
     padding: 2rem 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     background-color: #efeeee;
     border-radius: 10px;
 }
@@ -76,6 +76,7 @@
     border: none;
     text-transform: uppercase;
     margin-top: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .Alojamientos .boton a{
@@ -197,6 +198,32 @@
         justify-content: center;
         margin: 1rem auto 0;
     }
+
+    .contenedorBotonDesafio .goBack{
+        margin-right: 12vw;
+    }
+
+    .Alojamientos .tornquist{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+       /*  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 3rem; */
+    }
+
+    .Alojamientos .tornquist img{
+        width: 30vw;
+        margin-left: 4rem;
+    }
+
+    .Alojamientos .tornquist p{
+        width: 35vw;
+        font-size: 1.3vw;
+        margin-top: 1.25rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;   
+    }
+
 }
 
 @media (min-width: 1440px){
@@ -225,21 +252,27 @@
         margin-bottom: 1.5rem;
         margin-left: 0rem;
     }
+
+    .Alojamientos .containerTop{
+        justify-content: center;
+    }
     
     .Alojamientos .img{
-        width: 400px;
+        width: 20vw;
         border-radius: 5px;
         display: flex;
         margin: auto;
     }
     
     .Alojamientos ul{
-        margin: 1.5rem 2rem;
+        margin: -2rem 2rem;
+        width: 33vw;
+        margin-left: 5rem;
     }
     
     .Alojamientos li{
-        margin: 0.65rem 0;
-        font-size: 1.15rem;
+        margin: 2rem;
+        font-size: 1.3rem;
     }
     
     .Alojamientos p{
@@ -252,6 +285,40 @@
     .Alojamientos .marcador{
         background-color: #a0bf09;
         margin-left: 0rem;
+    }
+
+    .Alojamientos .mas{
+        width: 60vw;
+        margin: 2.5rem auto;
+    }
+    
+    .Alojamientos .mas:first-child{
+        margin-top: 4rem;
+    }
+
+    .Alojamientos .mas:last-child{
+        margin-bottom: 4rem;
+    }
+
+    .Alojamientos p{
+        text-align: center;
+       margin: 2rem auto;
+    }
+
+    .Alojamientos .tornquist p{
+        width: 25vw;
+        font-size: 1vw;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 5rem;   
+    }
+
+    .Alojamientos .boton{
+        padding: 1rem 4rem;
+    }
+
+    .contenedorBotonDesafio .goBack{
+        margin-right: 13vw;
     }
 }
 

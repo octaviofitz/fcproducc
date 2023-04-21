@@ -116,7 +116,7 @@ function Circuito() {
 
                 <div className='categorias'>
                 <div className='container'>
-                    <h4 className='titulo'>RESULTADOS GENERALES</h4>
+                    <h4 className='titulo'>RESULTADOS GENERALES 2022</h4>
                     <img src={CircuitoLogo} alt='Resultados Alcec Generales' className='imgResultados'/>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://eventols.com/e/circuito-m21-general-belgrano/results' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
                 </div>
@@ -147,13 +147,13 @@ function Circuito() {
 
                 <div className='categorias' id='categoriasDoble'>
                 <div className='container'>
-                    <h4 className='titulo'>RESULTADOS GENERALES</h4>
+                    <h4 className='titulo'>RESULTADOS GENERALES 2022</h4>
                     <img src={CircuitoLogo} alt='Resultados Alcec Generales' className='imgResultados'/>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://www.bahiacorre.com.ar/subir/mispdf/CLASIF%20GENERAL%20M21%2010K%20y%2021K.pdf' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
                 </div>
 
                 <div className='container'>
-                    <h4 className='titulo'>RESULTADOS CATEGORÍAS</h4>
+                    <h4 className='titulo'>RESULTADOS CATEGORÍAS 2022</h4>
                     <img src={CircuitoLogo} alt='Resultados Alcec Generales' className='imgResultados'/>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://www.bahiacorre.com.ar/subir/mispdf/CLASIF%20CATEGORIAS%20M21%2010K%20y%2021K(1).pdf' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
                 </div>
@@ -175,7 +175,7 @@ function Circuito() {
 
                 <div className='categorias'>
                 <div className='container'>
-                    <h4 className='titulo'>RESULTADOS GENERALES</h4>
+                    <h4 className='titulo'>RESULTADOS GENERALES 2022</h4>
                     <img src={CircuitoLogo} alt='Resultados Alcec Generales' className='imgResultados'/>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://eventols.com/e/m21-pampa-fly/results' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
                 </div>

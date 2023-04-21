@@ -38,8 +38,8 @@ function Footer() {
                         <ul className='listado'>
                         <li><Link to='/' className='enlaces'>Home</Link></li>
                         <li><Link to='/nosotros' className='enlaces'>Nosotros</Link></li>
-                        <li><Link to='/carreras' className='enlaces'>Carreras</Link></li>
                         <li><Link to='/galeria' className='enlaces'>Galería</Link></li>
+                        <li><Link to='/contacto' className='enlaces'>Contacto</Link></li>
                         </ul>
                     </nav>
                 </div>

@@ -151,22 +151,31 @@ function AlojamientosDesafio() {
                 </div>
             </article>
             
-            <article>
+            <article >
             <h4><mark className='marcador'>MÁS</mark></h4>
-            <ul>
-                <li><strong>Cabañas La Chilca:</strong> Ruta 76 , km 226 , Barrio San Andres de las Sierras. Tel: 011-155597-5949. Email: cabanialachilca@yahoo.com.ar</li>
-                <li><strong>Cabañas de Las Pinturas:</strong> Quinta 11. Lote 22. Cacique Cura Llan (entre Chilca y Verbena). Barrio residencial San Andrés de las Sierras . Tel: (011) 15-5040-2893. Email: cabaniasdelaspinturas@gmail.com</li>
-                <li><strong>Cabañas Alto San Andres:</strong> Ruta 76 , km 230 , Barrio San Andres de las Sierras. Tel: 0291 154758725. Email: info@altosanandres.com.ar</li>
-                <li><strong>Cabañas Los Llantenes:</strong> Ruta 76 , km 229 , Barrio San Andres de las Sierras. Tel: 011-15-4416-2082. Email: losllantenes@gmail.com</li>
-                <li><strong>Cabañas La Ñata:</strong> Verbena, San Andres de la Sierra. Tel: 11 5044-1981. Email:betodatto@gmail.com</li>
+            <ul className='masContainer'>
+                <li className='mas'><strong>Cabañas La Chilca:</strong> Ruta 76 , km 226 , Barrio San Andres de las Sierras. Tel: 011-155597-5949. Email: cabanialachilca@yahoo.com.ar</li>
+                <li className='mas'><strong>Cabañas de Las Pinturas:</strong> Quinta 11. Lote 22. Cacique Cura Llan (entre Chilca y Verbena). Barrio residencial San Andrés de las Sierras . Tel: (011) 15-5040-2893. Email: cabaniasdelaspinturas@gmail.com</li>
+                <li className='mas'><strong>Cabañas Alto San Andres:</strong> Ruta 76 , km 230 , Barrio San Andres de las Sierras. Tel: 0291 154758725. Email: info@altosanandres.com.ar</li>
+                <li className='mas'><strong>Cabañas Los Llantenes:</strong> Ruta 76 , km 229 , Barrio San Andres de las Sierras. Tel: 011-15-4416-2082. Email: losllantenes@gmail.com</li>
+                <li className='mas'><strong>Cabañas La Ñata:</strong> Verbena, San Andres de la Sierra. Tel: 11 5044-1981. Email:betodatto@gmail.com</li>
             </ul>
             </article>
-
-            <h4><mark className='marcador'>MÁS ALOJAMIENTOS DE TORNQUIST</mark></h4>
-            <img src={Tornquist} className='img' alt='Tornquist' />
-            <p>ALOJAMIENTOS EN VILLA VENTANA, SIERRA DE LA VENTANA, SAN ANDRES, Y MÁS, HABILITADOS POR LA DIRECCIÓN DE TURISMO DE TORNQUIST</p>
-            <Button variant="success" size='lg' className='boton'><Link to='https://www.sierrasdelaventana.com.ar/alojamientos/' target='_blank' rel="noopener noreferrer">VER AQUÍ</Link></Button>
             
+           
+            <h4><mark className='marcador'>MÁS ALOJAMIENTOS DE TORNQUIST</mark></h4>
+          
+                <div className='tornquist'>
+                    <div>
+                         <img src={Tornquist} className='img' alt='Tornquist' />
+                              </div>
+                      <div>
+                         <p className='descripcion'>ALOJAMIENTOS EN VILLA VENTANA, SIERRA DE LA VENTANA, SAN ANDRES, Y MÁS, HABILITADOS POR LA DIRECCIÓN DE TURISMO DE TORNQUIST</p>
+                         <Button variant="success" size='lg' className='boton'><Link to='https://www.sierrasdelaventana.com.ar/alojamientos/' target='_blank' rel="noopener noreferrer">VER AQUÍ</Link></Button>
+                             </div>
+                  </div>
+
+
         </div>
 
         <div className='contenedorBotonDesafio'>

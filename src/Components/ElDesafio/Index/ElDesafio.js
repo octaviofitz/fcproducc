@@ -45,8 +45,6 @@ function ElDesafio() {
                     </div>
 
                     </div>
-           
-          
 
             <div className='botones'>
                 <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
