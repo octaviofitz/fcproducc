@@ -13,10 +13,10 @@ function BannerDesktop() {
       <section>
     <Carousel fade className='carruselDesktop'>
 
-      <Carousel.Item>
+    <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Banner3}
+          src={Banner1}
           alt="First slide"
           id='img'
         />
@@ -34,13 +34,11 @@ function BannerDesktop() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Banner1}
-          alt="Tercer slide"
+          src={Banner3}
+          alt="Thirst slide"
           id='img'
         />
       </Carousel.Item>
-
-
 
     </Carousel>
     </section>
