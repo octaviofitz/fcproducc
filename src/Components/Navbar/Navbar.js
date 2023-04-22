@@ -32,7 +32,7 @@ function BasicExample() {
     <Link to='desafio-columbia'>EL DESAFÍO COLUMBIA</Link>
   </NavDropdown.Item>
   <NavDropdown.Item href="#action/3.3" id='alecec' onClick={() => setExpanded(false)}>
-    <Link to='alcec'>ALCEC</Link>
+    <Link to='alcec'>TODOS SOMOS ALCEC</Link>
   </NavDropdown.Item>
   <NavDropdown.Item href="#action/3.4" id='circuito' onClick={() => setExpanded(false)}>
     <Link to='/circuito'>CIRCUITO M21</Link>

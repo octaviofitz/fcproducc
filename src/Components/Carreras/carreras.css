@@ -149,9 +149,6 @@
 }
 
 @media (min-width: 1440px){
-    .carreras .titulo{
-        font-size: 4rem;
-    } 
 
     .carreras .container{
         width: 30vw;

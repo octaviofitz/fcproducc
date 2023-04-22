@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button';
 
 import m42 from '../../Img/index/m42.webp'
 import eldesafio from '../../Img/index/eldesafio.webp'
-import ALCEC from '../../Img/index/alcec2.png';
-import Circuito from '../../Img/index/circuito.png';
+import ALCEC from '../../Img/index/alcec2.webp';
+import Circuito from '../../Img/index/circuito.webp';
 
 import '../Carreras/carreras.css'
 
@@ -14,8 +14,6 @@ function Carreras() {
         <section className='carreras'>
               <h1 className='titulo'>Inscripciones abiertas</h1>
             <div className='containerGeneral'>
-
-          
 
             <article className='container'>
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
@@ -48,8 +46,8 @@ function Carreras() {
             </article> 
             </div>
 
-
         </section>
+        
     );
 }
 

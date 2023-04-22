@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Ratio from 'react-bootstrap/Ratio';
 
-import AlececFlyer from '../../Img/Alecec/alecec.jpg'
-import AlececResultados from '../../Img/index/alcec2.png';
+import AlececFlyer from '../../Img/Alecec/alecec.webp'
+import AlececResultados from '../../Img/index/alcec2.webp';
 
 import '../Alecec/alecec.css';
 
@@ -13,7 +13,7 @@ function Alecec() {
 
     return (
         <section className='Alecec'>
-            <h2 className='titulo' id='elDesafio'>ALCEC</h2>
+            <h2 className='titulo' id='elDesafio'>TODOS SOMOS ALCEC</h2>
             
             <div className='containerFlyerDescripcion'>
 

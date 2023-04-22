@@ -53,7 +53,7 @@
     text-transform: uppercase;
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
-    margin: 1.8rem 3.3rem;
+    margin: 1.8rem 2rem;
     color: #a0bf09;
 }
 
@@ -81,11 +81,46 @@
     display: flex;
     margin: 2rem auto;
     justify-content: center;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 .elDesafio .mark{
     background-color: #a0bf09;
+}
+
+.elDesafio .contenedorBoton .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.elDesafio .contenedorBoton .botonIntermedio{
+    margin-left: -1rem;
+}
+
+.elDesafio .redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem auto -1rem;
+    padding: 0 2rem;
+    font-size: 3.5rem;
+}
+
+.elDesafio .redes #ig{
+    color: #b83ab2;
+    cursor: pointer;
+}
+
+.elDesafio .redes #fb{
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.elDesafio .redes span{
+    display: none;
 }
 
 @media (min-width: 768px){
@@ -132,10 +167,29 @@
     }
     
     .elDesafio .mapas{
-        width: 95vw;
+        width: 65vw;
         height: 50vh;
+        display: flex;
         margin: 2rem auto;
+        justify-content: center;
+        border-radius: 5%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
+
+    .elDesafio .redes{
+        margin: 3rem auto;
+        margin-top: 3rem auto;
+        margin-bottom: -2rem;
+    }
+
+    .elDesafio .redes #ig{
+        font-size: 4rem;
+    }
+
+    .elDesafio .redes #fb{
+        font-size: 4rem;
+    } 
+
     
 }
 
@@ -166,7 +220,7 @@
     .elDesafio .descripcion{
         margin: 0 2rem;
         margin-top: 2.25rem;
-        font-size: 1.6vw;
+        font-size: 1.5vw;
     }
 
     .elDesafio .botones{
@@ -203,6 +257,19 @@
         margin: 1rem 2.5rem;
     }
 
+    .elDesafio .redes{
+        margin: 0.5rem 3.5rem -2rem;
+        justify-content: center;
+    }
+
+    .elDesafio .redes #ig{
+        font-size: 3.5vw;
+    }
+
+    .elDesafio .redes #fb{
+        font-size: 3.5vw;
+    } 
+
 }
 
 @media (min-width: 1440px){
@@ -231,17 +298,17 @@
         margin-left: 5rem;
         margin-right: 5rem;
         margin-top: 2.1rem;
-        font-size: 1.23vw;
+        font-size: 1.15vw;
     }
 
     .elDesafio h3{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     
     .elDesafio h4,
     .elDesafio h5{
         margin: 1rem 5rem;
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
 
     .elDesafio li,
@@ -249,4 +316,27 @@
         font-size: 1.25rem;
         margin: 1rem 5rem;
     }
+
+    .elDesafio .mapas{
+        width: 45vw;
+        height: 50vh;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        border-radius: 5%;
+    }
+
+    .elDesafio .redes{
+        margin: 1.5rem 3.5rem -2rem;
+        justify-content: center;
+    }
+
+    .elDesafio .redes #ig{
+        font-size: 3vw;
+    }
+
+    .elDesafio .redes #fb{
+        font-size: 3vw;
+    } 
+
 }

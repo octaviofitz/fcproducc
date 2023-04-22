@@ -6,8 +6,6 @@ import Footer from '../../Footer/Footer';
 import Navbar from '../../Navbar/Navbar';
 import Banner from '../../Banner/Banner';
 import BannerDesktop from '../../BannerDesktop/BannerDesktop';
-import Carreras from '../../Carreras/Carreras';
-import Patrocinios from '../../Patrocinios/Patrocinios';
 import Nosotros from '../../Nosotros/Nosotros';
 import Galeria from '../../Galeria/Galeria';
 import Contacto from '../../Contacto/Contacto';
@@ -26,6 +24,7 @@ import Circuito from '../../Circuito/Circuito';
 
 /* Css */
 import '../AppRouter/appRouter.css'
+import Index from '../../../Pages/Index.js/Index';
 
 const AppRouter = () => {
     return (
@@ -40,8 +39,7 @@ const AppRouter = () => {
             <BotonWP />
             <Routes >
            
-            <Route path='/' element={<Carreras />} />
-            <Route path='/' element={<Patrocinios />} />
+            <Route path='/' element={<Index />} />
             <Route path='/desafio-columbia' element={<ElDesafio />} />
             <Route path='/desafio-columbia/fotos2022' element={<ImagenesElDesafio />} />
             <Route path='/desafio-columbia/resultados' element={<ResultadosDesafio />} />

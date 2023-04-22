@@ -4,10 +4,10 @@ import Button from 'react-bootstrap/Button';
 import Ratio from 'react-bootstrap/Ratio';
 
 /* Imágenes */
-import CircuitoLogo from '../../Img/index/circuito.png';
+import CircuitoLogo from '../../Img/index/circuito.webp';
 import gralBelgrano from '../../Img/Circuito/gralBelgrano.jpg';
 import GeneralBelgrano from '../../Img/Circuito/gralBelgrano2.jpg';
-import Sierra from '../../Img/Circuito/sierra.JPG';
+import Sierra from '../../Img/Circuito/sierra.jpg';
 import MarDeLasPampas from '../../Img/Circuito/marDeLasPampas.jpg';
 import PampaFly from '../../Img/Circuito/pampaFly.jpg';
 

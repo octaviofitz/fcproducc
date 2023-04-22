@@ -2,9 +2,9 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 /* Imágenes */
-import Banner1 from '../../Img/index/BannerDesktop/banner1.JPG';
+import Banner1 from '../../Img/index/BannerDesktop/banner1.jpg';
 import Banner2 from '../../Img/index/BannerDesktop/banner2.JPG';
-
+import Banner3 from '../../Img/index/BannerDesktop/banner3.jpg';
 import '../BannerDesktop/bannerDesktop.css'
 
 function BannerDesktop() {
@@ -15,9 +15,9 @@ function BannerDesktop() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Banner1}
+          src={Banner3}
           alt="First slide"
-          id='prueba'
+          id='img'
         />
       </Carousel.Item>
 
@@ -26,7 +26,16 @@ function BannerDesktop() {
           className="d-block w-100"
           src={Banner2}
           alt="Second slide"
-          id='prueba'
+          id='img'
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Banner1}
+          alt="Third slide"
+          id='img'
         />
       </Carousel.Item>
 
