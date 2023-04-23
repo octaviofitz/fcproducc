@@ -6,7 +6,20 @@
     border-radius: 3%;
     background-color: #efeeee;
     padding: 2rem;
+    animation: m42ResultadosAnimation 3s ease;
 }
+
+@keyframes m42ResultadosAnimation {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 
 .resultadosM42 .titulo{
     text-transform: uppercase;

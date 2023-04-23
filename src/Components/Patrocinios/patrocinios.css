@@ -1,6 +1,18 @@
 .patrocinios .container{
     background-color: #7d7f7d;
-    display: flex
+    display: flex;
+    animation: patrociniosAnimation 5s ease;
+}
+
+@keyframes patrociniosAnimation {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 .patrocinios .titulo{

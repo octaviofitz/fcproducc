@@ -6,7 +6,20 @@
     border-radius: 10px;
     padding: 1.5rem 0;
     padding-top: 0;
+    animation: imgDesafio 2s ease;
 }
+
+@keyframes imgDesafio {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 
 .ImagenContainerDesafio .goBack{
     background-color: #efeeee;

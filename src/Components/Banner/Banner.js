@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Carrusel1 from '../../Img/index/Carrusel1.webp'
 import Carrusel2 from '../../Img/index/Carrusel2.webp'
 import Carrusel3 from '../../Img/index/Carrusel3.webp'
-import Carrusel4 from '../../Img/index/Carrusel4.webp'
+import Carrusel4 from '../../Img/index/Carrusel4.jpg'
 
 import '../Banner/banner.css'
 

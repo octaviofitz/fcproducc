@@ -25,21 +25,20 @@ function BasicExample() {
         <Nav className="me-auto" id='opciones'>
           <Nav.Link as={Link} to='/nosotros' onClick={handleNavClick}>Nosotros</Nav.Link>
           <NavDropdown title="Carreras" id="basic-nav-dropdown">
-  <NavDropdown.Item href="#action/3.1" id='alerces' onClick={() => setExpanded(false)}>
-    <Link to='/m42'>M42 LOS ALERCES</Link>
-  </NavDropdown.Item>
-  <NavDropdown.Item href="#action/3.2" id='el-Desafio' onClick={() => setExpanded(false)}>
-    <Link to='desafio-columbia'>EL DESAFÍO COLUMBIA</Link>
-  </NavDropdown.Item>
-  <NavDropdown.Item href="#action/3.3" id='alecec' onClick={() => setExpanded(false)}>
-    <Link to='alcec'>TODOS SOMOS ALCEC</Link>
-  </NavDropdown.Item>
-  <NavDropdown.Item href="#action/3.4" id='circuito' onClick={() => setExpanded(false)}>
-    <Link to='/circuito'>CIRCUITO M21</Link>
-  </NavDropdown.Item>
-</NavDropdown>
-
-        <Nav.Link as={Link} to='/galeria' onClick={handleNavClick}>Galería</Nav.Link>
+            <NavDropdown.Item as={Link} to='/m42' id='alerces' onClick={handleNavClick}>
+              M42 LOS ALERCES
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to='/desafio-columbia' id='el-Desafio' onClick={handleNavClick}>
+              EL DESAFÍO COLUMBIA
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to='/alcec' id='alecec' onClick={handleNavClick}>
+              TODOS SOMOS ALCEC
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to='/circuito' id='circuito' onClick={handleNavClick}>
+              CIRCUITO M21
+            </NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link as={Link} to='/galeria' onClick={handleNavClick}>Galería</Nav.Link>
           <Nav.Link as={Link} to='/contacto' onClick={handleNavClick}>Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>

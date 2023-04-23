@@ -26,6 +26,7 @@ import Error from '../../Secciones/Error404/Error';
 
 /* Css */
 import '../AppRouter/appRouter.css'
+import FooterPrueba from '../../FooterPrueba/FooterPrueba';
 
 const AppRouter = () => {
     return (
@@ -59,7 +60,8 @@ const AppRouter = () => {
 
             </Routes>
             </div>
-            <Footer />
+            <Footer /> 
+            {/* <FooterPrueba /> */}
 
             </ BrowserRouter>
         </div>

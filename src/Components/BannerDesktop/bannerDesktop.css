@@ -3,7 +3,25 @@
 }
 
 @media (min-width: 1024px){
+
+   
     .carruselDesktop .w-100{
         display: inline-block!important;
     }
+
+    .carruselDesktop{
+        animation: bannerAnimacion 3s ease;
+    }
+
+    @keyframes bannerAnimacion {
+    
+        from{
+            opacity: 0.2;
+        }
+    
+        to{
+            opacity: 1;
+        }
+    }
+    
 }

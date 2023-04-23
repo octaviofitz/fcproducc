@@ -6,6 +6,18 @@
     padding: 1.5rem 0;
     padding-top: 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: m42IMGAnimation 3s ease;
+}
+
+@keyframes m42IMGAnimation {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
 .ImagenContainer .containerNav{
