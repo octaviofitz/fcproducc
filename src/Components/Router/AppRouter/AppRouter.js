@@ -60,8 +60,8 @@ const AppRouter = () => {
 
             </Routes>
             </div>
-            <Footer /> 
-            {/* <FooterPrueba /> */}
+            {/* <Footer />  */}
+            <FooterPrueba /> 
 
             </ BrowserRouter>
         </div>

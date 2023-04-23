@@ -6,6 +6,9 @@ import Ratio from 'react-bootstrap/Ratio';
 import AlececFlyer from '../../../Img/Alecec/alecec.webp'
 import AlececResultados from '../../../Img/index/alcec2.webp';
 
+import AlcecCategorias from '../../../PDF/alcecCategorias.pdf';
+import AlcecGenerales from '../../../PDF/alcecGenerales.pdf';
+
 import './alecec.css';
 
 function Alecec() {
@@ -42,13 +45,13 @@ function Alecec() {
                 <div className='container'>
                     <h4>RESULTADOS CATEGORÍAS 2022</h4>
                     <img src={AlececResultados} alt='Resultados Alcec por Categorías' className='imgResultados'/>
-                    <Button variant="danger" size='lg' className='botonResultados'><Link to='http://www.cronofrancolini.com.ar/files/alcec-urug-08k-general.pdf' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
+                    <Button variant="danger" size='lg' className='botonResultados'><Link  target='_blank' to={AlcecCategorias} download='Alcec categorías 2022'>DESCARGAR</Link></Button>
                 </div>
 
                 <div className='container'>
                     <h4>RESULTADOS GENERALES 2022</h4>
                     <img src={AlececResultados} alt='Resultados Alcec Generales' className='imgResultados'/>
-                    <Button variant="danger" size='lg' className='botonResultados'><Link to='http://www.cronofrancolini.com.ar/files/alcec-urug-08k-categoria.pdf' target="_blank" rel="noopener noreferrer">DESCARGAR</Link></Button>
+                    <Button variant="danger" size='lg' className='botonResultados'><Link target='_blank' to={AlcecGenerales} download='Alcec generales 2022'>DESCARGAR</Link></Button>
                 </div>
            </article>
         </section>

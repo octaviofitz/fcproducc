@@ -77,7 +77,7 @@ function Circuito() {
 
                 <div className='imagenes'>
                      <h4 className='titulo'>IMÁGENES</h4>
-                    <p className='texto'>Aquí podrás encontrar imágenes de la maratón anterior, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
+                    <p className='texto'>Aquí podrás encontrar imágenes de la Maratón Mar de las Pampas 2022, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
                     <p className='texto'>Para acceder a las fotos, simplemente hacé click en el botón que aparece a continuación y sigue las instrucciones. Puedes descargar las imágenes que quieras y compartirlas en tus redes sociales para compartir tu logro con tus amigos y familiares.</p>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://drive.google.com/drive/folders/11aekVxKv9NyUxLB51TJJ2PXHDcmJ8xQr' target="_blank" rel="noopener noreferrer">FOTOS</Link></Button>
                 </div>
@@ -109,7 +109,7 @@ function Circuito() {
 
                 <div className='imagenes'>
                      <h4 className='titulo'>IMÁGENES</h4>
-                    <p className='texto'>Aquí podrás encontrar imágenes de la maratón anterior, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
+                    <p className='texto'>Aquí podrás encontrar imágenes de la Maratón General Belgrano 2022, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
                     <p className='texto'>Para acceder a las fotos, simplemente hacé click en el botón que aparece a continuación y sigue las instrucciones. Puedes descargar las imágenes que quieras y compartirlas en tus redes sociales para compartir tu logro con tus amigos y familiares.</p>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://drive.google.com/drive/folders/1FDwfEG1gyD6ZOdgxlBV2cNtypSqzQcnz' target="_blank" rel="noopener noreferrer">FOTOS</Link></Button>
                 </div>
@@ -140,7 +140,7 @@ function Circuito() {
 
                 <div className='imagenes'>
                     <h4 className='titulo'>IMÁGENES</h4>
-                    <p className='texto'>Aquí podrás encontrar imágenes de la maratón anterior, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
+                    <p className='texto'>Aquí podrás encontrar imágenes de la Maratón Sierra de la Ventana y Saldungaray 2022, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
                     <p className='texto'>Para acceder a las fotos, simplemente hacé click en el botón que aparece a continuación y sigue las instrucciones. Puedes descargar las imágenes que quieras y compartirlas en tus redes sociales para compartir tu logro con tus amigos y familiares.</p>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://drive.google.com/drive/folders/1FDwfEG1gyD6ZOdgxlBV2cNtypSqzQcnz' target="_blank" rel="noopener noreferrer">FOTOS</Link></Button>
                 </div>
@@ -168,7 +168,7 @@ function Circuito() {
 
                 <div className='imagenes'>
                      <h4 className='titulo'>IMÁGENES</h4>
-                    <p className='texto'>Aquí podrás encontrar imágenes de la maratón anterior, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
+                    <p className='texto'>Aquí podrás encontrar imágenes de la Maratón Pampa Fly, La plata 2021, tomadas por nuestros <b>fotógrafos profesionales</b>. Y lo mejor de todo, <b>¡son completamente gratis!</b></p>
                     <p className='texto'>Para acceder a las fotos, simplemente hacé click en el botón que aparece a continuación y sigue las instrucciones. Puedes descargar las imágenes que quieras y compartirlas en tus redes sociales para compartir tu logro con tus amigos y familiares.</p>
                     <Button variant="info" size='lg' className='botonResultados'><Link to='https://drive.google.com/drive/folders/1kovqvucy-wVPiUE1hu1dGExIzqjrSDII?usp=share_link' target="_blank" rel="noopener noreferrer">FOTOS</Link></Button>
                 </div>

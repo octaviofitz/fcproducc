@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 /* Img */
-import ResultadosLogo from '../../../../Img/Resultados/Logo-Desafio.webp'
+import ResultadosLogo from '../../../../Img/Resultados/Logo-Desafio.png'
 
 import '../Resultados/resultadosDesafio.css'
 

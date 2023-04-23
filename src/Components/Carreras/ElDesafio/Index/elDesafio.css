@@ -117,24 +117,25 @@
     display: flex;
     justify-content: center;
     list-style: none;
-    margin: 2rem auto -1rem;
+    margin: 1.3rem auto -1rem;
     padding: 0 2rem;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
 }
 
-.elDesafio .redes #ig{
+.elDesafio .redes li{
+    padding: 0 0.5rem;
+}
+
+.elDesafio .redes .fa-instagram{
     color: #b83ab2;
     cursor: pointer;
 }
 
-.elDesafio .redes #fb{
+.elDesafio .redes .fa-youtube{
     color: #3b5998;
     cursor: pointer;
 }
 
-.elDesafio .redes span{
-    display: none;
-}
 
 @media (min-width: 768px){
     .elDesafio{
@@ -190,20 +191,15 @@
     }
 
     .elDesafio .redes{
-        margin: 3rem auto;
-        margin-top: 3rem auto;
+        margin: 2rem auto;
         margin-bottom: -2rem;
     }
-
-    .elDesafio .redes #ig{
-        font-size: 4rem;
-    }
-
-    .elDesafio .redes #fb{
-        font-size: 4rem;
-    } 
-
     
+    .elDesafio .redes li{
+        padding: 0 0.5rem;
+        font-size: 3.2rem;
+    }
+       
 }
 
 @media (min-width: 1024px){
@@ -271,17 +267,21 @@
     }
 
     .elDesafio .redes{
-        margin: 0.5rem 3.5rem -2rem;
-        justify-content: center;
+       margin: 0;
+       display: flex;
+       justify-content: left;
+        padding: 0;
+        margin-top: 0.35rem;
+        margin-left: -0.5vw;
     }
 
-    .elDesafio .redes #ig{
-        font-size: 3.5vw;
-    }
 
-    .elDesafio .redes #fb{
-        font-size: 3.5vw;
-    } 
+    .elDesafio .redes li{
+        padding: 0rem;
+        font-size: 2.75rem;
+        margin-top: 1rem;
+        margin-right: -1vw;
+    }
 
 }
 
@@ -344,12 +344,22 @@
         justify-content: center;
     }
 
-    .elDesafio .redes #ig{
-        font-size: 3vw;
-    }
-
-    .elDesafio .redes #fb{
-        font-size: 3vw;
-    } 
+    .elDesafio .redes{
+        margin: 0;
+        display: flex;
+        justify-content: left;
+         padding: 0;
+         margin-top: 0.5vw;
+         margin-left: 0vw;
+     }
+ 
+ 
+     .elDesafio .redes li{
+         padding: 0rem;
+         font-size: 3rem;
+         margin-top: 1rem;
+         margin-right: -3vw;
+     }
+ 
 
 }

@@ -50,6 +50,12 @@ function M42() {
                                     <p className='descripcion'>El M42, que este año llega a su 11° edición, busca llevar tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único.</p>
                                     <p className='descripcion'>Las sierras de Villa Ventana y San Andrés de la Sierra te harán olvidar tu estresante día a día para vivir un fin de semana largo inmerso en una naturaleza que ofrece paisajes inolvidables, cruces de arroyos, senderos, bosques y una compañía única de los demás corredores y del personal del staff de FC Producciones.</p>
                                     <p className='descripcion'>50K, 42K, 25K, 10K y KIDS son las 5 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos corredores lo hacen, volver a elevar la distancia en la próxima edición.</p>
+                                      
+                                    <ul className='redes'>
+                    
+                                        <li><Link to='https://www.instagram.com/MaratonM42/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
+                                         <li><Link to='https://www.facebook.com/MaratonM42/' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i> </Link></li>
+                                                 </ul>
                                         </div>
                                              </div>
 
@@ -327,9 +333,9 @@ function M42() {
 
                 <h3 id='reglamento'>REGLAMENTO M42 LOS ALERCES</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
-                <h4>RECLAMOS</h4>
+                <h4><mark>RECLAMOS</mark></h4>
                 <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
-                <h4>CERTIFICADO MÉDICO</h4>
+                <h4><mark>CERTIFICADO MÉDICO</mark></h4>
                 <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
 
@@ -361,10 +367,10 @@ function M42() {
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
                 <p>Las inscripciones NO tienen devolución.</p>
 
-                <h4>TRANSFERENCIA POR NO PODER PARTICIPAR</h4>
+                <h4><mark>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
                 <p>Hasta el viernes 12/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
 
-                <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
+                <h4><mark>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
                 <p>Hasta el viernes 12/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
 
@@ -377,13 +383,13 @@ function M42() {
                     <li>Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
                 </ol>
 
-                <h4>NÚMERO DE CORREDOR</h4>
+                <h4><mark>NÚMERO DE CORREDOR</mark></h4>
                 <p>Disponible una semana antes del evento desde su inscripción.</p>
 
-                <h4>DERECHOS</h4>
+                <h4><mark>DERECHOS</mark></h4>
                 <p>La organización se reserva el derecho de cualquier modificación que surja en cualquier momento del correspondiente a la carrera.</p>
 
-                <h4>MARCACIÓN</h4>
+                <h4><mark>MARCACIÓN</mark></h4>
                 <p>Deberás guiarte por las cintas de la organización para poder confirmar que estás por la senda o circuito correcto. Siempre verás la próxima cinta. Seguir las marcaciones y no a los corredores. Si en algún momento no ves las cintas de la organización, deberás volver hasta el punto donde avistaste la última.</p>
                 <h5>ELEMENTOS</h5>
                 <ul>
@@ -399,7 +405,7 @@ function M42() {
                 <p>Los auspiciantes pueden disponer de premios especiales a los participantes, sin que esto implique responsabilidad alguna de la organización.</p>
                 <p>Los premios no tienen cambio.</p>
 
-                <h4>ENVÍO DE PREMIOS</h4>
+                <h4><mark>ENVÍO DE PREMIOS</mark></h4>
                 <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y se le enviará por terminal de micros, Oca o Correo Argentino. El COSTO de ENVÍO corre por cuenta del corredor, sin excepción.</p>
 
                 <h3>TOMA DE TIEMPO Y CLASIFICACIONES</h3>

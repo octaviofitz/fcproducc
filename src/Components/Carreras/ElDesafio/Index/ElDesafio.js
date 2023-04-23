@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react'
 
 import Button from 'react-bootstrap/Button';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 /* PDF */
 import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
@@ -49,10 +50,11 @@ function ElDesafio() {
                     <p className='descripcion'>Correr, cenar, relajar en el fogón, acampar, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único. </p>
                     <p className='descripcion'>Y para aquellos que quieran vivir la experiencia de correr un único día, con o sin camping, también lo podrán hacer. Chequeá toda la información aquí abajo.</p>
                     <ul className='redes'>
-
-                        <li className='iconosMobile'> <Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <Icon id='ig' name='instagram' /> </Link></li>
-                        <li className='iconosMobile' id='fb'><Link to='https://www.facebook.com/desafiocrosstrail' target='_blank' rel="noopener noreferrer"> <Icon id='fb' name='facebook' /></Link></li>
+                    
+                      <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
+                      <li><Link to='https://www.facebook.com/desafiocrosstrail' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i> </Link></li>
                     </ul>
+
                     </div>
                    
                     </div>

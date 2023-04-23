@@ -76,6 +76,7 @@
 .Alojamientos p{
     margin: 1rem 0;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .Alojamientos .boton{
@@ -291,6 +292,8 @@
         margin: 2rem;
         text-align: center;
         font-size: 1.15rem;
+        padding-top: 0rem;
+        font-weight: 600;
     }
     
    

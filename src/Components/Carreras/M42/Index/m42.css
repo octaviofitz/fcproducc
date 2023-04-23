@@ -129,6 +129,29 @@
     margin-left: -1rem;
 }
 
+.m42 .redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1.3rem auto -1rem;
+    padding: 0 2rem;
+    font-size: 3.2rem;
+}
+
+.m42 .redes li{
+    padding: 0 0.5rem;
+}
+
+.m42 .redes .fa-instagram{
+    color: #b83ab2;
+    cursor: pointer;
+}
+
+.m42 .redes .fa-youtube{
+    color: #3b5998;
+    cursor: pointer;
+}
+
 @media (min-width: 768px){
 
     .m42{
@@ -222,7 +245,7 @@
     .m42 .descripcion{
         margin: 0 2rem;
         margin-top: 2.25rem;
-        font-size: 1.25vw;
+        font-size: 1.12vw;
     }
 
     .m42 .botones{
@@ -270,6 +293,23 @@
     .m42 .img{
         width: 40vw;
     }
+
+    .m42 .redes{
+        margin: 0;
+        display: flex;
+        justify-content: left;
+         padding: 0;
+         margin-top: 0.45rem;
+         margin-left: -0.5vw;
+     }
+    
+     .m42 .redes li{
+        padding: 0rem;
+        font-size: 2.75rem;
+        margin-top: 1rem;
+        margin-right: -1vw;
+    }
+
 }
 
 @media (min-width: 1440px){
@@ -291,7 +331,7 @@
         margin-left: 5rem;
         margin-right: 5rem;
         margin-top: 2.1rem;
-        font-size: 0.92vw;
+        font-size: 0.85vw;
     }
 
     .m42 h3{
@@ -323,4 +363,21 @@
         justify-content: center;
         border-radius: 5%;
     }
+
+    .m42 .redes{
+        margin: 0;
+        display: flex;
+        justify-content: left;
+         padding: 0;
+         margin-top: 0.5vw;
+         margin-left: 0vw;
+     }
+ 
+ 
+     .m42 .redes li{
+         padding: 0rem;
+         font-size: 3rem;
+         margin-top: 1rem;
+         margin-right: -3vw;
+     }
 }

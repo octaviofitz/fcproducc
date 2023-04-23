@@ -63,7 +63,7 @@
 
 .resultadosDesafio .logo{
     display: flex;
-    margin: auto;
+    margin: 0 auto 1.5rem;
 }
 
 .resultadosDesafio .texto{

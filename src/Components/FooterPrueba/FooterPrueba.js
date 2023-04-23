@@ -1,43 +1,46 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import '../FooterPrueba/footerPrueba.css'
+
 function FooterPrueba() {
     return (
         <div>
-            <footer>
-  <div class="footer-top">
-    <div class="footer-logo">
+            <footer className='footer'>
+  <div className="footer-top">
+    <div className="footer-logo">
       <h2>FC PRODUCCIONES</h2>
-      <div class="contact">
-        <i class="fas fa-envelope"></i>
-        <p>info@fcproducciones.com.ar</p>
+      <div className="contact">
+        <i className="fas fa-envelope"></i>
+        <Link target='_blank' rel="noopener noreferrer" to='mailto:info@fcproducciones.com.ar'><p>info@fcproducciones.com.ar</p></Link>
       </div>
-      <div class="contact">
-        <i class="fab fa-whatsapp"></i>
-        <p>11 5668 8314</p>
+      <div className="contact">
+        <i className="fab fa-whatsapp"></i>
+        <Link target='_blank' rel="noopener noreferrer" to='https://api.whatsapp.com/send?phone=+541156688314&text=Hola 😁'><p>11 5668 8314</p></Link>
       </div>
     </div>
-    <div class="footer-social">
+    <div className="footer-social">
       <h2>SEGUINOS</h2>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
+      <div className="social-icons">
+        <Link target='_blank' rel="noopener noreferrer" to='https://www.instagram.com/fcproducc/'><i className="fab fa-instagram"></i></Link>
+        <Link target='_blank' rel="noopener noreferrer" to='https://www.youtube.com/user/RevistaDesafios'><i className="fab fa-youtube"></i></Link>
+        <Link target='_blank' rel="noopener noreferrer" to='https://www.facebook.com/fcproducc/'> <i className="fab fa-facebook"></i></Link>
       </div>
     </div>
-    <div class="footer-nav">
+    <div className="footer-nav">
       <h2>NAVEGACIÓN</h2>
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">NOSOTROS</a></li>
-          <li><a href="#">GALERÍA</a></li>
-          <li><a href="#">CONTACTO</a></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/nosotros'>Nosotros</Link></li>
+        <li><Link to='/galeria'>Galería</Link></li>
+        <li><Link to='/contacto'>Contacto</Link></li>
         </ul>
       </nav>
     </div>
   </div>
-  <div class="footer-bottom">
+  <div className="footer-bottom">
     <p>© FC Producciones 2023. Todos los derechos reservados.</p>
   </div>
 </footer>
