@@ -22,16 +22,21 @@
   }
   
   .footer-logo h2 {
-    color: #f5ad34;
+    color: black;
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: 400;
   }
 
   .footer p{
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     color: black;
+  }
+
+  .footer p:hover{
+    color: #f5ad34;
   }
   
   .contact {
@@ -47,6 +52,24 @@
     font-size: 18px;
     margin-right: 10px;
   }
+
+  .footer .fa-envelope{
+    color:#3b5998;
+    font-weight: 700;
+  }
+
+  .footer .fa-whatsapp{
+    color: green;
+    font-weight: 700;
+  }
+
+  .footer .fa-envelope:hover,
+  .footer .fa-whatsapp:hover,
+  .footer .fa-facebook:hover,
+  .footer .fa-instagram:hover,
+  .footer .fa-youtube:hover{
+    color: #f5ad34;
+  }
   
   .footer-social {
     flex-basis: 200px;
@@ -54,14 +77,14 @@
   }
   
   .footer-social h2 {
-    color: #f5ad34;
+    color: black;
     font-size: 24px;
     margin-bottom: 10px;
+    font-weight: 400;
   }
   
   .social-icons a {
     display: inline-block;
-   /*  background-color: #f5ad34; */
     color: #fff;
     font-size: 33px;
     width: 40px;
@@ -78,9 +101,10 @@
   }
   
   .footer-nav h2 {
-    color: #f5ad34;
+    color: black;
     font-size: 24px;
     margin-bottom: 10px;
+    font-weight: 400;
   }
   
   nav ul {
@@ -111,6 +135,11 @@
   .footer .fa-instagram{
     color: #C13584;
   }
+
+  .footer .derechos{
+   font-size: 14px;
+  }
+
 
   @media (min-width: 1024px){
 

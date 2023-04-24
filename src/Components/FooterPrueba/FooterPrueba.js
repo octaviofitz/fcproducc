@@ -41,7 +41,7 @@ function FooterPrueba() {
     </div>
   </div>
   <div className="footer-bottom">
-    <p>© FC Producciones 2023. Todos los derechos reservados.</p>
+    <p className='derechos'>© FC Producciones 2023. Todos los derechos reservados.</p>
   </div>
 </footer>
         </div>

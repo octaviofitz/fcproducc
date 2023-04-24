@@ -2,7 +2,6 @@ import {Routes, BrowserRouter, Route} from 'react-router-dom'
 
 /* Componentes */
 import React from 'react';
-import Footer from '../../Footer/Footer';
 import Navbar from '../../Navbar/Navbar';
 import Banner from '../../Banner/Banner';
 import BannerDesktop from '../../BannerDesktop/BannerDesktop';
@@ -23,10 +22,10 @@ import Circuito from '../../Carreras/Circuito/Circuito';
 import Alecec from '../../Carreras/Alecec/Alecec';
 import Index from '../../../Pages/Index.js/Index';
 import Error from '../../Secciones/Error404/Error';
+import FooterPrueba from '../../FooterPrueba/FooterPrueba';
 
 /* Css */
 import '../AppRouter/appRouter.css'
-import FooterPrueba from '../../FooterPrueba/FooterPrueba';
 
 const AppRouter = () => {
     return (
@@ -60,7 +59,6 @@ const AppRouter = () => {
 
             </Routes>
             </div>
-            {/* <Footer />  */}
             <FooterPrueba /> 
 
             </ BrowserRouter>

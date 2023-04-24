@@ -1,7 +1,7 @@
 {
   "name": "fcproducciones",
   "version": "0.1.0",
-  "homepage": "https://https://octaviofitzmaurice.com.ar/",
+  "homepage": "https://octaviofitzmaurice.com.ar/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
@@ -12,6 +12,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",

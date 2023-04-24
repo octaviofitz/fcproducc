@@ -142,14 +142,15 @@
     padding: 0 0.5rem;
 }
 
-.m42 .redes .fa-instagram{
-    color: #b83ab2;
+.m42 .redes .fa-instagram,
+.m42 .redes .fa-facebook{
+    color: #97161a;
     cursor: pointer;
 }
 
-.m42 .redes .fa-youtube{
-    color: #3b5998;
-    cursor: pointer;
+.m42 .redes .fa-instagram:hover,
+.m42 .redes .fa-facebook:hover{
+    font-weight: 900;
 }
 
 @media (min-width: 768px){

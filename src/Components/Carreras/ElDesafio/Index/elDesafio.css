@@ -126,14 +126,15 @@
     padding: 0 0.5rem;
 }
 
-.elDesafio .redes .fa-instagram{
-    color: #b83ab2;
+.elDesafio .redes .fa-instagram,
+.elDesafio .redes .fa-facebook{
+    color: #a0bf09;
     cursor: pointer;
 }
 
-.elDesafio .redes .fa-youtube{
-    color: #3b5998;
-    cursor: pointer;
+.elDesafio .redes .fa-instagram:hover,
+.elDesafio .redes .fa-facebook:hover{
+    font-weight: 900;
 }
 
 

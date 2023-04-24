@@ -6,7 +6,7 @@ function Index() {
     return (
         <div>
             <Carreras />
-            {/* <Patrocinios /> */}
+            <Patrocinios /> 
         </div>
     );
 }

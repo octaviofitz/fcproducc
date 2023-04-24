@@ -29,6 +29,9 @@ function Galeria() {
             <Ratio aspectRatio="16x9">
             <iframe className='video' src="https://www.youtube.com/embed/zOgYwzQ_hzE" title="CIRCUITO M21 GENERAL BELGRANO 2022"></iframe>
                 </Ratio>
+                <Ratio aspectRatio="16x9">
+            <iframe className='video' src="https://www.youtube.com/embed/lTBvSelSzyo" title="AlCEC"></iframe>
+                </Ratio>
             </div>
             <p className='texto'>Pero atención: hay mucho más. Suscribite al canal de YouTube de Revista Desafíos y mirá las ediciones de años anteriores.</p>
             <Button variant="danger" size='lg' className='boton'><Link to='https://www.youtube.com/user/RevistaDesafios' target="_blank" rel="noopener noreferrer">Canal de Youtube</Link></Button>
