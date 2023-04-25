@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import '../FooterPrueba/footerPrueba.css'
+import './footer.css'
 
-function FooterPrueba() {
+function Footer() {
     return (
         <div>
             <footer className='footer'>
@@ -48,4 +48,4 @@ function FooterPrueba() {
     );
 }
 
-export default FooterPrueba;
+export default Footer;

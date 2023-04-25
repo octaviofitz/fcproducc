@@ -18,7 +18,6 @@
     }
 }
 
-
 .galeria .titulo{
     text-align: center;
     margin: 1rem;
@@ -72,11 +71,10 @@
     margin-top: 2rem;
     border: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .galeria .boton:hover{
-    background-color: #ff0000;
+    background-color: #f38a8a;
     color: white;
 }
 
@@ -91,6 +89,10 @@
     font-weight: 900;
     cursor: pointer;
     margin: 0rem 1rem;
+}
+
+.galeria li:hover{
+    opacity: 0.5;
 }
 
 .galeria #btnAlerces{
@@ -211,5 +213,4 @@
     .galeria ul{
         margin-left: 0;
     }
-
 }

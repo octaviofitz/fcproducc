@@ -22,7 +22,7 @@ import Circuito from '../../Carreras/Circuito/Circuito';
 import Alecec from '../../Carreras/Alecec/Alecec';
 import Index from '../../../Pages/Index.js/Index';
 import Error from '../../Secciones/Error404/Error';
-import FooterPrueba from '../../FooterPrueba/FooterPrueba';
+import Footer from '../../Footer/Footer';
 
 /* Css */
 import '../AppRouter/appRouter.css'
@@ -35,9 +35,10 @@ const AppRouter = () => {
             <Navbar />            
             <Banner / >
             <BannerDesktop /> 
-            <div className='main'>
-           
             <BotonWP />
+            <main className='main'>
+           
+            
             <Routes >
            
             <Route path='/' element={<Index />} />
@@ -58,8 +59,8 @@ const AppRouter = () => {
             <Route path='*' element={<Error />} />
 
             </Routes>
-            </div>
-            <FooterPrueba /> 
+            </main>
+            <Footer /> 
 
             </ BrowserRouter>
         </div>

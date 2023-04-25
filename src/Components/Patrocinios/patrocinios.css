@@ -1,23 +1,4 @@
 
-.patrocinios .container{
-    background-color: #f2f2f2;
-    display: flex;
-    animation: patrociniosAnimation 5s ease;
-    width: 100vw;
-    margin: 0;
-}
-
-@keyframes patrociniosAnimation {
-   
-    from{
-        opacity: 0.2;
-    }
-
-    to{
-        opacity: 1;
-    }
-}
-
 .patrocinios .titulo{
     text-align: center;
     font-size: 10vw;
@@ -34,7 +15,22 @@
     justify-content: center;
     background-color: #f2f2f2;
     padding-top: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    animation: patrociniosAnimation 6s ease;
+    margin-bottom: 5rem;
 }
+
+@keyframes patrociniosAnimation {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 
 .patrocinios .containerIMG .img{
     width: 30vw;
@@ -53,6 +49,13 @@
     .patrocinios .containerIMG .img{
         width: 18vw;
         margin-top: -2rem;
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: row;
+    }
+
+     .containerIMG #Sox{
+        order: -1;
     }
 }
 
@@ -69,6 +72,14 @@
     .patrocinios .containerIMG .img{
         width: 10vw;
         margin-top: -2rem;
+    }
+
+     .containerIMG #HotelProvincial{
+        order: -1;
+    } 
+
+    .containerIMG #Cabaña{
+        order: -1;
     }
 }
 

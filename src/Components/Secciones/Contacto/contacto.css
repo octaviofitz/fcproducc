@@ -36,7 +36,7 @@
     text-decoration: underline;
 }
 
-.contacto .social-media-icons {
+.contacto .Iconos{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -46,6 +46,7 @@
 .contacto ul{
     margin-left: -1rem;
 }
+
 
 .contacto .yt{
     color: red;
@@ -57,6 +58,12 @@
 
 .contacto .ig{
     color: #C13584;
+}
+
+.contacto .yt:hover,
+.contacto .fb:hover,
+.contacto .ig:hover{
+    opacity: 0.7;
 }
 
 @media (min-width: 768px){

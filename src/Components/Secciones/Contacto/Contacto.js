@@ -15,13 +15,11 @@ function Contacto() {
                 <li className='texto'><strong>Redes sociales:</strong> también podés encontrarnos en cualquiera de nuestras redes sociales y seguirnos para estar al tanto de nuestras últimas noticias y novedades. Aquí abajo te dejamos los accesos directos.</li>
             </ul>
 
-                <div className="social-media-icons">
+                <div className="Iconos">
                    <Link to='https://www.instagram.com/fcproducc/' target="_blank" rel="noopener noreferrer"><Icon name="instagram" size="large" className='ig' /></Link>
                    <Link to='https://www.youtube.com/user/RevistaDesafios'  target="_blank" rel="noopener noreferrer"><Icon name="youtube" size="large" className='yt' /></Link>
                     <Link to='https://www.facebook.com/fcproducc/' target="_blank" rel="noopener noreferrer"> <Icon name="facebook" size="large" className='fb'/></Link>
                     </div>
-
-                    
         </section>
     );
 }

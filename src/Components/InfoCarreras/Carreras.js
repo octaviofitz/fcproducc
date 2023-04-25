@@ -29,7 +29,7 @@ function Carreras() {
             
             </div>
 
-            <h1 className='titulo'>Próximamente</h1>
+            <h2 className='titulo'>Próximamente</h2>
 
             <div className='containerGeneral'>
 
