@@ -16,7 +16,7 @@ function ResultadosM42() {
     return (
         <section className='resultadosM42'>
 
-            <h3 className='titulo'>Resultados M42</h3>
+            <h5 className='titulo'>Resultados M42</h5>
             
             <article className='cards'>
             <img src={ResultadosLogoM42} className='logo' alt='Resultados M42 2022'/>

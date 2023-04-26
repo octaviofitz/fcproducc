@@ -1,7 +1,8 @@
+import React from 'react';
 import {Routes, BrowserRouter, Route} from 'react-router-dom'
 
 /* Componentes */
-import React from 'react';
+
 import Navbar from '../../Navbar/Navbar';
 import Banner from '../../Banner/Banner';
 import BannerDesktop from '../../BannerDesktop/BannerDesktop';

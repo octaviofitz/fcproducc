@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Icon } from 'semantic-ui-react';
-
+/* import '@fortawesome/fontawesome-free/css/all.min.css';
+ */
 import './contacto.css'
 
 function Contacto() {
@@ -16,12 +16,13 @@ function Contacto() {
             </ul>
 
                 <div className="Iconos">
-                   <Link to='https://www.instagram.com/fcproducc/' target="_blank" rel="noopener noreferrer"><Icon name="instagram" size="large" className='ig' /></Link>
-                   <Link to='https://www.youtube.com/user/RevistaDesafios'  target="_blank" rel="noopener noreferrer"><Icon name="youtube" size="large" className='yt' /></Link>
-                    <Link to='https://www.facebook.com/fcproducc/' target="_blank" rel="noopener noreferrer"> <Icon name="facebook" size="large" className='fb'/></Link>
+                <Link target='_blank' rel="noopener noreferrer" to='https://www.instagram.com/fcproducc/' aria-label='Instagram'><i className="fab fa-instagram"></i></Link>
+               <Link target='_blank' rel="noopener noreferrer" to='https://www.youtube.com/user/RevistaDesafios' aria-label='Youtube'><i className="fab fa-youtube"></i></Link>
+                <Link target='_blank' rel="noopener noreferrer" to='https://www.facebook.com/fcproducc/' aria-label='Facebook'> <i className="fab fa-facebook"></i></Link>
                     </div>
         </section>
     );
 }
 
 export default Contacto;
+

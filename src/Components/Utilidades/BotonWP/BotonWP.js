@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaWhatsapp } from 'react-icons/fa';
+/* import '@fortawesome/fontawesome-free/css/all.min.css';
+ */
 
 import './botonWP.css'
 
@@ -14,7 +15,7 @@ function BotonWP() {
       rel="noopener noreferrer"
       aria-label='Whatsapp'
     >
-      <FaWhatsapp />
+      <i class="fab fa-whatsapp"></i>
     </Link>
         </div>
     );

@@ -15,7 +15,7 @@ function ResultadosDesafio() {
 
     return (
         <section className='resultadosDesafio'>
-            <h3 className='titulo'>Resultados El Desafío</h3>
+            <h5 className='titulo'>Resultados El Desafío</h5>
             
             <article className='cards'>
             <img src={ResultadosLogo} className='logo' alt='Resultados Desafío' />

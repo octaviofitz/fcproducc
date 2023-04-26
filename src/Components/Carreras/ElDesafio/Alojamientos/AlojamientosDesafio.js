@@ -175,7 +175,6 @@ function AlojamientosDesafio() {
                              </div>
                   </div>
 
-
         </div>
 
         <div className='contenedorBotonDesafio'>

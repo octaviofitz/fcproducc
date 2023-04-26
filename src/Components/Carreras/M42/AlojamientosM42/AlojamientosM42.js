@@ -23,7 +23,6 @@ function AlojamientosM42() {
         window.history.back();
       }
 
-
     return (
         <section>
         <div className='AlojamientosM42'>

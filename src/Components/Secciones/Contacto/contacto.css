@@ -47,22 +47,26 @@
     margin-left: -1rem;
 }
 
+.contacto i{
+    font-size: 3rem;
+    padding: 0 0.35rem;
+}
 
-.contacto .yt{
+.contacto .fa-youtube{
     color: red;
 }
 
-.contacto .fb{
+.contacto .fa-facebook{
     color: #1877f2;
 }
 
-.contacto .ig{
+.contacto .fa-instagram{
     color: #C13584;
 }
 
-.contacto .yt:hover,
-.contacto .fb:hover,
-.contacto .ig:hover{
+.contacto .fa-youtube:hover,
+.contacto .fa-facebook:hover,
+.contacto .fa-instagram:hover{
     opacity: 0.7;
 }
 
@@ -81,6 +85,12 @@
         margin: 2rem;
         font-size: 1.25rem;
     }
+
+    
+.contacto i{
+    font-size: 4rem;
+    padding: 1rem 0.35rem;
+}
 }
 
 @media (min-width: 1024px){

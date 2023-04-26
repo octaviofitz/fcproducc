@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Icon } from 'semantic-ui-react'
 
 import Button from 'react-bootstrap/Button';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
+/* import '@fortawesome/fontawesome-free/css/all.min.css';
+ */
 /* PDF */
 import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';
@@ -58,10 +57,6 @@ function ElDesafio() {
                     </div>
                    
                     </div>
-
-                   
-
-                    
 
             <div className='botones'>
                 <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
