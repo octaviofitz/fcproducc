@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 /* Imágenes */
 import m42General from '../../../../Img/m42/flyerM42.webp';
-import Remera from '../../../../Img/m42/remera.jpg';
+import Remera from '../../../../Img/m42/remera.webp';
 
 /* Documentos */
 import AutorizacionMenores from '../../../../PDF/autMenores.pdf';

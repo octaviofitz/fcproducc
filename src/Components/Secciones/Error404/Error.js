@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 /* img */
-import Error404 from '../../../Img/index/404.png';
+import Error404 from '../../../Img/index/404.webp';
 
 import '../Error404/error.css'
 

@@ -5,11 +5,11 @@ import Ratio from 'react-bootstrap/Ratio';
 
 /* Imágenes */
 import CircuitoLogo from '../../../Img/index/circuito.webp';
-import gralBelgrano from '../../../Img/Circuito/gralBelgrano.jpg';
-import GeneralBelgrano from '../../../Img/Circuito/gralBelgrano2.jpg';
-import Sierra from '../../../Img/Circuito/sierra.jpg';
-import MarDeLasPampas from '../../../Img/Circuito/marDeLasPampas.jpg';
-import PampaFly from '../../../Img/Circuito/pampaFly.jpg';
+import gralBelgrano from '../../../Img/Circuito/gralbelgrano.webp';
+import GeneralBelgrano from '../../../Img/Circuito/gralbelgrano2.webp';
+import Sierra from '../../../Img/Circuito/sierra.webp';
+import MarDeLasPampas from '../../../Img/Circuito/mardelaspampas.webp';
+import PampaFly from '../../../Img/Circuito/pampafly.webp';
 
 import './circuito.css';
 

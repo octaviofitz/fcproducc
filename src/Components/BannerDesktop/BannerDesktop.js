@@ -1,9 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Banner1 from '../../Img/index/BannerDesktop/banner.jpg';
-import Banner2 from '../../Img/index/BannerDesktop/banner2.jpg';
-import Banner3 from '../../Img/index/BannerDesktop/banner3.jpg';
+import Banner1 from '../../Img/index/BannerDesktop/banner.webp';
+import Banner2 from '../../Img/index/BannerDesktop/banner2.webp';
+import Banner3 from '../../Img/index/BannerDesktop/banner3.webp';
 
 import '../BannerDesktop/bannerDesktop.css';
 

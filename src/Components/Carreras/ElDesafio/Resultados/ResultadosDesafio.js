@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 /* Img */
-import ResultadosLogo from '../../../../Img/Resultados/Logo-Desafio.png'
+import ResultadosLogo from '../../../../Img/Resultados/Logo-Desafio.webp'
 
 import '../Resultados/resultadosDesafio.css'
 
@@ -18,13 +18,13 @@ function ResultadosDesafio() {
             <h3 className='titulo'>Resultados El Desafío</h3>
             
             <article className='cards'>
-            <img src={ResultadosLogo} className='logo' />
+            <img src={ResultadosLogo} className='logo' alt='Resultados Desafío' />
             <p className='texto'>CLASIFICACION GENERAL 10º EDICION M42 DE MONTAÑA - VILLA VENTANA 2022</p>
             <Button variant="success" size='lg' className='boton'><Link to='https://www.bahiacorre.com.ar/subir/mispdf/GENERALM42A.pdf' target="_blank" rel="noopener noreferrer">RESULTADOS</Link></Button>
             </article>
 
             <article className='cards'>
-            <img src={ResultadosLogo} className='logo' />
+            <img src={ResultadosLogo} className='logo' alt='Resultados Desafío' />
             <p className='texto'>CLASIFICACION CATEGORIAS 10º EDICION M42 DE MONTAÑA - VILLA VENTANA 2022</p>
             <Button variant="success" size='lg' className='boton'><Link to='https://www.bahiacorre.com.ar/subir/mispdf/CATEGORIASM42A.pdf' target="_blank" rel="noopener noreferrer">RESULTADOS</Link></Button>
             </article>

@@ -23,9 +23,9 @@ function Footer() {
     <div className="footer-social">
       <h2>SEGUINOS</h2>
       <div className="social-icons">
-        <Link target='_blank' rel="noopener noreferrer" to='https://www.instagram.com/fcproducc/'><i className="fab fa-instagram"></i></Link>
-        <Link target='_blank' rel="noopener noreferrer" to='https://www.youtube.com/user/RevistaDesafios'><i className="fab fa-youtube"></i></Link>
-        <Link target='_blank' rel="noopener noreferrer" to='https://www.facebook.com/fcproducc/'> <i className="fab fa-facebook"></i></Link>
+        <Link target='_blank' rel="noopener noreferrer" to='https://www.instagram.com/fcproducc/' aria-label='Instagram'><i className="fab fa-instagram"></i></Link>
+        <Link target='_blank' rel="noopener noreferrer" to='https://www.youtube.com/user/RevistaDesafios' aria-label='Youtube'><i className="fab fa-youtube"></i></Link>
+        <Link target='_blank' rel="noopener noreferrer" to='https://www.facebook.com/fcproducc/' aria-label='Facebook'> <i className="fab fa-facebook"></i></Link>
       </div>
     </div>
     <div className="footer-nav">

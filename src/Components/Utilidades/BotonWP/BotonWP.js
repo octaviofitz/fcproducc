@@ -12,6 +12,7 @@ function BotonWP() {
       className="whatsapp-button"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label='Whatsapp'
     >
       <FaWhatsapp />
     </Link>
