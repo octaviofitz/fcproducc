@@ -7,7 +7,7 @@ function BotonWP() {
     return (
         <div>
             <Link
-      to="https://api.whatsapp.com/send?phone=+1151356267&text=Hola 😁, vengo de www.fcproducciones.com.ar. Quisiera realizar una consulta"
+      to='https://api.whatsapp.com/send?phone=+541151356267&text=Hola 😁, vengo de www.fcproducciones.com.ar. Quisiera realizar una consulta'
       className="whatsapp-button"
       target="_blank"
       rel="noopener noreferrer"
