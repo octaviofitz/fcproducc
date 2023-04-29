@@ -58,7 +58,7 @@ function Alecec() {
         <mark>INSCRIPCIONES PRÓXIMAMENTE</mark>
       </h3>
 
-      <div className="video">
+      <article className="video">
         <div className="container">
           <Ratio aspectRatio="16x9">
             <iframe
@@ -69,9 +69,10 @@ function Alecec() {
             ></iframe>
           </Ratio>
         </div>
-      </div>
+      </article>
 
       <article className="categorias">
+
         <div className="container">
           <h4>RESULTADOS CATEGORÍAS 2022</h4>
           <img

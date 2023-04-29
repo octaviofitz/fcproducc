@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
-/* import '@fortawesome/fontawesome-free/css/all.min.css';
- */
+
 /* PDF */
 import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';

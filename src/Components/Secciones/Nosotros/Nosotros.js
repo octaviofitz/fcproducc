@@ -25,7 +25,7 @@ function Nosotros() {
         programa de televisión, una revista y mucho más lo posicionó como un
         referente del mundo de las carreras.
       </p>
-      <img src={FerCAM} className="img" alt="Fernando Cortés" />
+      <img src={FerCAM} className="img" alt="Fernando Cortés"/>
       <p className="texto">
         Con toda esa experiencia adquirida buscó, a la par, incursionar también
         en la organización de eventos. Allí nace FC Producciones. Una

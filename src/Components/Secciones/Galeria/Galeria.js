@@ -8,7 +8,7 @@ import './galeria.css';
 function Galeria() {
     return (
         <section className='galeria'>
-            <h2 className='titulo'>Galería</h2>
+            <h3 className='titulo'>Galería</h3>
             <p className='descripcion'>¿Todavía no conocés los eventos de FC Producciones? ¿Los conocés y querés revivirlos? ¡Este es el lugar! Junto a <b>Revista Desafíos</b> y la <b>FerCam</b> te mostramos desde adentro lo más destacado de nuestros grandes eventos. Así se disfrutaron las ediciones de 2022 de los siguientes carreras: </p>
             <ul>
                 <li><Link to='/m42' id='btnAlerces'>MARATÓN DE MONTAÑA M42 LOS ALERCES</Link></li>

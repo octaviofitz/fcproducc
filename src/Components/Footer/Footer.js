@@ -17,7 +17,7 @@ function Footer() {
       </div>
       <div className="contact">
         <i className="fab fa-whatsapp"></i>
-        <Link target='_blank' rel="noopener noreferrer" to='https://api.whatsapp.com/send?phone=+541156688314&text=Hola 😁'><p>11 5668 8314</p></Link>
+        <Link target='_blank' rel="noopener noreferrer" to='https://api.whatsapp.com/send?phone=+541151356267&text=Hola 😁, vengo de www.fcproducciones.com.ar. Quisiera realizar una consulta'><p>11 5135 6267</p></Link>
       </div>
     </div>
     <div className="footer-social">

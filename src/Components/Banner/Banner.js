@@ -11,7 +11,7 @@ import '../Banner/banner.css'
 
 function Banner() {
   return (
-    
+    <section>
     <Carousel fade className='carruselMobile'>
 
       <Carousel.Item>
@@ -47,7 +47,7 @@ function Banner() {
       </Carousel.Item>
 
     </Carousel>
-  
+    </section>
   );
 }
 

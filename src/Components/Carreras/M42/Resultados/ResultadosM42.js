@@ -14,7 +14,7 @@ function ResultadosM42() {
     
 
     return (
-        <section className='resultadosM42'>
+        <article className='resultadosM42'>
 
             <h5 className='titulo'>Resultados M42</h5>
             
@@ -34,7 +34,7 @@ function ResultadosM42() {
             <Button onClick={volverAtras} className='goBack'>Volver ←</Button>
                      </div>
             
-        </section>
+        </article>
     );
 }
 

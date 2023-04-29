@@ -33,13 +33,13 @@ const AppRouter = () => {
         <div>
             <BrowserRouter>
             <ScrollToTop />
-            <Navbar />            
+            <BotonWP />    
+            <header>
+            <Navbar />
+            </header>    
+            <main className='main'>        
             <Banner / >
             <BannerDesktop /> 
-            <BotonWP />
-            <main className='main'>
-           
-            
             <Routes >
            
             <Route path='/' element={<Index />} />
