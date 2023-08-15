@@ -41,13 +41,16 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 60vw;
+    width: 260px;
+    height: 260px;
     margin: auto;
+    border-radius: 50%;
 }
 
 .carreras .texto{
     text-align: center;
     padding: 1rem 0;
+    font-size: 1.15rem;
 }
 
 .carreras .botonm42,
@@ -58,6 +61,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: -1rem;
     color: #fff;
     border: none;
     text-transform: uppercase;
@@ -95,13 +99,34 @@
     color: #fff;
 }
 
+.tituloResultados{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1rem;
+}
+
+#AlcecPrueba{
+    border-radius: 50%;
+}
+
+.containerGeneral .containerDesafio,
+.containerGeneral .containerNovedades{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
 
 @media (min-width: 768px){
     .carreras .titulo{
         text-align: center;
         font-size: 3rem;
         font-weight: 700;
-        margin: 2rem;      
+        margin-top: 0rem;      
+        margin-bottom: 2rem;
     }
     
     .carreras{
@@ -117,27 +142,34 @@
     }
 
     .carreras .container{
-        width: 45vw;
+        width: 40vw;
     }
 
     .carreras .carrerasimg{
-        width: 12rem;
+        width: 250px;
+        height: 250px;
     }
 
     .carreras .texto{
         font-size: 1.25rem;
     }
+
+    .carreras .containerDesafio,
+    .containerNovedades .container{
+        width: 70vw;
+    }
+
 }
 
 @media (min-width: 1024px){
 
     .carreras{
-        margin: auto;
+        margin: 3rem auto;
         width: 100vw;
     }
 
     .carreras .containerGeneral{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
         margin: auto;
         width: 100vw;
@@ -146,30 +178,72 @@
 
     .carreras .titulo{
         font-size: 4rem;
+        margin-top: 2rem;
     }
 
     .carreras .carrerasimg{
-        width: 17rem;
+        width: 300px;
+        height: 300px;
     }
 
-    .carreras .container{
-        width: 40vw;
+    .carreras .containerGeneral .container{
+        width: 35vw;
         padding: 1rem;
         margin: 1rem 3rem;
     }
+
+    
 
     .carreras .botonm42,
 .carreras .botondesafio,
 .carreras .botonAlecec,
 .carreras .botonCircuito{
-    margin: 0rem auto 1rem;
+    margin: -1rem auto 1rem;
 
 }
+
+.containerNovedades{
+    justify-content: center;
+}
+
+.carreras .containerDesafio,
+.containerNovedades .container{
+    width: 35vw;
+}
+
+.containerNovedades{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carreras .container{
+    width: 42vw;
+}
+
+
 }
 
 @media (min-width: 1440px){
 
-    .carreras .container{
-        width: 30vw;
+    .containerNovedades{
+        flex-direction: row;
+        justify-content: center;
     }
+
+
+    .containerGeneral .container{
+        width: 25vw;
+    }
+
+     #novedades{
+        width: 37vw;
+    }
+    
+    
+    .carreras .containerDesafio{
+        width: 60vw;
+    }
+
+
+
 }

@@ -114,6 +114,23 @@
     }
 }
 
+@media (min-width:1024px){
+
+    .resultadosDesafio .Container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .resultadosDesafio .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+        width: 30vw;
+    }
+
+}
+
 @media (min-width: 1440px){
     .resultadosDesafio .titulo{
         margin-top: 3rem;
@@ -124,6 +141,10 @@
         width: 20vw;
         display: flex;
         margin: 0rem auto 1.25rem;
-
     }
+
+    
+    .contenedorBotonDesafio .goBack{
+        margin-right: 20vw;
+       }
 }

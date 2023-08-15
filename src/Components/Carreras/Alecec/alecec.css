@@ -101,7 +101,7 @@
     align-items: center;
     margin: 2rem 0 -1rem;
     border-radius: 3%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     background-color: #efeeee;
 }
 
@@ -122,6 +122,27 @@
 
 .Alecec mark{
     background-color: #fd0081;
+    color: #fff;
+}
+
+.Alecec .botonInscripcion{
+    display: flex;
+    margin: 2rem auto;
+    background-color: #fd0081;
+    padding: 2.5vw 12vw;
+    font-size: 1.75rem;
+}
+
+.Alecec .botonInscripcion:hover,
+.Alecec .botonResultados:hover{
+    opacity: 0.8;
+}
+
+.Alecec a{
+    color: #fff;
+}
+
+.Alecec a:hover{
     color: #fff;
 }
 
@@ -176,6 +197,11 @@
     .Alecec .categorias .container .imgResultados{
         width: 23vw;
     }
+
+    .Alecec .botonInscripcion{
+        padding: 1.75vw 10vw;
+        font-size: 1.75rem;
+    }
 }
 
 @media (min-width: 1024px){
@@ -203,7 +229,7 @@
     }
     
     .Alecec .descripcion{
-        font-size: 1.25vw;
+        font-size: 1.21vw;
         margin-top: 0rem;
     }
        
@@ -242,6 +268,11 @@
     .Alecec .categorias .container .imgResultados{
         width: 18vw;
     }
+
+    .Alecec .botonInscripcion{
+        padding: 1vw 10vw;
+        font-size: 1.75rem;
+    }
 }
 
 @media (min-width: 1440px){
@@ -273,7 +304,7 @@
         margin-left: 5rem;
         margin-right: 5rem;
         margin-top: 1rem;
-        font-size: 0.97vw;
+        font-size: 0.88vw;
     }
        
     .Alecec h3{
@@ -304,5 +335,10 @@
 
     .Alecec .categorias .container .imgResultados{
         width: 13vw;
+    }
+
+    .Alecec .botonInscripcion{
+        padding: 0.75vw 10vw;
+        font-size: 1.75rem;
     }
 }

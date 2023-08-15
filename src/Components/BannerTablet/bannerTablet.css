@@ -1,0 +1,16 @@
+.CarruselTablet{
+    display: none;
+}
+
+@media(min-width:768px){
+    .CarruselTablet{
+        display: inline-block;
+        width: 100%!important;
+    }
+}
+
+@media(min-width:1024px){
+    .CarruselTablet{
+        display: none;
+    }
+}

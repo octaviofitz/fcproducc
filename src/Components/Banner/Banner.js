@@ -2,10 +2,9 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
 /* img */
-import Carrusel1 from '../../Img/index/Carrusel1.webp'
-import Carrusel2 from '../../Img/index/Carrusel2.webp'
-import Carrusel3 from '../../Img/index/Carrusel3.webp'
-import Carrusel4 from '../../Img/index/Carrusel4.jpg'
+import Banner2 from '../../Img/index/banner2.webp'
+import Banner3 from '../../Img/index/banner3.webp' 
+import Banner4 from '../../Img/index/banner4.webp' 
 
 import '../Banner/banner.css'
 
@@ -17,15 +16,15 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Carrusel1}
+          src={process.env.PUBLIC_URL + "/banner1.webp"}
           alt="First slide"
         />
       </Carousel.Item>
-
-      <Carousel.Item>
+ 
+       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Carrusel2}
+          src={Banner2}
           alt="Second slide"
         />
       </Carousel.Item>
@@ -33,7 +32,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Carrusel3}
+          src={Banner3}
           alt="Third slide"
         />
       </Carousel.Item>
@@ -41,10 +40,10 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Carrusel4}
+          src={Banner4}
           alt="Third slide"
         />
-      </Carousel.Item>
+      </Carousel.Item>   
 
     </Carousel>
     </section>

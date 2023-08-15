@@ -6,6 +6,11 @@ import Button from 'react-bootstrap/Button';
 /* Imágenes */
 import m42General from '../../../../Img/m42/flyerM42.webp';
 import Remera from '../../../../Img/m42/remera.webp';
+import km50 from '../../../../Img/m42/50k.webp'
+import km42 from '../../../../Img/m42/42k.webp'
+import km25 from '../../../../Img/m42/25k.webp'
+import km10 from '../../../../Img/m42/10k.webp'
+
 
 /* Documentos */
 import AutorizacionMenores from '../../../../PDF/autMenores.pdf';
@@ -65,8 +70,8 @@ function M42() {
                 <Button variant="danger" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="danger" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
                 <Button variant="danger" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados 2022</Link></Button>
-                <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2022</Link></Button>
+                <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2023</Link></Button> 
+                 {/* <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
                 
                 <h3 id='cartas'>Cartas</h3>
@@ -115,13 +120,16 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail <b>info@fcproducciones.com.ar</b>, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
 
                 <h3>RUNNING KIDS</h3>
-                <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con <b>remera de corredor, hidratación y medalla finisher</b>.</p>
+                <p>Las carreras tienen como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares.</p>
+                <p>Y este año hay novedades. Sumamos una distancia, la de 3 kilómetros, para aquellos que quieran aventurarse en un recorrido más largo y con cruce de 2 arroyos bajos, y además modificamos el recorrido de 1K.</p>
+                <p>Las distancias KIDS serán participativas por lo que no tendrá premiación ni clasificación. Sí contará con <strong>remera de corredor, hidratación y medalla finisher</strong>.</p>
+
                 <p><strong>La carrera tendrá dos distancias:</strong></p>
                 <ul>
-                    <li><strong>1K para niños de hasta 9 años</strong></li>
-                    <li><strong>3K para niños de 10 a 15 años</strong></li>
+                    <li><strong>1K para niños sin límite de edad</strong></li>
+                    <li><strong>3K para niños de entre 10 y 15 años</strong></li>
                 </ul>
-                <p><b>Los padres o acompañantes podrán acompañar durante el recorrido a sus hijos de ser necesario por cuestiones de edad</b>.</p>
+                <p><b>Los padres o acompañantes podrán acompañar durante el recorrido a sus hijos de ser necesario por cuestiones de edad o de motivación.</b>.</p>
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
@@ -129,7 +137,7 @@ function M42() {
                 <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
                 <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
                 <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.399580909211!2d-62.08592658843749!3d-38.065062030645144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c36c812b09%3A0x129922352fe697!2sGnena-Kena%20%26%20Melica%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1680915042499!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12565.668852426901!2d-62.0961989!3d-38.0606637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec6143bc37e253%3A0xe806173c3f397c3c!2sLos%20Alerces%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2sar!4v1684965720811!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe>
 
                 <h4><mark>SÁBADO 27/05</mark></h4>
                 <p>Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -138,7 +146,7 @@ function M42() {
                     <li>50 y 42K retiran entre las <b>6 y 7:30 am</b></li>
                     <li>25 y 10K retiran entre las <b>10 y las 18 pm</b></li>
                 </ul>
-                <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados gratuitos desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar en el mismo a <b>info@fcproducciones.com.ar</b></p>
+                <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados gratuitos desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. Deben reservar su lugar en el mismo enviando un mail a <b>info@fcproducciones.com.ar</b></p>
 
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
@@ -212,44 +220,70 @@ function M42() {
                 </ul>
 
 
-                <h3>RECORRIDO 50 Y 42K:</h3>
+                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS + ALTIMETRÍAS M42 LOS ALERCES 2023<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
+
+                <div className='containerAltimetria'>
+                    <div className='altimetriaIMG'>
+                <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
+                </div>
+                <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>50K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.950 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                </div>
+                </div>
+
+                <br></br>
+                
+                <div className='containerAltimetria'>
+                <div className='altimetriaIMG'>
+                <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' />
+                </div>
+                <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>42K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.600 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                </div>
+                </div>
+
+                <br></br>
+
+                <div className='containerAltimetria'>
+                <div className='altimetriaIMG'>
+                <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
+                </div>
+                <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>25K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 616 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇ </span>Altura mínima: 369 msnm</p>
+                </div>
+                </div>
+                <br></br>
+
+                <div className='containerAltimetria'>
+                <div className='altimetriaIMG'>
+                <img src={km10} alt='Altimetria 10kM Los Alerces' className='img' />
+                </div>
+                <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>10K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 261 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
+                </div>
+                </div>
+
+                <br></br>
+                <h4>RECORRIDOS INTERACTIVOS 50 Y 42K</h4>
                 <p>Destildar la distancia que no se quiera ver.</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
-                <h4><mark>ALTIMETRÍAS</mark></h4>
-
-                <h5>🏃50K</h5>
-                <p>📈 Desnivel: + 2.200 metros</p>
-                <p>🔝 Altura máxima: 944 msnm</p>
-                <p>⬇ Altura mínima: 390 msnm</p>
-
                 <br></br>
-
-                <h5>🏃42K</h5>
-                <p>📈 Desnivel: + 1.800 metros</p>
-                <p>🔝 Altura máxima: 944 msnm</p>
-                <p>⬇ Altura mínima: 390 msnm</p>
-
-                <br></br>
-
-                <h3>RECORRIDO 25 Y 10K:</h3>
+                <h4>RECORRIDOS INTERACTIVOS 25 Y 10k</h4>
                 <p>Destildar la distancia que no se quiera ver.</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
-
-                <h4><mark>ALTIMETRÍAS</mark></h4>
-
-                <h5>🏃25K</h5>
-                <p>📈 Desnivel: + 616 metros</p>
-                <p>🔝 Altura máxima: 548 msnm</p>
-                <p>⬇ Altura mínima: 369 msnm</p>
-
-                <br></br>
-
-                <h5>🏃10K</h5>
-                <p>📈 Desnivel: + 261 metros</p>
-                <p>🔝 Altura máxima: 548 msnm</p>
-                <p>⬇  Altura mínima: 369 msnm</p>
-
                 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <h4><mark>INSCRIPCIÓN ONLINE</mark></h4>
@@ -264,7 +298,7 @@ function M42() {
                 </ol>
 
                 <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>
+                <Button disabled variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>
                 </div>
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
@@ -282,12 +316,12 @@ function M42() {
                 </ul>
 
                 <h3>COSTOS</h3>
-                <p>Del 13/4 en adelante</p>
+                <p>Del 11/05 en adelante</p>
                 <ul>
-                    <li><strong>50K</strong>: $27.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>42K</strong>: $23.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>25K</strong>: $17.000 <b>pago total o seña del 50%</b></li>
-                    <li><strong>10K</strong>: $13.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>50K</strong>: $30.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>42K</strong>: $25.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>25K</strong>: $19.000 <b>pago total o seña del 50%</b></li>
+                    <li><strong>10K</strong>: $15.000 <b>pago total o seña del 50%</b></li>
                     <li><strong>KIDS</strong>:
                          <ul> 
                             <li>Hasta 9 años: $3.000 <b>pago total</b></li>
@@ -333,8 +367,22 @@ function M42() {
 
                 <h3 id='reglamento'>REGLAMENTO M42 LOS ALERCES</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
+               
+                <ul>
+                    <li>La participación en la carrera implica su responsabilidad por los datos suministrados en la ficha de inscripción, su aceptación plena del reglamento, bases y condiciones del evento, y el pago de la inscripción.</li>
+                    <li>La Organización podrá impedir que un participante continúe interviniendo en la competencia, en caso de que el staff médico lo aconseje. La Organización podrá también realizar modificaciones de distancias, recorridos y horarios por factores climáticos, de seguridad y/u otros motivos. Tales decisiones no darán derecho a reclamo alguno hacia la Organización, sponsors y/o staff médico.</li>
+                </ul>
+
+                <h4><mark>HORARIO Y LUGAR DE CORTE EN 50K</mark></h4>
+                <p>Los participantes tendrán, como límite, 7 horas (a las 16:00hs del sábado) para llegar al kilómetro 42, ubicado a 500 metros del PA6 donde se divide 50K y 42K. En caso de no llegar a tiempo, el corredor será dirigido por el recorrido de 42K hacia la llegada.</p>
+                <p>En la clasificación aparecerá al final de la grilla. Y la medalla va a depender de cada corredor querer recibirla o no. Por favor: NO COMPROMETA A LA GENTE DEL STAFF UNA VEZ CUMPLIDO EL TIEMPO DE CARRERA.</p>
+
+                <h4><mark>ABANDONO</mark></h4>
+                <p>En caso de abandono, el competidor tiene la obligación indelegable de avisar a la Organización. El aviso deberá ser realizado únicamente en los Puestos de Asistencia, en la Largada o Meta. Los banderilleros o personal fuera de estos lugares no están autorizados a registrar el aviso de abandono. Es muy importante dar aviso de abandono, pues de lo contrario el participante se presumirá extraviado y generará inconvenientes evitables.</p>
+
                 <h4><mark>RECLAMOS</mark></h4>
                 <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
+
                 <h4><mark>CERTIFICADO MÉDICO</mark></h4>
                 <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
@@ -365,15 +413,15 @@ function M42() {
                 </ul>
 
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
-                <p>Las inscripciones NO tienen devolución.</p>
+                <p>Las inscripciones <strong>NO</strong> tienen devolución.</p>
 
                 <h4><mark>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
                 <p>Hasta el viernes 12/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
-
+                <p><strong>Deberá abonar la diferencia del valor de inscripción del año siguiente.</strong></p>
                 <h4><mark>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
                 <p>Hasta el viernes 12/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
-
+                <p>Cualquiera sea la opción elegida, deberán mandar un mail detallado a <strong>info@fcproducciones.com.ar</strong></p>
                 <h3>CAMBIO DE DISTANCIA O DE OTRO TIPO</h3>
                 <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
                 <ol>
@@ -422,7 +470,7 @@ function M42() {
                 </ul>
                 
                 <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>
+                <Button disabled variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/maraton-m42-2023'>INSCRIBITE ACÁ</Link></Button>
                 </div>
 
         </section>

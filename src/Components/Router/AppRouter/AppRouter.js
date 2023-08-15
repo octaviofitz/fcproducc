@@ -24,9 +24,11 @@ import Alecec from '../../Carreras/Alecec/Alecec';
 import Index from '../../../Pages/Index.js/Index';
 import Error from '../../Secciones/Error404/Error';
 import Footer from '../../Footer/Footer';
+import BannerTablet from '../../BannerTablet/BannerTablet';
 
 /* Css */
 import '../AppRouter/appRouter.css'
+
 
 const AppRouter = () => {
     return (
@@ -39,6 +41,7 @@ const AppRouter = () => {
             </header>    
             <main className='main'>        
             <Banner / >
+            <BannerTablet />
             <BannerDesktop /> 
             <Routes >
            

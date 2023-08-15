@@ -16,6 +16,8 @@ import Magnesiano from "../../Img/Patrocinios/Magnesiano.png";
 import Prorun from "../../Img/Patrocinios/Prorun.png";
 import Sox from "../../Img/Patrocinios/Sox.png";
 import Trisport from "../../Img/Patrocinios/Trisport.png";
+import Coco from "../../Img/Patrocinios/Coco.png";
+import Mervick from "../../Img/Patrocinios/Mervick.png";
 
 import "../Patrocinios/patrocinios.css";
 
@@ -69,6 +71,12 @@ function Patrocinios() {
           </div>
           <div id="FCProducciones">
             <img src={FCProducciones} alt="Logo FC Producciones" className="img" />
+          </div>
+          <div id="FCProducciones">
+            <img src={Coco} alt="Logo Coco" className="img" />
+          </div>
+          <div id="FCProducciones">
+            <img src={Mervick} alt="Logo Mervick" className="img" />
           </div>
         </div>
       </div>

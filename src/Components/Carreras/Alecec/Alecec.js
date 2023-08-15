@@ -54,9 +54,8 @@ function Alecec() {
           </p>
         </div>
       </div>
-      <h3>
-        <mark>INSCRIPCIONES PRÓXIMAMENTE</mark>
-      </h3>
+
+      <Button variant="danger" size='lg' className='botonInscripcion'><Link target='_blank' rel="noopener noreferrer" to='https://www.encarrera.com.ar/alcec'>INSCRIBITE ACÁ</Link></Button>
 
       <article className="video">
         <div className="container">

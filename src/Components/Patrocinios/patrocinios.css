@@ -15,7 +15,7 @@
     justify-content: center;
     background-color: #f2f2f2;
     padding-top: 2rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     animation: patrociniosAnimation 6s ease;
     margin-bottom: 5rem;
 }
@@ -33,7 +33,8 @@
 
 
 .patrocinios .containerIMG .img{
-    width: 30vw;
+    width: 110px;
+    height: 110px;
     margin-top: -2rem;
 }
 
@@ -47,7 +48,8 @@
     }
     
     .patrocinios .containerIMG .img{
-        width: 18vw;
+        width: 150px;
+        height: 150px;
         margin-top: -2rem;
         display: flex;
         flex-flow: row wrap;
@@ -70,7 +72,8 @@
     }
     
     .patrocinios .containerIMG .img{
-        width: 10vw;
+        width: 180px;
+        height: 180px;
         margin-top: -2rem;
     }
 

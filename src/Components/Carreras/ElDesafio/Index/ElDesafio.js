@@ -58,7 +58,7 @@ function ElDesafio() {
                     </div>
 
             <div className='botones'>
-                <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
+                <Button variant="success" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button> 
                 <Button variant="success" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
                 <Button variant="success" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="success" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
@@ -247,32 +247,55 @@ function ElDesafio() {
                 </ul>
 
                 <h3>COSTOS</h3>
-                <p>(PRÓXIMAMENTE)</p>
+                <p><b>A PARTIR DEL 16/08/23</b></p>
+                <ul>
+                    <li>2 DÍAS INDIVIDUAL: <strong>$66.000</strong> pago total o 3 CUOTAS por transferencia bancaria de $22.000</li>
+                    <li>2 DÍAS EQUIPO: <strong>$132.000</strong> pago total por dos corredores o 3 CUOTAS por transferencia bancaria de $44.000</li>
+                    <li>1 DÍA 21K: <strong>$24.000</strong> pago total o 3 CUOTAS por transferencia bancaria de $8.000</li>
+                    <li>1 DÍA 10K: <strong>$16.500</strong> pago total o 3 CUOTAS por transferencia bancaria de $5.500</li>
+                    <li>KIDS: <strong>$6.000</strong> pago total</li>
+
+                    <div className='contenedorBoton'>
+                        <div className='botonIntermedio'>
+                        <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
+                            </div>
+                                </div>
+                </ul>
+                
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL DEL EVENTO</h3>
                <h4><strong><mark className='mark'>VIERNES 27/10</mark></strong></h4>
                <ul>
-                <li>16 a 19 hs: Acreditación y entrega de kits</li>
+                <li><strong>16 a 19 hs:</strong> Acreditación y entrega de kits. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
                </ul>
+
                <h4><strong><mark className='mark'>SÁBADO 28/10</mark></strong></h4>
                <ul>
-                <li>10 a 17 hs: Acreditación y entrega de kits</li>
-                <li>14:45 hs: Charla técnica dos días</li>
-                <li>15 hs: Largada de la modalidad de 2 días: 21k </li>
-                <li>20 a 21:30 hs: Cena en el camping.</li>
+                <li><strong>10 a 17 hs:</strong> Acreditación y entrega de kits. Hotel Provincial de Sierra de la Ventana, ubicada en Drago 130.</li>
+                <li><strong>14:45 hs:</strong> Charla técnica dos días. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>15 hs:</strong> Largada de la modalidad de 2 días: 21k. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>20 a 21:30 hs:</strong> Cena en el camping. Camping Fortín Pavón, Saldungaray.</li>
                </ul>
+
                <h4><strong><mark className='mark'>DOMINGO 29/10</mark></strong></h4>
                <ul>
-                <li>7 a 8:30 hs: Desayuno en el camping</li>
-                <li>7:30 a 9:30 hs: Entrega de Kits (modalidad un día)</li>
-                <li>9:45 hs: Charla técnica</li>
-                <li>10 hs: Largada 2 días + 1 día: 21K y 10K</li>
-                <li>13 / 13:30  hs: Largada Kids (horario aproximado)</li>
-                <li>14 / 14:30 hs: Premiación (horario aproximado)</li>
+                <li><strong>7 a 8:30 hs:</strong> Desayuno en el Camping Fortín Pavón</li>
+                <li><strong>7:30 a 9:30 hs:</strong> Entrega de Kits (modalidad un día) a 100 metros del arco de salida, en el "Centro de Interpretación de la obra de Francisco Salamone", Av. Corrales 202, predio del Camping Fortín Pavón.</li>
+                <li><strong>9:45 hs:</strong> Charla técnica previa largada. Camping Fortín Pavón, Saldungaray.</li>
+                <li><strong>10 hs:</strong> Largada 2 días + 1 día: 21K y 10K. Camping Fortín Pavón, Saldungaray.</li>
+                <li><strong>13 / 13:30  hs:</strong> Largada Kids (horario aproximado). Camping Fortín Pavón, Saldungaray.</li>
+                <li><strong>14 / 14:30 hs:</strong> Premiación (horario aproximado). Camping Fortín Pavón, Saldungaray.</li>
                </ul>
 
                <h3 id='reglamento'>REGLAMENTO DESAFÍO COLUMBIA</h3>
                <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
+               <ul>
+                <li>La participación en la carrera implica su responsabilidad por los datos suministrados en la ficha de inscripción, su aceptación plena del reglamento, bases y condiciones del evento, y el pago de la inscripción.</li>
+                <li>La Organización podrá impedir que un participante continúe interviniendo en la competencia, en caso de que el staff médico lo aconseje. La Organización podrá también realizar modificaciones de distancias, recorridos y horarios por factores climáticos, de seguridad y/u otros motivos. Tales decisiones no darán derecho a reclamo alguno hacia la Organización, sponsors y/o staff médico.</li>
+               </ul>
+
+               <h4><mark className='mark'>ABANDONO</mark></h4>
+               <p>En caso de abandono, el competidor tiene la obligación indelegable de avisar a la Organización. El aviso deberá ser realizado únicamente en los Puestos de Asistencia, en la Largada o Meta. Los banderilleros o personal fuera de estos lugares no están autorizados a registrar el aviso de abandono. Es muy importante dar aviso de abandono, pues de lo contrario el participante se presumirá extraviado y generará inconvenientes evitables.</p>
 
                 <h4><mark className='mark'>RECLAMOS</mark></h4>
                 <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
@@ -383,6 +406,11 @@ function ElDesafio() {
                     <li>Solo dejar la huella de tu calzado y no de tu basura</li>
                 </ul>
 
+                <div className='contenedorBoton'>
+                        <div className='botonIntermedio'>
+                        <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
+                            </div>
+                                </div>
         </section>
     );
 }
