@@ -220,10 +220,9 @@ function ElDesafio() {
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero</li>
-                    <li>Elegir la distancia y si abonás el <b>TOTAL</b> o en <b>3 PAGOS</b> por transferencia bancaria o depósito bancario</li>
+                    <li>Elegir la distancia y si abonás el <b>TOTAL</b> o el 50% de seña por transferencia bancaria o depósito bancario. </li>
                     <li>Completar los datos personales</li>
                     <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b></li>
-                    <li>Si eligieron la opción de 3 pagos, los próximos serán a los 30 y 60 días (Les llegará mail avisando).</li>
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
                         <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
@@ -247,13 +246,13 @@ function ElDesafio() {
                 </ul>
 
                 <h3>COSTOS</h3>
-                <p><b>A PARTIR DEL 16/08/23</b></p>
+                <p><b>A PARTIR DEL 16/08/2023</b></p>
                 <ul>
-                    <li>2 DÍAS INDIVIDUAL: <strong>$66.000</strong> pago total o 3 CUOTAS por transferencia bancaria de $22.000</li>
-                    <li>2 DÍAS EQUIPO: <strong>$132.000</strong> pago total por dos corredores o 3 CUOTAS por transferencia bancaria de $44.000</li>
-                    <li>1 DÍA 21K: <strong>$24.000</strong> pago total o 3 CUOTAS por transferencia bancaria de $8.000</li>
-                    <li>1 DÍA 10K: <strong>$16.500</strong> pago total o 3 CUOTAS por transferencia bancaria de $5.500</li>
-                    <li>KIDS: <strong>$6.000</strong> pago total</li>
+                    <li>2 DÍAS INDIVIDUAL: <strong>$66.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
+                    <li>2 DÍAS EQUIPO: <strong>$132.000</strong> pago total por dos corredores o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
+                    <li>1 DÍA 21K: <strong>$24.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
+                    <li>1 DÍA 10K: <strong>$17.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
+                    <li>KIDS: <strong>$6.000</strong> pago total.</li>
 
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
