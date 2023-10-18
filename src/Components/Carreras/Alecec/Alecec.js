@@ -55,8 +55,8 @@ function Alecec() {
         </div>
       </div>
 
-      <Button variant="danger" size='lg' className='botonInscripcion'><Link target='_blank' rel="noopener noreferrer" to='https://www.encarrera.com.ar/alcec'>INSCRIBITE ACÁ</Link></Button>
-
+{/*       <Button variant="danger" size='lg' className='botonInscripcion'><Link target='_blank' rel="noopener noreferrer" to='https://www.encarrera.com.ar/alcec'>INSCRIBITE ACÁ</Link></Button>
+ */}
       <article className="video">
         <div className="container">
           <Ratio aspectRatio="16x9">
@@ -73,7 +73,7 @@ function Alecec() {
       <article className="categorias">
 
         <div className="container">
-          <h4>RESULTADOS CATEGORÍAS 2022</h4>
+          <h4>CATEGORÍAS 2023</h4>
           <img
             src={AlececResultados}
             alt="Resultados Alcec por Categorías"
@@ -82,16 +82,16 @@ function Alecec() {
           <Button variant="danger" size="lg" className="botonResultados">
             <Link
               target="_blank"
-              to={AlcecCategorias}
+              to='https://www.cronomet.com.ar/?cronomet=alcec23-8c'
               download="Alcec categorías 2022"
             >
-              DESCARGAR
+              VER RESULTADOS
             </Link>
           </Button>
         </div>
 
         <div className="container">
-          <h4>RESULTADOS GENERALES 2022</h4>
+          <h4>GENERALES 2023</h4>
           <img
             src={AlececResultados}
             alt="Resultados Alcec Generales"
@@ -100,10 +100,11 @@ function Alecec() {
           <Button variant="danger" size="lg" className="botonResultados">
             <Link
               target="_blank"
-              to={AlcecGenerales}
+              rel="noopener noreferrer"
+              to='https://www.cronomet.com.ar/?cronomet=alcec23-8g'
               download="Alcec generales 2022"
             >
-              DESCARGAR
+              VER RESULTADOS
             </Link>
           </Button>
         </div>

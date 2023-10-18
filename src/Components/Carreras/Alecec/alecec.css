@@ -138,6 +138,10 @@
     opacity: 0.8;
 }
 
+.Alecec .video .container{
+    margin-top: 2rem;
+}
+
 .Alecec a{
     color: #fff;
 }
@@ -169,7 +173,7 @@
     }
     
     .Alecec .botones{
-        margin: 2rem 14rem;
+        margin: 20rem 14rem;
     }
     
     .Alecec h3{
@@ -179,7 +183,9 @@
     
     .Alecec .video .container{
         width: 75vw;
+        margin-top: 3rem;
     }
+
     .Alecec .categorias .container{
         margin: 2rem 0;
         width: 70vw;

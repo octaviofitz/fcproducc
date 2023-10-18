@@ -70,6 +70,7 @@
     color: #a0bf09;
 }
 
+
 .elDesafio h4,
 .elDesafio h5{
     margin: 1rem;
@@ -99,7 +100,9 @@
 
 .elDesafio .mark{
     background-color: #a0bf09;
+    line-height: 1.5em;
 }
+
 
 .elDesafio .contenedorBoton .boton{
     display: flex;

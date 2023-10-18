@@ -69,10 +69,14 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
+                <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '1rem' }}>¡ATENCIÓN! Por razones ajenas a la organización tuvimos la suerte y el agrado de conseguir un lugar de ensueño para realizar el DESAFÍO COLUMBIA. ¡Un nuevo lugar, un nuevo desafío que te va a volar la cabeza!</mark></h4>
+
+                <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '2.5rem' }}>El lugar del evento (largada, llegada y campamento) será la Reserva Natural Sierras Grandes. Es decir, se realizarán todas las carreras (modalidad 2 día y 1 día) en la Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires. Nos mudamos de Sierra de la Ventana y Saldungaray a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación) para brindarles un mejor servicio y para que conozcan un lugar de la comarca que es único. LEER CON ATENCIÓN CADA APARTADO.</mark></h4>
+
                 <h4><mark className='mark'>DATOS GENERALES</mark></h4>
                 <p><strong>Carrera:</strong> El Desafío Columbia</p>
                 <p><strong>Fecha:</strong> 28 y 29 de octubre 2023</p>
-                <p><strong>Lugar:</strong> Sierra de La Ventana a Saldungaray, comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p><mark className='mark'><strong>NUEVA UBICACIÓN: Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires.</strong> </mark></p>
                 <p><strong>Concepto:</strong> Carrera de trail running</p>
 
                 <h3>Modalidad</h3>
@@ -115,33 +119,35 @@ function ElDesafio() {
                     <li>Seguro de corredor</li>
                     <li>Fotos gratuitas de más de 4 fotógrafos</li>
                     <li>Video y foto de llegada</li>
-                    <li>Transporte a la largada para quienes corren dos días</li>
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
                     <li>Premiación ganadores categoría</li>
                     <li>Premiación ganadores general</li>
                 </ul>
-                <p><b>La organización pondrá micro y/o autos para trasladar a quienes no tengan como ir desde el camping a la largada del sábado.</b></p>
+                <p><mark className='mark'><b>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar</b></mark></p>
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
+                <p>Los 3 días se llevarán a cabo en el Hotel Provincial Sierra de la Ventana (Drago 130).</p>
 
-                <h4><mark className='mark'>- VIERNES 27/10 de 16 a 19hs</mark></h4>
-                <p>Hotel Provincial de Sierra de la Ventana (Drago 130)</p>
-                <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe>
+                <h4><mark className='mark'>- VIERNES 27/10</mark></h4>
+                <p>16 a 19hs: Todas las distancias.</p>
+               {/*  <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe> */}
 
-                <h4><mark className='mark'>- SÁBADO 28/10 de 10 a 17hs</mark></h4>
-                <p>Hotel Provincial de Sierra de la Ventana (Drago 130)</p>
-                <p>(Habrá prioridad hasta las 14 hs para quienes corren los dos días)</p>
-                <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe>
+                <h4><mark className='mark'>- SÁBADO 28/10</mark></h4>
+                <p>10 a 14hs: Prioridad 2 días.</p>
+                <p>10 a 19hs: Modalidad 1 día (21K, 10K) y KIDS.</p>
+                {/* <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe> */}
 
-                <h4><mark className='mark'>- DOMINGO 29/10 de 7:30 a 9:30 am</mark></h4>
-                <p>A 100 metros del arco de salida, en el “Centro de Interpretación de la obra de Francisco Salamone”, Av. Corrales 202, predio del camping Fortín Pavón.</p>
+                <h4><mark className='mark'>- DOMINGO 29/10</mark></h4>
+                <p>7 a 8:30hs: 21K, 10K, KIDS.</p>
+                {/* <p>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar </p> */}
                 <h5>¿CÓMO LLEGAR A LA ACREDITACIÓN?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6270.811893412615!2d-61.769943000000005!3d-38.200471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ece622ae73c7e3%3A0xc719abd95ca6308f!2sCentro%20de%20Interpretaci%C3%B3n%20de%20Obras%20de%20Francisco%20Salamone!5e0!3m2!1ses-419!2sar!4v1682094417742!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa acreditación'></iframe>
-
+                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6270.811893412615!2d-61.769943000000005!3d-38.200471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ece622ae73c7e3%3A0xc719abd95ca6308f!2sCentro%20de%20Interpretaci%C3%B3n%20de%20Obras%20de%20Francisco%20Salamone!5e0!3m2!1ses-419!2sar!4v1682094417742!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa acreditación'></iframe> */}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe>
                 <p>Por razones operativas, <b>recomendamos no venir el último día</b>. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>
+                <p><strong>NO HABRÁ ACREDITACIÓN NI INSCRIPCIÓN EN LA RESERVA SIERRAS GRANDES NINGÚN DIA{/* PUEDEN RETIRAR EL KIT HASTA EL DOMINGO 8.30 HS EN EL HOTEL PROVINCIAL, LUEGO DE ESO NO HABRÁ POSIBILIDAD */}.</strong></p>
 
 
                 <h3>PAPELES A PRESENTAR EN ACREDITACIÓN</h3>
@@ -172,23 +178,23 @@ function ElDesafio() {
 
                 <h4><mark className='mark'>MODALIDAD 2 DÍAS</mark></h4>
                 <p><strong>- DÍA:</strong> SÁBADO 28/10</p>
-                <p><strong>- LUGAR DE SALIDA:</strong> Hotel Provincial, Drago 130, Sierra de la Ventana</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 15 horas</p>
-                <p>-<strong>- LUGAR DE LLEGADA:</strong> Camping Fortín Pavón, Saldungaray.</p>
+                <p><strong>- DISTANCIA:</strong> 25 K</p>
+                <p><strong>- MISMO LUGAR DE SALIDA QUE DE LLEGADA:</strong> RESERVA NATURAL SIERRAS GRANDES, TORNQUIST.</p>
 
                 <h4><mark className='mark'>MODALIDAD 2 DÍAS Y 1 DÍA</mark></h4>
                 <p><strong>- DÍA:</strong> DOMINGO 29/10</p>
-                <p><strong>- LUGAR DE SALIDA:</strong> Camping Fortín Pavón, Saldungaray</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 10 horas</p>
-                <p><strong>- LUGAR DE LLEGADA:</strong> Camping Fortín Pavón, Saldungaray</p>
-
+                <p><strong>- DISTANCIA:</strong> 21K Y 10K</p>
+                <p><strong>- MISMO LUGAR DE SALIDA QUE DE LLEGADA:</strong> RESERVA NATURAL SIERRAS GRANDES, TORNQUIST.</p>
+                
                 
                 <h3>CAMPAMENTO OBLIGATORIO</h3>
                 <ul>
-                    <li>El campamento es <b>OBLIGATORIO</b> para aquellos que participen de la modalidad de <b>dos días</b> de carrera. <b>LA CARPA CORRE POR CUENTA DEL CORREDOR</b>Quienes corran solo el domingo e igualmente quieran dormir en el camping, pueden, leer siguiente apartado.</li>
+                    <li>El campamento es <b>OBLIGATORIO</b> para aquellos que participen de la modalidad de <b>dos días</b> de carrera. <b>LA CARPA CORRE POR CUENTA DEL CORREDOR</b>. Quienes corran solo el domingo e igualmente quieran dormir en el camping deberán leer también el siguiente apartado:</li>
                     <li>Los corredores deberán <b>primero acreditarse</b> para luego poder acceder al camping. Cada corredor contará con un voucher y una pulsera para ingresar al predio, otorgado en la acreditación.</li>
-                    <li>El camping de Saldungaray <b>abrirá sus puertas a partir del sábado 28 de octubre</b> desde temprano para aquellos que quieran armar su carpa antes de correr. Es lo recomendado. Caso contrario, podrán armarla una vez finalizado el primer día de carrera, pudiendo dejar sus objetos para acampar en el Hotel Provincial al momento de la acreditación, y posteriormente se retiran en el predio de acampe al llegar de la carrera.</li>
-                    <li>La distancia entre Sierra de La Ventana y Saldungaray es de 8.5 kilómetros. La organización pondrá micro y/o autos <b>para trasladar a quienes no tengan como ir</b> desde el camping a la largada del sábado.</li>
+                    <li>El camping (que será dentro de la Reserva Natural Sierras Grandes, donde se salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 28 de octubre desde temprano para que cada corredor pueda armar su propia carpa antes de correr.</li>
+                    <li>Los autos quedarán dentro del camping, estacionamiento para quienes corren dos días sin cargo.</li>
                     <li>Los dos días de carrera incluyen: estadía en el camping, cena del día sábado y desayuno del domingo.</li>
                 </ul>
 
@@ -270,21 +276,28 @@ function ElDesafio() {
 
                <h4><strong><mark className='mark'>SÁBADO 28/10</mark></strong></h4>
                <ul>
-                <li><strong>10 a 17 hs:</strong> Acreditación y entrega de kits. Hotel Provincial de Sierra de la Ventana, ubicada en Drago 130.</li>
-                <li><strong>14:45 hs:</strong> Charla técnica dos días. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
-                <li><strong>15 hs:</strong> Largada de la modalidad de 2 días: 21k. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
-                <li><strong>20 a 21:30 hs:</strong> Cena en el camping. Camping Fortín Pavón, Saldungaray.</li>
+                <li><strong>10 a 14 hs:</strong> Acreditación y entrega de kits modalidad 2 días: Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>10 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>14:45 hs:</strong> Charla técnica dos días. Reserva Natural Sierras Grandes, Tornquist.</li>
+                <li><strong>15 hs:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes, Tornquist.</li>
+                <li><strong>20 a 21:30 hs:</strong> Cena en el camping de la Reserva Natural Sierras Grandes, Tornquist.</li>
                </ul>
 
                <h4><strong><mark className='mark'>DOMINGO 29/10</mark></strong></h4>
                <ul>
-                <li><strong>7 a 8:30 hs:</strong> Desayuno en el Camping Fortín Pavón</li>
-                <li><strong>7:30 a 9:30 hs:</strong> Entrega de Kits (modalidad un día) a 100 metros del arco de salida, en el "Centro de Interpretación de la obra de Francisco Salamone", Av. Corrales 202, predio del Camping Fortín Pavón.</li>
-                <li><strong>9:45 hs:</strong> Charla técnica previa largada. Camping Fortín Pavón, Saldungaray.</li>
-                <li><strong>10 hs:</strong> Largada 2 días + 1 día: 21K y 10K. Camping Fortín Pavón, Saldungaray.</li>
-                <li><strong>13 / 13:30  hs:</strong> Largada Kids (horario aproximado). Camping Fortín Pavón, Saldungaray.</li>
-                <li><strong>14 / 14:30 hs:</strong> Premiación (horario aproximado). Camping Fortín Pavón, Saldungaray.</li>
+                <li><strong>7 a 8:30 hs:</strong> Desayuno en el Camping de Reserva Natural Sierras Grandes, Tornquist.</li>
+                <li><strong>7:30 a 8:50 hs:</strong> Acreditación y entrega de kits (modalidad un día). Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>9:45 hs:</strong> Charla técnica previa largada. Reserva Natural Sierras Grandes, Tornquist.</li>
+                <li><strong>10 hs:</strong> Largada 2 días + 1 día: 21K y 10K. Reserva Natural Sierras Grandes, Tornquist.</li>
+                <li><strong>13 / 13:30  hs:</strong> Largada Kids (horario aproximado). Reserva Natural Sierras Grandes, Tornquist.</li>
+                <li><strong>14 / 14:30 hs:</strong> Premiación (horario aproximado). Reserva Natural Sierras Grandes, Tornquist.</li>
                </ul>
+
+               <h3>ESTACIONAMIENTO DEL DOMINGO</h3>
+               <p>Se cobrará un voucher de $500 para estacionar el día domingo dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los bomberos de la comarca de Tornquist. Pueden comprar el voucher en la acreditación o al llegar al lugar.</p>
+
+               <h3>AVISO DE NO SEÑAL 3G/4G</h3>
+               <p>Dentro del campo privado donde se realizará el evento no hay señal 3g ni 4g. Tenerlo en cuenta.</p>
 
                <h3 id='reglamento'>REGLAMENTO DESAFÍO COLUMBIA</h3>
                <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
@@ -308,23 +321,15 @@ function ElDesafio() {
                <ul>
                 <li><strong>NÚMERO DE CORREDOR con CHIP incluido</strong>.<br></br>
                 Será provisto por la organización y deberá estar visible en todo momento.</li>
-                <li><strong>APTO MÉDICO</strong></li>
+                <li><strong>APTO MÉDICO. Entregar en acreditación.</strong></li>
                 <li><strong>REMERA OFICIAL DE CORREDOR</strong> <br></br>
                 Será provista por la organización.</li>
+                <li><strong>HIDRATACIÓN PROPIA</strong>. Más allá de los puestos de hidratación que ofrecerá la organización.</li>
                </ul>
-
-               <h3>ELEMENTOS OBLIGATORIOS PARA EL CAMPAMENTO</h3>
-                <ul>
-                    <li><strong>APTO MÉDICO</strong><br></br>Entregar en acreditación</li>
-                    <li><strong>REMERA</strong><br></br>Provista por la organización</li>
-                    <li><strong>NÚMERO DE CORREDOR</strong><br></br>Con CHIP incluido. Debe estar visible en todo momento. Provisto por la organización.</li>
-                    <li><strong>RECIPIENTE PARA 1 LITRO DE AGUA</strong></li>
-                </ul>
-
 
                <h3>ELEMENTOS RECOMENDADOS</h3>
                <ul>
-                <li>Bastones</li>
+                <li>Bastones para dos días y 21K</li>
                 <li>Ojotas: fundamental para tener los pies al aire libre después de cada etapa</li>
                 <li>Sombrero o gorra</li>
                 <li>Campera de lluvia</li>
@@ -344,6 +349,7 @@ function ElDesafio() {
                     <li>Carpa</li>
                     <li>Bolsa de dormir</li>
                     <li>Platos, cubiertos y vaso térmico</li>
+                    <li>Linterna frontal</li>
                 </ul>
 
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
@@ -351,18 +357,18 @@ function ElDesafio() {
                
               
                 <h4><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
-                <p>Hasta el viernes 13/9, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>Hasta el viernes 13/10, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
 
                 <h4><mark className='mark'>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
-                <p>Hasta el viernes 13/9, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+                <p>Hasta el viernes 13/10, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
               
     
                <h3>CAMBIO DE DISTANCIA O DE OTRO TIPO</h3>
                <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
                <ol>
                 <li>Solo se considerarán aquellos casos en que se solicite al mail de la organización: <b>info@fcproducciones.com.ar</b></li>
-                <li>A partir del lunes 16/9 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
+                <li>A partir del lunes 16/10 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
                 <li>Si el cambio es a una distancia mayor, abona la diferencia del monto de inscripción.</li>
                 <li>Si el cambio es a una distancia menor, NO se le devolverá dinero</li>
                </ol>
