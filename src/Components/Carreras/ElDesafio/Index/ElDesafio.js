@@ -207,10 +207,10 @@ function ElDesafio() {
                     <li><strong>HORARIO DE DESAYUNO 29/10:</strong> 7 a 8:30 horas</li>
                 </ul>
 
-                <h3>CAMPAMENTO OPCIONAL</h3>
+                {/* <h3>CAMPAMENTO OPCIONAL</h3>
                 <h4><mark className='mark'>SI SOS UN ACOMPAÑANTE, O UN CORREDOR DE UN DÍA Y QUERÉS ACAMPAR, PODÉS</mark></h4>
                 <p>Todos los <b>corredores de un día o acompañantes</b> que quieran <b>participar del campamento</b>, podrán. Se les cobrará un adicional que incluye alojamiento en camping desde el sábado, cena y desayuno.</p>
-                <p>Deberán solicitar la estadía y costo en <b>info@fcproducciones.com.ar</b> y deberán retirar el voucher en la acreditación.</p>
+                <p>Deberán solicitar la estadía y costo en <b>info@fcproducciones.com.ar</b> y deberán retirar el voucher en la acreditación.</p> */}
 
                 <h3>RECORRIDOS</h3>
                 <p>(PRÓXIMAMENTE)</p>
@@ -294,7 +294,7 @@ function ElDesafio() {
                </ul>
 
                <h3>ESTACIONAMIENTO DEL DOMINGO</h3>
-               <p>Se cobrará un voucher de $500 para estacionar el día domingo dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los bomberos de la comarca de Tornquist. Pueden comprar el voucher en la acreditación o al llegar al lugar.</p>
+               <p>Se cobrará un voucher de $500 para estacionar el día domingo dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los viajes de estudio del ciclo superior de la EEST N 1 DE TORNQUIST. Pueden comprar el voucher en la acreditación o al llegar al lugar.</p>
 
                <h3>AVISO DE NO SEÑAL 3G/4G</h3>
                <p>Dentro del campo privado donde se realizará el evento no hay señal 3g ni 4g. Tenerlo en cuenta.</p>
