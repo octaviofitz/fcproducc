@@ -286,7 +286,7 @@ function ElDesafio() {
                <h4><strong><mark className='mark'>DOMINGO 29/10</mark></strong></h4>
                <ul>
                 <li><strong>7 a 8:30 hs:</strong> Desayuno en el Camping de Reserva Natural Sierras Grandes, Tornquist.</li>
-                <li><strong>7:30 a 8:50 hs:</strong> Acreditación y entrega de kits (modalidad un día). Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>7:30 a 8:30 hs:</strong> Acreditación y entrega de kits (modalidad un día). Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
                 <li><strong>9:45 hs:</strong> Charla técnica previa largada. Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>10 hs:</strong> Largada 2 días + 1 día: 21K y 10K. Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>13 / 13:30  hs:</strong> Largada Kids (horario aproximado). Reserva Natural Sierras Grandes, Tornquist.</li>
