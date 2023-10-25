@@ -174,6 +174,15 @@ function ElDesafio() {
                                             </div>
                 </ol>
 
+                <h3>RETIRO DE KITS POR TERCEROS</h3>
+                <p>El requisito es que se acerque con los siguientes documentos:</p>
+                <ol>
+                    <li>DNI original o fotocopia de DNI del titular</li>
+                    <li>Deslinde de responsabilidad completo y firmado por el titular</li>
+                    <li>Apto físico del titular</li>
+                </ol>
+                <p><strong>De no contar con estos requisitos la organización no entregará el kit.</strong></p>
+
                 <h3>LUGAR Y HORARIOS DE LARGADA</h3>
 
                 <h4><mark className='mark'>MODALIDAD 2 DÍAS</mark></h4>
@@ -206,7 +215,8 @@ function ElDesafio() {
                     <li><strong>HORARIO DE CENA SÁBADO 28/10:</strong> 20 a 21:30 horas</li>
                     <li><strong>HORARIO DE DESAYUNO 29/10:</strong> 7 a 8:30 horas</li>
                 </ul>
-
+                
+                <p><mark className='mark'><strong>NO HAY MÁS LUGAR PARA QUIENES QUIERAN PARTICIPAR DEL CAMPAMENTO DE FORMA ADICIONAL COMO CORREDORES DE UN DIA O ACOMPAÑANTES.</strong></mark></p>
                 {/* <h3>CAMPAMENTO OPCIONAL</h3>
                 <h4><mark className='mark'>SI SOS UN ACOMPAÑANTE, O UN CORREDOR DE UN DÍA Y QUERÉS ACAMPAR, PODÉS</mark></h4>
                 <p>Todos los <b>corredores de un día o acompañantes</b> que quieran <b>participar del campamento</b>, podrán. Se les cobrará un adicional que incluye alojamiento en camping desde el sábado, cena y desayuno.</p>
@@ -410,6 +420,7 @@ function ElDesafio() {
                     <li>Respetar la flora y fauna</li>
                     <li>Solo dejar la huella de tu calzado y no de tu basura</li>
                 </ul>
+                <p><strong><mark className='mark'>NO SE PUEDE HACER FUEGO DENTRO DE LA RESERVA NATURAL SIERRAS GRANDES. POR FAVOR NO NOS COMPROMETA.</mark></strong></p>
 
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
