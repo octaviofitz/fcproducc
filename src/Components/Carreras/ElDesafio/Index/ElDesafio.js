@@ -69,6 +69,8 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
+                <h4><mark className='mark' style={{textAlign: 'center', display: 'flex', marginBottom: '2rem'}}>¡INSCRIPCIONES ONLINE Y EN CENTROS CERRADAS! PUEDEN INSCRIBIRSE EN ACREDITACIÓN EN CASO DE QUEDAR CUPOS!</mark></h4>
+
                 <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '1rem' }}>¡ATENCIÓN! Por razones ajenas a la organización tuvimos la suerte y el agrado de conseguir un lugar de ensueño para realizar el DESAFÍO COLUMBIA. ¡Un nuevo lugar, un nuevo desafío que te va a volar la cabeza!</mark></h4>
 
                 <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '2.5rem' }}>El lugar del evento (largada, llegada y campamento) será la Reserva Natural Sierras Grandes. Es decir, se realizarán todas las carreras (modalidad 2 día y 1 día) en la Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires. Nos mudamos de Sierra de la Ventana y Saldungaray a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación) para brindarles un mejor servicio y para que conozcan un lugar de la comarca que es único. LEER CON ATENCIÓN CADA APARTADO.</mark></h4>
@@ -232,7 +234,7 @@ function ElDesafio() {
                 <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <h4><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
+                <h4><mark className='mark'>INSCRIPCIÓN ONLINE CERRADA</mark></h4>
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero</li>
@@ -241,7 +243,7 @@ function ElDesafio() {
                     <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b></li>
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                        <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
+                        <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
                             </div>
                                 </div>
                 </ol>
@@ -250,7 +252,7 @@ function ElDesafio() {
                 <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN</mark></h4>
                 <p>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos</p>
 
-                <h3>INSCRIPCIÓN PRESENCIAL</h3>
+                <h3>INSCRIPCIÓN PRESENCIAL CERRADA</h3>
                 <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
                 <h4>CENTROS DE INSCRIPCIÓN:</h4>
                 <ul>
@@ -272,7 +274,7 @@ function ElDesafio() {
 
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                        <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
+                        <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
                             </div>
                                 </div>
                 </ul>
@@ -287,7 +289,7 @@ function ElDesafio() {
                <h4><strong><mark className='mark'>SÁBADO 28/10</mark></strong></h4>
                <ul>
                 <li><strong>10 a 14 hs:</strong> Acreditación y entrega de kits modalidad 2 días: Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
-                <li><strong>10 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>10 a 19 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
                 <li><strong>14:45 hs:</strong> Charla técnica dos días. Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>15 hs:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>20 a 21:30 hs:</strong> Cena en el camping de la Reserva Natural Sierras Grandes, Tornquist.</li>
@@ -424,7 +426,7 @@ function ElDesafio() {
 
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                        <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
+                        <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
                             </div>
                                 </div>
         </section>

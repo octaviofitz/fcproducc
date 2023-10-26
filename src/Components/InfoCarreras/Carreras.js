@@ -41,7 +41,7 @@ function Carreras() {
         </div>  */}
        
 
-              <h1 className='titulo'>Inscripciones abiertas</h1>
+              <h1 className='titulo'>Proximas carreras</h1>
             <div className='containerGeneral'>
 
             <article className='container'>
