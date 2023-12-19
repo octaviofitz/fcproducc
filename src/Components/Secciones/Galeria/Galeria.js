@@ -18,6 +18,9 @@ function Galeria() {
             </ul>
             <div className='container'>
             <Ratio aspectRatio="16x9">
+            <iframe className='video' src="https://www.youtube.com/embed/zwYcBcO46Dk?si=g1EPITGa99BPlzTp" title="Maraton de Montaña M42 2023"></iframe>
+            </Ratio>
+            <Ratio aspectRatio="16x9">
             <iframe className='video' src="https://www.youtube.com/embed/ZWIqiKj0gaM" title="Maraton de Montaña M42 2022"></iframe>
             </Ratio>
             <Ratio aspectRatio="16x9">

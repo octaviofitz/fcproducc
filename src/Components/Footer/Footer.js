@@ -40,9 +40,9 @@ function Footer() {
       </nav>
     </div>
   </div>
-  <div className="footer-bottom">
+  {/* <div className="footer-bottom">
     <p className='derechos'>© FC Producciones 2023. Todos los derechos reservados.</p>
-  </div>
+  </div> */}
 </footer>
         </div>
     );

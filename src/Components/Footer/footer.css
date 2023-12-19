@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   
   .footer-logo {
@@ -54,12 +54,12 @@
   }
 
   .footer .fa-envelope{
-    color:#3b5998;
+    color: #f5ad34;
     font-weight: 700;
   }
 
   .footer .fa-whatsapp{
-    color: green;
+    color: #f5ad34;
     font-weight: 700;
   }
 
@@ -123,18 +123,28 @@
   .footer li a:hover{
     color: #f5ad34; 
   }
+
+  .footer .fa-youtube,
+  .footer .fa-facebook,
+  .footer .fa-instagram
+  {
+    color: #f5ad34;
+  }
+
  
-  .footer .fa-youtube{
+  .footer .fa-youtube:hover{
     color: #c4302b;
   }
 
-  .footer .fa-facebook{
+  .footer .fa-facebook:hover{
     color: #3b5998;
   }
 
-  .footer .fa-instagram{
+  .footer .fa-instagram:hover{
     color: #C13584;
   }
+
+
 
   .footer .derechos{
    font-size: 14px;

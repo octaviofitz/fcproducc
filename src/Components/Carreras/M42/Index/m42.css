@@ -315,8 +315,9 @@
 
     .m42 .containerAltimetria{
         display: flex;
-        justify-content: space-around;
-        padding: 1rem 3vw;
+        /* justify-content: space-around;
+        padding: 1rem 3vw; */
+        margin-left: 3rem;
     }
 
     .m42 .altimetriaTxt:first-child{

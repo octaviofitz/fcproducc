@@ -57,7 +57,8 @@
 .carreras .botonm42,
 .carreras .botondesafio,
 .carreras .botonAlecec,
-.carreras .botonCircuito{
+.carreras .botonCircuito,
+.carreras #botondesafio{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +77,22 @@
 
 .carreras .botondesafio{
     background-color: #a0bf09;
+   /*  margin: 0.5rem 0;
+    padding: 1rem; */
+    /* margin-top: 1.5rem; */
 }
+
+.carreras #botondesafio{
+    background-color: #a0bf09;
+   /*  margin: 0.5rem 0;
+    padding: 1rem;  */
+     /* margin-top: 1.5rem;  */
+}
+
+
+/* .carreras .botondesafio:first-child{
+    margin-top: 1.5rem;
+} */
 
 .carreras .botonAlecec{
     background-color: #fd0081;
@@ -89,14 +105,16 @@
 .carreras .botonAlecec:hover,
 .carreras .botondesafio:hover,
 .carreras .botonCircuito:hover,
-.carreras .botonm42:hover{
+.carreras .botonm42:hover,
+.carreras #botondesafio:hover{
     opacity: 0.75;
 }
 
 .carreras .botonm42 a:hover,
 .carreras .botondesafio a:hover,
 .carreras .botonAlecec a:hover,
-.carreras .botonCircuito a:hover{
+.carreras .botonCircuito a:hover,
+.carreras #botondesafio a:hover{
     color: #fff;
 }
 
@@ -104,9 +122,9 @@
     font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
-    margin-bottom: 0rem;
+    margin-bottom: -0.5rem;
     font-family: 'Montserrat', sans-serif;
-    margin-top: -1rem;
+    margin-top: -1.55rem;
 }
 
 #AlcecPrueba{
@@ -119,6 +137,24 @@
     flex-direction: column;
     margin: auto;
 }
+
+.containerBotones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#resultadosImg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-bottom: 2.75rem;
+    border-radius: 50%;
+}
+
 
 
 @media (min-width: 768px){
@@ -178,7 +214,7 @@
 
 
     .carreras .titulo{
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin-top: 2rem;
     }
 
@@ -221,6 +257,17 @@
     width: 42vw;
 }
 
+.containerBotones{
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* .carreras .botondesafio{
+    margin-top: 1.5rem;
+} */
+
+
 
 }
 
@@ -229,6 +276,10 @@
     .containerNovedades{
         flex-direction: row;
         justify-content: center;
+    }
+
+    .containerNovedades .container{
+        margin: 0 3rem;
     }
 
 

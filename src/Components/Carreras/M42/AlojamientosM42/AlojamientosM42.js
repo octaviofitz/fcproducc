@@ -13,6 +13,8 @@ import Cabania from '../../../../Img/Alojamientos/cabania.webp';
 import Tornquist from '../../../../Img/Alojamientos/tornquist.webp';
 import Cocolanel from '../../../../Img/Alojamientos/cocolonanel.webp';
 import RocioDeLuna from '../../../../Img/Alojamientos/rociodeluna.webp';
+import Alerces from '../../../../Img/Alojamientos/alerces.webp';
+
 
 import '../AlojamientosM42/alojamientosM42.css'
 
@@ -89,6 +91,24 @@ function AlojamientosM42() {
         
         <h3>ALOJAMIENTOS EN SAN ANDRES DE LA SIERRA</h3>
         <p>San Andrés de la Sierra se encuentra ubicado a 13,1km de la Estancia Las Vertientes.</p>
+
+        <article>
+            <h4><mark className='marcador'>LOS ALERCES RESORT & SPA</mark></h4>
+            <div className='containerTop'> 
+            <div>
+            <img src={Alerces} className='img' alt='Complejo Puesta del Sol' />
+            </div>
+            <div>            <ul>
+                <li>Calle: Gnena-Kena y Grindella, ex Melica, San Andrés de la Sierra</li>
+                <li>Whatsapp: 2914460503</li>
+                <li>Teléfono: (11)77000310</li>
+                <li>reservas@losalercesresort.com.ar</li>
+                <li>Web: <Link to='https://www.losalercesresort.com' target='_blank' rel="noopener noreferrer">www.losalercesresort.com</Link></li>
+            </ul>
+            </div>
+
+            </div>
+        </article>
 
         <article>
             <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>

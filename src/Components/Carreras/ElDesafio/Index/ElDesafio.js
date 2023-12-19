@@ -63,17 +63,17 @@ function ElDesafio() {
                 <Button variant="success" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="success" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
                 <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados 2022</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/fotos2022'>Fotos 2022</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados + FOTOS 2023</Link></Button>
+               {/*  <Button variant="success" size='lg' className='boton' disabled><Link to='/desafio-columbia/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
 
                 <h3 id='cartas'>Cartas</h3>
 
-                <h4><mark className='mark' style={{textAlign: 'center', display: 'flex', marginBottom: '2rem'}}>¡INSCRIPCIONES ONLINE Y EN CENTROS CERRADAS! PUEDEN INSCRIBIRSE EN ACREDITACIÓN EN CASO DE QUEDAR CUPOS!</mark></h4>
-
+                <h4><mark style={{textAlign: 'center', display: 'flex', marginBottom: '2rem', justifyContent:'center', padding: '1rem'}}>PRÓXIMAMENTE ACTUALIZAMOS INFORMACIÓN 2024</mark></h4>
+{/* 
                 <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '1rem' }}>¡ATENCIÓN! Por razones ajenas a la organización tuvimos la suerte y el agrado de conseguir un lugar de ensueño para realizar el DESAFÍO COLUMBIA. ¡Un nuevo lugar, un nuevo desafío que te va a volar la cabeza!</mark></h4>
 
-                <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '2.5rem' }}>El lugar del evento (largada, llegada y campamento) será la Reserva Natural Sierras Grandes. Es decir, se realizarán todas las carreras (modalidad 2 día y 1 día) en la Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires. Nos mudamos de Sierra de la Ventana y Saldungaray a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación) para brindarles un mejor servicio y para que conozcan un lugar de la comarca que es único. LEER CON ATENCIÓN CADA APARTADO.</mark></h4>
+                <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '2.5rem' }}>El lugar del evento (largada, llegada y campamento) será la Reserva Natural Sierras Grandes. Es decir, se realizarán todas las carreras (modalidad 2 día y 1 día) en la Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires. Nos mudamos de Sierra de la Ventana y Saldungaray a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación) para brindarles un mejor servicio y para que conozcan un lugar de la comarca que es único. LEER CON ATENCIÓN CADA APARTADO.</mark></h4>  */}
 
                 <h4><mark className='mark'>DATOS GENERALES</mark></h4>
                 <p><strong>Carrera:</strong> El Desafío Columbia</p>
