@@ -31,7 +31,7 @@
 }
 
 .goBack:hover {
-    background-color: #97161a;
+    background-color: #39afdb;
     border-color: #fff;
   }
   
@@ -52,7 +52,7 @@
 
 .AlojamientosM42 h3{
     font-family: 'Montserrat', sans-serif;
-    color: #97161a;
+    color: #39afdb;
 }
 
 .AlojamientosM42 h4{
@@ -83,7 +83,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #97161a;
+    background-color: #39afdb;
     color: #fff;
     border: none;
     text-transform: uppercase;
@@ -95,7 +95,7 @@
 }
 
 .AlojamientosM42 .marcador{
-    background-color: #97161a;
+    background-color: #39afdb;
     color: #fff;
 }
 
@@ -151,7 +151,7 @@
     
    
     .AlojamientosM42 .marcador{
-        background-color: #97161a;
+        background-color: #39afdb;
         margin-left: 0rem;
     }
 }

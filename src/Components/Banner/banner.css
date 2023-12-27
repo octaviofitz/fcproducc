@@ -6,6 +6,11 @@
     animation: bannerAnimacion 3s ease;
 }
 
+
+.carruselMobile .carousel-control-prev,
+.carruselMobile .carousel-control-next {
+    display: none;
+}
 @keyframes bannerAnimacion {
     
     from{

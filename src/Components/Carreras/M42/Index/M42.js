@@ -65,12 +65,12 @@ function M42() {
                                              </div>
 
                 <div className='botones'>
-                <Button variant="danger" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
-                <Button variant="danger" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
-                <Button variant="danger" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
-                <Button variant="danger" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
-                <Button variant="danger" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="danger" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2023</Link></Button> 
+                <Button variant="info" size='lg' className='boton' onClick={scrollCartas}><Link to='#cartas'>Cartas</Link></Button>
+                <Button variant="info" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
+                <Button variant="info" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
+                <Button variant="info" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2023</Link></Button> 
                  {/* <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
                 

@@ -224,13 +224,13 @@ function AlojamientosM42() {
         </div>
         <div>
         <p>ALOJAMIENTOS EN VILLA VENTANA, SIERRA DE LA VENTANA, SAN ANDRES, Y MÁS, HABILITADOS POR LA DIRECCIÓN DE TURISMO DE TORNQUIST</p>
-        <Button variant="danger" size='lg' className='boton'><Link to='https://www.sierrasdelaventana.com.ar/alojamientos/' target='_blank' rel="noopener noreferrer">VER AQUÍ</Link></Button>
+        <Button variant="info" size='lg' className='boton'><Link to='https://www.sierrasdelaventana.com.ar/alojamientos/' target='_blank' rel="noopener noreferrer">VER AQUÍ</Link></Button>
         </div>
         </div>
     </div>
 
         <div className='contenedorBotonM42'>
-        <Button variant="danger" onClick={volverAtras} className='goBack'>Volver ←</Button>
+        <Button variant="info" onClick={volverAtras} className='goBack'>Volver ←</Button>
         </div>
 
         </section>

@@ -15,17 +15,17 @@ function BannerDesktop() {
     <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "/banner3.webp"}
+          src={process.env.PUBLIC_URL + "bannerDesktop/banner1.webp"}
           alt="First slide"
           id='img'
         />
       </Carousel.Item>
  
-     <Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Banner1}
-          alt="Second slide"
+          src={process.env.PUBLIC_URL + "bannerDesktop/banner2.webp"}
+          alt="First slide"
           id='img'
         />
       </Carousel.Item>
@@ -33,20 +33,20 @@ function BannerDesktop() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Banner2}
-          alt="Third slide"
+          src={process.env.PUBLIC_URL + "bannerDesktop/banner3.webp"}
+          alt="First slide"
           id='img'
         />
-      </Carousel.Item>  
+      </Carousel.Item>
 
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Banner4}
-          alt="For slide"
+          src={process.env.PUBLIC_URL + "bannerDesktop/banner4.webp"}
+          alt="First slide"
           id='img'
         />
-      </Carousel.Item>  
+      </Carousel.Item>
     
 
     </Carousel>

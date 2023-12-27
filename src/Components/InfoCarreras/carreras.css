@@ -48,11 +48,13 @@
     border-radius: 50%;
 }
 
+
 .carreras .texto{
     text-align: center;
     padding: 1rem 0;
     font-size: 1.15rem;
 }
+
 
 .carreras .botonm42,
 .carreras .botondesafio,
@@ -72,7 +74,7 @@
 }
 
 .carreras .botonm42{
-    background-color: #a98b30;
+    background-color: #39afdb;
 }
 
 .carreras .botondesafio{
@@ -205,6 +207,8 @@
         width: 100vw;
     }
 
+  
+
     .carreras .containerGeneral{
         flex-wrap: wrap;
         justify-content: center;
@@ -295,7 +299,5 @@
     .carreras .containerDesafio{
         width: 60vw;
     }
-
-
 
 }

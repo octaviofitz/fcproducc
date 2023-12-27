@@ -51,7 +51,7 @@
 .m42 .boton{
     margin: 0.5rem 0;
     padding: 0.8rem 0;
-    background-color: #97161a;
+    background-color: #39afdb;
     color: white;
     text-decoration: none;
     border: none;
@@ -70,7 +70,7 @@
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
     margin: 1.8rem 1rem;
-    color: #97161a;
+    color: #39afdb;
 }
 
 .m42 h4,
@@ -80,7 +80,7 @@
 }
 
 .m42 mark{
-    background-color: #97161a;
+    background-color: #39afdb;
     color: #fff;
 }
 
@@ -144,7 +144,7 @@
 
 .m42 .redes .fa-instagram,
 .m42 .redes .fa-facebook{
-    color: #97161a;
+    color: #39afdb;
     cursor: pointer;
 }
 

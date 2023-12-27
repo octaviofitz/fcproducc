@@ -69,14 +69,15 @@ function Carreras() {
             <article className='container'>
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
             <p className='texto'>El Maratón M42 Los Alerces es el clásico de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 25K, 10K y KIDS. Sábado 1 y domingo 2 de junio 2024. ¿Te lo vas a perder? ¡Nos vemos en junio!</p>
-             <Button variant="warning" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
+             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
             </article>
 
-           
-
+        
             </div>
 
+
              <h2 className='titulo'>MÁS CARRERAS</h2>
+             
 
             <div className='containerGeneral'>
 
