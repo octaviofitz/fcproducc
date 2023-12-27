@@ -3,14 +3,23 @@
 }
 
 .carruselMobile{
-    animation: bannerAnimacion 3s ease;
+    animation: bannerAnimacion 2500ms ease;
 }
 
 
 .carruselMobile .carousel-control-prev,
 .carruselMobile .carousel-control-next {
     display: none;
-}
+} 
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-image: none!important;
+    display: none!important;
+    width: 0;
+} 
+
+
 @keyframes bannerAnimacion {
     
     from{

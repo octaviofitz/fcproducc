@@ -1,6 +1,13 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
+import Banner1 from '../../Img/bannerMobile/banner1.webp';
+import Banner2 from '../../Img/bannerMobile/banner2.webp';
+import Banner3 from '../../Img/bannerMobile/banner3.webp';
+import Banner4 from '../../Img/bannerMobile/banner4.webp';
+import Banner5 from '../../Img/bannerMobile/banner5.webp';
+import Banner6 from '../../Img/bannerMobile/banner6.webp';
+
 import '../Banner/banner.css'
 
 function Banner() {
@@ -11,7 +18,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner1.webp"}
+          src={Banner1}
           alt="First slide"
         />
       </Carousel.Item>
@@ -19,7 +26,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner2.webp"}
+          src={Banner2}
           alt="Second slide"
         />
       </Carousel.Item>
@@ -27,7 +34,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner3.webp"}
+          src={Banner3}
           alt="Third slide"
         />
       </Carousel.Item>
@@ -35,7 +42,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner4.webp"}
+          src={Banner4}
           alt="For slide"
         />
       </Carousel.Item>
@@ -43,7 +50,7 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner5.webp"}
+          src={Banner5}
           alt="Five slide"
         />
       </Carousel.Item>
@@ -51,56 +58,8 @@ function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner6.webp"}
+          src={Banner6}
           alt="Six slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner7.webp"}
-          alt="Seven slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner8.webp"}
-          alt="Eight slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner9.webp"}
-          alt="Nine slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner10.webp"}
-          alt="Ten slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner11.webp"}
-          alt="Eleven slide"
-        />
-      </Carousel.Item>
-
-       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerMobile/banner12.webp"}
-          alt="Twelve slide"
         />
       </Carousel.Item>
 

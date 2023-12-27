@@ -1,9 +1,11 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import Banner1 from '../../Img/index/BannerDesktop/banner1.webp';
-import Banner2 from '../../Img/index/BannerDesktop/banner2.webp'; 
-import Banner4 from '../../Img/index/BannerDesktop/banner4.webp'; 
+import Banner1 from '../../Img/bannerDesktop/banner1.webp';
+import Banner2 from '../../Img/bannerDesktop/banner2.webp'; 
+import Banner3 from '../../Img/bannerDesktop/banner3.webp'; 
+import Banner4 from '../../Img/bannerDesktop/banner4.webp'; 
+
 
 import '../BannerDesktop/bannerDesktop.css';
 
@@ -15,7 +17,7 @@ function BannerDesktop() {
     <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerDesktop/banner1.webp"}
+          src={Banner1}
           alt="First slide"
           id='img'
         />
@@ -24,7 +26,7 @@ function BannerDesktop() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerDesktop/banner2.webp"}
+          src={Banner2}
           alt="First slide"
           id='img'
         />
@@ -33,7 +35,7 @@ function BannerDesktop() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerDesktop/banner3.webp"}
+          src={Banner3}
           alt="First slide"
           id='img'
         />
@@ -42,7 +44,7 @@ function BannerDesktop() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={process.env.PUBLIC_URL + "bannerDesktop/banner4.webp"}
+          src={Banner4}
           alt="First slide"
           id='img'
         />
