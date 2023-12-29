@@ -349,21 +349,18 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
-                <p><strong>¡PRECIO EXCLUSIVO PREVENTA Y EN DOS PAGOS SIN INTERÉS! ¡SÓLO 100 CUPOS!</strong></p>
+                {/* <h4><strong>¡PRECIO EXCLUSIVO PREVENTA Y EN DOS PAGOS SIN INTERÉS! ¡SÓLO 100 CUPOS!</strong></h4>
                 <ul>
                     <li><strong>50K</strong>: $59.000 <b>en dos pagos sin interés de $29.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
                     <li><strong>42K</strong>: $49.000 <b>en dos pagos sin interés de $24.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
                     <li><strong>25K</strong>: $38.000 <b>en dos pagos sin interés de $19.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
                     <li><strong>10K</strong>: $29.000 <b>en dos pagos sin interés de $14.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    {/* <li><strong>KIDS</strong>:
-                         <ul> 
-                            <li>Hasta 9 años: $3.000 <b>pago total</b></li>
-                            <li>De 10 a 14 años: $5.000 <b>pago total</b></li>
-                        </ul>
-                        </li> */}
                         <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
                         <p>👉En la siguiente etapa de inscripción cambian los precios</p>
-                </ul>
+                </ul> */}
+                 <h5 style={{textAlign:'center'}}>CUPO PROMOCIONAL COMPLETO</h5>
+                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>¡ESTÉN ATENTOS A LA APERTURA DEL SEGUNDO PERÍODO!</h5>
+
 
                 <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
                 <p>Para aquellos corredores de 50 o 42K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25 o 10K. Deberá solicitar el código de descuento online por mail info@fcproducciones.com.ar para inscribirse en el día domingo de competencia.</p>
