@@ -445,11 +445,14 @@ function M42() {
                     <li>Guantes</li>
                 </ul>
 
+                <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
+                <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
+
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
                 <p>Las inscripciones <strong>NO</strong> tienen devolución. Sin excepción.</p>
 
                 <h4><mark>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
-                <p>Hasta el viernes 17/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+                <p>Para poder transferir, debe estar toda la carrera abonada. Hasta el viernes 17/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
             
                 
                 <h4><mark>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
