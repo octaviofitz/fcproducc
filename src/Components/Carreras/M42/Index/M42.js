@@ -71,7 +71,7 @@ function M42() {
                 <Button variant="info" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
                 <Button variant="info" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
                 <Button variant="info" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2023</Link></Button> 
-                 {/* <Button variant="danger" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2023</Link></Button> */}
+                 {/* <Button variant="info" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
                 
                 <h3 id='cartas'>Cartas</h3>
@@ -91,7 +91,7 @@ function M42() {
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
                
                 <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                 <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
@@ -103,10 +103,10 @@ function M42() {
                     <li>Chip de control para clasificación</li>
                     <li>Medalla finisher</li>
                     <li>Seguro de corredor</li>
-                    <li>Más de 10 mil fotos gratuitas</li>
-                    <li>Video y foto de llegada</li>
+                    {/* <li>Más de 10 mil fotos gratuitas</li>
+                    <li>Video y foto de llegada</li> */}
                     <li>Certificado finisher</li>
-                    <li>Transporte gratuito a la largada de 50 y 42K, de ser necesario</li>
+                    {/* <li>Transporte gratuito a la largada de 50 y 42K, de ser necesario</li> */}
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
                     <li>Premiación ganadores de categoría</li>
@@ -114,9 +114,8 @@ function M42() {
                 </ul>
 
                 <h3>REMERA</h3>
-                <h5 style={{textAlign:'center'}}>PRÓXIMAMENTE</h5>
-                {/* <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
-                <img src={Remera} className='img' alt='Remera M42' /> */}
+                 <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
+                <img src={Remera} className='img' alt='Remera M42' /> 
 
                 
 
@@ -147,7 +146,7 @@ function M42() {
                     <li>50 y 42K retiran entre las <b>6:30 y 7:45 am</b></li>
                     <li>25 y 10K retiran entre las <b>10 y las 18 pm</b></li>
                 </ul>
-                <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados <strong>gratuitos</strong> desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. Deben reservar su lugar en el mismo enviando un mail a <b>info@fcproducciones.com.ar</b></p>
+                {/* <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados <strong>gratuitos</strong> desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. Deben reservar su lugar en el mismo enviando un mail a <b>info@fcproducciones.com.ar</b></p> */}
 
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
@@ -177,7 +176,7 @@ function M42() {
                     
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -185,18 +184,18 @@ function M42() {
 
                     {/* <div className='contenedorBoton'>
                     <div className='botonIntermedio'>  
-                        <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Deslinde de Responsabilidad' to={Deslinde}>DESCARGAR DESLINDE</Link></Button>
+                        <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Deslinde de Responsabilidad' to={Deslinde}>DESCARGAR DESLINDE</Link></Button>
                             </div>
                             </div>
  */}
                     <li>AUTORIZACIÓN MENOR DE EDAD.</li>
                     <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                     {/* <div className='contenedorBoton'>
                         <div className='botonIntermedio'>  
-             <Button variant="danger" size='lg' className='boton' id='botonesIntermedios'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+             <Button variant="info" size='lg' className='boton' id='botonesIntermedios'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                              </div>
                              </div> */}
 
@@ -220,7 +219,7 @@ function M42() {
                 <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button variant="danger" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -231,7 +230,7 @@ function M42() {
                 <p><strong>- LARGADA</strong>: Los Alerces. Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
-                <p>IMPORTANTE: Habrá traslados desde la Plaza Salerno hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar enviando un mail a info@fcproducciones.com.ar</p>
+               {/*  <p>IMPORTANTE: Habrá traslados desde la Plaza Salerno hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar enviando un mail a info@fcproducciones.com.ar</p> */}
 
                 <h4><mark>DOMINGO 2 DE JUNIO | 25, 10K y KIDS</mark></h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
@@ -331,7 +330,7 @@ function M42() {
                 </ol>
 
                 <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024'>INSCRIBITE ACÁ</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024'>INSCRIBITE ACÁ</Link></Button>
                 </div>
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
@@ -349,17 +348,18 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
-                {/* <h4><strong>¡PRECIO EXCLUSIVO PREVENTA Y EN DOS PAGOS SIN INTERÉS! ¡SÓLO 100 CUPOS!</strong></h4>
+                <h4><strong>¡PRECIO CON DESCUENTO Y EN DOS PAGOS SIN INTERÉS! ¡SÓLO 200 CUPOS!</strong></h4>
                 <ul>
-                    <li><strong>50K</strong>: $59.000 <b>en dos pagos sin interés de $29.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    <li><strong>42K</strong>: $49.000 <b>en dos pagos sin interés de $24.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    <li><strong>25K</strong>: $38.000 <b>en dos pagos sin interés de $19.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    <li><strong>10K</strong>: $29.000 <b>en dos pagos sin interés de $14.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                        <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
-                        <p>👉En la siguiente etapa de inscripción cambian los precios</p>
-                </ul> */}
+                    <li><strong>50K: $69.000</strong> <b>en dos pagos sin interés de $34.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
+                    <li><strong>42K: $59.000</strong> <b>en dos pagos sin interés de $29.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
+                    <li><strong>25K: $46.000</strong> <b>en dos pagos sin interés de $23.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
+                    <li><strong>10K: $35.000</strong> <b>en dos pagos sin interés de $17.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
+                </ul> 
+                <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
+                        <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
+{/* 
                  <h5 style={{textAlign:'center'}}>CUPO PROMOCIONAL COMPLETO</h5>
-                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>¡ESTÉN ATENTOS A LA APERTURA DEL SEGUNDO PERÍODO!</h5>
+                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>¡ESTÉN ATENTOS A LA APERTURA DEL SEGUNDO PERÍODO!</h5> */}
 
 
                 <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
@@ -456,7 +456,7 @@ function M42() {
             
                 
                 <h4><mark>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
-                <p>Hasta el viernes 17/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>Para poder transferir, debe estar toda la carrera abonada. Hasta el viernes 17/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
                
                
@@ -533,7 +533,7 @@ function M42() {
                 </ul>
                 
                 <div className='contenedorBoton'>
-                <Button variant="danger" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024'>INSCRIBITE ACÁ</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024'>INSCRIBITE ACÁ</Link></Button>
                 </div>
 
         </section>

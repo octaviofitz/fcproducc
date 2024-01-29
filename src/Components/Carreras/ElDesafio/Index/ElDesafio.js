@@ -119,8 +119,8 @@ function ElDesafio() {
                     <li>Chip de control para clasificación</li>
                     <li>Medalla finisher</li>
                     <li>Seguro de corredor</li>
-                    <li>Fotos gratuitas de más de 4 fotógrafos</li>
-                    <li>Video y foto de llegada</li>
+                    {/* <li>Fotos gratuitas de más de 4 fotógrafos</li>
+                    <li>Video y foto de llegada</li> */}
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
                     <li>Premiación ganadores categoría</li>
