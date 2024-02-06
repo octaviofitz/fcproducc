@@ -69,7 +69,9 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
-                <h4><mark style={{textAlign: 'center', display: 'flex', marginBottom: '2rem', justifyContent:'center', padding: '1rem'}}>PRÓXIMAMENTE ACTUALIZAMOS INFORMACIÓN 2024</mark></h4>
+                <p>El lugar del evento (largada, llegada y campamento) será la Reserva Natural Sierras Grandes. Es decir, se realizarán todas las carreras (modalidad 2 día y 1 día) en la Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires. A tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación) conocerán un lugar único dentro de la comarca de Tornquist.</p>
+
+               {/*  <h4><mark style={{textAlign: 'center', display: 'flex', marginBottom: '2rem', justifyContent:'center', padding: '1rem'}}>PRÓXIMAMENTE ACTUALIZAMOS INFORMACIÓN 2024</mark></h4> */}
 {/* 
                 <h4><mark style={{ textAlign: 'center', display: 'flex', marginBottom: '1rem' }}>¡ATENCIÓN! Por razones ajenas a la organización tuvimos la suerte y el agrado de conseguir un lugar de ensueño para realizar el DESAFÍO COLUMBIA. ¡Un nuevo lugar, un nuevo desafío que te va a volar la cabeza!</mark></h4>
 
@@ -77,8 +79,8 @@ function ElDesafio() {
 
                 <h4><mark className='mark'>DATOS GENERALES</mark></h4>
                 <p><strong>Carrera:</strong> El Desafío Columbia</p>
-                <p><strong>Fecha:</strong> 28 y 29 de octubre 2023</p>
-                <p><mark className='mark'><strong>NUEVA UBICACIÓN: Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires.</strong> </mark></p>
+                <p><strong>Fecha:</strong> 5 y 6 de octubre 2024</p>
+                <p><strong>Lugar:</strong> Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires</p>
                 <p><strong>Concepto:</strong> Carrera de trail running</p>
 
                 <h3>Modalidad</h3>
@@ -95,7 +97,7 @@ function ElDesafio() {
                 <p><strong>- EQUIPO MIXTO:</strong> Sin categoría. *</p>
                 <p><strong>- EQUIPO MASC Y FEM:</strong> Sin categoría. *</p>
                 <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad.</p>
-                <p><b>LAS EDADES SERÁN COMPUTADAS AL 29 DE OCTUBRE 2023</b></p>
+                <p><b>LAS EDADES SERÁN COMPUTADAS AL 6 DE OCTUBRE 2024</b></p>
                 <p>*La edad mínima para poder correr El Desafío Columbia es a partir de los 16 años.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar.</p>
                 <div className='contenedorBoton'>
@@ -119,8 +121,8 @@ function ElDesafio() {
                     <li>Chip de control para clasificación</li>
                     <li>Medalla finisher</li>
                     <li>Seguro de corredor</li>
-                    {/* <li>Fotos gratuitas de más de 4 fotógrafos</li>
-                    <li>Video y foto de llegada</li> */}
+                    {/* <li>Fotos gratuitas de más de 4 fotógrafos</li> */}
+                    <li>Video y foto de llegada</li> 
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
                     <li>Premiación ganadores categoría</li>
@@ -129,23 +131,24 @@ function ElDesafio() {
                 <p><mark className='mark'><b>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar</b></mark></p>
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
-                <p>Los 3 días se llevarán a cabo en el Hotel Provincial Sierra de la Ventana (Drago 130).</p>
+                <p>Los 3 días se llevarán a cabo en el Hotel Provincial Sierra de la Ventana (Drago 130).</p> 
 
-                <h4><mark className='mark'>- VIERNES 27/10</mark></h4>
+                <h4><mark className='mark'>- VIERNES 04/10</mark></h4>
                 <p>16 a 19hs: Todas las distancias.</p>
                {/*  <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe> */}
 
-                <h4><mark className='mark'>- SÁBADO 28/10</mark></h4>
-                <p>10 a 14hs: Prioridad 2 días.</p>
-                <p>10 a 19hs: Modalidad 1 día (21K, 10K) y KIDS.</p>
+                <h4><mark className='mark'>- SÁBADO 05/10</mark></h4>
+                <p>10 a 14hs: Acreditación y entrega de kits modalidad 2 días.</p>
+                <p>10 a 17hs: Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids.</p>
                 {/* <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe> */}
 
-                <h4><mark className='mark'>- DOMINGO 29/10</mark></h4>
-                <p>7 a 8:30hs: 21K, 10K, KIDS.</p>
-                {/* <p>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar </p> */}
-                <h5>¿CÓMO LLEGAR A LA ACREDITACIÓN?</h5>
+                <h4><mark className='mark'>- DOMINGO 06/10</mark></h4>
+                {/* <p>7 a 8:30hs: 21K, 10K, KIDS.</p> */}
+                <p>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar</p> 
+                <p>NO HABRÁ ACREDITACIÓN NI INSCRIPCIÓN EN LA RESERVA SIERRAS GRANDES NINGÚN DIA. PUEDEN RETIRAR EL KIT HASTA EL DOMINGO 8.30 HS EN EL HOTEL PROVINCIAL, LUEGO DE ESO NO HABRÁ POSIBILIDAD.</p>
+                <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
                 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6270.811893412615!2d-61.769943000000005!3d-38.200471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ece622ae73c7e3%3A0xc719abd95ca6308f!2sCentro%20de%20Interpretaci%C3%B3n%20de%20Obras%20de%20Francisco%20Salamone!5e0!3m2!1ses-419!2sar!4v1682094417742!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa acreditación'></iframe> */}
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe>
                 <p>Por razones operativas, <b>recomendamos no venir el último día</b>. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>
@@ -153,27 +156,29 @@ function ElDesafio() {
 
 
                 <h3>PAPELES A PRESENTAR EN ACREDITACIÓN</h3>
-                <p>Los inscriptos deberán acreditarse y retirar su kit con la siguiente documentación:</p>
+                <p>ATENCIÓN: FACILITAMOS EL PROCESO DE INSCRIPCIÓN Y DE ACREDITACIÓN. DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p>
+                <p><mark>De completar el proceso de inscripción online como corresponde (esto es: completar los datos, firmar el deslinde ONLINE y adjuntar el apto físico) NO DEBERÁN PRESENTAR NINGUNA DOCUMENTACIÓN EN ACREDITACIÓN. Solo presentarse con el DNI.</mark></p>
+                <p>De lo contrario, deberán llevar para acreditarse y retirar su kit la siguiente documentación: </p>
                 <ol>
                     <li>DNI</li>
-                    <li>CERTIFICADO MÉDICO. No aceptamos foto del celular. La organización se quedará con el certificado, por lo que si lo necesitan, traigan copia.</li>
+                    <li>APTO MÉDICO.</li>
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
                             <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AptoMedicoDesafio} download='Apto médico'>DESCARGAR APTO MÉDICO</Link></Button>
                             </div>
                                 </div>
-                    <li>DESLINDE DE RESPONSABILIDAD COMPLETO Y FIRMADO</li>
-                        <div className='contenedorBoton'>
+                    <li>DESLINDE DE RESPONSABILIDAD (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
+                        {/* <div className='contenedorBoton'>
                             <div className='botonIntermedio'>
                                 <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={DeslindeDesafio} download='Deslinde'>DESCARGAR DESLINDE</Link></Button>
                                     </div>
-                                        </div>
-                    <li>AUTORIZACIÓN MENOR DE EDAD. En caso de ser necesario</li>
-                            <div className='contenedorBoton'>
+                                        </div> */}
+                    <li>AUTORIZACIÓN MENOR DE EDAD. En caso de ser necesario (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
+                           {/*  <div className='contenedorBoton'>
                                 <div className='botonIntermedio'>
                                     <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AutMenoresDesafio} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
                                         </div>
-                                            </div>
+                                            </div> */}
                 </ol>
 
                 <h3>RETIRO DE KITS POR TERCEROS</h3>
@@ -188,13 +193,13 @@ function ElDesafio() {
                 <h3>LUGAR Y HORARIOS DE LARGADA</h3>
 
                 <h4><mark className='mark'>MODALIDAD 2 DÍAS</mark></h4>
-                <p><strong>- DÍA:</strong> SÁBADO 28/10</p>
+                <p><strong>- DÍA:</strong> SÁBADO 05/10</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 15 horas</p>
                 <p><strong>- DISTANCIA:</strong> 25 K</p>
                 <p><strong>- MISMO LUGAR DE SALIDA QUE DE LLEGADA:</strong> RESERVA NATURAL SIERRAS GRANDES, TORNQUIST.</p>
 
                 <h4><mark className='mark'>MODALIDAD 2 DÍAS Y 1 DÍA</mark></h4>
-                <p><strong>- DÍA:</strong> DOMINGO 29/10</p>
+                <p><strong>- DÍA:</strong> DOMINGO 06/10</p>
                 <p><strong>- HORARIO DE SALIDA:</strong> 10 horas</p>
                 <p><strong>- DISTANCIA:</strong> 21K Y 10K</p>
                 <p><strong>- MISMO LUGAR DE SALIDA QUE DE LLEGADA:</strong> RESERVA NATURAL SIERRAS GRANDES, TORNQUIST.</p>
@@ -214,33 +219,37 @@ function ElDesafio() {
                 <p><strong>Bebida:</strong> Gaseosas o agua mineral</p>
                 <p><strong>Desayuno:</strong> Té, café, mate cocido con o sin leche. Tostadas y torta casera</p>
                 <ul>
-                    <li><strong>HORARIO DE CENA SÁBADO 28/10:</strong> 20 a 21:30 horas</li>
-                    <li><strong>HORARIO DE DESAYUNO 29/10:</strong> 7 a 8:30 horas</li>
+                    <li><strong>HORARIO DE CENA SÁBADO 05/10:</strong> 20 a 21:30 horas</li>
+                    <li><strong>HORARIO DE DESAYUNO 06/10:</strong> 7 a 8:30 horas</li>
                 </ul>
                 
-                <p><mark className='mark'><strong>NO HAY MÁS LUGAR PARA QUIENES QUIERAN PARTICIPAR DEL CAMPAMENTO DE FORMA ADICIONAL COMO CORREDORES DE UN DIA O ACOMPAÑANTES.</strong></mark></p>
+                {/* <p><mark className='mark'><strong>NO HAY MÁS LUGAR PARA QUIENES QUIERAN PARTICIPAR DEL CAMPAMENTO DE FORMA ADICIONAL COMO CORREDORES DE UN DIA O ACOMPAÑANTES.</strong></mark></p> */}
+
                 {/* <h3>CAMPAMENTO OPCIONAL</h3>
                 <h4><mark className='mark'>SI SOS UN ACOMPAÑANTE, O UN CORREDOR DE UN DÍA Y QUERÉS ACAMPAR, PODÉS</mark></h4>
                 <p>Todos los <b>corredores de un día o acompañantes</b> que quieran <b>participar del campamento</b>, podrán. Se les cobrará un adicional que incluye alojamiento en camping desde el sábado, cena y desayuno.</p>
                 <p>Deberán solicitar la estadía y costo en <b>info@fcproducciones.com.ar</b> y deberán retirar el voucher en la acreditación.</p> */}
 
                 <h3>RECORRIDOS</h3>
-                <p>(PRÓXIMAMENTE)</p>
+                <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
 
                 <h3>ALTIMETRÍA</h3>
-                <p>(PRÓXIMAMENTE)</p>
+                <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
 
                 <h3>RUNNING KIDS</h3>
                 <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <h4><mark className='mark'>INSCRIPCIÓN ONLINE CERRADA</mark></h4>
+                <h4><mark className='mark'>INSCRIPCIÓN ONLINE PRÓXIMAMENTE</mark></h4>
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams), colocarlo en su casillero</li>
-                    <li>Elegir la distancia y si abonás el <b>TOTAL</b> o el 50% de seña por transferencia bancaria o depósito bancario. </li>
-                    <li>Completar los datos personales</li>
+                    <li>Elegir la distancia</li>
+                    <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
                     <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b></li>
+                    <li>Se avisará por mail cuándo es momento de abonar la segunda cuota. Si no abonan la misma, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.
+
+                    </li>
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
                         <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
@@ -250,9 +259,9 @@ function ElDesafio() {
               
 
                 <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN</mark></h4>
-                <p>Les llegará un mail de confirmación desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Si el mail no llega es porque indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos</p>
+                <p>Les llegará un mail que dice “Inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
 
-                <h3>INSCRIPCIÓN PRESENCIAL CERRADA</h3>
+                <h3>INSCRIPCIÓN PRESENCIAL PROXIMAMENTE</h3>
                 <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
                 <h4>CENTROS DE INSCRIPCIÓN:</h4>
                 <ul>
@@ -264,8 +273,9 @@ function ElDesafio() {
                 </ul>
 
                 <h3>COSTOS</h3>
-                <p><b>A PARTIR DEL 16/08/2023</b></p>
-                <ul>
+                {/* <p><b>A PARTIR DEL 16/08/2023</b></p> */}
+                <p style={{textAlign: "center"}}>PRÓXIMAMENTE</p>
+               {/*  <ul>
                     <li>2 DÍAS INDIVIDUAL: <strong>$66.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
                     <li>2 DÍAS EQUIPO: <strong>$132.000</strong> pago total por dos corredores o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
                     <li>1 DÍA 21K: <strong>$24.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
@@ -278,24 +288,24 @@ function ElDesafio() {
                             </div>
                                 </div>
                 </ul>
-                
+                 */}
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL DEL EVENTO</h3>
-               <h4><strong><mark className='mark'>VIERNES 27/10</mark></strong></h4>
+               <h4><strong><mark className='mark'>VIERNES 04/10</mark></strong></h4>
                <ul>
                 <li><strong>16 a 19 hs:</strong> Acreditación y entrega de kits. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
                </ul>
 
-               <h4><strong><mark className='mark'>SÁBADO 28/10</mark></strong></h4>
+               <h4><strong><mark className='mark'>SÁBADO 05/10</mark></strong></h4>
                <ul>
                 <li><strong>10 a 14 hs:</strong> Acreditación y entrega de kits modalidad 2 días: Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
-                <li><strong>10 a 19 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>10 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
                 <li><strong>14:45 hs:</strong> Charla técnica dos días. Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>15 hs:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>20 a 21:30 hs:</strong> Cena en el camping de la Reserva Natural Sierras Grandes, Tornquist.</li>
                </ul>
 
-               <h4><strong><mark className='mark'>DOMINGO 29/10</mark></strong></h4>
+               <h4><strong><mark className='mark'>DOMINGO 06/10</mark></strong></h4>
                <ul>
                 <li><strong>7 a 8:30 hs:</strong> Desayuno en el Camping de Reserva Natural Sierras Grandes, Tornquist.</li>
                 <li><strong>7:30 a 8:30 hs:</strong> Acreditación y entrega de kits (modalidad un día). Hotel Provincial de Sierra de la Ventana, ubicado en Drago 130.</li>
@@ -305,8 +315,8 @@ function ElDesafio() {
                 <li><strong>14 / 14:30 hs:</strong> Premiación (horario aproximado). Reserva Natural Sierras Grandes, Tornquist.</li>
                </ul>
 
-               <h3>ESTACIONAMIENTO DEL DOMINGO</h3>
-               <p>Se cobrará un voucher de $500 para estacionar el día domingo dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los viajes de estudio del ciclo superior de la EEST N 1 DE TORNQUIST. Pueden comprar el voucher en la acreditación o al llegar al lugar.</p>
+               <h3>ESTACIONAMIENTO DOMINGO</h3>
+               <p>Se cobrará un voucher para estacionar el día domingo dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los viajes de estudio del ciclo superior de la EEST N 1 DE TORNQUIST. Pueden comprar el voucher en la acreditación o al llegar al lugar.</p>
 
                <h3>AVISO DE NO SEÑAL 3G/4G</h3>
                <p>Dentro del campo privado donde se realizará el evento no hay señal 3g ni 4g. Tenerlo en cuenta.</p>
@@ -369,18 +379,18 @@ function ElDesafio() {
                
               
                 <h4><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
-                <p>Hasta el viernes 13/10, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>Hasta el viernes 20/09, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
 
                 <h4><mark className='mark'>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
-                <p>Hasta el viernes 13/10, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+                <p>Hasta el viernes 20/09, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
               
     
                <h3>CAMBIO DE DISTANCIA O DE OTRO TIPO</h3>
                <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
                <ol>
                 <li>Solo se considerarán aquellos casos en que se solicite al mail de la organización: <b>info@fcproducciones.com.ar</b></li>
-                <li>A partir del lunes 16/10 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
+                <li>A partir del lunes 23/09 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
                 <li>Si el cambio es a una distancia mayor, abona la diferencia del monto de inscripción.</li>
                 <li>Si el cambio es a una distancia menor, NO se le devolverá dinero</li>
                </ol>
