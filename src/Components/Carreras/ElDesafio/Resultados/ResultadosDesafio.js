@@ -10,7 +10,6 @@ import Categorias2110 from '../../../../PDF/desafioResultados/CATEGORIAS10-21K.p
 import General2110 from '../../../../PDF/desafioResultados/GENERALM2110K21K.pdf'
 import CategoriasDesafio from '../../../../PDF/desafioResultados/CATEGORIASDESAFÍO2D.pdf'
 import SUMATIEMPOS from '../../../../PDF/desafioResultados/SUMATIEMPOS.pdf'
-import ImgDesafios from '../../../../Img/index/eldesafio.webp'
 import PersonalColumbia from '../../../../Img/index/PersonalColumbia.webp'
 import GeneralColumbia from '../../../../Img/index/GeneralColumbia.webp'
 

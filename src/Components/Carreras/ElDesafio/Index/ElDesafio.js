@@ -8,7 +8,7 @@ import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';
 import AutMenoresDesafio from '../../../../PDF/autMenoresDesafio.pdf';
 
-import elDesafio from '../../../../Img/elDesafio/elDesafio.webp'
+import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp'
 import '../Index/elDesafio.css'
 
 function ElDesafio() {
@@ -174,11 +174,11 @@ function ElDesafio() {
                                     </div>
                                         </div> */}
                     <li>AUTORIZACIÓN MENOR DE EDAD. En caso de ser necesario (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
-                           {/*  <div className='contenedorBoton'>
+                             <div className='contenedorBoton'>
                                 <div className='botonIntermedio'>
                                     <Button variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AutMenoresDesafio} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
                                         </div>
-                                            </div> */}
+                                            </div> 
                 </ol>
 
                 <h3>RETIRO DE KITS POR TERCEROS</h3>
