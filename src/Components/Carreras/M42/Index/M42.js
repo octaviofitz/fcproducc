@@ -211,10 +211,10 @@ function M42() {
                 <p><strong>De no contar con estos requisitos la organización NO entregará el Kit.</strong></p>
                             
                 
-                <h3><mark>CERTIFICADO MÉDICO</mark></h3>
-                <p>El certificado médico que se debe cargar en la inscripción tiene una vigencia de 1 año a partir de la fecha que fue realizado el estudio.</p>
-                <p>El documento que cargues debe mostrar claramente: Tus datos personales , la fecha del apto y firma con sello del médico.</p>
-                <p>La validación del apto médico será realizada por la organización en la acreditación.</p>
+                <h3><mark>APTO MÉDICO</mark></h3>
+                <p>A partir de ahora, en las carreras de FC Producciones podrán cargar el apto médico en la web a la hora de inscribirse y firmar el deslinde online para no tener que llevarlo a la acreditación. De no cargarlo, deberán presentarlo presencial en la acreditación.</p>
+                <p>El apto médico que se debe cargar en la inscripción tiene que tener una vigencia de 1 año a partir de la fecha que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma, con sello, del médico.</p>
+                <p>La validación del apto médico será realizada por la organización.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
                 <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
                 <div className='contenedorBoton'>
@@ -422,7 +422,7 @@ function M42() {
 
                 <h3>ELEMENTOS OBLIGATORIOS</h3>
                 <ul>    
-                    <li><strong>APTO MÉDICO</strong><br></br>Entregar en acreditación</li>
+                    <li><strong>APTO MÉDICO</strong><br></br>Cargar en la web o entregar en la acreditación.</li>
                     <li><strong>REMERA</strong><br></br>Provista por la organización</li>
                     <li><strong>NÚMERO DE CORREDOR</strong><br></br> Con CHIP incluído. Debe estar visible en todo momento. Provisto por la organización</li>
                    <li><strong>MANTA TÉRMICA</strong><br></br>Llevar en la mochila de carrera</li>

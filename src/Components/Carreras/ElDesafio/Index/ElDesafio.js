@@ -44,9 +44,9 @@ function ElDesafio() {
                  </div>
                     
                      <div>
-                    <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de un evento que te motiva a dejar atrás las exigencias y el estrés diario para pasar a una conexión total y plena con la naturaleza.</p>
-                    <p className='descripcion'>Correr, cenar, relajar en el fogón, acampar, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único. </p>
-                    <p className='descripcion'>Y para aquellos que quieran vivir la experiencia de correr un único día, con o sin camping, también lo podrán hacer. Chequeá toda la información aquí abajo.</p>
+                    <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de 2 días de competencia de 25K el sábado y 21K el domingo, con camping obligatorio, o solo 1 día, con camping opcional, de 21K, 10K o KIDS.</p>
+                    <p className='descripcion'>Con el cambio de ubicación (se corre en la Reserva Natural Privada Sierras Grandes), subiendo al Cerro Carpa con más de 1.000 metros de altura, El Desafío Columbia se transformó en la carrera MÁS ALTA DE LA PROVINCIA. ¿Te la vas a perder?</p>
+                    <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante de día a día.</p>
                     <ul className='redes'>
                     
                       <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -69,7 +69,9 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
-                <p>El lugar del evento (largada, llegada y campamento) será la Reserva Natural Sierras Grandes. Es decir, se realizarán todas las carreras (modalidad 2 día y 1 día) en la Reserva Natural Sierras Grandes, comarca de Tornquist, provincia de Buenos Aires. A tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación) conocerán un lugar único dentro de la comarca de Tornquist.</p>
+                <p>La acreditación se lleva a cabo el viernes, sábado y domingo únicamente en el Hotel Provincial Sierra de la Ventana, una vez acreditados podrán instalarse en el lugar de la largada.</p>
+                <p>Toda la carrera, o sea la largada, llegada y campamento de la modalidad 2 días y 1 día, se realizará en la Reserva Natural Privada Sierras Grandes, un hermoso sitio ubicado en Sierra de la Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p>La Reserva se encuentra a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana (lugar de acreditación ya mencionado), una vez que lleguen, si no lo conocen, se van a enamorar. Y si ya lo conocen, lo mirarán con otros ojos cada vez que vayan.</p>
 
                {/*  <h4><mark style={{textAlign: 'center', display: 'flex', marginBottom: '2rem', justifyContent:'center', padding: '1rem'}}>PRÓXIMAMENTE ACTUALIZAMOS INFORMACIÓN 2024</mark></h4> */}
 {/* 
@@ -105,7 +107,7 @@ function ElDesafio() {
                 </div>
 
                 <h3>DESCUENTO PARA TEAMS</h3>
-                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. La forma de inscripción es primero consultando a nuestro mail <b>info@fcproducciones.com.ar</b>, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
+                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos, ANTES DE INSCRIBIRSE, tendrán que enviarnos un mail a <b>info@fcproducciones.com.ar</b> solicitando el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
 
                 <h3>REMERAS</h3>
                 <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse <b>no tiene cambio</b>.</p>
@@ -122,7 +124,7 @@ function ElDesafio() {
                     <li>Medalla finisher</li>
                     <li>Seguro de corredor</li>
                     {/* <li>Fotos gratuitas de más de 4 fotógrafos</li> */}
-                    <li>Video y foto de llegada</li> 
+                    {/* <li>Video y foto de llegada</li>  */}
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
                     <li>Premiación ganadores categoría</li>
@@ -130,6 +132,7 @@ function ElDesafio() {
                 </ul>
                 <p><mark className='mark'><b>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar</b></mark></p>
 
+                
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 <p>Los 3 días se llevarán a cabo en el Hotel Provincial Sierra de la Ventana (Drago 130).</p> 
 
@@ -146,13 +149,17 @@ function ElDesafio() {
 
                 <h4><mark className='mark'>- DOMINGO 06/10</mark></h4>
                 {/* <p>7 a 8:30hs: 21K, 10K, KIDS.</p> */}
-                <p>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar</p> 
-                <p>NO HABRÁ ACREDITACIÓN NI INSCRIPCIÓN EN LA RESERVA SIERRAS GRANDES NINGÚN DIA. PUEDEN RETIRAR EL KIT HASTA EL DOMINGO 8.30 HS EN EL HOTEL PROVINCIAL, LUEGO DE ESO NO HABRÁ POSIBILIDAD.</p>
+                {/* <p>La organización ofrecerá para el día DOMINGO, traslado desde el HOTEL PROVINCIAL hasta el lugar de la largada para quienes necesiten. Será un único horario de ida y un único horario de vuelta.  Solicitar reserva a info@fcproducciones.com.ar</p>  */}
+                <p>Hasta 8:30 hs: se pueden acreditar quienes no llegaron ni viernes ni sábado.</p>
+    
                 <h5>¿CÓMO LLEGAR AL HOTEL PROVINCIAL?</h5>
+                
                 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6270.811893412615!2d-61.769943000000005!3d-38.200471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ece622ae73c7e3%3A0xc719abd95ca6308f!2sCentro%20de%20Interpretaci%C3%B3n%20de%20Obras%20de%20Francisco%20Salamone!5e0!3m2!1ses-419!2sar!4v1682094417742!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa acreditación'></iframe> */}
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6426799.178214183!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sHotel%20Provincial%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1682094259680!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe>
-                <p>Por razones operativas, <b>recomendamos no venir el último día</b>. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>
-                <p><strong>NO HABRÁ ACREDITACIÓN NI INSCRIPCIÓN EN LA RESERVA SIERRAS GRANDES NINGÚN DIA{/* PUEDEN RETIRAR EL KIT HASTA EL DOMINGO 8.30 HS EN EL HOTEL PROVINCIAL, LUEGO DE ESO NO HABRÁ POSIBILIDAD */}.</strong></p>
+                <p>Por razones operativas, recomendamos no venir el último día. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</p>.
+                <p><b>IMPORTANTE: EN LA RESERVA NATURAL PRIVADA SIERRAS GRANDES NO SE PODRÁ RETIRAR KIT NI TAMPOCO INSCRIBIRSE AL EVENTO, NINGÚN DÍA.</b></p>
+               
+                
 
 
                 <h3>PAPELES A PRESENTAR EN ACREDITACIÓN</h3>
@@ -210,14 +217,14 @@ function ElDesafio() {
                     <li>El campamento es <b>OBLIGATORIO</b> para aquellos que participen de la modalidad de <b>dos días</b> de carrera. <b>LA CARPA CORRE POR CUENTA DEL CORREDOR</b>. Quienes corran solo el domingo e igualmente quieran dormir en el camping deberán leer también el siguiente apartado:</li>
                     <li>Los corredores deberán <b>primero acreditarse</b> para luego poder acceder al camping. Cada corredor contará con un voucher y una pulsera para ingresar al predio, otorgado en la acreditación.</li>
                     <li>El camping (que será dentro de la Reserva Natural Sierras Grandes, donde se salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 28 de octubre desde temprano para que cada corredor pueda armar su propia carpa antes de correr.</li>
-                    <li>Los autos quedarán dentro del camping, estacionamiento para quienes corren dos días sin cargo.</li>
+                    <li>Los autos quedarán dentro del camping, contamos con un estacionamiento sin cargo para quienes corren dos días.</li>
                     <li>Los dos días de carrera incluyen: estadía en el camping, cena del día sábado y desayuno del domingo.</li>
                 </ul>
 
                 <p><strong>Cena:</strong> Pollo o asado al horno con ensaladas.</p>
-                <p><strong>Postre:</strong> Frutas</p>
-                <p><strong>Bebida:</strong> Gaseosas o agua mineral</p>
-                <p><strong>Desayuno:</strong> Té, café, mate cocido con o sin leche. Tostadas y torta casera</p>
+                <p><strong>Postre:</strong> Frutas.</p>
+                <p><strong>Bebida:</strong> Gaseosas o agua mineral.</p>
+                <p><strong>Desayuno:</strong> Té, café, mate cocido con o sin leche, tostadas y torta casera.</p>
                 <ul>
                     <li><strong>HORARIO DE CENA SÁBADO 05/10:</strong> 20 a 21:30 horas</li>
                     <li><strong>HORARIO DE DESAYUNO 06/10:</strong> 7 a 8:30 horas</li>
@@ -237,7 +244,9 @@ function ElDesafio() {
                 <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
 
                 <h3>RUNNING KIDS</h3>
-                <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
+                <p>Desde el staff de FC Producciones buscamos otro tipo de carrera para los más chicos. Realizamos una correcaminata controlada con parte de nuestro equipo en donde vamos con todos los chicos juntos, en un gran grupo, frenando en puntos clave, para ir explicando cómo pisar o cómo manejarse en este tipo de eventos.</p>
+                <p>El objetivo es ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, dándole herramientas para que en un futuro se enamoren del deporte como sus padres.</p>
+                <p>Y justamente sumamos a la familia que quiera acompañar a los más peques para que nadie se lo pierda. La distancia kids no será competitiva por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <h4><mark className='mark'>INSCRIPCIÓN ONLINE PRÓXIMAMENTE</mark></h4>
@@ -318,8 +327,8 @@ function ElDesafio() {
                <h3>ESTACIONAMIENTO DOMINGO</h3>
                <p>Se cobrará un voucher para estacionar el día domingo dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los viajes de estudio del ciclo superior de la EEST N 1 DE TORNQUIST. Pueden comprar el voucher en la acreditación o al llegar al lugar.</p>
 
-               <h3>AVISO DE NO SEÑAL 3G/4G</h3>
-               <p>Dentro del campo privado donde se realizará el evento no hay señal 3g ni 4g. Tenerlo en cuenta.</p>
+               <h3>AVISO DE NO SEÑAL 3G/4G/5G</h3>
+               <p>Dentro del campo privado donde se realizará el evento no hay señal 3g, 4g ni 5g. Tenerlo en cuenta para avisar a familiares que estarán unas horas sin recibir mensajes ni poder enviarlos, lo mismo con las llamadas, y también por el hecho de llevar efectivo por si quieren adquirir productos de los stands. </p>
 
                <h3 id='reglamento'>REGLAMENTO DESAFÍO COLUMBIA</h3>
                <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
@@ -329,21 +338,24 @@ function ElDesafio() {
                </ul>
 
                <h4><mark className='mark'>ABANDONO</mark></h4>
-               <p>En caso de abandono, el competidor tiene la obligación indelegable de avisar a la Organización. El aviso deberá ser realizado únicamente en los Puestos de Asistencia, en la Largada o Meta. Los banderilleros o personal fuera de estos lugares no están autorizados a registrar el aviso de abandono. Es muy importante dar aviso de abandono, pues de lo contrario el participante se presumirá extraviado y generará inconvenientes evitables.</p>
+               <p>En caso de abandono, el competidor tiene la obligación indelegable de avisar a la organización. El aviso deberá ser realizado únicamente en los puestos de asistencia, en la largada o llegada. Los banderilleros o personal fuera de estos lugares no están autorizados a registrar el aviso de abandono. Es muy importante dar aviso de abandono, pues de lo contrario el participante se presumirá extraviado y generará inconvenientes evitables.</p>
 
                 <h4><mark className='mark'>RECLAMOS</mark></h4>
                 <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
 
-                <h4><mark className='mark'>CERTIFICADO MÉDICO</mark></h4>
-                <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
+                <h4><mark className='mark'>APTO MÉDICO</mark></h4>
+                <p>A partir de ahora, en las carreras de FC Producciones podrán cargar el apto médico en la web a la hora de inscribirse y firmar el deslinde online para no tener que llevarlo a la acreditación. De no cargarlo, deberán presentarlo presencial en la acreditación.</p>
+                <p>El apto médico que se debe cargar en la inscripción tiene que tener una vigencia de 1 año a partir de la fecha que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma, con sello, del médico.</p>
+                <p>La validación del apto médico será realizada por la organización.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
+                <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
 
 
             <h3>ELEMENTOS OBLIGATORIOS PARA LA CARRERA</h3>
                <ul>
                 <li><strong>NÚMERO DE CORREDOR con CHIP incluido</strong>.<br></br>
                 Será provisto por la organización y deberá estar visible en todo momento.</li>
-                <li><strong>APTO MÉDICO. Entregar en acreditación.</strong></li>
+                <li><strong>APTO MÉDICO. Cargar en la web o entregar en la acreditación.</strong></li>
                 <li><strong>REMERA OFICIAL DE CORREDOR</strong> <br></br>
                 Será provista por la organización.</li>
                 <li><strong>HIDRATACIÓN PROPIA</strong>. Más allá de los puestos de hidratación que ofrecerá la organización.</li>
