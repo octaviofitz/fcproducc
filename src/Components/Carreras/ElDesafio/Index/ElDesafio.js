@@ -46,7 +46,7 @@ function ElDesafio() {
                      <div>
                     <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de 2 días de competencia de 25K el sábado y 21K el domingo, con camping obligatorio, o solo 1 día, con camping opcional, de 21K, 10K o KIDS.</p>
                     <p className='descripcion'>Con el cambio de ubicación (se corre en la Reserva Natural Privada Sierras Grandes), subiendo al Cerro Carpa con más de 1.000 metros de altura, El Desafío Columbia se transformó en la carrera MÁS ALTA DE LA PROVINCIA. ¿Te la vas a perder?</p>
-                    <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante de día a día.</p>
+                    <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante día a día.</p>
                     <ul className='redes'>
                     
                       <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
