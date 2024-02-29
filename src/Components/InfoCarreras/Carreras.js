@@ -6,6 +6,7 @@ import m42 from '../../Img/index/m42.webp'
 import eldesafio from '../../Img/index/elDesafio.webp'
 import Circuito from '../../Img/index/circuito.webp';
 import AlcecPrueba from '../../Img/Alecec/alecec.webp';
+import DesafioPinamar from '../../Img/index/pinamar.png'
 import General from '../../Img/index/General.webp';
 /* import Personal from '../../Img/index/Personal.webp';   */
 import PersonalColumbia from '../../Img/index/PersonalColumbia.webp';  
@@ -62,7 +63,7 @@ function Carreras() {
             </div>
  */}
 
-            <h2 className='titulo'>PRÓXIMA CARRERA</h2>
+            <h2 className='titulo'>PRÓXIMAS CARRERAS</h2>
 
             <div className='containerGeneral'>
 
@@ -70,6 +71,18 @@ function Carreras() {
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
             <p className='texto'>El Maratón M42 Los Alerces es el clásico de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 25K, 10K y KIDS. Sábado 1 y domingo 2 de junio 2024. ¿Te lo vas a perder? ¡Nos vemos en junio!</p>
              <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
+            </article>
+
+            <article className='container'>
+           <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
+            <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
+             <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
+            </article>
+
+            <article className='container'>
+           <img src={DesafioPinamar} className="carrerasimg" alt='Carrera Desafío Pinamar'></img>
+            <p className='texto'>El Desafío Columbia Pinamar es una nueva propuesta de FC Producciones que se corre el domingo 4 de agosto. Con distancias de 25K, 10K y KIDS por médanos y senderos.</p>
+             <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
             </article>
 
         
@@ -80,12 +93,6 @@ function Carreras() {
              
 
             <div className='containerGeneral'>
-
-            <article className='container'>
-           <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-            <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
-             <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
-            </article>
 
 
             <article className='container'>

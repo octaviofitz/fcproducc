@@ -35,7 +35,7 @@
 }
 
 #alerces{
-    background-color: #a98b30;
+    background-color: rgb(65, 65, 65);
     font-weight: 700;
     padding: 0.5rem 4vw;
     color: #fff;
@@ -43,6 +43,13 @@
 
 #el-Desafio{
     background-color: #a0bf09;
+    font-weight: 700;
+    padding: 0.5rem 4vw;
+    color: #fff;
+}
+
+#el-Desafio-Pinamar{
+    background-color: #ffcc19;
     font-weight: 700;
     padding: 0.5rem 4vw;
     color: #fff;
@@ -65,7 +72,8 @@
 #alerces a,
 #el-Desafio a,
 #alecec a,
-#circuito a{
+#circuito a,
+#el-Desafio-Pinamar{
     color: #fff;
 }
 
@@ -108,7 +116,8 @@
     #alerces,
     #el-Desafio ,
     #alecec ,
-    #circuito {
+    #circuito,
+    #el-Desafio-Pinamar {
         margin-left: 3.6vw;
         padding: 0.5rem;
     }

@@ -27,10 +27,13 @@ function BasicExample() {
           <Nav.Link as={Link} to='/nosotros' onClick={handleNavClick}>Nosotros</Nav.Link>
           <NavDropdown title="Carreras" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to='/m42' id='alerces' onClick={handleNavClick}>
-              M42 LOS ALERCES
+              MARATÓN M42
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to='/desafio-pinamar' id='el-Desafio-Pinamar' onClick={handleNavClick}>
+              DESAFIO PINAMAR
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to='/desafio-columbia' id='el-Desafio' onClick={handleNavClick}>
-              EL DESAFÍO COLUMBIA
+              DESAFÍO SIERRA DE LA VENTANA
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to='/alcec' id='alecec' onClick={handleNavClick}>
               TODOS SOMOS ALCEC

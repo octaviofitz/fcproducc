@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 /* PDF */
 import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
-import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';
+/* import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';*/
 import AutMenoresDesafio from '../../../../PDF/autMenoresDesafio.pdf';
 
 import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp'

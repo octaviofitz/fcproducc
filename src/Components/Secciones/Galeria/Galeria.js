@@ -12,7 +12,8 @@ function Galeria() {
             <p className='descripcion'>¿Todavía no conocés los eventos de FC Producciones? ¿Los conocés y querés revivirlos? ¡Este es el lugar! Junto a <b>Revista Desafíos</b> y la <b>FerCam</b> te mostramos desde adentro lo más destacado de nuestros grandes eventos. Así se disfrutaron las ediciones de 2022 de los siguientes carreras: </p>
             <ul>
                 <li><Link to='/m42' id='btnAlerces'>MARATÓN DE MONTAÑA M42 LOS ALERCES</Link></li>
-                <li><Link to='/desafio-columbia' id='btnDesafio'>DESAFÍO COLUMBIA</Link></li>
+                <li><Link to='/desafio-columbia' id='btnDesafio'>DESAFÍO SIERRA DE LA VENTANA</Link></li>
+                <li><Link to='/desafio-pinamar' id='btnPinamar'>DESAFÍO PINAMAR</Link></li>
                 <li><Link to='/circuito' id='btnCircuito'>CIRCUITO M21</Link></li>
                 <li><Link to='/alcec' id='btnAlcec'>MARATÓN SOLIDARIO TODOS SOMOS ALCEC</Link></li>
             </ul>

@@ -1,0 +1,379 @@
+.elDesafioPinamar{
+    margin: 1.5rem 0.75rem;
+    background-color: #efeeee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    padding: 1.5rem 0.5rem;
+    animation: DesafioAnimation 3s ease;
+}
+
+@keyframes DesafioAnimation {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+.elDesafioPinamar .flyer{
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.elDesafioPinamar .titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elDesafioPinamar .descripcion{
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elDesafioPinamar .botones{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.elDesafioPinamar .boton{
+    margin: 0.5rem 0;
+    padding: 0.8rem 0;
+    background-color: #ffcc19;
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.elDesafioPinamar .boton a{
+    color: white;
+}
+
+.elDesafioPinamar h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.8rem 2rem;
+    color: #ffcc19;
+}
+
+
+.elDesafioPinamar h4,
+.elDesafioPinamar h5{
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elDesafioPinamar ul{
+    margin: 0rem;
+}
+
+.elDesafioPinamar li{
+    margin: 0.6rem 0;
+}
+
+.elDesafioPinamar p{
+    margin: 1rem;
+}
+
+.elDesafioPinamar .mapas{
+    width: 87vw;
+    height: 50vh;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+.elDesafioPinamar .mark{
+    background-color: #ffcc19;
+    line-height: 1.5em;
+}
+
+
+.elDesafioPinamar .contenedorBoton .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.elDesafioPinamar .contenedorBoton .botonIntermedio{
+    margin-left: -1rem;
+}
+
+.elDesafioPinamar .redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1.3rem auto -1rem;
+    padding: 0 2rem;
+    font-size: 3.2rem;
+}
+
+.elDesafioPinamar .redes li{
+    padding: 0 0.5rem;
+}
+
+.elDesafioPinamar .redes .fa-instagram,
+.elDesafioPinamar .redes .fa-facebook{
+    color: #ffcc19;
+    cursor: pointer;
+}
+
+.elDesafioPinamar .redes .fa-instagram:hover,
+.elDesafioPinamar .redes .fa-facebook:hover{
+    font-weight: 900;
+}
+
+
+@media (min-width: 768px){
+    .elDesafioPinamar{
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    .elDesafioPinamar .flyer{
+        width: 80vw;
+        display: flex;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .elDesafioPinamar .titulo{
+        margin: 1rem 2rem;
+    }
+
+    .elDesafioPinamar .descripcion{
+        margin: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .elDesafioPinamar .botones{
+        padding: 1rem 8rem;
+    }
+
+    .elDesafioPinamar h3{
+        font-size: 2.5rem;
+        margin: 1.8rem 3.3rem;
+    }
+    
+    .elDesafioPinamar h4,
+    .elDesafioPinamar h5{
+        margin: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .elDesafioPinamar li,
+    .elDesafioPinamar p{
+        font-size: 1.1rem;
+    }
+    
+    .elDesafioPinamar .mapas{
+        width: 65vw;
+        height: 50vh;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        border-radius: 5%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .elDesafioPinamar .redes{
+        margin: 2rem auto;
+        margin-bottom: -2rem;
+    }
+    
+    .elDesafioPinamar .redes li{
+        padding: 0 0.5rem;
+        font-size: 3.2rem;
+    }
+       
+}
+
+@media (min-width: 1024px){
+    .elDesafioPinamar{
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
+    }
+
+    .elDesafioPinamar .titulo{
+        margin: 1rem 2rem;
+    }
+
+    .elDesafioPinamar .containerFlyerDescripcion{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .elDesafioPinamar .flyer{
+        width: 40vw;
+        margin: 2rem 0 0;
+        margin-left: 2rem;
+    }
+
+    .elDesafioPinamar .descripcion{
+        margin: 0 2rem;
+        margin-top: 2.25rem;
+        font-size: 1.5vw;
+    }
+
+    .elDesafioPinamar .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        margin: 2rem 4rem;
+    }
+
+    .elDesafioPinamar .boton{
+        padding: 1rem 0rem;
+        margin: 0.25rem;
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elDesafioPinamar h3{
+        font-size: 3rem;
+    }
+    
+    .elDesafioPinamar h4,
+    .elDesafioPinamar h5{
+        margin: 1rem 2.5rem;
+        font-size: 1.6rem;
+    }
+
+    .elDesafioPinamar li,
+    .elDesafioPinamar p{
+        font-size: 1.25rem;
+        margin: 1rem 2.5rem;
+    }
+
+    .elDesafioPinamar .redes{
+       margin: 0;
+       display: flex;
+       justify-content: left;
+        padding: 0;
+        margin-top: 0.35rem;
+        margin-left: -0.5vw;
+    }
+
+
+    .elDesafioPinamar .redes li{
+        padding: 0rem;
+        font-size: 2.75rem;
+        margin-top: 1rem;
+        margin-right: -1vw;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .elDesafioPinamar{
+        width: 73vw;
+    }
+
+    .elDesafioPinamar .containerFlyerDescripcion{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .elDesafioPinamar .flyer{
+        width: 28vw;
+        margin: 2rem 0 0;
+        margin-left: 5rem;
+    }
+
+
+    .elDesafioPinamar .titulo{
+       font-size: 4rem;
+    }
+
+    .elDesafioPinamar .descripcion{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2.1rem;
+        font-size: 1.15vw;
+    }
+
+    .elDesafioPinamar h3{
+        font-size: 3.5rem;
+    }
+    
+    .elDesafioPinamar h4,
+    .elDesafioPinamar h5{
+        margin: 1rem 5rem;
+        font-size: 1.7rem;
+    }
+
+    .elDesafioPinamar li,
+    .elDesafioPinamar p{
+        font-size: 1.25rem;
+        margin: 1rem 5rem;
+    }
+
+    .elDesafioPinamar .mapas{
+        width: 45vw;
+        height: 50vh;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: center;
+        border-radius: 5%;
+    }
+
+    .elDesafioPinamar .redes{
+        margin: 1.5rem 3.5rem -2rem;
+        justify-content: center;
+    }
+
+    .elDesafioPinamar .redes{
+        margin: 0;
+        display: flex;
+        justify-content: left;
+         padding: 0;
+         margin-top: 0.5vw;
+         margin-left: 0vw;
+     }
+ 
+ 
+     .elDesafioPinamar .redes li{
+         padding: 0rem;
+         font-size: 3rem;
+         margin-top: 1rem;
+         margin-right: -3vw;
+     }
+
+     .elDesafioPinamar .boton{
+        padding: 1rem 0rem;
+        margin: 0.25rem;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ 
+
+}

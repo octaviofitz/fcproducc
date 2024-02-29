@@ -60,7 +60,8 @@
 .carreras .botondesafio,
 .carreras .botonAlecec,
 .carreras .botonCircuito,
-.carreras #botondesafio{
+.carreras #botondesafio,
+.carreras .botonDesafioPinamar{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,6 +101,10 @@
     background-color: #fd0081;
 }
 
+.carreras .botonDesafioPinamar{
+    background-color: #ffcc19;
+}
+
 .carreras .botonCircuito{
     background-color: #69bfd5;
 }
@@ -108,7 +113,8 @@
 .carreras .botondesafio:hover,
 .carreras .botonCircuito:hover,
 .carreras .botonm42:hover,
-.carreras #botondesafio:hover{
+.carreras #botondesafio:hover,
+.carreras .botonDesafioPinamar:hover{
     opacity: 0.75;
 }
 
@@ -116,7 +122,8 @@
 .carreras .botondesafio a:hover,
 .carreras .botonAlecec a:hover,
 .carreras .botonCircuito a:hover,
-.carreras #botondesafio a:hover{
+.carreras #botondesafio a:hover,
+.carreras .botonDesafioPinamar a:hover{
     color: #fff;
 }
 
@@ -238,7 +245,8 @@
     .carreras .botonm42,
 .carreras .botondesafio,
 .carreras .botonAlecec,
-.carreras .botonCircuito{
+.carreras .botonCircuito,
+.carreras .botonDesafioPinamar{
     margin: -1rem auto 1rem;
 
 }
