@@ -375,6 +375,8 @@ function ElDesafio() {
                 <li>Mochila con reservorio de agua o Gatorade</li>
                 <li>Kit de primeros auxilios</li>
                 <li>Toallitas higiénicas</li>
+                <li>Polainas</li>
+                <li>Repelente de mosquitos</li>
                </ul>
 
                 

@@ -443,6 +443,9 @@ function M42() {
                     <li>Anteojos para sol</li>
                     <li>Rompeviento</li>
                     <li>Guantes</li>
+                    <li>Protector solar</li>
+                    <li>Polainas</li>
+                    <li>Repelente de mosquitos</li>
                 </ul>
 
                 <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
