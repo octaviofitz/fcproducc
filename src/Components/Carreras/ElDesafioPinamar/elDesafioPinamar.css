@@ -140,6 +140,11 @@
     font-weight: 900;
 }
 
+.elDesafioPinamar .contenedorBoton .enlaceBoton .boton:hover{
+    color: #fff;
+}
+
+
 
 @media (min-width: 768px){
     .elDesafioPinamar{

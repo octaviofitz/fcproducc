@@ -153,6 +153,10 @@
     font-weight: 900;
 }
 
+.m42 .contenedorBoton .enlaceBoton .boton:hover{
+    color: #fff;
+}
+
 @media (min-width: 768px){
 
     .m42{

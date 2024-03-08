@@ -260,10 +260,14 @@ function ElDesafio() {
 
                     </li>
                     <div className='contenedorBoton'>
-                        <div className='botonIntermedio'>
-                        <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
-                            </div>
-                                </div>
+                    <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023' className='enlaceBoton'>
+                    <Button variant="success" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                </div>
+                </div>
                 </ol>
               
 
@@ -292,10 +296,14 @@ function ElDesafio() {
                     <li>KIDS: <strong>$6.000</strong> pago total.</li>
 
                     <div className='contenedorBoton'>
-                        <div className='botonIntermedio'>
-                        <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
-                            </div>
-                                </div>
+                    <div className='botonIntermedio'>
+                        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023' className='enlaceBoton'>
+                        <Button disabled variant="success" size='lg' className='boton'>
+                            INSCRIBITE ACÁ
+                        </Button>
+                        </Link>
+                    </div>
+                    </div>
                 </ul>
                  */}
 
@@ -449,10 +457,15 @@ function ElDesafio() {
                 <p><strong><mark className='mark'>NO SE PUEDE HACER FUEGO DENTRO DE LA RESERVA NATURAL SIERRAS GRANDES. POR FAVOR NO NOS COMPROMETA.</mark></strong></p>
 
                 <div className='contenedorBoton'>
-                        <div className='botonIntermedio'>
-                        <Button disabled variant="success" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
-                            </div>
-                                </div>
+                    <div className='botonIntermedio'>
+                        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023' className='enlaceBoton'>
+                        <Button variant="success" size='lg' className='boton'>
+                            INSCRIBITE ACÁ
+                        </Button>
+                        </Link>
+                    </div>
+                    </div>
+
         </section>
     );
 }

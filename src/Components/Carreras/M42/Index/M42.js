@@ -330,8 +330,12 @@ function M42() {
                 </ol>
 
                 <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024'>INSCRIBITE ACÁ</Link></Button>
-                </div>
+      <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
+        <Button variant="info" size='lg' className='boton'>
+          INSCRIBITE ACÁ
+        </Button>
+      </Link>
+    </div>
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
                 <p>Les llegará un mail que dice “Inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
@@ -347,19 +351,19 @@ function M42() {
                 <h4><mark>DESCUENTO TEAMS DE ENTRENAMIENTO</mark></h4>
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
-                <h3>COSTOS TERCER PERÍODO</h3>
-                 <h4><strong>¡PRECIO CON DESCUENTO Y EN DOS PAGOS SIN INTERÉS! ¡SÓLO 100 CUPOS!</strong></h4>
+                <h3>COSTOS</h3>
+                  <h4><strong>¡MANTENEMOS LOS PRECIOS DEL TERCER PERÍODO! ¡CUPOS LIMITADOS!</strong></h4>
                 <ul>
-                    <li><strong>50K: $79.000</strong> <b>en dos pagos sin interés de $39.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    <li><strong>42K: $68.000</strong> <b>en dos pagos sin interés de $34.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    <li><strong>25K: $53.000</strong> <b>en dos pagos sin interés de $26.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
-                    <li><strong>10K: $39.000</strong> <b>en dos pagos sin interés de $19.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</b></li>
+                    <li><strong>50K: $79.000</strong> en dos pagos sin interés de $39.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+                    <li><strong>42K: $68.000</strong> en dos pagos sin interés de $34.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+                    <li><strong>25K: $53.000</strong> en dos pagos sin interés de $26.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+                    <li><strong>10K: $39.000</strong> en dos pagos sin interés de $19.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
-                <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p> 
+                <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>  
  
-             {/*     <h5 style={{textAlign:'center'}}>CUPO PROMOCIONAL COMPLETO</h5>
-                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>¡ESTÉN ATENTOS A LA APERTURA DEL TERCER PERÍODO!</h5>  */}
+                {/*  <h5 style={{textAlign:'center'}}><mark>CUPO PROMOCIONAL COMPLETO</mark></h5>
+                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>¡ESTÉN ATENTOS A LA APERTURA DEL CUARTO PERÍODO!</h5>   */}
 
 
                 <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
@@ -536,8 +540,13 @@ function M42() {
                 </ul>
                 
                 <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024'>INSCRIBITE ACÁ</Link></Button>
-                </div>
+      <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
+        <Button variant="info" size='lg' className='boton'>
+          INSCRIBITE ACÁ
+        </Button>
+      </Link>
+    </div>
+             
 
         </section>
     );

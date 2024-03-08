@@ -193,11 +193,15 @@ function ElDesafioPinamar() {
               <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podés subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
               <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
               <li>Se avisará por mail cuándo es momento de abonar la segunda cuota. Si no abonan la misma, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
-              <div className='contenedorBoton'>
-                  <div className='botonIntermedio'>
-                  <Button disabled variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
-                      </div>
-                          </div>
+            <div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
+                    <Button variant="warning" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
           </ol>
         
 
@@ -219,22 +223,26 @@ function ElDesafioPinamar() {
           </ul>
 
           <h3>COSTOS</h3>
-          {/* <p><b>A PARTIR DEL 16/08/2023</b></p> */}
-          <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
-         {/*  <ul>
-              <li>2 DÍAS INDIVIDUAL: <strong>$66.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
-              <li>2 DÍAS EQUIPO: <strong>$132.000</strong> pago total por dos corredores o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
-              <li>1 DÍA 21K: <strong>$24.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
-              <li>1 DÍA 10K: <strong>$17.000</strong> pago total o 50% por transferencia bancaria al inscribirse y 50% restante en EFECTIVO en acreditación.</li>
-              <li>KIDS: <strong>$6.000</strong> pago total.</li>
-
-              <div className='contenedorBoton'>
-                  <div className='botonIntermedio'>
-                  <Button disabled variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
-                      </div>
-                          </div>
+          <h4 style={{textAlign: "center"}}>¡PRECIO PROMOCIONAL Y EN DOS PAGOS SIN INTERÉS!</h4>
+          <h5><strong>ATENCIÓN: LOS PRIMEROS 50 CORREDORES EN INSCRIBIRSE SE LLEVARÁN UNA REMERA DEL M42 2023 DE REGALO (SUJETO A STOCK DE TALLES)</strong></h5>
+        {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
+          <ul>
+              <li>25K: <strong>$45.000</strong> en dos pagos sin interés de $22.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+              <li>10K: <strong>$29.000</strong> en dos pagos sin interés de $14.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
           </ul>
-           */}
+          <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
+          <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
+
+          <div className='contenedorBoton'>
+            <div className='botonIntermedio'>
+                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
+                <Button variant="warning" size='lg' className='boton'>
+                    INSCRIBITE ACÁ
+                </Button>
+                </Link>
+            </div>
+            </div>
+           
 
           <h3 id='cronograma'>CRONOGRAMA GENERAL DEL EVENTO</h3>
          <h4><strong><mark className='mark'>VIERNES 02/08</mark></strong></h4>
@@ -360,10 +368,14 @@ function ElDesafioPinamar() {
           </ul>
 
           <div className='contenedorBoton'>
-                  <div className='botonIntermedio'>
-                  <Button disabled variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-2023'>INSCRIBITE ACÁ</Link></Button>
-                      </div>
-                          </div>
+      <div className='botonIntermedio'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
+          <Button variant="warning" size='lg' className='boton'>
+            INSCRIBITE ACÁ
+          </Button>
+        </Link>
+      </div>
+    </div>
   </section>
     );
 }
