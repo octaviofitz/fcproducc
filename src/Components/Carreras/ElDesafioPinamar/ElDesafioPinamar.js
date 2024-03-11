@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 import DesafioPinamar from '../../../Img/DesafioPinamar/flyerPinamar.webp';
+import AutMenores from '../../../PDF/Pinamar/autMenores.pdf';
+import AptoMedico from '../../../PDF/Pinamar/aptoMedico.pdf';
 
 
 import './elDesafioPinamar.css'
@@ -96,7 +98,7 @@ function ElDesafioPinamar() {
           <p>*La edad para poder correr el Desafío Columbia Pinamar es a partir de los 16 años.</p>
           <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar.</p>
            <div className='contenedorBoton'>
-          <Button disabled variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer"/*  to={AutMenoresDesafio} */ download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
+          <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AutMenores} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
           </div> 
 
           <h3>DESCUENTO PARA TEAMS DE ENTRENAMIENTO</h3>
@@ -150,7 +152,7 @@ function ElDesafioPinamar() {
               <li>APTO MÉDICO.</li>
                <div className='contenedorBoton'>
                   <div className='botonIntermedio'>
-                      <Button disabled variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" /* to={AptoMedicoDesafio} */ download='Apto médico'>DESCARGAR APTO MÉDICO</Link></Button>
+                      <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer"  to={AptoMedico}  download='Apto médico'>DESCARGAR APTO MÉDICO</Link></Button>
                       </div>
                           </div> 
               <li>DESLINDE DE RESPONSABILIDAD (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
@@ -185,7 +187,6 @@ function ElDesafioPinamar() {
           <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
 
           <h3 id='inscripcion'>INSCRIPCIÓN ONLINE</h3>
-          <h4><mark>INSCRIPCIÓN ONLINE PRÓXIMAMENTE</mark></h4>
           <p>Los pasos para inscribirse online son:</p>
           <ol>
               <li>En caso de tener un código de descuento por ser 10 ó más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
@@ -211,7 +212,6 @@ function ElDesafioPinamar() {
           <p>Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
 
           <h3>INSCRIPCIÓN PRESENCIAL</h3>
-          <h4><mark>INSCRIPCIÓN ONLINE PRÓXIMAMENTE</mark></h4>
           <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
           <h4>CENTROS DE INSCRIPCIÓN:</h4>
           <ul>
