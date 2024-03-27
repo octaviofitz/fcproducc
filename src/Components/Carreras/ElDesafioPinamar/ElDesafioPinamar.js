@@ -35,7 +35,7 @@ function ElDesafioPinamar() {
 
     return (
       <section className='elDesafioPinamar'>
-      <h2 className='titulo' id='elDesafioPinamar'>DESAFÍO COLUMBIA PINAMAR</h2>
+      <h2 className='titulo' id='elDesafioPinamar'>EL DESAFÍO COLUMBIA PINAMAR</h2>
       <div className='containerFlyerDescripcion'>
 
           <div>

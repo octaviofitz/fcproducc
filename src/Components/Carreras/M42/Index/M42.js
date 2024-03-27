@@ -44,7 +44,7 @@ function M42() {
     return (
         <section className='m42' id='m42'>
 
-            <h2 className='titulo'>M42 MARATÓN DE MONTAÑA LOS ALERCES</h2>
+            <h2 className='titulo'>M42 LOS ALERCES</h2>
             <div className='containerFlyerDescripcion'>
                 <div>
                     <img src={m42General} alt='Maratón M42' className='flyer' />
@@ -341,9 +341,12 @@ function M42() {
                 <p>Les llegará un mail que dice “Inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
 
                 <h4><mark>INSCRIPCIÓN PRESENCIAL</mark></h4>
-                <p>Se abona el total o los dos pagos sin interés en efectivo, uno al inscribirse y el otro 30 días después.</p>
+                <p>Se abona el TOTAL de la carrera únicamente en EFECTIVO en los centros de inscripción.</p>
                 <h5>CENTROS DE INSCRIPCIÓN:</h5>
                 <ul>
+                    <li><strong>Aerorunners</strong>: Av. Córdoba 1360, CABA. Tel: 011-5811-1043</li>
+                    <li><strong>TriSport Necochea</strong>: Calle 57, 3043. Tel: 2262-52-6684</li>
+                    <li><strong>BicyShop Mar del Plata</strong>: Av. Independencia 3565. Tel: 0223-474-9816</li>
                     <li><strong>La Fe Deportes</strong>: Loria 193, Lomas de Zamora. Tel 11-6069-3133</li>
                     <li><strong>Adrogué Outdoors</strong>: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
                 </ul>
