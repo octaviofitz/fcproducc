@@ -224,7 +224,7 @@ function ElDesafioPinamar() {
 
           <h3>COSTOS</h3>
           <h4 style={{textAlign: "center"}}>¡PRECIO PROMOCIONAL Y EN DOS PAGOS SIN INTERÉS!</h4>
-          <h5><strong>ATENCIÓN: LOS PRIMEROS 50 CORREDORES EN INSCRIBIRSE SE LLEVARÁN UNA REMERA DEL M42 2023 DE REGALO (SUJETO A STOCK DE TALLES)</strong></h5>
+         
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
               <li>25K: <strong>$45.000</strong> en dos pagos sin interés de $22.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>

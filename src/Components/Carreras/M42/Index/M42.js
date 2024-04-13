@@ -355,12 +355,14 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
-                  <h4><strong>¡MANTENEMOS LOS PRECIOS DEL TERCER PERÍODO! ¡CUPOS LIMITADOS!</strong></h4>
+                  <h4><strong>¡ABRIMOS EL QUINTO PERÍODO! ¡CUPOS LIMITADOS!</strong></h4>
                 <ul>
-                    <li><strong>50K: $79.000</strong> en dos pagos sin interés de $39.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
-                    <li><strong>42K: $68.000</strong> en dos pagos sin interés de $34.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
-                    <li><strong>25K: $53.000</strong> en dos pagos sin interés de $26.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
-                    <li><strong>10K: $39.000</strong> en dos pagos sin interés de $19.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+                    <li><strong>50K: $86.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
+                    <li><strong>42K: $74.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
+                    <li><strong>25K: $58.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
+                    <li><strong>10K: $42.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $6.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $8.900</strong> pago total AL INSCRIBIRSE.</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
                 <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>  
