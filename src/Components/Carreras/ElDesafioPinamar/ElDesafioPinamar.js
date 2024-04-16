@@ -232,6 +232,8 @@ function ElDesafioPinamar() {
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
           <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
+          <h5>POLÍTICA DE PAGOS DE CUOTAS</h5>
+          <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
 
           <div className='contenedorBoton'>
             <div className='botonIntermedio'>
@@ -306,10 +308,11 @@ function ElDesafioPinamar() {
           <li>Repelente de mosquitos</li>
          </ul>
 
-  
+          <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
+          <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
 
           <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
-          <p>Las inscripciones NO tienen devolución.</p>
+          <p>Las inscripciones <strong>NO</strong> tienen devolución.</p>
          
         
           <h4><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
