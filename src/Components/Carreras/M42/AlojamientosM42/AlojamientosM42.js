@@ -14,6 +14,7 @@ import Tornquist from '../../../../Img/Alojamientos/tornquist.webp';
 import Cocolanel from '../../../../Img/Alojamientos/cocolonanel.webp';
 import RocioDeLuna from '../../../../Img/Alojamientos/rociodeluna.webp';
 import Alerces from '../../../../Img/Alojamientos/alerces.webp';
+import Mapu from '../../../../Img/Alojamientos/mapuM42.webp';
 
 
 import '../AlojamientosM42/alojamientosM42.css'
@@ -61,6 +62,25 @@ function AlojamientosM42() {
                                         <li>Tel: (0291) 4 910 175 / 265</li>
                                         <li>Email: info@lagrancabania.com.ar </li>
                                         <li>Web: <Link to='http://www.lagrancabania.com.ar/' target='_blank' rel="noopener noreferrer">www.lagrancabania.com.ar</Link></li>
+                                             </ul>
+                                                     </div>
+          
+                </div>
+
+        </article>
+
+        <article>
+            <h4><mark className='marcador'>Cabañas ÑUKE MAPU</mark></h4>
+            <div className='containerTop'>
+                <div>
+                     <img src={Mapu} className='img' alt='Cabañas Ñuke Mapu' />
+                         </div>
+                                <div>
+                                    <ul>
+                                        <li>Calle: Pillahuinco entre Carpintero y Siete colores, Villa Ventana, Bs As.</li>
+                                        <li>Tel: (0291) 4910060</li>
+                                        <li>Email: info@nukemapu.com.ar</li>
+                                        <li>Web: <Link to='http://www.nukemapu.com.ar/' target='_blank' rel="noopener noreferrer">www.nukemapu.com.ar</Link></li>
                                              </ul>
                                                      </div>
           
