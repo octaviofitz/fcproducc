@@ -45,7 +45,7 @@ function ElDesafioPinamar() {
                <div>
               <p className='descripcion'>Este 2024 te traemos una nueva propuesta. El Desafío Columbia expande sus fronteras y además de trepar sierras en octubre, en Sierra de la Ventana, tendrá otra versión de un día subiendo médanos en Pinamar.</p>
               <p className='descripcion'>Será tu nuevo desafío por médanos y senderos. El domingo 4 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 10K y KIDS.</p>
-              <p className='descripcion'>Partiendo desde el Centro Comercial Pinamar Norte, vivirás un recorrido realmente soñado y conocerás la ciudad desde otro lado. Próximamente abrimos inscripciones. Aquí abajo toda la información.</p>
+              <p className='descripcion'>Partiendo desde el Centro Comercial Pinamar Norte, vivirás un recorrido realmente soñado y conocerás la ciudad desde otro lado. <strong>Inscripciones abiertas</strong>. Aquí abajo toda la información.</p>
               <ul className='redes'>
               
                 <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -223,15 +223,16 @@ function ElDesafioPinamar() {
           </ul>
 
           <h3>COSTOS</h3>
-          <h4 style={{textAlign: "center"}}>¡PRECIO PROMOCIONAL Y EN DOS PAGOS SIN INTERÉS!</h4>
+          <h4 style={{textAlign: "center"}}>¡EN DOS PAGOS SIN INTERÉS!</h4>
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li>25K: <strong>$45.000</strong> en dos pagos sin interés de $22.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
-              <li>10K: <strong>$29.000</strong> en dos pagos sin interés de $14.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+              <li>25K: <strong>$49.000</strong> en dos pagos sin interés de $24.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+              <li>10K: <strong>$35.000</strong> en dos pagos sin interés de $17.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
           <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
+
           <h5>POLÍTICA DE PAGOS DE CUOTAS</h5>
           <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
 

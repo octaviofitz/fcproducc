@@ -248,29 +248,29 @@ function M42() {
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
                 <div className='containerAltimetria'>
-                    {/* <div className='altimetriaIMG'>
+                     <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
-                </div> */}
-                <div>
+                </div> 
+                {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>50K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 2200 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
-                </div>
+                </div> */}
                 </div>
 
                 <br></br>
                 
                 <div className='containerAltimetria'>
-               {/*  <div className='altimetriaIMG'>
+                <div className='altimetriaIMG'>
                 <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' />
-                </div> */}
-                <div>
+                </div> 
+                {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>42K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.800 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
-                </div>
+                </div> */}
                 </div>
 
                 <br></br>
@@ -281,28 +281,28 @@ function M42() {
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
 
                 <div className='containerAltimetria'>
-                {/* <div className='altimetriaIMG'>
+                 <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
-                </div> */}
-                <div>
+                </div> 
+                {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>25K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 616 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇ </span>Altura mínima: 369 msnm</p>
-                </div>
+                </div> */}
                 </div>
                 <br></br>
 
                 <div className='containerAltimetria'>
-               {/*  <div className='altimetriaIMG'>
+                 <div className='altimetriaIMG'>
                 <img src={km10} alt='Altimetria 10kM Los Alerces' className='img' />
-                </div> */}
-                <div>
+                </div> 
+                {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>10K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 261 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
-                </div>
+                </div> */}
                 </div>
 {/* 
                 <br></br>
