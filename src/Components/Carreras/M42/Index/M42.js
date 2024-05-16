@@ -426,7 +426,7 @@ function M42() {
                 <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p> */}
 
-                <h4><mark>RECLAMOS</mark></h4>
+                <h3>RECLAMOS</h3>
                 <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
 
                 <h3>ELEMENTOS OBLIGATORIOS</h3>
@@ -481,13 +481,22 @@ function M42() {
                     <li>Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
                 </ol>
 
-                <h4><mark>NÚMERO DE CORREDOR</mark></h4>
+                <h3>CORTES OBLIGATORIOS</h3>
+                <p><strong>La distancia Maratón (42k)</strong>, la cual larga el sábado 1 de junio a las 9 de la mañana, tendrá <strong>un único corte</strong> en el kilómetro 34 donde se encuentra la última subida (la antena) a las 6:00 horas de carrera, siendo las 15:00hs.</p>
+                <p>No comprometa al staff de FC producciones al momento del corte. En el punto indicado se les redireccionará para continuar con la carrera. La persona indicada les retirará el chip y su clasificación pasará al final de la tabla donde figurará como un DNF. Está en cada corredor recibir la medalla finisher. </p>
+                <p>Todos estos puntos son sujeto a cambio en caso que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
+                <p><strong>La distancia Ultra (50k)</strong>, la cual larga el sábado 1 de junio a las 9 de la mañana, tendrá tres cortes. El primero será en el kilómetro 34 (subida a la antena) a las 6:00 horas de carrera siendo las 15:00hs. El segundo corte será en la entrada a Cerro colorado en el kilómetro 40 a las 7:50 horas de carrera, siendo las 16:50hs. El tercer corte será en la división final de 50 y 42k en el kilómetro 44, siendo las 17:30hs.</p>
+                <p>No comprometa al staff de FC producciones al momento del corte. En el punto indicado se les redireccionará para continuar con la carrera. La persona indicada les retirará el chip y su clasificación pasará al final de la tabla donde figurará como un DNF. Está en cada corredor recibir la medalla finisher. </p>
+                <p>Todos estos puntos son sujeto a cambio en caso que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
+                <p><strong>Los 25 y 10k no tienen corte.</strong> (La organización tiene el derecho de realizar el que crea conveniente en el momento que lo considere por razones operativas).</p>
+
+                <h3>NÚMERO DE CORREDOR</h3>
                 <p>Disponible una semana antes del evento desde su inscripción.</p>
 
-                <h4><mark>DERECHOS</mark></h4>
+                <h3>DERECHOS</h3>
                 <p>La organización se reserva el derecho de cualquier modificación que surja en cualquier momento del correspondiente a la carrera.</p>
 
-                <h4><mark>MARCACIÓN</mark></h4>
+                <h3>MARCACIÓN</h3>
                 <p>Deberás guiarte por las cintas de la organización para poder confirmar que estás por la senda o circuito correcto. Siempre verás la próxima cinta. Seguir las marcaciones y no a los corredores. En caso de extravío, por no ver una cinta, o no prestar atención a los senderos o indicaciones por parte de la organización, deberás volver sobre tus pasos hasta el punto donde avistaste la última y retomar el camino.</p>
                 <h5>ELEMENTOS</h5>
                 <ul>
@@ -498,11 +507,11 @@ function M42() {
                 </ul>
                 <p><b>El recorrido podrá ser modificado antes o incluso durante la carrera por decisión de la organización ya sea por razones de seguridad u otras circunstancias que lo ameriten.</b></p>
                 
-                <h4><mark>ABANDONO O INTERRUPCIÓN</mark></h4>
+                <h3>ABANDONO O INTERRUPCIÓN</h3>
                 <p>El corredor/a que abandone la competición está obligado a comunicar al staff su decisión y esperar las indicaciones de los mismos para llegar a la meta. Deberá entregar dorsal y chip.</p>
                 <p>La organización se reserva el derecho de interrumpir la participación y el recorrido de cualquier corredor/a que se considere esté poniendo en riesgo su salud. En ese caso, tiene la obligación de responder a la misma indicación. De no hacerlo, será descalificado y la responsabilidad corre por cuenta del propio participante.</p>
 
-                <h4><mark>SEGURO DEL CORREDOR</mark></h4>
+                <h3>SEGURO DEL CORREDOR</h3>
                 <p>Cada participante estará asegurado con una póliza de Accidentes Personales con las siguientes coberturas: </p>
                 <ul>
                     <li>Accidente o muerte por persona</li>
@@ -517,7 +526,7 @@ function M42() {
                 <p>Los auspiciantes pueden disponer de premios especiales a los participantes, sin que esto implique responsabilidad alguna de la organización.</p>
                 <p>Los premios no tienen cambio.</p>
 
-                <h4><mark>ENVÍO DE PREMIOS</mark></h4>
+                <h3>ENVÍO DE PREMIOS</h3>
                 <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y se le enviará por terminal de micros, Oca o Correo Argentino. El COSTO de ENVÍO corre por cuenta del corredor, sin excepción.</p>
 
                 <h3>TOMA DE TIEMPO Y CLASIFICACIONES</h3>
