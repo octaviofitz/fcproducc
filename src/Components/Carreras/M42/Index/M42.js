@@ -76,6 +76,7 @@ function M42() {
                 
                 <h3 id='cartas'>Cartas</h3>
 
+
                 <h4><mark>DATOS GENERALES</mark></h4>
                 <p><strong>Carrera:</strong> Maratón M42 Los Alerces 12° edición</p>
                 <p><strong>Fechas:</strong> 1 y 2 DE JUNIO 2024</p>
@@ -130,6 +131,14 @@ function M42() {
 
                 <p><b>Los padres o acompañantes podrán acompañar durante el recorrido a sus hijos de ser necesario. Los 3K se realizan de manera controlada por el staff y en grupo por lo extenso del recorrido. </b>.</p>
                 
+                
+                <h3>TRASLADO 50 Y 42K</h3>
+                <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Los Alerces (lugar de largada) el día sábado 1 de junio.</p>
+                <p>El micro saldrá el sábado 1/6 a las 8 de la mañana puntual desde Plaza Salerno. Estar 10 min antes.</p>
+                <p>El costo es de $3.000 y se abona EN EFECTIVO al retirar el kit.</p>
+                <p>La reserva se hace previamente a <strong>info@fcproducciones.com.ar</strong> indicando nombre completo, dni y celular.</p>
+                <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p>
+
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
