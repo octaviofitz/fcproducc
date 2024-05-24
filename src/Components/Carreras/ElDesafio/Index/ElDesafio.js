@@ -221,7 +221,7 @@ function ElDesafio() {
                     <li>Los dos días de carrera incluyen: estadía en el camping, cena del día sábado y desayuno del domingo.</li>
                 </ul>
 
-                <p><strong>Cena:</strong> Pollo o asado al horno con ensaladas.</p>
+                <p><strong>Cena:</strong> Pollo o asado al horno con ensaladas o pastas.</p>
                 <p><strong>Postre:</strong> Frutas.</p>
                 <p><strong>Bebida:</strong> Gaseosas o agua mineral.</p>
                 <p><strong>Desayuno:</strong> Té, café, mate cocido con o sin leche, tostadas y torta casera.</p>

@@ -143,7 +143,7 @@ function M42() {
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
                 <h4><mark>VIERNES 31/05 de 10 a 18hs</mark></h4>
-                <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
+                <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
                 <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12565.668852426901!2d-62.0961989!3d-38.0606637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec6143bc37e253%3A0xe806173c3f397c3c!2sLos%20Alerces%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2sar!4v1684965720811!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe>
@@ -236,7 +236,7 @@ function M42() {
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
                 <h4><mark>SÁBADO 1 DE JUNIO | 50 y 42K</mark></h4>
-                <p><strong>- LARGADA</strong>: Los Alerces. Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
+                <p><strong>- LARGADA</strong>: Los Alerces. Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                {/*  <p>IMPORTANTE: Habrá traslados desde la Plaza Salerno hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar enviando un mail a info@fcproducciones.com.ar</p> */}
@@ -392,7 +392,7 @@ function M42() {
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
                 <h4><mark>VIERNES 31 DE MAYO</mark></h4>
-                <p><strong>De 10 a 18 hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Grindella, ex Melica.</p>
+                <p><strong>De 10 a 18 hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 
                 <h4><mark>SÁBADO 1 DE JUNIO</mark></h4>
                 <ul>
