@@ -142,7 +142,7 @@ function M42() {
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
-                <h4><mark>VIERNES 31/05 de 10 a 18hs</mark></h4>
+                <h4><mark>VIERNES 31/05 de 11 a 19hs</mark></h4>
                 <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
                 <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
@@ -392,7 +392,7 @@ function M42() {
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
                 <h4><mark>VIERNES 31 DE MAYO</mark></h4>
-                <p><strong>De 10 a 18 hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
+                <p><strong>De 11 a 19hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 
                 <h4><mark>SÁBADO 1 DE JUNIO</mark></h4>
                 <ul>
