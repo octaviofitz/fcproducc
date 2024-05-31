@@ -11,7 +11,7 @@
 .resultadosM42 .goBack{
     background-color: #efeeee;
   border: 1px solid #dcdcdc;
-  border-radius: 4px;
+  border-radius: 10px;
   color: #333333;
   cursor: pointer;
   font-size: 16px;
@@ -23,7 +23,7 @@
 }
 
 .resultadosM42 .goBack:hover {
-    background-color: #a98b30;
+    background-color: #39afdb;
     border-color: #fff;
     color: #dcdcdc;
   }
@@ -45,7 +45,8 @@
 .containerNovedades .carrerasimg{
     width: 60vw;
     display: flex;
-    margin: -1rem auto;
+    margin: auto;
+    margin-bottom: 3rem;
 }
 
 .containerNovedades .container{
@@ -82,7 +83,7 @@
     text-transform: uppercase;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 10px;
-    background-color: #a98b30;
+    background-color: #39afdb;
 }
 
 @media (min-width: 768px){
@@ -132,7 +133,7 @@
 
 
     .resultadosM42 .goBack{
-        margin-right: 1vw;
+        margin-right: 26vw;
       }
 
   .resultadosM42 .containerNovedades {
@@ -162,7 +163,7 @@
 
 @media (min-width: 1440px){
     .resultadosM42 .goBack{
-        margin-right: 3vw;
+        margin-right: 25vw;
         margin-top: 2rem;
       }
 }

@@ -20,23 +20,24 @@ function Carreras() {
     return (
         <section className='carreras'>
 
-{/*          <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO COLUMBIA</h1> 
- */}     
-        {/*  <div className='containerNovedades'>
+          <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1> 
+      
+         <div className='containerNovedades'>
            
             <div>
                 <article className='container' id='novedades'>
-            <img src={PersonalColumbia} className="carrerasimg" alt='Carrera M42' id='resultadosImg'></img>
-            <h4 className='tituloResultados'>CLASIFICACIÓN + FOTOS POR DORSAL</h4>
-             <p className='texto'>Acá podrán ver su resultado, descargar su certificado finisher, y ver sus fotos detectadas por dorsal. <strong>Estamos subiendo más de 10 mil fotos gratuitas en alta calidad.</strong></p> 
+            <img src={m42} className="carrerasimg" alt='Carrera M42' id='resultadosImg'></img>
+            <h4 className='tituloResultados'>CLASIFICACIÓN + FOTOS</h4>
+             <p className='texto'>Acá podrán ver su resultado, descargar su certificado finisher, y ver sus fotos detectadas por dorsal.</p> 
              <div className='containerBotones'>
-             <Button variant="warning" size='lg' id='botondesafio'><a href='https://eventols.com/e/desafio-columbia-2023/results'> Resultados + Fotos</a></Button>
+             <Button variant="info" size='lg' className='botonm42' id='novedadesM42'><a href='https://eventols.com/e/m42-los-alerces-2024/results'>Resultados</a></Button>
+             <Button variant="info" size='lg' className='botonm42' id='novedadesM42'><a href='https://fotols.com/e/m42-maraton-de-montana/fc-producciones'>Imágenes</a></Button>
              </div>
 
             </article>
             </div>
 
-            <div>
+            {/* <div>
                 <article className='container' id='novedades'>
             <img src={GeneralColumbia} className="carrerasimg" alt='Carrera M42' id='resultadosImg'></img>
             <h4 className='tituloResultados'>TODAS LAS FOTOS DE LA CARRERA</h4>
@@ -46,9 +47,9 @@ function Carreras() {
              </div>
 
             </article>
-            </div>
+            </div> */}
 
-        </div>   */}
+        </div>   
        
 {/* 
               <h1 className='titulo'>Proximas carreras</h1>
@@ -69,7 +70,7 @@ function Carreras() {
 
             <article className='container'>
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
-            <p className='texto'>El Maratón M42 Los Alerces es el clásico de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 25K, 10K y KIDS. Sábado 1 y domingo 2 de junio 2024. ¿Te lo vas a perder? ¡Nos vemos en junio!</p>
+            <p className='texto'>El Maratón M42 Los Alerces es el clásico de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 25K, 10K y KIDS. Sábado 1 y domingo 2 de junio 2024. ¿Te lo vas a perder?</p>
              <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
             </article>
 

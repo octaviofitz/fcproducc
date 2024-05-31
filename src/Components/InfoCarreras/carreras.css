@@ -76,7 +76,14 @@
 
 .carreras .botonm42{
     background-color: #39afdb;
+   /*  width: 42vw;
+    max-width: 200px; */
 }
+
+.carreras .containerNovedades .container .containerBotones #novedadesM42{
+    width: 42vw;
+    max-width: 200px;
+ }
 
 .carreras .botondesafio{
     background-color: #a0bf09;
@@ -151,6 +158,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.carreras .containerNovedades .container .containerBotones .botonm42:last-child{
+    margin-top: 1.5rem;
 }
 
 #resultadosImg{
@@ -272,8 +283,21 @@
 .containerBotones{
     flex-direction: row;
     justify-content: center;
-
+    padding-top: 0.5rem;
 }
+
+.carreras .containerNovedades .container .containerBotones .botonm42:last-child{
+    margin-top: -1rem;
+}
+
+/* .carreras .containerNovedades .container .containerBotones .botonm42{
+    width: 15vw;
+}
+ */
+
+ .carreras .containerNovedades .container .containerBotones #novedadesM42{
+    width: 15vw;
+ }
 
 /* .carreras .botondesafio{
     margin-top: 1.5rem;
@@ -307,5 +331,10 @@
     .carreras .containerDesafio{
         width: 60vw;
     }
+
+    .carreras .containerNovedades .container .containerBotones #novedadesM42{
+        width: 10vw;
+     }
+    
 
 }
