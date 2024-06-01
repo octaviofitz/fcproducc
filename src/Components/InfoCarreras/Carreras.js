@@ -20,18 +20,18 @@ function Carreras() {
     return (
         <section className='carreras'>
 
-          <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1> 
+          <h1 className='titulo'>M42 LOS ALERCES 2024</h1> 
       
          <div className='containerNovedades'>
            
             <div>
                 <article className='container' id='novedades'>
             <img src={m42} className="carrerasimg" alt='Carrera M42' id='resultadosImg'></img>
-            <h4 className='tituloResultados'>CLASIFICACIÓN + FOTOS</h4>
-             <p className='texto'>Acá podrán ver su resultado, descargar su certificado finisher, y ver sus fotos detectadas por dorsal.</p> 
+            <h4 className='tituloResultados'>RESULTADOS 50K Y 42K</h4>
+             <p className='texto'>Ya está disponible la clasificación de los 50K y 42K y a partir del lunes las fotos.</p>
              <div className='containerBotones'>
              <Button variant="info" size='lg' className='botonm42' id='novedadesM42'><a href='https://eventols.com/e/m42-los-alerces-2024/results'>Resultados</a></Button>
-             <Button variant="info" size='lg' className='botonm42' id='novedadesM42'><a href='https://fotols.com/e/m42-maraton-de-montana/fc-producciones'>Imágenes</a></Button>
+             <Button disabled variant="info" size='lg' className='botonm42' id='novedadesM42'><a href='https://fotols.com/e/m42-maraton-de-montana/fc-producciones'>Imágenes</a></Button>
              </div>
 
             </article>

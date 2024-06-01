@@ -86,6 +86,11 @@
     background-color: #39afdb;
 }
 
+.resultadosM42 .containerNovedades .tituloResultados{
+    text-align: center;
+    margin-top: -1rem;
+}
+
 @media (min-width: 768px){
 
     .resultadosM42 {
