@@ -339,11 +339,11 @@ function M42() {
                 </ol>
 
                 <div className='contenedorBoton'>
-      <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
-        <Button variant="info" size='lg' className='boton'>
+     {/*  <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
+        <Button disabled variant="info" size='lg' className='boton'>
           INSCRIBITE ACÁ
         </Button>
-      </Link>
+      </Link> */}
     </div>
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
@@ -563,11 +563,11 @@ function M42() {
                 </ul>
                 
                 <div className='contenedorBoton'>
-      <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
-        <Button variant="info" size='lg' className='boton'>
+     {/*  <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
+        <Button disabled variant="info" size='lg' className='boton'>
           INSCRIBITE ACÁ
         </Button>
-      </Link>
+      </Link> */}
     </div>
              
 
