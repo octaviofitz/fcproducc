@@ -227,8 +227,9 @@ function ElDesafioPinamar() {
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li>25K: <strong>$49.000</strong> en dos pagos sin interés de $24.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
-              <li>10K: <strong>$35.000</strong> en dos pagos sin interés de $17.500 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después)</li>
+              <li>25K: <strong>$54.000</strong> en dos pagos sin interés de $27.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después).</li>
+              <li>10K: <strong>$40.000</strong> en dos pagos sin interés de $20.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después).</li>
+              <li>KIDS: <strong>$6.900</strong> pago total.</li>
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
           <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
