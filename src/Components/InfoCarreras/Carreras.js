@@ -77,7 +77,7 @@ function Carreras() {
             <article className='container'>
            <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
             <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
-             <Button disabled variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
+             <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
             </article>
 
             <article className='container'>
