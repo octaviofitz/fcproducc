@@ -32,7 +32,7 @@ function BasicExample() {
             <NavDropdown.Item as={Link} to='/desafio-pinamar' id='el-Desafio-Pinamar' onClick={handleNavClick}>
               DESAFIO PINAMAR
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to='/desafio-columbia' id='el-Desafio' onClick={handleNavClick}>
+            <NavDropdown.Item disabled as={Link} to='/desafio-columbia' id='el-Desafio' onClick={handleNavClick}>
               DESAFÍO SIERRA DE LA VENTANA
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to='/alcec' id='alecec' onClick={handleNavClick}>
