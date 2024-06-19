@@ -20,7 +20,7 @@ function Carreras() {
     return (
         <section className='carreras'>
 
-          <h1 className='titulo'>M42 LOS ALERCES 2024</h1> 
+         {/*  <h1 className='titulo'>M42 LOS ALERCES 2024</h1> 
       
          <div className='containerNovedades'>
            
@@ -37,46 +37,17 @@ function Carreras() {
             </article>
             </div>
 
-            {/* <div>
-                <article className='container' id='novedades'>
-            <img src={GeneralColumbia} className="carrerasimg" alt='Carrera M42' id='resultadosImg'></img>
-            <h4 className='tituloResultados'>TODAS LAS FOTOS DE LA CARRERA</h4>
-             <p className='texto'>Fotos generales de todo el fin de semana: acreditación, salidas, recorrido, campamento y mucho más. <strong>Estamos subiendo más de 10 mil fotos gratuitas en alta calidad.</strong></p> 
-             <div className='containerBotones'>
-             <Button variant="warning" size='lg' id='botondesafio'><a href='https://drive.google.com/drive/folders/1XpLPtMVB45JvvnHZ466wo0MFFdO8VyJs'>FOTOS GENERALES</a></Button>
-             </div>
-
-            </article>
-            </div> */}
-
-        </div>   
+        </div>    */}
        
-{/* 
-              <h1 className='titulo'>Proximas carreras</h1>
-            <div className='containerGeneral'>
 
-            <article className='container'>
-           <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-            <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. ¡Te esperamos en octubre!</p>
-             <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
-            </article>
-            
-            </div>
- */}
-
-            <h2 className='titulo'>PRÓXIMAS CARRERAS</h2>
+            <h2 className='titulo'>INSCRIPCIONES ABIERTAS</h2>
 
             <div className='containerGeneral'>
 
-            {/* <article className='container'>
-            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
-            <p className='texto'>El Maratón M42 Los Alerces es el clásico de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 25K, 10K y KIDS. Sábado 1 y domingo 2 de junio 2024. ¿Te lo vas a perder?</p>
-             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
-            </article> */}
 
             <article className='container'>
            <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-            <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
+            <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
              <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
             </article>
 

@@ -293,8 +293,10 @@ function ElDesafio() {
 
                 <h3>COSTOS</h3>
                 <ul>
-                    <li>DOS DÍAS (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$160.000</strong> en dos pagos sin interés de $80.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
-                    <li>DOS DÍAS (25K + 21K) SIN CAMPAMENTO: <strong>$120.000</strong> en dos pagos sin interés de $60.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
+                    <li>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$160.000</strong> en dos pagos sin interés de $80.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
+                    <li>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <strong>$120.000</strong> en dos pagos sin interés de $60.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
+                    <li>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$320.000</strong> en dos pagos sin interés de $160.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
+                    <li>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: <strong>$240.000</strong> en dos pagos sin interés de $120.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
                     <li>1 DÍA (DOMINGO) 21K: <strong>$58.000</strong> en dos pagos sin interés de $29.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
                     <li>1 DÍA (DOMINGO) 10K: <strong>$42.000</strong> en dos pagos sin interés de $21.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
                    {/*  <li>KIDS: <strong>$6.000</strong> pago total.</li> */}
