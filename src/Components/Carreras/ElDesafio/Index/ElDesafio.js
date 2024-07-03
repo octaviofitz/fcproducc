@@ -299,6 +299,7 @@ function ElDesafio() {
                     <li>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: <strong>$240.000</strong> en dos pagos sin interés de $120.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
                     <li>1 DÍA (DOMINGO) 21K: <strong>$58.000</strong> en dos pagos sin interés de $29.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
                     <li>1 DÍA (DOMINGO) 10K: <strong>$42.000</strong> en dos pagos sin interés de $21.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después de inscribirse)</li>
+                    <li>KIDS (DOMINGO): <strong>$8900</strong> pago total</li>
                    {/*  <li>KIDS: <strong>$6.000</strong> pago total.</li> */}
                    
 
