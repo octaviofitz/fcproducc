@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 import DesafioPinamar from '../../../Img/DesafioPinamar/flyerPinamar.webp';
+import recorrido10k from '../../../Img/DesafioPinamar/recorrido10k.webp';
+import recorrido25k from '../../../Img/DesafioPinamar/recorrido25k.webp';
+
 import AutMenores from '../../../PDF/Pinamar/autMenores.pdf';
 import AptoMedico from '../../../PDF/Pinamar/aptoMedico.pdf';
 
@@ -178,10 +181,14 @@ function ElDesafioPinamar() {
 
 
           <h3>RECORRIDOS</h3>
-          <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
+          <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
+          <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
+          
+          <h5>VER MAPA INTERACTIVO</h5>
+          <iframe src="https://www.google.com/maps/d/embed?mid=1r5D5euOYMhnz3Wrp4DRC1RFhTGd0UDc&ehbc=2E312F" width="600" height="450" loading='lazy' className='mapas' title='Mapa Interactivo Desafio Pinamar'></iframe>
+          
 
-          <h3>ALTIMETRÍA</h3>
-          <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
+         
 
           <h3>RUNNING KIDS</h3>
           <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
