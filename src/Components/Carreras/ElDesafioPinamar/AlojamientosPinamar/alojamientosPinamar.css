@@ -1,0 +1,340 @@
+.AlojamientosPinamar {
+    margin: 1rem;
+    padding: 2rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #efeeee;
+    border-radius: 10px;
+    animation: AlojamientosPinamarAnimation 2s ease;
+}
+
+@keyframes AlojamientosPinamarAnimation {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contenedorBotonDesafio .goBack {
+    background-color: #efeeee;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    color: #333333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 6px 16px;
+    transition: all 0.2s ease-in-out;
+    width: 9rem;
+}
+
+.contenedorBotonDesafio .goBack:hover {
+    background-color: #ffcc19;
+    border-color: #fff;
+}
+
+.contenedorBotonDesafio {
+    display: flex;
+    justify-content: right;
+    margin: 3rem 1.5rem 1rem -2rem;
+}
+
+.AlojamientosPinamar article {
+    overflow-wrap: break-word;
+}
+
+.AlojamientosPinamar h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.AlojamientosPinamar h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffcc19;
+}
+
+.AlojamientosPinamar h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.AlojamientosPinamar .img {
+    width: 80vw;
+    border-radius: 5px;
+}
+
+.AlojamientosPinamar ul {
+    margin: 1.5rem 0;
+    margin-left: -0.65rem;
+}
+
+.AlojamientosPinamar li {
+    margin: 0.65rem 0;
+}
+
+.AlojamientosPinamar p {
+    margin: 1rem 0;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.AlojamientosPinamar .boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ffcc19;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.AlojamientosPinamar .boton a {
+    color: #fff;
+}
+
+.AlojamientosPinamar .marcador {
+    background-color: #ffcc19;
+}
+
+.AlojamientosPinamar .recomendados {
+    margin: 3rem 0 2rem;
+}
+
+@media (min-width: 768px) {
+    .AlojamientosPinamar {
+        margin: 3rem 2rem;
+        border-radius: 15px;
+        padding: 2rem 0;
+    }
+
+    .AlojamientosPinamar h2 {
+        margin: 1rem 2rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .AlojamientosPinamar h3 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+
+    .AlojamientosPinamar h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .AlojamientosPinamar .img {
+        width: 70vw;
+        border-radius: 5px;
+        display: flex;
+        margin: auto;
+    }
+
+    .AlojamientosPinamar ul {
+        margin: 1.5rem 2rem;
+    }
+
+    .AlojamientosPinamar li {
+        margin: 0.65rem 0;
+        font-size: 1.15rem;
+    }
+
+    .AlojamientosPinamar p {
+        margin: 2rem;
+        text-align: center;
+        font-size: 1.15rem;
+    }
+
+    .AlojamientosPinamar .marcador {
+        background-color: #ffcc19;
+        margin-left: 0rem;
+    }
+
+    .AlojamientosPinamar .recomendados {
+        margin: 3rem 3rem 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .AlojamientosPinamar {
+        width: 73vw;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+
+    .AlojamientosPinamar .containerTop {
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem 3rem;
+        padding: 3rem;
+    }
+
+    .AlojamientosPinamar h2 {
+        margin: 1rem 7rem;
+    }
+
+    .AlojamientosPinamar h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .AlojamientosPinamar h4 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .AlojamientosPinamar .img {
+        width: 300px;
+    }
+
+    .AlojamientosPinamar ul {
+        margin-top: -0.8vh;
+        margin-left: 3rem;
+    }
+
+    .AlojamientosPinamar li {
+        font-size: 1.5vw;
+        padding: 0.25rem;
+    }
+
+    .AlojamientosPinamar p {
+        text-align: center;
+        font-size: 1.5vw;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto 0;
+    }
+
+    .contenedorBotonDesafio .goBack {
+        margin-right: 12vw;
+    }
+
+    .AlojamientosPinamar .tornquist {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .AlojamientosPinamar .tornquist img {
+        width: 30vw;
+        margin-left: 4rem;
+    }
+
+    .AlojamientosPinamar .tornquist p {
+        width: 35vw;
+        font-size: 1.3vw;
+        margin-top: 1.25rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;
+    }
+/* 
+    .AlojamientosPinamar .hipervinculo{
+        font-size: 1vw;
+    }
+ */
+}
+
+@media (min-width: 1440px) {
+    .AlojamientosPinamar {
+        margin: 3rem auto;
+        width: 70vw;
+    }
+
+    .AlojamientosPinamar h2 {
+        margin: 1rem 0rem 4rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .AlojamientosPinamar h3 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        margin-left: 0rem;
+    }
+
+    .AlojamientosPinamar h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .AlojamientosPinamar .containerTop {
+        justify-content: center;
+    }
+
+    .AlojamientosPinamar .img {
+        width: 20vw;
+        border-radius: 5px;
+        display: flex;
+        margin: auto;
+    }
+
+    .AlojamientosPinamar ul {
+        margin: -2rem 2rem;
+        width: 33vw;
+        margin-left: 5rem;
+    }
+
+    .AlojamientosPinamar li {
+        margin: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .AlojamientosPinamar p {
+        margin: 2rem;
+        text-align: center;
+        font-size: 1.15rem;
+        padding-top: 0rem;
+        font-weight: 600;
+    }
+
+    .AlojamientosPinamar .marcador {
+        background-color: #ffcc19;
+        margin-left: 0rem;
+    }
+
+    .AlojamientosPinamar .mas {
+        width: 60vw;
+        margin: 2.5rem auto;
+    }
+
+    .AlojamientosPinamar .mas:first-child {
+        margin-top: 4rem;
+    }
+
+    .AlojamientosPinamar .mas:last-child {
+        margin-bottom: 4rem;
+    }
+
+    .AlojamientosPinamar p {
+        text-align: center;
+        margin: 2rem auto;
+    }
+
+    .AlojamientosPinamar .boton {
+        padding: 1rem 4rem;
+    }
+
+    .contenedorBotonDesafio .goBack {
+        margin-right: 13vw;
+    }
+}

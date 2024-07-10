@@ -64,6 +64,8 @@ function ElDesafioPinamar() {
           <Button variant="warning" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
           <Button variant="warning" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
           <Button variant="warning" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
+          <Button variant="warning" size='lg' className='boton' ><Link to='/desafio-pinamar/alojamientos'>Alojamientos</Link></Button>
+
        {/*    <Button variant="warning" size='lg' className='boton'><Link to='/desafio-columbia/alojamientos'>Alojamientos</Link></Button>
           <Button variant="warning" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados + FOTOS 2023</Link></Button> */}
          {/*  <Button variant="warning" size='lg' className='boton' disabled><Link to='/desafio-columbia/fotos2022'>Fotos 2023</Link></Button> */}
@@ -234,8 +236,8 @@ function ElDesafioPinamar() {
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li>25K: <strong>$54.000</strong> en dos pagos sin interés de $27.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después).</li>
-              <li>10K: <strong>$40.000</strong> en dos pagos sin interés de $20.000 por transferencia bancaria o depósito (una al inscribirse y otra 30 días después).</li>
+              <li>25K: <strong>$54.000</strong> en dos pagos (un 50% al inscribirse por transferencia bancaria o depósito y el otro 50% en EFECTIVO en acreditación).</li>
+              <li>10K: <strong>$40.000</strong> en dos pagos (un 50% al inscribirse por transferencia bancaria o depósito y el otro 50% en EFECTIVO en acreditación).</li>
               <li>KIDS: <strong>$6.900</strong> pago total.</li>
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>

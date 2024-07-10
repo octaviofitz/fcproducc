@@ -22,6 +22,7 @@ import AlojamientosDesafio from '../../Carreras/ElDesafio/Alojamientos/Alojamien
 import Circuito from '../../Carreras/Circuito/Circuito';
 import Alecec from '../../Carreras/Alecec/Alecec';
 import ElDesafioPinamar from '../../Carreras/ElDesafioPinamar/ElDesafioPinamar'; 
+import AlojamientosPinamar from '../../Carreras/ElDesafioPinamar/AlojamientosPinamar/AlojamientosPinamar';
 import Index from '../../../Pages/Index.js/Index';
 import Error from '../../Secciones/Error404/Error';
 import Footer from '../../Footer/Footer';
@@ -29,7 +30,6 @@ import BannerTablet from '../../BannerTablet/BannerTablet';
 
 /* Css */
 import '../AppRouter/appRouter.css'
-
 
 const AppRouter = () => {
     return (
@@ -57,6 +57,7 @@ const AppRouter = () => {
             <Route path='/m42/alojamientos' element={<AlojamientosM42 />} />
             <Route path='/alcec' element={<Alecec />} />
             <Route path='/desafio-pinamar' element={<ElDesafioPinamar />} />
+            <Route path='/desafio-pinamar/alojamientos' element={<AlojamientosPinamar />} />
             <Route path='/circuito' element={<Circuito />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/galeria' element={<Galeria />} />
