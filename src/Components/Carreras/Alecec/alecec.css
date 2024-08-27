@@ -150,6 +150,16 @@
     color: #fff;
 }
 
+.Alecec .contenedorBotones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Alecec .contenedorBotones #botonesDuo{
+    margin: 0.5rem;
+}
 
 @media (min-width: 768px){
 
@@ -235,8 +245,18 @@
     }
     
     .Alecec .descripcion{
-        font-size: 1.21vw;
+        font-size: 1.25vw;
         margin-top: 0rem;
+    }
+
+    .Alecec .contenedorBotones{
+        flex-direction: row;
+        align-items: left;
+        margin-left: 2rem;
+    }
+    
+    .Alecec .contenedorBotones #botonesDuo{
+        margin: 0.5rem;
     }
        
     .Alecec h3{
@@ -310,7 +330,11 @@
         margin-left: 5rem;
         margin-right: 5rem;
         margin-top: 1rem;
-        font-size: 0.88vw;
+        font-size: 1vw;
+    }
+
+    .Alecec .contenedorBotones{
+        margin-left: 5vw;
     }
        
     .Alecec h3{

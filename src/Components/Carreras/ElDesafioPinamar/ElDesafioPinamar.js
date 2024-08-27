@@ -64,6 +64,7 @@ function ElDesafioPinamar() {
           <Button variant="warning" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
           <Button variant="warning" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
           <Button variant="warning" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
+          <Button variant="warning" size='lg' className='boton' onClick={scrollReglamento}><Link to='/desafio-pinamar/resultados'>Resultados + FOTOS 2024</Link></Button>
           <Button variant="warning" size='lg' className='boton' ><Link to='/desafio-pinamar/alojamientos'>Alojamientos</Link></Button>
 
        {/*    <Button variant="warning" size='lg' className='boton'><Link to='/desafio-columbia/alojamientos'>Alojamientos</Link></Button>
@@ -193,7 +194,7 @@ function ElDesafioPinamar() {
          
 
           <h3>RUNNING KIDS</h3>
-          <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, hidratación y medalla finisher.</p>
+          <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor e hidratación.</p>
 
           <h3 id='inscripcion'>INSCRIPCIÓN ONLINE</h3>
           <p>Los pasos para inscribirse online son:</p>
@@ -206,7 +207,7 @@ function ElDesafioPinamar() {
             <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
                     <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
-                    <Button variant="warning" size='lg' className='boton'>
+                    <Button disabled variant="warning" size='lg' className='boton'>
                         INSCRIBITE ACÁ
                     </Button>
                     </Link>
@@ -231,17 +232,17 @@ function ElDesafioPinamar() {
               <li><u>Adrogué Outdoors</u>: Av. Mitre 1110, Adrogué. Tel: 4293-6350</li>
           </ul>
 
-          <h3>COSTOS</h3>
-          <h4 style={{textAlign: "center"}}>¡EN DOS PAGOS SIN INTERÉS!</h4>
+          <h3>COSTOS - ÚLTIMOS CUPOS</h3>
+          {/* <h4 style={{textAlign: "center"}}>¡EN DOS PAGOS SIN INTERÉS!</h4> */}
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
               <li>25K: <strong>$54.000</strong> en dos pagos (un 50% al inscribirse por transferencia bancaria o depósito y el otro 50% en EFECTIVO en acreditación).</li>
-              <li>10K: <strong>$40.000</strong> en dos pagos (un 50% al inscribirse por transferencia bancaria o depósito y el otro 50% en EFECTIVO en acreditación).</li>
+              <li><strong>CUPOS COMPLETOS EN 10K</strong></li>
               <li>KIDS: <strong>$6.900</strong> pago total.</li>
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-          <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
+          <p>Cuando los cupos se acaben, se cerrarán las inscripciones.</p>
 
           <h5>POLÍTICA DE PAGOS DE CUOTAS</h5>
           <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
@@ -249,7 +250,7 @@ function ElDesafioPinamar() {
           <div className='contenedorBoton'>
             <div className='botonIntermedio'>
                 <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
-                <Button variant="warning" size='lg' className='boton'>
+                <Button disabled variant="warning" size='lg' className='boton'>
                     INSCRIBITE ACÁ
                 </Button>
                 </Link>
@@ -280,6 +281,9 @@ function ElDesafioPinamar() {
 
          <h3 id='reglamento'>REGLAMENTO DESAFÍO COLUMBIA</h3>
          <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
+
+         <h4><mark className='mark'><strong>IMPORTANTE</strong></mark></h4>
+         <p>Tanto los 25 kilómetros como los 10, no tendrán tiempo de corte, salvo que la organización considere hacerlo por cuestiones ajenas y/o seguridad del corredor únicamente para beneficio y resguardo del mismo. Además, recordamos que ambas modalidades son trail y no trekking.</p>
 
          <h4><mark className='mark'>RECLAMOS</mark></h4>
           <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
@@ -384,7 +388,7 @@ function ElDesafioPinamar() {
           <div className='contenedorBoton'>
       <div className='botonIntermedio'>
         <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
-          <Button variant="warning" size='lg' className='boton'>
+          <Button disabled variant="warning" size='lg' className='boton'>
             INSCRIBITE ACÁ
           </Button>
         </Link>

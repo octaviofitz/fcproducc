@@ -1,0 +1,179 @@
+.resultadosPinamar .titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.resultadosPinamar .goBack{
+    background-color: #efeeee;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  color: #333333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 16px;
+  transition: all 0.2s ease-in-out;
+  width: 9rem;
+  margin-top: -1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.resultadosPinamar .goBack:hover {
+    background-color: #ffcc19;
+    border-color: #fff;
+    color: #dcdcdc;
+  }
+
+  .resultadosPinamar .contenedorBoton{
+    display: flex;
+    justify-content: right;
+    margin: 2rem 1.5rem 1rem -2rem;
+}
+
+.resultadosPinamar .boton a{
+    color: #fff;
+}
+
+.resultadosPinamar .containerNovedades .container a{
+    color: white;
+}
+
+.containerNovedades .carrerasimg{
+    display: flex;
+    margin-bottom: 5rem;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    height: 30vh;
+    width: 30vh;
+}
+
+.containerNovedades .container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 3%;
+    width: 90vw;
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+    background-color: #efeeee;
+    animation: tarjetasAnimation 4s ease;
+}
+
+.containerNovedades{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resultadosPinamar .containerNovedades .container .texto{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.containerNovedades .botonDesafioPinamar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    background-color: #ffcc19;
+    width: 40vw;
+    max-width: 270px;
+}
+
+.resultadosPinamar .containerNovedades .tituloResultados{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+
+    .resultadosPinamar {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .resultadosPinamar .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+        width: 50vw;
+    }
+    
+    .resultadosPinamar .titulo{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+    
+    .resultadosPinamar .goBack{
+      margin-top: -1rem;
+      margin-right: -2rem;
+    }
+
+    /* .containerNovedades .carrerasimg{
+        width: 35vw;
+    } */
+    
+    .containerNovedades .container{
+        width: 70vw;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    .resultadosPinamar {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+
+    .resultadosPinamar .goBack{
+        margin-right: 26vw;
+      }
+
+  .resultadosPinamar .containerNovedades {
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+   .resultadosPinamar .containerNovedades .container{
+        width: 35vw;
+        margin-top: 2rem;
+    }
+/* 
+    .containerNovedades .carrerasimg{
+        width: 20vw;
+    } */
+
+    .resultadosPinamar .containerNovedades .container .texto{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .resultadosPinamar .goBack{
+        margin-right: 25vw;
+        margin-top: 2rem;
+      }
+}

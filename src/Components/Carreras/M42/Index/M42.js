@@ -55,12 +55,13 @@ function M42() {
                                     <p className='descripcion'>Con la edición N°12, llevaremos tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único en Villa Ventana y San Andrés de la Sierra, dos paraísos.</p>
                                     <p className='descripcion'>Paisajes inolvidables, cruces de arroyos, un histórico hotel abandonado, senderos, bosques y mucho trail, sumado a una compañía única de los demás corredores y del staff de FC Producciones que harán que sea un fin de semana que no olvidarás jamás.</p>
                                     <p className='descripcion'>50K y 42K el sábado y 25K, 10K y KIDS el domingo (podés correr ambos días de así quererlo) son las 5 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42 lo hacen, volver a participar pero elevando la distancia en la próxima edición.</p>
+                                    <p className='descripcion'><strong>Agendá la fecha de la 13° edición: 31 de mayo y 1 de junio de 2025. Próximamente actualizaremos toda la información de aquí abajo.</strong></p>
                                       
-                                    <ul className='redes'>
+                                  {/*   <ul className='redes'>
                     
                                         <li><Link to='https://www.instagram.com/MaratonM42/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
                                          <li><Link to='https://www.facebook.com/MaratonM42/' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i> </Link></li>
-                                                 </ul>
+                                                 </ul> */}
                                         </div>
                                              </div>
 

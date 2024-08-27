@@ -23,6 +23,7 @@ import Circuito from '../../Carreras/Circuito/Circuito';
 import Alecec from '../../Carreras/Alecec/Alecec';
 import ElDesafioPinamar from '../../Carreras/ElDesafioPinamar/ElDesafioPinamar'; 
 import AlojamientosPinamar from '../../Carreras/ElDesafioPinamar/AlojamientosPinamar/AlojamientosPinamar';
+import ResultadosPinamar from '../../Carreras/ElDesafioPinamar/ResultadosPinamar/ResultadosPinamar';
 import Index from '../../../Pages/Index.js/Index';
 import Error from '../../Secciones/Error404/Error';
 import Footer from '../../Footer/Footer';
@@ -58,6 +59,7 @@ const AppRouter = () => {
             <Route path='/alcec' element={<Alecec />} />
             <Route path='/desafio-pinamar' element={<ElDesafioPinamar />} />
             <Route path='/desafio-pinamar/alojamientos' element={<AlojamientosPinamar />} />
+            <Route path='/desafio-pinamar/resultados' element={<ResultadosPinamar />} />
             <Route path='/circuito' element={<Circuito />} />
             <Route path='/nosotros' element={<Nosotros />} />
             <Route path='/galeria' element={<Galeria />} />

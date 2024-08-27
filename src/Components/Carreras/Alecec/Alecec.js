@@ -27,33 +27,54 @@ function Alecec() {
 
         <div>
           <p className="descripcion">
-            FC Producciones, en conjunto con ALCEC la Asociación de Lucha Contra
-            el Cáncer de Concepción del Uruguay, provincia de Entre Ríos, creó
-            un mega evento con un sentido de pertenencia muy grande, tanto para
-            los que la organizan, como para los que participan.
+          FC Producciones, en conjunto con ALCEC la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, provincia de Entre Ríos, creó un mega evento con un sentido de pertenencia muy grande, tanto para los que la organizan, como para los que participan.
           </p>
           <p className="descripcion">
-            Comenzó hace 10 años, en su primera edición 700 fueron las personas
-            que se acercaron para colaborar y año a año fue aumentando el
-            número, a tal punto que, hoy en día, son más de 3.000 las personas
-            que se anotan para colaborar con la causa de ALCEC.
+          Comenzó hace 11 años, en su primera edición 700 fueron las personas que se acercaron para colaborar y año a año fue aumentando el número, a tal punto que, hoy en día, son más de 3.000 las personas que se anotan para colaborar con la causa de ALCEC.
           </p>
           <p className="descripcion">
-            Cada octubre, mes rosa, mes de la sensibilización sobre el cáncer de
-            mama, o en una fecha cercana, se realiza el Maratón Solidario Todos
-            Somos ALCEC. Con distancias de 8 kilómetros competitivos, 4
-            kilómetros participativos, en los cuales muchos compiten a su máximo
-            rendimiento, pero muchos otros participan con simple fin de
-            colaborar, por lo tanto se pueden ver caminantes, cochecitos de
-            bebés, adultos mayores y mucho más y, una distancia de 1K para
-            los más pequeños.
+          Cada octubre (en algunos casos septiembre), mes rosa, mes de la sensibilización sobre el cáncer de mama, se realiza el Maratón Solidario Todos Somos ALCEC. Con distancias de 8 kilómetros competitivos, 4 kilómetros participativos, en los cuales muchos compiten a su máximo rendimiento, pero muchos otros participan con simple fin de colaborar, por lo tanto, se pueden ver caminantes, cochecitos de bebés, adultos mayores y mucho más y, una distancia de 1K para los más pequeños.
           </p>
           <p className="descripcion">
-            Cada año se vive una fiesta solidaria en familia. Y este 2023 se
-            cumplen 10 años, ¡te esperamos el 23 de septiembre!
+          Cada año se vive una fiesta solidaria en familia. Y este 2024 se cumplen 11 años, ¡te esperamos el 28 de septiembre! Las inscripciones ya están abiertas. 
           </p>
+
+          <div className="contenedorBotones">
+       
+        <div>
+        <Button variant="danger" size="lg" className="botonResultados" id="botonesDuo">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              to='https://www.encarrera.com.ar/alcec/'
+            >
+              INSCRIPCIÓN
+            </Link>
+          </Button>
+        </div>
+
+        <div>
+        <Button variant="danger" size="lg" className="botonResultados">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              to='https://www.instagram.com/alcec.concepcion_del_uruguay'
+              download="Alcec generales 2022"
+            >
+              MÁS INFORMACIÓN
+            </Link>
+          </Button>
+        </div>
+
+      </div>
+
         </div>
       </div>
+
+      
+      
+
+          
 
 {/*       <Button variant="danger" size='lg' className='botonInscripcion'><Link target='_blank' rel="noopener noreferrer" to='https://www.encarrera.com.ar/alcec'>INSCRIBITE ACÁ</Link></Button>
  */}

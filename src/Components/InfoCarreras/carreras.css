@@ -47,6 +47,7 @@
     height: 260px;
     margin: auto;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 
@@ -111,6 +112,13 @@
 
 .carreras .botonDesafioPinamar{
     background-color: #ffcc19;
+    margin-bottom: 2rem;
+    width: 60vw;
+    max-width: 225px;
+}
+
+.carreras .botonDesafioPinamar:hover{
+    color: #fff;
 }
 
 .carreras .botonCircuito{
@@ -261,7 +269,11 @@
 .carreras .botonCircuito,
 .carreras .botonDesafioPinamar{
     margin: -1rem auto 1rem;
+}
 
+.carreras .botonDesafioPinamar{
+    width: 15vw;
+    max-width: 225px;
 }
 
 .containerNovedades{
@@ -284,7 +296,7 @@
 
 .containerBotones{
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 0.5rem;
 }
 

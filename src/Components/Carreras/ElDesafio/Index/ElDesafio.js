@@ -69,24 +69,36 @@ function ElDesafio() {
 
                 <h3>LAS CARRERAS</h3>
                 <ul>
-                    <li><strong>El Desafío Columbia: 46K divididos en 2 días, 25K el sábado y 21K el domingo con campamento opcional</strong></li>
+                    <li><strong>El Desafío Columbia: 46K divididos en 2 días:</strong></li>
                 </ul>
-                <p>Es una carrera desafiante donde se prueba el rendimiento físico del corredor en dos días consecutivos. Una excelente carrera para aquellas personas que quieran ir por más. Disfrutarán un recorrido duro con un ascenso al Cerro Carpa el primer día, convirtiéndose en la carrera más alta de la provincia de Buenos Aires. Es un evento ideal para prepararse para otras carreras exigentes de mayor distancia y también de dos días.</p>
+                <p>Son distancias reales de 25 kilómetros el sábado y 21 kilómetros el domingo, con campamento opcional.</p>
+                <p>Disfrutarán un recorrido duro con varios ascensos, uno de ellos es al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de 1.000 metros. Es un evento ideal para prepararse para otras carreras exigentes de mayor distancia y también de varios días como El Cruce.</p>
 
                 <ul>
                     <li><strong>21K media maratón de domingo</strong></li>
                 </ul>
-                <p>Se trata de una media maratón diseñada para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es una carrera de trail running donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
+                <p>Un día de carrera. 21 kilómetros. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
 
                 <ul>
                     <li><strong>10K y un inicio al trail running para muchos</strong></li>
                 </ul>
-                <p>Una carrera para aquellos corredores que quieran incursionar en el mundo del trail running. Se van a encontrar con un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes.</p>
+                <p>Un día de carrera. 10 kilómetros el domingo. Una carrera para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas.</p>
+
+                <ul>
+                    <li><strong>Distancia kids: introducción al trail</strong></li>
+                </ul>
+                <p>Con FC Producciones nos gusta que la carrera para los más pequeños no sea una más. Buscamos que los chicos se vayan con una enseñanza y recomendaciones sobre cómo actuar ante recorridos con piedras, cruces de arroyos y más. Es 1K controlado y acompañado por el staff. Pueden sumarse los padres.</p>
+
+                <ul>
+                    <li><strong>RESUMEN PARA TODAS LAS DISTANCIAS</strong></li>
+                </ul>
+                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes. Las distancias son reales: 25K, 21K, 10K y 1K para los kids.</p>
+
 
                 <ul>
                     <li><strong>Campamento opcional</strong></li>
                 </ul>
-                <p>Este año no será obligatorio el campamento para aquellos que corran la modalidad de 2 días. Seguirá estando tal como se llevaba a cabo en ediciones pasadas, con estadía, desayuno, cena y estacionamiento incluido, pero será opcional. Atentos a la hora de inscribirse. Obvio que lo recomendamos porque es el plus que tiene la carrera, esa desconexión total de quedarse en el paraíso que nos ofrece la Reserva junto a otros corredores es inigualable.</p>
+                <p>Este año no será obligatorio el campamento para aquellos que corran la modalidad de 2 días. Seguirá estando tal como se llevaba a cabo en ediciones pasadas: con estadía, desayuno, cena y estacionamiento incluido, pero será opcional. Atentos a la hora de inscribirse. Obvio que lo recomendamos porque es el plus que tiene la carrera, esa desconexión total de quedarse en el paraíso que nos ofrece la Reserva junto a otros corredores es inigualable.</p>
 
 
                 <h3 id='cartas'>Cartas</h3>
