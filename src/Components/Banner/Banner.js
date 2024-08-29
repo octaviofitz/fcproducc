@@ -3,8 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import Banner1 from '../../Img/bannerMobile/banner1.jpg';
 import Banner2 from '../../Img/bannerMobile/banner2.jpg';
-import Banner3 from '../../Img/bannerMobile/banner3.jpg';
-import Banner4 from '../../Img/bannerMobile/banner4.jpg';
+
 /* import Banner5 from '../../Img/bannerMobile/banner5.jpg';
 import Banner6 from '../../Img/bannerMobile/banner6.jpg'; */
 
@@ -31,7 +30,7 @@ function Banner() {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+     {/*  <Carousel.Item>
         <img
           className="d-block w-100"
           src={Banner3}
@@ -45,7 +44,7 @@ function Banner() {
           src={Banner4}
           alt="For slide"
         />
-      </Carousel.Item>
+      </Carousel.Item> */}
 
      {/*  <Carousel.Item>
         <img

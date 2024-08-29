@@ -3,8 +3,6 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import Banner1 from '../../Img/bannerDesktop/Banner1.jpg';
 import Banner2 from '../../Img/bannerDesktop/Banner2.jpg'; 
-import Banner3 from '../../Img/bannerDesktop/Banner3.jpg'; 
-/* import Banner4 from '../../Img/bannerDesktop/banner4.webp';  */
 
 
 import '../BannerDesktop/bannerDesktop.css';
@@ -32,14 +30,7 @@ function BannerDesktop() {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={Banner3}
-          alt="First slide"
-          id='img'
-        />
-      </Carousel.Item>
+     
 
       {/* <Carousel.Item>
         <img

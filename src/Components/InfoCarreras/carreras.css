@@ -143,14 +143,14 @@
     color: #fff;
 }
 
-.carreras .containerNovedades .container .tituloResultados{
+.carreras .container .tituloResultados{
     font-size: 1.5rem;
     padding: 0 1REM;
     text-align: center;
     font-weight: 600;
     margin-bottom: -0.5rem;
     font-family: 'Montserrat', sans-serif;
-    margin-top: -1.55rem;
+    margin-top: 1.25rem;
 }
 
 #AlcecPrueba{
@@ -185,6 +185,13 @@
     border-radius: 50%;
 }
 
+.carreras #pinamarCard .img{
+    margin-top: -2rem;
+}
+
+.carreras #novedades{
+    padding-bottom: 0.5rem;
+}
 
 
 @media (min-width: 768px){
