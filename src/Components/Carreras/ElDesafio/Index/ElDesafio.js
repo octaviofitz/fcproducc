@@ -257,8 +257,50 @@ function ElDesafio() {
              
 
 
-                <h3>RECORRIDOS</h3>
-                <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
+                <h3>RECORRIDO 25K</h3>
+                
+                <iframe
+                    src="https://www.instagram.com/p/C_wTaRKOPc4/embed"
+                    width="400"
+                    height="480"
+                    frameBorder="0"
+                    scrolling="no"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                    className='recorridos'
+                ></iframe>
+
+
+                <h3>RECORRIDO 21K</h3>
+                <iframe
+                    src="https://www.instagram.com/p/C_0Ta_lunWl/embed"
+                    width="400"
+                    height="480"
+                    frameBorder="0"
+                    scrolling="no"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                    className='recorridos'
+                ></iframe>
+
+
+                <h3>RECORRIDO 10K</h3>
+                <iframe
+                    src="https://www.instagram.com/p/C_9BsyvuV-0/embed"
+                    width="400"
+                    height="480"
+                    frameBorder="0"
+                    scrolling="no"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                    className='recorridos'
+                ></iframe>
+
+
+                <h3>VER MAPA INTERACTIVO DE RECORRIDOS</h3>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"  width="600" height="450" loading="lazy" className='mapas' title='Mapa interactivo carrera'></iframe>
+
+                
 
                 <h3>ALTIMETRÍA</h3>
                 <p  style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p>
@@ -304,14 +346,14 @@ function ElDesafio() {
                 </ul>
 
                 <h3>COSTOS</h3>
-                <h4>¡EN DOS PAGOS SIN INTERÉS! UNO AL INSCRIBIRSE Y EL RESTANTE EN ACREDITACIÓN</h4>
+                <h4>¡EN DOS PAGOS SIN INTERÉS! UNO AL INSCRIBIRSE Y EL RESTANTE EN ACREDITACIÓN!</h4>
                 <ul>
-                    <li>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$160.000</strong> en dos pagos sin interés de $80.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
-                    <li>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <strong>$120.000</strong> en dos pagos sin interés de $60.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
-                    <li>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$320.000</strong> en dos pagos sin interés de $160.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
-                    <li>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: <strong>$240.000</strong> en dos pagos sin interés de $120.000, uno por transferencia al inscribirse y el otro en EFECTIVO.</li>
-                    <li>1 DÍA (DOMINGO) 21K: <strong>$58.000</strong> en dos pagos sin interés de $29.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
-                    <li>1 DÍA (DOMINGO) 10K: <strong>$42.000</strong> en dos pagos sin interés de $21.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
+                    <li>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$184.000</strong> en dos pagos sin interés de $92.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
+                    <li>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <strong>$138.000</strong> en dos pagos sin interés de $69.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
+                    <li>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$368.000</strong> en dos pagos sin interés de $184.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
+                    <li>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: <strong>$276.000</strong> en dos pagos sin interés de $138.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
+                    <li>1 DÍA (DOMINGO) 21K: <strong>$66.000</strong> en dos pagos sin interés de $33.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
+                    <li>1 DÍA (DOMINGO) 10K: <strong>$48.000</strong> en dos pagos sin interés de $24.000, uno por transferencia al inscribirse y el otro en EFECTIVO en acreditación.</li>
                     <li>KIDS (DOMINGO) 1K: <strong>$8.900</strong> pago total.</li>
                    
 

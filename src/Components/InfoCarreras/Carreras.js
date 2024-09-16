@@ -73,9 +73,6 @@ function Carreras() {
              <Button variant="info" size='lg' className='botonCircuito'> <Link to='circuito'>Más información</Link></Button>
             </article> 
 
-              
-           
-
             </div>
 
         </section>
