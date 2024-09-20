@@ -143,10 +143,10 @@
 .elDesafio .recorridos{
     display: flex;
     margin: 2rem auto;
-    min-height: 85vh;
     width: 80vw;
     max-width: 420px;
     border-radius: 10px;
+    min-height: 60vh;
 }
 
 

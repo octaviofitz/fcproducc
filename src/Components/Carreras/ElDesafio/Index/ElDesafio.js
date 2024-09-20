@@ -159,9 +159,9 @@ function ElDesafio() {
                     <li>Premiación para ganadores de las generales</li>
                 </ul>
 
-                <h3>TRASLADO</h3>
+                {/* <h3>TRASLADO</h3>
 
-                <p>La organización ofrecerá para el SÁBADO y el DOMINGO un traslado desde el HOTEL PROVINCIAL (lugar de acreditaciones) hasta el lugar de la largada para quienes lo necesiten. Será un único horario de ida y un único horario de vuelta. Reservar enviando un mail a <strong>info@fcproducciones.com.ar</strong></p>
+                <p>La organización ofrecerá para el SÁBADO y el DOMINGO un traslado desde el HOTEL PROVINCIAL (lugar de acreditaciones) hasta el lugar de la largada para quienes lo necesiten. Será un único horario de ida y un único horario de vuelta. Reservar enviando un mail a <strong>info@fcproducciones.com.ar</strong></p> */}
 
                 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
