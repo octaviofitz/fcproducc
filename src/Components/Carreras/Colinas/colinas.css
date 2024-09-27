@@ -1,0 +1,325 @@
+.Colinas{
+    margin: 1.5rem 0.75rem;
+    background-color: #efeeee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1.5rem 0;
+    animation: Colinas 2s ease;
+}
+
+@keyframes Colinas {
+   
+    from{
+        opacity: 0.2;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.containerFlyer .flyer {
+    width: 90vw;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+.Colinas .titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Colinas .containerDescripcion{
+    margin: 2.5rem 0 1rem;
+}
+
+.Colinas .descripcion{
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.Colinas h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.8rem 3.3rem;
+    color: #122c4d;
+}
+
+.Colinas h4{
+        margin: 1rem 2.5rem;
+        font-size: 1.6rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+
+    .Colinas .categorias .container h4{
+        padding-top: 1rem;
+    }
+
+.Colinas p{
+    margin: 1rem;
+}
+
+
+.Colinas .botonResultados{
+    background-color: #122c4d;
+    border: none;
+    margin: 1.5rem 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.Colinas .botonResultados a{
+    color: #fff;
+}
+
+.Colinas mark{
+    background-color: #122c4d;
+    color: #fff;
+}
+
+.Colinas .botonInscripcion:hover,
+.Colinas .botonResultados:hover{
+    opacity: 0.8;
+}
+
+
+.Colinas a{
+    color: #fff;
+}
+
+.Colinas a:hover{
+    color: #fff;
+}
+
+.Colinas .contenedorBotones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Colinas .contenedorBotones{
+    margin: 0.5rem;
+}
+
+@media (min-width: 768px){
+
+    .Colinas{
+        margin: 3rem 2rem;
+    }
+
+    .Colinas .titulo{
+        font-size: 2.25rem;
+        margin: 1rem 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .Colinas .flyer{
+        width: 65vw;
+        padding-bottom: 1rem;
+        border-radius: 5%;
+    }
+    
+    .Colinas .descripcion{
+        margin: 1rem 2rem 1rem;
+    }
+    
+    .Colinas .botones{
+        margin: 20rem 14rem;
+    }
+    
+    .Colinas h3{
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+    }
+    
+    .Colinas .video .container{
+        width: 75vw;
+        margin-top: 3rem;
+    }
+
+    .Colinas .categorias .container{
+        margin: 2rem 0;
+        width: 70vw;
+    }
+
+    .Colinas .categorias .container:last-child{
+        margin-bottom: -0.5rem;
+    }
+
+    .Colinas .categorias .container h4{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+    }
+
+    .Colinas .categorias .container .imgResultados{
+        width: 23vw;
+    }
+
+    .Colinas .botonInscripcion{
+        padding: 1.75vw 10vw;
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .Colinas{
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin: 5rem auto;
+    }
+
+    .Colinas .titulo{
+        font-size: 2.25rem;
+        margin: 1rem 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .Colinas .containerFlyerDescripcion{
+        display: flex;
+    }
+    
+    .Colinas .flyer{
+        width: 38vw;
+        padding-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .Colinas .descripcion{
+        font-size: 1.25vw;
+        margin-top: 0rem;
+    }
+
+    .Colinas .contenedorBotones{
+        display: flex;
+        justify-content: center;
+        margin: 3rem auto;
+        align-items: center;
+    }
+    
+    .Colinas .contenedorBotones #botonesDuo{
+        margin: 0.5rem;
+    }
+       
+    .Colinas h3{
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .Colinas .botones{
+        margin: 2rem 14rem;
+    }
+    
+    .Colinas .video .container{
+        width: 65vw;
+    }
+
+    .Colinas .categorias{
+        display: flex;
+        flex-direction: row;
+    }
+    .Colinas .categorias .container{
+        margin: 0 2rem;
+        margin-top: 2rem;
+        width: 35vw;
+    }
+
+    .Colinas .categorias .container:last-child{
+        margin-bottom: 0rem;
+    }
+
+    .Colinas .categorias .container h4{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+    }
+
+    .Colinas .categorias .container .imgResultados{
+        width: 18vw;
+    }
+
+    .Colinas .botonInscripcion{
+        padding: 1vw 10vw;
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .Colinas{
+        width: 73vw;
+    }
+
+    .Colinas .titulo{
+        font-size: 3rem;
+        margin: 1rem 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .Colinas .containerFlyerDescripcion{
+        display: flex;
+    }
+    
+    .Colinas .flyer{
+        width: 28vw;
+        margin: 2rem 0 0;
+        margin-left: 5rem;
+    }
+
+    .Colinas .descripcion:first-child{
+        margin-top: 2.25rem;
+    }
+    
+    .Colinas .descripcion{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 1rem;
+        font-size: 1vw;
+    }
+
+   .Colinas .botonResultados{
+    padding: 1rem 4rem;
+   }
+       
+    .Colinas h3{
+        font-size: 3rem;
+        padding: 1.5rem 0;
+    }
+
+    .Colinas .botones{
+        margin: 2rem 14rem;
+    }
+    
+    .Colinas .video .container{
+        width: 55vw;
+    }
+
+  
+    .Colinas .categorias .container{
+        margin: 0 2rem;
+        margin-top: 2rem;
+        width: 28vw;
+    }
+
+    .Colinas .categorias .container h4{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+        margin: 0rem 5rem 1rem;
+    }
+
+    .Colinas .categorias .container .imgResultados{
+        width: 13vw;
+    }
+
+    .Colinas .botonInscripcion{
+        padding: 0.75vw 10vw;
+        font-size: 1.75rem;
+    }
+}

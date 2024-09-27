@@ -63,7 +63,9 @@
 .carreras .botonAlecec,
 .carreras .botonCircuito,
 .carreras #botondesafio,
-.carreras .botonDesafioPinamar{
+.carreras .botonDesafioPinamar,
+.botonColinas,
+.botonDesafioPinamar{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,8 +80,6 @@
 
 .carreras .botonm42{
     background-color: #39afdb;
-   /*  width: 42vw;
-    max-width: 200px; */
 }
 
 .carreras .containerNovedades .container .containerBotones #novedadesM42{
@@ -89,22 +89,12 @@
 
 .carreras .botondesafio{
     background-color: #a0bf09;
-   /*  margin: 0.5rem 0;
-    padding: 1rem; */
-    /* margin-top: 1.5rem; */
 }
 
 .carreras #botondesafio{
     background-color: #a0bf09;
-   /*  margin: 0.5rem 0;
-    padding: 1rem;  */
-     /* margin-top: 1.5rem;  */
 }
 
-
-/* .carreras .botondesafio:first-child{
-    margin-top: 1.5rem;
-} */
 
 .carreras .botonAlecec{
     background-color: #fd0081;
@@ -115,6 +105,11 @@
     margin-bottom: 2rem;
     width: 60vw;
     max-width: 225px;
+}
+
+.carreras .botonColinas{
+    background-color: #122c4d;
+    color: #fff;
 }
 
 .carreras .botonDesafioPinamar:hover{
@@ -130,7 +125,8 @@
 .carreras .botonCircuito:hover,
 .carreras .botonm42:hover,
 .carreras #botondesafio:hover,
-.carreras .botonDesafioPinamar:hover{
+.carreras .botonDesafioPinamar:hover,
+.carreras .botonColinas:hover{
     opacity: 0.75;
 }
 
@@ -139,7 +135,8 @@
 .carreras .botonAlecec a:hover,
 .carreras .botonCircuito a:hover,
 .carreras #botondesafio a:hover,
-.carreras .botonDesafioPinamar a:hover{
+.carreras .botonDesafioPinamar a:hover,
+.carreras .botonColinas a:hover{
     color: #fff;
 }
 
@@ -274,7 +271,8 @@
 .carreras .botondesafio,
 .carreras .botonAlecec,
 .carreras .botonCircuito,
-.carreras .botonDesafioPinamar{
+.carreras .botonDesafioPinamar,
+.carreras .botonColinas{
     margin: -1rem auto 1rem;
 }
 

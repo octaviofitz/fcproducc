@@ -7,11 +7,7 @@ import eldesafio from '../../Img/index/elDesafio.webp'
 import Circuito from '../../Img/index/circuito.webp';
 import AlcecPrueba from '../../Img/Alecec/alecec.webp';
 import DesafioPinamar from '../../Img/index/pinamar.png'
-import General from '../../Img/index/General.webp';
-/* import Personal from '../../Img/index/Personal.webp';   */
-import PersonalColumbia from '../../Img/index/PersonalColumbia.webp';  
-import GeneralColumbia from '../../Img/index/GeneralColumbia.webp';  
-import PinamarResultados from '../../Img/index/pinamarResultados.webp';
+import DesafioColinas from '../../Img/ColinasVerdes/indexColinas.png'
 
 import './carreras.css'
 
@@ -37,6 +33,13 @@ function Carreras() {
            <h2 className='tituloResultados'>TODOS SOMOS ALCEC</h2>
             <p className='texto'>Todos Somos Alcec es un evento solidario que organizamos junto a la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, en Entre Ríos, hace 10 años. Son 8K, 4K y 1K con más de 3.000 participantes.</p>
              <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alcec'>Más información</Link></Button>
+            </article>
+
+            <article className='container'>
+           <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
+           <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
+            <p className='texto'>Colinas en acción es un evento solidario que organizamos junto al colegio Colinas Verdes de Lomas de Zamora, en su tercera edición. Son 7K competitivos, 4K participativos y 1k para los más peques.</p>
+             <Button variant="secondary" size='lg' className='botonColinas'> <Link to='colinasenaccion'>Más información</Link></Button>
             </article>
 
 

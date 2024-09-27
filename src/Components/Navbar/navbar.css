@@ -69,11 +69,19 @@
     color: #fff;
 }
 
+#colinas{
+    background-color: #122c4d;
+    font-weight: 700;
+    padding: 0.5rem 4vw;
+    color: #fff;
+}
+
 #alerces a,
 #el-Desafio a,
 #alecec a,
 #circuito a,
-#el-Desafio-Pinamar{
+#el-Desafio-Pinamar
+#colinas{
     color: #fff;
 }
 
@@ -117,7 +125,8 @@
     #el-Desafio ,
     #alecec ,
     #circuito,
-    #el-Desafio-Pinamar {
+    #el-Desafio-Pinamar,
+    #colinas {
         margin-left: 3.6vw;
         padding: 0.5rem;
     }

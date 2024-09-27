@@ -67,6 +67,11 @@ function Nosotros() {
           </Link>
         </li>
         <li>
+          <Link to="/colinasenaccion" id="btnColinas">
+            COLINAS EN ACCIÓN
+          </Link>
+        </li>
+        <li>
           <Link to="/alcec" id="btnAlcec">
             MARATÓN SOLIDARIO TODOS SOMOS ALCEC
           </Link>
