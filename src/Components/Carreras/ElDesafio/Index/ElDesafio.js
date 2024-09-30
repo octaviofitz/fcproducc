@@ -8,7 +8,12 @@ import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 /* import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';*/
 import AutMenoresDesafio from '../../../../PDF/autMenoresDesafio.pdf';
 
-import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp'
+import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp';
+import Imagen10KM from '../../../../Img/ElDesafio/10KM.webp';
+import Imagen21KM from '../../../../Img/ElDesafio/21KM.webp';
+import Imagen25KM from '../../../../Img/ElDesafio/25KM.webp';
+
+
 import '../Index/elDesafio.css'
 
 function ElDesafio() {
@@ -259,7 +264,7 @@ function ElDesafio() {
 
                 <h3>RECORRIDO 25K</h3>
                 
-                <iframe
+                {/* <iframe
                     src="https://www.instagram.com/p/C_wTaRKOPc4/embed"
                     width="400"
                     height="480"
@@ -269,10 +274,13 @@ function ElDesafio() {
                     allow="encrypted-media"
                     className='recorridos'
                 ></iframe>
+ */}
 
+                <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' />
 
                 <h3>RECORRIDO 21K</h3>
-                <iframe
+
+                {/* <iframe
                     src="https://www.instagram.com/p/C_0Ta_lunWl/embed"
                     width="400"
                     height="480"
@@ -282,10 +290,13 @@ function ElDesafio() {
                     allow="encrypted-media"
                     className='recorridos'
                 ></iframe>
+ */}
 
+                <img src={Imagen21KM} alt='Recorrido 21KM Desafío Sierras' className='recorridos' />
 
                 <h3>RECORRIDO 10K</h3>
-                <iframe
+
+               {/*  <iframe
                     src="https://www.instagram.com/p/C_9BsyvuV-0/embed"
                     width="400"
                     height="480"
@@ -295,7 +306,9 @@ function ElDesafio() {
                     allow="encrypted-media"
                     className='recorridos'
                 ></iframe>
+ */}                
 
+                <img src={Imagen10KM} alt='Recorrido 10KM Desafío Sierras' className='recorridos' />
 
                 <h3>VER MAPA INTERACTIVO DE RECORRIDOS</h3>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"  width="600" height="450" loading="lazy" className='mapas' title='Mapa interactivo carrera'></iframe>

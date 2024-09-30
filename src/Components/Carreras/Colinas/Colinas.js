@@ -48,7 +48,7 @@ function Colinas() {
               rel="noopener noreferrer"
               to='https://eventols.com/e/colinas-en-accion'
             >
-              INSCRIPCIÓN
+              INSCRIPCIONES PRÓXIMAMENTE
             </Link>
           </Button>
         </div>
