@@ -42,13 +42,13 @@ function Colinas() {
           <div className="contenedorBotones">
        
         <div>
-        <Button variant="secondary" size="lg" className="botonResultados" id="botonesDuo" disabled>
+        <Button variant="secondary" size="lg" className="botonResultados" id="botonesDuo">
             <Link
               target="_blank"
               rel="noopener noreferrer"
               to='https://eventols.com/e/colinas-en-accion'
             >
-              INSCRIPCIONES PRÓXIMAMENTE
+              INSCRIPCIONES ABIERTAS
             </Link>
           </Button>
         </div>

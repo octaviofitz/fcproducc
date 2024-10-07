@@ -12,6 +12,7 @@ import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp';
 import Imagen10KM from '../../../../Img/ElDesafio/10KM.webp';
 import Imagen21KM from '../../../../Img/ElDesafio/21KM.webp';
 import Imagen25KM from '../../../../Img/ElDesafio/25KM.webp';
+import comoLlegar from '../../../../Img/ElDesafio/comoLlegar.webp'
 
 
 import '../Index/elDesafio.css'
@@ -176,8 +177,8 @@ function ElDesafio() {
                 <p>16 a 19hs: Acreditación a todas las distancias.</p>
 
                 <h4><mark className='mark'>- SÁBADO 05/10</mark></h4>
-                <p>10 a 14hs: Prioridad acreditación para modalidad 2 días.</p>
-                <p>10 a 17hs: Acreditación modalidad 1 día: 21K, 10K y Kids.</p>
+                <p>9 a 13hs <mark><strong>NUEVO HORARIO</strong></mark>: Prioridad acreditación para modalidad 2 días.</p>
+                <p>9 a 17hs <mark><strong>NUEVO HORARIO</strong></mark>: Acreditación modalidad 1 día: 21K, 10K y Kids.</p>
 
                 <h4><mark className='mark'>- DOMINGO 06/10</mark></h4>
                 <p>De 7:30 a 8:30 hs: se pueden acreditar quienes no llegaron ni viernes ni sábado. Para evitar complicaciones, recomendamos retirar los días previos.</p>
@@ -229,7 +230,7 @@ function ElDesafio() {
 
                 <h4><mark className='mark'>MODALIDAD 2 DÍAS</mark></h4>
                 <p><strong>- DÍA:</strong> SÁBADO 05/10</p>
-                <p><strong>- HORARIO DE SALIDA:</strong> 15 horas</p>
+                <p><strong>- HORARIO DE SALIDA:</strong> 14 horas <mark>NUEVO HORARIO</mark></p>
                 <p><strong>- DISTANCIA REAL:</strong> 25 K</p>
                 <p><strong>- MISMO LUGAR DE SALIDA QUE DE LLEGADA:</strong> RESERVA NATURAL SIERRAS GRANDES, TORNQUIST.</p>
 
@@ -240,11 +241,43 @@ function ElDesafio() {
                 <p><strong>- MISMO LUGAR DE SALIDA QUE DE LLEGADA:</strong> RESERVA NATURAL SIERRAS GRANDES, TORNQUIST.</p>
                 
                 
+                <h3>¿CÓMO LLEGAR A LA RESERVA NATURAL SIERRAS GRANDES?</h3>
+                <h4>LUGAR DE LARGADAS, LLEGADAS Y CAMPAMENTO</h4>
+                <img src={comoLlegar} alt='Como llegar a Sierras Grandes' className='comoLlegar' />
+                <ol>
+                    <li>No es posible buscar la ubicación exacta mediante GPS, por lo que hay que seguir los siguientes pasos para llegar:</li>
+                    <li>El siguiente link les marca la ruta desde el Hotel Provincial hacia la ubicación de la PRIMERA TRANQUERA que hay que atravesar, ese punto SÍ se está marcado en GPS. 
+                     <Link target='_blank' rel="noopener noreferrer" to='https://maps.app.goo.gl/FHnNcPgHSC5M1UDM6' className='enlaceBoton'>
+                <Button variant="success" size='lg' className='boton' id='enlaceBoton2' style={{paddingLeft: '2rem', paddingRight: '2rem', marginTop:'1rem'}}>
+                       RUTA 
+                    </Button>
+                    </Link>
+                    </li>
+            
+                    <li>Es una tranquera que está ubicada a 2,6 km del Hotel Provincial Sierra de la Ventana (lugar de acreditación).</li>
+                    <li>Una vez atravesada la tranquera son 6,4 kilómetros por camino de tierra hasta llegar a la Reserva Natural Sierras Grandes (lugar de llegada y salida de todas las carreras y del campamento).</li>
+                    <li>Al camino de tierra inicial acceden desde la ruta provincial 72. Verán banderas y referencias de la carrera. </li>
+                    <li>El camino estará bien señalizado para llegar de la mejor manera posible.</li>
+                </ol>
+                
+                <Link target='_blank' rel="noopener noreferrer" to='https://www.instagram.com/p/DAlyEOqpClL/?img_index=1' className='enlaceBoton'>
+                <Button variant="success" size='lg' className='boton' id='enlaceBoton2'>
+                        MÁS INFORMACIÓN ACÁ
+                    </Button>
+                    </Link>
+            
+
+
+                <h3>EL DORSAL DEBE ESTAR SIEMPRE VISIBLE</h3>
+                <p>Es de suma importancia que, durante todo el recorrido, el dorsal esté a la vista. Se debe ver siempre, tanto para la seguridad del corredor, para la clasificación como para luego poder adquirir las fotos, es decir, tener fotos disponibles. El dorsal no debe estar tapado por ropa, por mochilas de hidratación ni por cualquier objeto que imposibilite su fácil lectura.</p>
+
+                    
+                
                 <h3>CAMPAMENTO OPCIONAL (DEJA DE SER OBLIGATORIO)</h3>
                 <ul>
                     <li>El campamento será opcional tanto para la modalidad de dos días como para la de un día de carrera. LA CARPA Y TODOS LOS ELEMENTOS DE CAMPAMENTO CORREN POR CUENTA DEL CORREDOR.</li>
                     <li>Los corredores que contratan campamento, deberán primero acreditarse para luego poder acceder al mismo. Cada corredor contará con una pulsera para ingresar al predio, otorgado en la acreditación.</li>
-                    <li>El campamento (que será dentro de la Reserva Natural Sierras Grandes, donde salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 5 de octubre desde las 8 am para que cada corredor pueda armar su propia carpa antes de correr.</li>
+                    <li>El campamento (que será dentro de la Reserva Natural Sierras Grandes, donde salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 5 de octubre desde las 10 am para que cada corredor pueda armar su propia carpa antes de correr.</li>
                     <li>Los autos quedarán dentro del campamento, contamos con un <strong>estacionamiento sin cargo para quienes contratan el servicio</strong>.</li>
                     <li>El servicio de campamento incluye: estadía en el campo, cena del sábado, desayuno del domingo y estacionamiento sin cargo.</li>
                     <li>Los corredores de dos días que quieran acceder al campamento, lo seleccionan al momento de inscribirse. Los de 1 día y/o acompañantes, solicitan la estadía con un costo adicional por mail info@fcproducciones.com.ar</li>
@@ -391,10 +424,10 @@ function ElDesafio() {
 
                <h4><strong><mark className='mark'>SÁBADO 05/10</mark></strong></h4>
                <ul>
-                <li><strong>10 a 14 hs:</strong> Acreditación y entrega de kits con prioridad para la modalidad 2 días: Hotel Provincial de Sierra de la Ventana.</li>
-                <li><strong>10 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial Sierra de la Ventana.</li>
-                <li><strong>14:45 hs:</strong> Charla técnica modalidad 2 días en el arco de largada. Reserva Natural Sierras Grandes, Sierra de la Ventana, Tornquist.</li>
-                <li><strong>15 hs:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes.</li>
+                <li><strong>9 a 13 hs <mark>NUEVO HORARIO</mark>:</strong> Acreditación y entrega de kits con prioridad para la modalidad 2 días: Hotel Provincial de Sierra de la Ventana.</li>
+                <li><strong>9 a 17 hs <mark>NUEVO HORARIO</mark>:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Provincial Sierra de la Ventana.</li>
+                <li><strong>13:45 hs:</strong> Charla técnica modalidad 2 días en el arco de largada. Reserva Natural Sierras Grandes, Sierra de la Ventana, Tornquist.</li>
+                <li><strong>14 hs <mark>NUEVO HORARIO</mark>:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes.</li>
                 <li><strong>20 a 21:30 hs:</strong> Cena en el campamento de la Reserva Natural Sierras Grandes.</li>
                </ul>
 
@@ -409,7 +442,7 @@ function ElDesafio() {
                </ul>
 
                <h3>ESTACIONAMIENTO</h3>
-               <p>Se cobrará un ticket para estacionar (para quienes no contrataron el campamento) dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los viajes de estudio del ciclo superior de la EEST N 1 DE TORNQUIST. Pueden comprarlo en la acreditación o al llegar al lugar.</p>
+               <p>Se cobrará un ticket a voluntad para estacionar (para quienes no contrataron el campamento) dentro de la Reserva Natural Sierras Grandes. La recaudación se utilizará para colaborar con los viajes de estudio del ciclo superior de la EEST N 1 DE TORNQUIST. Pueden comprarlo en la acreditación o al llegar al lugar.</p>
 
                <h3>AVISO DE NO SEÑAL 3G/4G/5G</h3>
                <p>Dentro del campo privado donde se realizará el evento no hay señal 3g, 4g ni 5g. Tenerlo en cuenta para avisar a familiares que estarán unas horas sin recibir mensajes ni poder enviarlos, lo mismo con las llamadas, y también por el hecho de llevar efectivo por si quieren adquirir productos de los stands, ya que no podrán utilizar mercado pago ni tarjetas de crédito.</p>
@@ -442,6 +475,7 @@ function ElDesafio() {
                 <li><strong>APTO MÉDICO. Cargar en la web o entregar en la acreditación</strong></li>
                 <li><strong>REMERA OFICIAL DE LA CARRERA</strong></li>
                 <li><strong>HIDRATACIÓN PROPIA</strong>. Más allá de la provista por la organización</li>
+                <li><strong>MANTA TÉRMICA PARA LOS 25K</strong></li>
                </ul>
 
                <h3>ELEMENTOS OBLIGATORIOS PARA EL CAMPAMENTO</h3>
@@ -454,20 +488,20 @@ function ElDesafio() {
 
                <h3>ELEMENTOS RECOMENDADOS</h3>
                <ul>
-                <li>Bastones para dos días y 21K</li>
-                <li>Ojotas: fundamental para los que acampan para tener los pies al aire libre después de cada etapa</li>
+                <li>Bastones</li>
+                <li>Chaleco o mochila con hidratación</li>
                 <li>Sombrero o gorra</li>
                 <li>Campera de lluvia</li>
-                <li>2 pares de zapatillas con buen uso previo</li>
-                <li>Protector solar</li>
+                <li>Dos pares de zapatillas</li>
+                <li>Abrigo</li>
+                <li>Ojotas</li>
+                <li>Protector Solar</li>
                 <li>Toalla</li>
-                <li>Moleskin o similar para las ampollas en los pies</li>
                 <li>Silbato</li>
-                <li>Mochila con reservorio de agua o bebida isotónica</li>
                 <li>Kit de primeros auxilios</li>
                 <li>Toallitas higiénicas</li>
                 <li>Polainas</li>
-                <li>Repelente de mosquitos</li>
+                <li>Repelente para mosquitos</li>
                </ul>
 
                 

@@ -148,6 +148,22 @@
     min-height: 60vh;
 }
 
+.elDesafio .comoLlegar{
+    width: 80vw;
+    border-radius: 3%;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;;
+}
+
+.elDesafio #enlaceBoton2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
 
 @media (min-width: 768px){
     .elDesafio{
@@ -210,6 +226,10 @@
     .elDesafio .redes li{
         padding: 0 0.5rem;
         font-size: 3.2rem;
+    }
+
+    .elDesafio .comoLlegar{
+        width: 60vw;
     }
        
 }
@@ -298,6 +318,10 @@
     .elDesafio .recorridos{
         width: 50vw;
         border-radius: 10px;
+    }
+
+    .elDesafio .comoLlegar{
+        width: 45vw;
     }
 
 }
@@ -391,6 +415,11 @@
         width: 40vw;
         border-radius: 20px;
     }
+
+    .elDesafio .comoLlegar{
+        width: 40vw;
+    }
+
  
 
 }

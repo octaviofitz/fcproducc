@@ -16,24 +16,30 @@ function Carreras() {
     return (
         <section className='carreras'>
 
+        <h1 className='titulo'>Novedades</h1>
+
+        <div className='containerGeneral'>
+        <article className='container'>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2>
+        <p className='texto'>Acá podrán ver los resultados y posteriormente las fotos y videos de llegada de todas las distancias.</p>
+        
+        <Link to='https://eventols.com/e/desafio-columbia-sierra-de-la-ventana-2024/results'>
+        <Button variant="success" size='lg' className='botondesafio'> RESULTADOS</Button>
+        </Link>
+
+        
+        <Button variant="success" size='lg' className='botondesafio' disabled style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS</Link></Button>
+       
+
+        </article>
+        </div>
+
+
         <h1 className='titulo'>PRÓXIMAS CARRERAS</h1>
 
         <div className='containerGeneral'>
 
-
-        <article className='container'>
-        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
-        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
-        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
-        </article>
-
-        <article className='container'>
-           <img src={AlcecPrueba} id='AlcecPrueba' className="carrerasimg" alt='Carrera Alecec'></img>
-           <h2 className='tituloResultados'>TODOS SOMOS ALCEC</h2>
-            <p className='texto'>Todos Somos Alcec es un evento solidario que organizamos junto a la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, en Entre Ríos, hace 10 años. Son 8K, 4K y 1K con más de 3.000 participantes.</p>
-             <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alcec'>Más información</Link></Button>
-            </article>
 
             <article className='container'>
            <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
@@ -50,6 +56,20 @@ function Carreras() {
              
 
             <div className='containerGeneral'>
+
+            <article className='container'>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
+        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires.</p>
+        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
+        </article>
+
+        <article className='container'>
+           <img src={AlcecPrueba} id='AlcecPrueba' className="carrerasimg" alt='Carrera Alecec'></img>
+           <h2 className='tituloResultados'>TODOS SOMOS ALCEC</h2>
+            <p className='texto'>Todos Somos Alcec es un evento solidario que organizamos junto a la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, en Entre Ríos, hace 10 años. Son 8K, 4K y 1K con más de 3.000 participantes.</p>
+             <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alcec'>Más información</Link></Button>
+            </article>
            
            <div>
                <article className='container' id='novedades'>
