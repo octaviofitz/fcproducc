@@ -29,7 +29,7 @@ function Carreras() {
         </Link>
 
         
-        <Button variant="success" size='lg' className='botondesafio' disabled style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS</Link></Button>
+        <Button variant="success" size='lg' className='botondesafio' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS</Link></Button>
        
 
         </article>
