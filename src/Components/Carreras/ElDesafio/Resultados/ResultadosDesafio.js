@@ -24,16 +24,16 @@ function ResultadosDesafio() {
 
     return (
         <section className='resultadosDesafio'>
-            <h5 className='titulo'>Resultados + FOTOS DESAFÍO COLUMBIA</h5>
+            <h5 className='titulo'>Resultados Y FOTOS DESAFÍO COLUMBIA</h5>
             
             <div className='Container'>
               <div>
             <article className='cards'>
             <img src={PersonalColumbia} className='logo' alt='Resultados Desafío' />
-            <p className='texto'><strong>CLASIFICACIÓN + FOTOS POR DORSAL</strong></p>
-            <p className='texto'>Acá podrán ver su resultado, descargar su certificado finisher, y ver sus fotos detectadas por dorsal</p>
+            <p className='texto'><strong>CLASIFICACIÓN</strong></p>
+            <p className='texto'>Acá podrán ver su resultado y descargar su certificado finisher.</p>
 
-           <Button variant="success" size="lg" className="boton"> <a href='https://eventols.com/e/desafio-columbia-2023/results'>RESULTADOS + FOTOS</a></Button>
+           <Button variant="success" size="lg" className="boton"> <a href='https://eventols.com/e/desafio-columbia-sierra-de-la-ventana-2024/results'>RESULTADOS</a></Button>
             
             </article>
             </div>
@@ -43,8 +43,8 @@ function ResultadosDesafio() {
             <article className='cards'>
             <img src={GeneralColumbia} className='logo' alt='Resultados Desafío' />
             <p className='texto'><strong>TODAS LAS FOTOS DE LA CARRERA</strong></p>
-            <p className='texto'>Más de 10.000 fotos de todo el fin de semana: acreditación, salidas, recorrido, campamento y mucho más</p>
-           <Button variant="success" size="lg" className="boton"> <a href='https://drive.google.com/drive/folders/1XpLPtMVB45JvvnHZ466wo0MFFdO8VyJs'>FOTOS GENERALES</a></Button>
+            <p className='texto'>Fotos de todo el fin de semana: acreditación, salidas, recorrido, campamento y mucho más</p>
+           <Button variant="success" size="lg" className="boton"> <a href='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS GENERALES</a></Button>
 
             </article>
             </div>

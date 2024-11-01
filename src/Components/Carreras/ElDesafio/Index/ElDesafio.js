@@ -69,7 +69,7 @@ function ElDesafio() {
                 <Button variant="success" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="success" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
                 <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados + FOTOS 2023</Link></Button>
+                <Button variant="success" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados + FOTOS 2024</Link></Button>
                {/*  <Button variant="success" size='lg' className='boton' disabled><Link to='/desafio-columbia/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
 

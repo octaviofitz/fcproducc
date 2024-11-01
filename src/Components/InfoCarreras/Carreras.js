@@ -16,9 +16,7 @@ function Carreras() {
     return (
         <section className='carreras'>
 
-        <h1 className='titulo'>Novedades</h1>
-
-        <div className='containerGeneral'>
+     {/*    <div className='containerGeneral'>
         <article className='container'>
         <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
         <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2>
@@ -33,10 +31,10 @@ function Carreras() {
        
 
         </article>
-        </div>
+        </div> */}
 
 
-        <h1 className='titulo'>PRÓXIMAS CARRERAS</h1>
+        <h1 className='titulo'>CARRERAS</h1>
 
         <div className='containerGeneral'>
 
@@ -45,7 +43,13 @@ function Carreras() {
            <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
            <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
             <p className='texto'>Colinas en acción es un evento solidario que organizamos junto al colegio Colinas Verdes de Lomas de Zamora, en su tercera edición. Son 7K competitivos, 4K participativos y 1k para los más peques.</p>
-             <Button variant="secondary" size='lg' className='botonColinas'> <Link to='colinasenaccion'>Más información</Link></Button>
+             {/* <Button variant="secondary" size='lg' className='botonColinas'> <Link to='colinasenaccion'>Más información</Link></Button> */}
+             <Link to='https://eventols.com/e/colinas-en-accion/results'>
+        <Button variant="success" size='lg' className='botonColinas'>RESULTADOS</Button>
+        </Link>
+        
+        <Button variant="success" size='lg' className='botonColinas' disabled style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS</Link></Button>
+       
             </article>
 
 
