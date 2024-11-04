@@ -34,7 +34,7 @@ function Carreras() {
         </div> */}
 
 
-        <h1 className='titulo'>CARRERAS</h1>
+        <h1 className='titulo'>NOVEDADES</h1>
 
         <div className='containerGeneral'>
 
@@ -48,7 +48,7 @@ function Carreras() {
         <Button variant="success" size='lg' className='botonColinas'>RESULTADOS</Button>
         </Link>
         
-        <Button variant="success" size='lg' className='botonColinas' disabled style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS</Link></Button>
+        <Button variant="success" size='lg' className='botonColinas' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS</Link></Button>
        
             </article>
 
