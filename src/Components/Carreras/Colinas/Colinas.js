@@ -40,18 +40,13 @@ function Colinas() {
 
 
           <div className="contenedorBotones">
-       
-        <div>
-        <Button variant="secondary" size="lg" className="botonResultados" id="botonesDuo">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              to='https://eventols.com/e/colinas-en-accion'
-            >
-              INSCRIPCIONES ABIERTAS
-            </Link>
-          </Button>
-        </div>
+      
+
+        <Link to='https://eventols.com/e/colinas-en-accion/results'>
+        <Button variant="secondary" size='lg' className='botonColinas'>RESULTADOS 2024</Button>
+        </Link>
+        
+        <Button variant="secondary" size='lg' className='botonColinas' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS 2024</Link></Button> 
 
 
       </div>

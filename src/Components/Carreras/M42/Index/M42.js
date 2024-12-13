@@ -44,18 +44,18 @@ function M42() {
     return (
         <section className='m42' id='m42'>
 
-            <h2 className='titulo'>M42 LOS ALERCES</h2>
+            <h2 className='titulo'>MARATON DE MONTAÑA M42</h2>
             <div className='containerFlyerDescripcion'>
                 <div>
                     <img src={m42General} alt='Maratón M42' className='flyer' />
                         </div>
 
                             <div>           
-                                 <p className='descripcion'>El Maratón M42 Los Alerces se convirtió, hace años, en el clásico de trail y ultra trail de la comarca de Tornquist, provincia de Buenos Aires. Con más de 1.800 corredores en cada edición, la fiesta que se vive es total y muy esperada por los participantes.</p>
+                                 <p className='descripcion'>El Maratón de montaña M42 se convirtió, hace años, en el clásico de trail y ultra trail de la comarca de Tornquist, provincia de Buenos Aires. Con más de 1.800 corredores en cada edición, la fiesta que se vive es total y muy esperada por los participantes.</p>
                                     <p className='descripcion'>Con la edición N°12, llevaremos tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único en Villa Ventana y San Andrés de la Sierra, dos paraísos.</p>
                                     <p className='descripcion'>Paisajes inolvidables, cruces de arroyos, un histórico hotel abandonado, senderos, bosques y mucho trail, sumado a una compañía única de los demás corredores y del staff de FC Producciones que harán que sea un fin de semana que no olvidarás jamás.</p>
-                                    <p className='descripcion'>50K y 42K el sábado y 25K, 10K y KIDS el domingo (podés correr ambos días de así quererlo) son las 5 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42 lo hacen, volver a participar pero elevando la distancia en la próxima edición.</p>
-                                    <p className='descripcion'><strong>Agendá la fecha de la 13° edición: 31 de mayo y 1 de junio de 2025. Próximamente actualizaremos toda la información de aquí abajo.</strong></p>
+                                    <p className='descripcion'>50K, 42K y, <strong>atención: nueva distancia de 34k</strong>,  el sábado 31 de mayo y 25K, 10K y KIDS el domingo 1 de junio  son las 6 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42 lo hacen, volver a participar pero elevando la distancia en la próxima edición.</p>
+                                    <p className='descripcion'>Agendá la fecha de la 13° edición: 31 de mayo y 1 de junio de 2025. <strong>El lunes 16 de diciembre abriremos inscripciones con precio lanzamiento, ¡estén atentos!</strong></p>
                                       
                                   {/*   <ul className='redes'>
                     
@@ -79,21 +79,23 @@ function M42() {
 
 
                 <h4><mark>DATOS GENERALES</mark></h4>
-                <p><strong>Carrera:</strong> Maratón M42 Los Alerces 12° edición</p>
-                <p><strong>Fechas:</strong> 1 y 2 DE JUNIO 2024</p>
-                <p><strong>Lugares:</strong>Los Alerces Resort & Spa, San Andrés de la Sierra; Plaza Salerno, en el corazón de Villa Ventana y Estancia las Vertientes, también en Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
-                <p><strong>Concepto:</strong> Carrera de trail y ultratrail running</p>
-                <p><strong>Distancias:</strong> 50K, 42K, 25K, 10K y KIDS.</p>
+                <p><strong>Carrera:</strong>Maratón M42 13° edición.</p>
+                <p><strong>Fechas:</strong>31 DE MAYO Y 1 DE JUNIO 2025.</p>
+                <p><strong>Lugares:</strong>San Andrés de la Sierra y Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p><strong>Concepto:</strong>Carrera de trail y ultratrail running.</p>
+                <p><strong>Distancias:</strong>50K, 42K, 34K, 25K, 10K y KIDS. ¡Atención, agregamos nueva distancia!</p>
+                <p><strong>Sábado 31 de mayo 2025: 50K, 42K y 34K (San Andrés de la Sierra).</strong></p>
+                <p><strong>Domingo 1 de junio 2025: 25K, 10K Y KIDS (Estancia las Vertientes).</strong></p>
                 <p><strong>Modalidad:</strong> Individual</p>
 
                 <h4><mark>CATEGORÍAS</mark></h4>
                 <p><strong>INDIVIDUAL:</strong> Damas y caballeros*</p>
-                <p>Hasta 25 años | 26 a 35 | 36 a 45 años | 46 a 55 años | 56 a 65 años | +66 años. Las edades serán computadas al 02/06/2024</p>
+                <p>Hasta 25 años | 26 a 35 | 36 a 45 años | 46 a 55 años | 56 a 65 años | +66 años. Las edades serán computadas al 01/06/2025</p>
                 <p>*La edad para poder correr el M42 es a partir de los 16 años.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
                
                 <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button variant="info" size='lg' className='boton' disabled><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                 <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
@@ -105,10 +107,7 @@ function M42() {
                     <li>Chip de control para clasificación</li>
                     <li>Medalla finisher</li>
                     <li>Seguro de corredor</li>
-                    {/* <li>Más de 10 mil fotos gratuitas</li>
-                    <li>Video y foto de llegada</li> */}
                     <li>Certificado finisher</li>
-                    {/* <li>Transporte gratuito a la largada de 50 y 42K, de ser necesario</li> */}
                     <li>Servicio de rescate</li>
                     <li>Servicio de salud</li>
                     <li>Premiación ganadores de categoría</li>
@@ -116,14 +115,13 @@ function M42() {
                 </ul>
 
                 <h3>REMERA</h3>
-                 <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
-                <img src={Remera} className='img' alt='Remera M42' /> 
+                 <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 14. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
+                {/* <img src={Remera} className='img' alt='Remera M42' />  */}
 
                 
 
                 <h3>RUNNING KIDS</h3>
                 <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con <strong>remera de corredor, hidratación y medalla finisher</strong>.</p>
-
                 <p><strong>La carrera tendrá dos distancias:</strong></p>
                 <ul>
                     <li><strong>1K para niños sin límite de edad</strong></li>
@@ -131,19 +129,22 @@ function M42() {
                 </ul>
 
                 <p><b>Los padres o acompañantes podrán acompañar durante el recorrido a sus hijos de ser necesario. Los 3K se realizan de manera controlada por el staff y en grupo por lo extenso del recorrido. </b>.</p>
+
                 
                 
                 <h3>TRASLADO 50 Y 42K</h3>
-                <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Los Alerces (lugar de largada) el día sábado 1 de junio.</p>
+                {/* <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Los Alerces (lugar de largada) el día sábado 1 de junio.</p>
                 <p>El micro saldrá el sábado 1/6 a las 8 de la mañana puntual desde Plaza Salerno. Estar 10 min antes.</p>
                 <p>El costo es de $3.000 y se abona EN EFECTIVO al retirar el kit.</p>
                 <p>La reserva se hace previamente a <strong>info@fcproducciones.com.ar</strong> indicando nombre completo, dni y celular.</p>
-                <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p>
+                <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p> */}
+                <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4>
 
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
+                <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4>
                 
-                <h4><mark>VIERNES 31/05 de 11 a 19hs</mark></h4>
+                {/* <h4><mark>VIERNES 31/05 de 11 a 19hs</mark></h4>
                 <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
                 <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
@@ -156,7 +157,7 @@ function M42() {
                     <li>50 y 42K retiran entre las <b>6:30 y 7:45 am</b></li>
                     <li>25 y 10K retiran entre las <b>10 y las 18 pm</b></li>
                 </ul>
-                {/* <p><strong>INFORMACIÓN IMPORTANTE 50 Y 42K</strong>: Habrá traslados <strong>gratuitos</strong> desde la Plaza Salerno de Villa Ventana hasta la largada de los 50 y 42K. Deben reservar su lugar en el mismo enviando un mail a <b>info@fcproducciones.com.ar</b></p> */}
+           
 
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
@@ -172,9 +173,10 @@ function M42() {
 
                 <h5>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1682008795355!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa Las Vertientes' loading="lazy"></iframe>
-
+ */}
                 <h4><mark>A PRESENTAR EN ACREDITACIÓN</mark></h4>
-                <p><mark>ATENCIÓN: FACILITAMOS EL PROCESO DE INSCRIPCIÓN Y DE ACREDITACIÓN. DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</mark></p>
+                <p><mark>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR 
+                VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</mark></p>
 
                 <h5>De completar el proceso de inscripción online como corresponde (esto es: completar los datos, firmar el deslinde ONLINE y adjuntar el apto físico) NO DEBERÁN PRESENTAR NINGUNA DOCUMENTACIÓN EN ACREDITACIÓN. Solo presentarse con el DNI. </h5>
                 
@@ -186,7 +188,7 @@ function M42() {
                     
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -200,7 +202,7 @@ function M42() {
  */}
                     <li>AUTORIZACIÓN MENOR DE EDAD.</li>
                     <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                     {/* <div className='contenedorBoton'>
@@ -222,27 +224,27 @@ function M42() {
                             
                 
                 <h3><mark>APTO MÉDICO</mark></h3>
-                <p>A partir de ahora, en las carreras de FC Producciones podrán cargar el apto médico en la web a la hora de inscribirse y firmar el deslinde online para no tener que llevarlo a la acreditación. De no cargarlo, deberán presentarlo presencial en la acreditación.</p>
+                <p>El apto médico debe cargarse en la web a la hora de inscribirse al igual que firmar el deslinde online para no tener que llevarlo a la acreditación. De no cargarlo, deberán presentarlo presencial en la acreditación.</p>
                 <p>El apto médico que se debe cargar en la inscripción tiene que tener una vigencia de 1 año a partir de la fecha que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma, con sello, del médico.</p>
                 <p>La validación del apto médico será realizada por la organización.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
                 <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
 
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
-                <h4><mark>SÁBADO 1 DE JUNIO | 50 y 42K</mark></h4>
-                <p><strong>- LARGADA</strong>: Los Alerces. Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
+                <h4><mark>SÁBADO 31 DE JUNIO | 50K, 42K Y 34K</mark></h4>
+                <p><strong>- LARGADA</strong>: San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires (Próximamente dirección).</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                {/*  <p>IMPORTANTE: Habrá traslados desde la Plaza Salerno hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar enviando un mail a info@fcproducciones.com.ar</p> */}
 
-                <h4><mark>DOMINGO 2 DE JUNIO | 25, 10K y KIDS</mark></h4>
+                <h4><mark>DOMINGO 1 DE JUNIO | 25K, 10K y KIDS</mark></h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
                 <p><strong>HORARIOS</strong></p>
                 <ul>
@@ -252,7 +254,8 @@ function M42() {
                 </ul>
 
 
-                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 50 y 42K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
+                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 50k, 42K y 34K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
+                <h4><mark>INFO PRÓXIMAMENTE</mark></h4>
             
                 <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
@@ -261,19 +264,13 @@ function M42() {
                      <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
                 </div> 
-                {/* <div>
-                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>50K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 2200 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
-                </div> */}
                 </div>
 
                 <br></br>
                 
                 <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
-                <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' />
+                {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
                 </div> 
                 {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>42K</h5>
@@ -285,7 +282,7 @@ function M42() {
 
                 <br></br>
 
-                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25 y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
+                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
             
                 <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
@@ -326,7 +323,7 @@ function M42() {
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
                  */}
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <p><b>ATENCIÓN: FACILITAMOS EL PROCESO DE INSCRIPCIÓN Y DE ACREDITACIÓN. DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</b></p>
+                <p><b>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</b></p>
                 
                 <h4><mark>INSCRIPCIÓN ONLINE</mark></h4>
                 <p>Los pasos para inscribirse online son:</p>
@@ -335,16 +332,16 @@ function M42() {
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero.</li>
                     <li>Elegir la distancia.</li>
                     <li> Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
-                    <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. <b>(IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina)</b>.</li>
-                    <li>Se avisará por mail cuándo es momento de abonar la segunda cuota.<b> Si no abonan la misma, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento</b>.</li>
+                    <li>Abonar la primera cuota vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
+                    <li>Se avisará por mail cuándo es momento de abonar la segunda cuota (30 días) y la tercera (60 días).  Si no abonan las mismas, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
                 </ol>
 
                 <div className='contenedorBoton'>
-     {/*  <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
-        <Button disabled variant="info" size='lg' className='boton'>
+                <Button disabled variant="info" size='lg' className='boton'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
           INSCRIBITE ACÁ
-        </Button>
-      </Link> */}
+      </Link> 
+      </Button>
     </div>
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
@@ -365,14 +362,15 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
-                  <h4><strong>¡ABRIMOS EL QUINTO PERÍODO! ¡CUPOS LIMITADOS!</strong></h4>
+                  <h4><strong>¡PRECIO PROMOCIONAL! ¡PRIMEROS 100 CUPOS!</strong></h4>
                 <ul>
-                    <li><strong>50K: $86.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
-                    <li><strong>42K: $74.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
-                    <li><strong>25K: $58.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
-                    <li><strong>10K: $42.000</strong> abonando el 50% AL INSCRIBIRSE por TRANSFERENCIA BANCARIA o DEPÓSITO y el otro 50% restante en EFECTIVO en ACREDITACIÓN.</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $6.900</strong> pago total AL INSCRIBIRSE.</li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $8.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>50K: $129.000</strong> en 3 pagos de $43.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>42K: $111.000</strong> en 3 pagos de $37.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>34K: $99.000</strong> en 3 pagos de $33.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>25K: $87.000</strong> en 3 pagos de $29.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>10K: $63.000</strong> en 3 pagos de $21.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $9.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $12.900</strong> pago total AL INSCRIBIRSE.</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
                 <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>  
@@ -382,17 +380,18 @@ function M42() {
 
 
                 <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
-                <p>Para aquellos corredores de 50 o 42K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25 o 10K. Deberá solicitar el código de descuento online por mail info@fcproducciones.com.ar para inscribirse en el día domingo de competencia.</p>
+                <p>Para aquellos corredores de 50k, 42K y 34K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25 o 10K. Deberá solicitar el código de descuento online por mail info@fcproducciones.com.ar para inscribirse en el día domingo de competencia.</p>
                 <p><strong>CONSIDERACIONES:</strong></p>
                 <p>*No es acumulable con otros descuentos.</p>
                 <p>*La inscripción es únicamente online y de forma previa, no se inscribirá el mismo día.</p>
-                <p>*No se puede dar de baja ni modificar nada a partir del lunes 20/05.</p>
+                <p>*No se puede dar de baja ni modificar nada a partir del lunes 19/05.</p>
                 <p>*Se inscribe en dos carreras y realiza dos acreditaciones, dos largadas, dos premiaciones, todo por separado.</p>
                 <p>*No se harán devoluciones. (Ver política de devolución de inscripciones en reglamento)</p>
 
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
-                <h4><mark>VIERNES 31 DE MAYO</mark></h4>
+                <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4>
+                {/* <h4><mark>VIERNES 31 DE MAYO</mark></h4>
                 <p><strong>De 11 a 19hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
                 
                 <h4><mark>SÁBADO 1 DE JUNIO</mark></h4>
@@ -414,9 +413,9 @@ function M42() {
                     <li><strong>11 am:</strong> LARGADA 10K</li>
                     <li><strong>13 hs:</strong> LARGADA KIDS</li>
                     <li><strong>14 hs:</strong> PREMIACIÓN 10 y 25K</li>
-                </ul>
+                </ul> */}
 
-                <h3 id='reglamento'>REGLAMENTO M42 LOS ALERCES</h3>
+                <h3 id='reglamento'>REGLAMENTO M42</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
                
                {/*  <ul>
@@ -468,17 +467,17 @@ function M42() {
                 </ul>
 
                 <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
-                <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
+                <p>La forma de pago de inscripción es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse). Si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
 
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
                 <p>Las inscripciones <strong>NO</strong> tienen devolución. Sin excepción.</p>
 
                 <h4><mark>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
-                <p>Para poder transferir, debe estar toda la carrera abonada. Hasta el viernes 17/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+                <p>Para poder transferir, debe estar toda la carrera abonada. Hasta el viernes 16/5, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
             
                 
                 <h4><mark>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
-                <p>Para poder transferir, debe estar toda la carrera abonada. Hasta el viernes 17/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>Para poder transferir, debe estar toda la carrera abonada. Hasta el viernes 16/5, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
                
                
@@ -486,19 +485,19 @@ function M42() {
                 <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
                 <ol>
                     <li>Sólo se considerarán aquellos casos en que se solicite al mail de la organización.</li>
-                    <li>A partir del lunes 20/5 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
+                    <li>A partir del lunes 19/5 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
                     <li>Si el cambio es a una distancia mayor, abona la diferencia del monto de inscripción. Esta diferencia entre ambas inscripciones corresponderá al importe vigente al momento del cambio de distancia.</li>
                     <li>Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
                 </ol>
 
                 <h3>CORTES OBLIGATORIOS</h3>
-                <p><strong>La distancia Maratón (42k)</strong>, la cual larga el sábado 1 de junio a las 9 de la mañana, tendrá <strong>un único corte</strong> en el kilómetro 34 donde se encuentra la última subida (la antena) a las 6:00 horas de carrera, siendo las 15:00hs.</p>
+                <p><strong>La distancia Maratón (42k)</strong>, la cual larga el sábado 31 de mayo a las 9 de la mañana, tendrá <strong>un único corte</strong> en el kilómetro 34 donde se encuentra la última subida (la antena) a las 6:00 horas de carrera, siendo las 15:00hs.</p>
                 <p>No comprometa al staff de FC producciones al momento del corte. En el punto indicado se les redireccionará para continuar con la carrera. La persona indicada les retirará el chip y su clasificación pasará al final de la tabla donde figurará como un DNF. Está en cada corredor recibir la medalla finisher. </p>
-                <p>Todos estos puntos son sujeto a cambio en caso que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
-                <p><strong>La distancia Ultra (50k)</strong>, la cual larga el sábado 1 de junio a las 9 de la mañana, tendrá tres cortes. El primero será en el kilómetro 34 (subida a la antena) a las 6:00 horas de carrera siendo las 15:00hs. El segundo corte será en la entrada a Cerro colorado en el kilómetro 40 a las 7:50 horas de carrera, siendo las 16:50hs. El tercer corte será en la división final de 50 y 42k en el kilómetro 44, siendo las 17:30hs.</p>
+                <p>Todos estos puntos son sujetos a cambio en caso que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
+                <p><strong>La distancia Ultra (50k)</strong>, la cual larga el sábado 31 de mayo a las 9 de la mañana, tendrá tres cortes. El primero será en el kilómetro 34 (subida a la antena) a las 6:00 horas de carrera siendo las 15:00hs. El segundo corte será en la entrada a Cerro Colorado en el kilómetro 40 a las 7:50 horas de carrera, siendo las 16:50hs. El tercer corte será en la división final de 50 y 42k en el kilómetro 44, siendo las 17:30hs.</p>
                 <p>No comprometa al staff de FC producciones al momento del corte. En el punto indicado se les redireccionará para continuar con la carrera. La persona indicada les retirará el chip y su clasificación pasará al final de la tabla donde figurará como un DNF. Está en cada corredor recibir la medalla finisher. </p>
-                <p>Todos estos puntos son sujeto a cambio en caso que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
-                <p><strong>Los 25 y 10k no tienen corte.</strong> (La organización tiene el derecho de realizar el que crea conveniente en el momento que lo considere por razones operativas).</p>
+                <p>Todos estos puntos son sujetos a cambio en caso que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
+                <p><strong>Los 34K, 25K y 10K no tienen corte.</strong> (La organización tiene el derecho de realizar el que crea conveniente en el momento que lo considere por razones operativas).</p>
 
                 <h3>NÚMERO DE CORREDOR</h3>
                 <p>Disponible una semana antes del evento desde su inscripción.</p>
@@ -564,11 +563,13 @@ function M42() {
                 </ul>
                 
                 <div className='contenedorBoton'>
-     {/*  <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
+      
         <Button disabled variant="info" size='lg' className='boton'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
           INSCRIBITE ACÁ
-        </Button>
-      </Link> */}
+      </Link> 
+      </Button>
+
     </div>
              
 
