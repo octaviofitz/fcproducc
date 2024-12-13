@@ -79,11 +79,11 @@ function M42() {
 
 
                 <h4><mark>DATOS GENERALES</mark></h4>
-                <p><strong>Carrera:</strong>Maratón M42 13° edición.</p>
-                <p><strong>Fechas:</strong>31 DE MAYO Y 1 DE JUNIO 2025.</p>
-                <p><strong>Lugares:</strong>San Andrés de la Sierra y Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
-                <p><strong>Concepto:</strong>Carrera de trail y ultratrail running.</p>
-                <p><strong>Distancias:</strong>50K, 42K, 34K, 25K, 10K y KIDS. ¡Atención, agregamos nueva distancia!</p>
+                <p><strong>Carrera:</strong> Maratón M42 13° edición.</p>
+                <p><strong>Fechas:</strong> 31 DE MAYO Y 1 DE JUNIO 2025.</p>
+                <p><strong>Lugares:</strong> San Andrés de la Sierra y Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p><strong>Concepto:</strong> Carrera de trail y ultratrail running.</p>
+                <p><strong>Distancias:</strong> 50K, 42K, 34K, 25K, 10K y KIDS. ¡Atención, agregamos nueva distancia!</p>
                 <p><strong>Sábado 31 de mayo 2025: 50K, 42K y 34K (San Andrés de la Sierra).</strong></p>
                 <p><strong>Domingo 1 de junio 2025: 25K, 10K Y KIDS (Estancia las Vertientes).</strong></p>
                 <p><strong>Modalidad:</strong> Individual</p>
@@ -142,38 +142,40 @@ function M42() {
 
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
-                <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4>
                 
-                {/* <h4><mark>VIERNES 31/05 de 11 a 19hs</mark></h4>
-                <p>Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
-                <p><b>PUEDEN RETIRAR TODAS LAS DISTANCIAS: 50K, 42K, 25K, 10K y KIDS</b></p>
-                <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12565.668852426901!2d-62.0961989!3d-38.0606637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec6143bc37e253%3A0xe806173c3f397c3c!2sLos%20Alerces%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2sar!4v1684965720811!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe>
+                 <h4><mark>VIERNES 30 DE MAYO</mark></h4>
+                <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p>Horario: De 11 a 19 hs.</p>
+                <p>*El día y horario es todas las distancias (50K, 42K, 34K, 25K,10K y Kids)</p>
+                {/* <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12565.668852426901!2d-62.0961989!3d-38.0606637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec6143bc37e253%3A0xe806173c3f397c3c!2sLos%20Alerces%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2sar!4v1684965720811!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe> */}
 
-                <h4><mark>SÁBADO 01/06</mark></h4>
-                <p>Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
-                <p><b>EL RETIRO SERÁ PARA TODAS LAS DISTANCIAS, PERO CON HORARIOS ESPECÍFICOS QUE SERÁN RESPETADOS. NO ACREDITAMOS A NADIE FUERA DE SU HORARIO.</b></p>
+                <h4><mark>SÁBADO 31 DE MAYO</mark></h4>
+                <p>ATENCIÓN: Los horarios serán exclusivos y respetados por distancias. No acreditaremos a nadie fuera de su horario correspondiente.</p>
+                <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <ul>
-                    <li>50 y 42K retiran entre las <b>6:30 y 7:45 am</b></li>
-                    <li>25 y 10K retiran entre las <b>10 y las 18 pm</b></li>
+                    <li>Horario 50K, 42K y 34K: 6:30 a 7:45 am</li>
+                    <li>Horario 25K y 10K: de 10 a 18 hs</li>
                 </ul>
            
 
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
-                <h4><mark>DOMINGO 02/06</mark></h4>
-                <p>Estancia Las Vertientes, Villa Ventana</p>
-                <p><strong>EL RETIRO SERÁ PARA TODAS LAS DISTANCIAS, PERO CON HORARIOS ESPECÍFICOS QUE SERÁN RESPETADOS. NO ACREDITAMOS A NADIE FUERA DE SU HORARIO.</strong></p>
+                <h4><mark>DOMINGO 1 DE JUNIO</mark></h4>
+                <p>ATENCIÓN: Los horarios serán respetados por distancias. No acreditaremos a nadie fuera de su horario correspondiente.</p>
+                <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
-                    <li>25K retira entre las <b>8 y 9 am</b></li>
-                    <li>10K retira entre las <b>9 y 10 am</b></li>
+                    <li>Horario 25K: 8 a 9 am</li>
+                    <li>Horario 10K: 9 a 10 am</li>
                 </ul>
-                <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO ESPERAR AL DOMINGO PARA RETIRAR. EL KIT PUEDE RETIRARLO OTRA PERSONA (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
-
+{/*                 <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO ESPERAR AL DOMINGO PARA RETIRAR. EL KIT PUEDE RETIRARLO OTRA PERSONA (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
+ */}
                 <h5>¿CÓMO LLEGAR A LA ESTANCIA LAS VERTIENTES?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1682008795355!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa Las Vertientes' loading="lazy"></iframe>
- */}
+ 
+
+
                 <h4><mark>A PRESENTAR EN ACREDITACIÓN</mark></h4>
                 <p><mark>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR 
                 VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</mark></p>
@@ -238,7 +240,7 @@ function M42() {
 
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
-                <h4><mark>SÁBADO 31 DE JUNIO | 50K, 42K Y 34K</mark></h4>
+                <h4><mark>SÁBADO 31 DE MAYO | 50K, 42K Y 34K</mark></h4>
                 <p><strong>- LARGADA</strong>: San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires (Próximamente dirección).</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -257,14 +259,14 @@ function M42() {
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 50k, 42K y 34K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
                 <h4><mark>INFO PRÓXIMAMENTE</mark></h4>
             
-                <p>Destildar la distancia que no se quiera ver</p>
+                {/* <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
                 <div className='containerAltimetria'>
                      <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
                 </div> 
-                </div>
+                </div> */}
 
                 <br></br>
                 
@@ -283,14 +285,16 @@ function M42() {
                 <br></br>
 
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
+                <h4><mark>INFO PRÓXIMAMENTE</mark></h4>
+
             
-                <p>Destildar la distancia que no se quiera ver</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
+                {/* <p>Destildar la distancia que no se quiera ver</p>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> */}
 
                 <div className='containerAltimetria'>
-                 <div className='altimetriaIMG'>
+                {/*  <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
-                </div> 
+                </div>  */}
                 {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>25K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 616 metros</p>
@@ -301,9 +305,9 @@ function M42() {
                 <br></br>
 
                 <div className='containerAltimetria'>
-                 <div className='altimetriaIMG'>
+               {/*   <div className='altimetriaIMG'>
                 <img src={km10} alt='Altimetria 10kM Los Alerces' className='img' />
-                </div> 
+                </div>  */}
                 {/* <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>10K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 261 metros</p>
