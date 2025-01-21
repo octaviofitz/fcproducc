@@ -32,7 +32,7 @@ function AlojamientosM42() {
         <h2>ALOJAMIENTOS</h2>
         <h3>ALOJAMIENTOS EN VILLA VENTANA</h3>
 
-        <article>
+        {/* <article>
             <h4><mark className='marcador'>LOS ALERCES RESORT & SPA</mark></h4>
             <div className='containerTop'> 
             <div>
@@ -48,7 +48,7 @@ function AlojamientosM42() {
             </div>
 
             </div>
-        </article>
+        </article> */}
 
         <article>
             <h4><mark className='marcador'>LA GRAN CABAÑA</mark></h4>
@@ -130,7 +130,7 @@ function AlojamientosM42() {
         <h3>ALOJAMIENTOS EN SAN ANDRES DE LA SIERRA</h3>
         <p>San Andrés de la Sierra se encuentra ubicado a 13,1km de la Estancia Las Vertientes.</p>
 
-        <article>
+       {/*  <article>
             <h4><mark className='marcador'>LOS ALERCES RESORT & SPA</mark></h4>
             <div className='containerTop'> 
             <div>
@@ -146,7 +146,7 @@ function AlojamientosM42() {
             </div>
 
             </div>
-        </article>
+        </article> */}
 
         <article>
             <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>

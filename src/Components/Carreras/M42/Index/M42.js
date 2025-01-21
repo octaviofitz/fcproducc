@@ -52,10 +52,10 @@ function M42() {
 
                             <div>           
                                  <p className='descripcion'>El Maratón de montaña M42 se convirtió, hace años, en el clásico de trail y ultra trail de la comarca de Tornquist, provincia de Buenos Aires. Con más de 1.800 corredores en cada edición, la fiesta que se vive es total y muy esperada por los participantes.</p>
-                                    <p className='descripcion'>Con la edición N°12, llevaremos tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único en Villa Ventana y San Andrés de la Sierra, dos paraísos.</p>
+                                    <p className='descripcion'>Con la edición N°13, llevaremos tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único en Villa Ventana y San Andrés de la Sierra, dos paraísos.</p>
                                     <p className='descripcion'>Paisajes inolvidables, cruces de arroyos, un histórico hotel abandonado, senderos, bosques y mucho trail, sumado a una compañía única de los demás corredores y del staff de FC Producciones que harán que sea un fin de semana que no olvidarás jamás.</p>
-                                    <p className='descripcion'>50K, 42K y, <strong>atención: nueva distancia de 34k</strong>,  el sábado 31 de mayo y 25K, 10K y KIDS el domingo 1 de junio  son las 6 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42 lo hacen, volver a participar pero elevando la distancia en la próxima edición.</p>
-                                    <p className='descripcion'>Agendá la fecha de la 13° edición: 31 de mayo y 1 de junio de 2025. <strong>El lunes 16 de diciembre abriremos inscripciones con precio lanzamiento, ¡estén atentos!</strong></p>
+                                    <p className='descripcion'>50K, 42K y, atención: nueva distancia de 34k, el sábado 31 de mayo y 25K, 10K y KIDS el domingo 1 de junio son las 6 modalidades diferentes que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42 lo hacen, volver a participar pero elevando la distancia en la próxima edición.</p>
+                                    <p className='descripcion'>Agendá la fecha de la 13° edición: 31 de mayo y 1 de junio de 2025. ¡Inscripciones abiertas!</p>
                                       
                                   {/*   <ul className='redes'>
                     
@@ -95,7 +95,7 @@ function M42() {
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
                
                 <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton' disabled><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                 <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
@@ -132,13 +132,13 @@ function M42() {
 
                 
                 
-                <h3>TRASLADO 50 Y 42K</h3>
-                {/* <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Los Alerces (lugar de largada) el día sábado 1 de junio.</p>
-                <p>El micro saldrá el sábado 1/6 a las 8 de la mañana puntual desde Plaza Salerno. Estar 10 min antes.</p>
-                <p>El costo es de $3.000 y se abona EN EFECTIVO al retirar el kit.</p>
+                <h3>TRASLADO 50, 42 Y 34K</h3>
+                <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Puesta del Sol (lugar de largada) el día sábado 31 de mayo.</p>
+                <p>El micro saldrá el sábado 31/5 a las 7.45 de la mañana puntual desde Plaza Salerno. Estar 10 min antes.</p>
+                <p>El costo estará disponible próximamente y se abona EN EFECTIVO al retirar el kit.</p>
                 <p>La reserva se hace previamente a <strong>info@fcproducciones.com.ar</strong> indicando nombre completo, dni y celular.</p>
-                <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p> */}
-                <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4>
+                <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p>
+                {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4> */}
 
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
@@ -154,7 +154,7 @@ function M42() {
                 <p>ATENCIÓN: Los horarios serán exclusivos y respetados por distancias. No acreditaremos a nadie fuera de su horario correspondiente.</p>
                 <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <ul>
-                    <li>Horario 50K, 42K y 34K: 6:30 a 7:45 am</li>
+                    <li>Horario 50K, 42K y 34K: 6:30 a 7:30 am</li>
                     <li>Horario 25K y 10K: de 10 a 18 hs</li>
                 </ul>
            
@@ -190,7 +190,7 @@ function M42() {
                     
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -204,7 +204,7 @@ function M42() {
  */}
                     <li>AUTORIZACIÓN MENOR DE EDAD.</li>
                     <div className='contenedorBoton'>
-                <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                     {/* <div className='contenedorBoton'>
@@ -233,7 +233,7 @@ function M42() {
                 <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -241,10 +241,12 @@ function M42() {
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
                 <h4><mark>SÁBADO 31 DE MAYO | 50K, 42K Y 34K</mark></h4>
-                <p><strong>- LARGADA</strong>: San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires (Próximamente dirección).</p>
+                <p><strong>- LARGADA</strong>: Puesta del Sol Houses & Nature (Calle Gnena Kena y Chila, San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires).</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
-               {/*  <p>IMPORTANTE: Habrá traslados desde la Plaza Salerno hasta la largada de los 50 y 42K. El último micro saldrá a las 8 am. Deben reservar su lugar enviando un mail a info@fcproducciones.com.ar</p> */}
+                <h5>¿Cómo llegar a Puesta de Sol?</h5>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.2079439959557!2d-62.091638599999996!3d-38.0655381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c416455dcb%3A0x57970baf20e534ec!2sPuesta%20del%20Sol%20Houses%20%26%20Nature!5e0!3m2!1ses-419!2sar!4v1737142048342!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Puesta de Sol'></iframe>
+
 
                 <h4><mark>DOMINGO 1 DE JUNIO | 25K, 10K y KIDS</mark></h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
@@ -254,19 +256,33 @@ function M42() {
                     <li>10K: 11 am</li>
                     <li>KIDS: 13 hs, horario aproximado</li>
                 </ul>
+                <h5>¿Cómo llegar a Estancia Las Vertientes?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1682008795355!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa Las Vertientes' loading="lazy"></iframe>
 
 
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 50k, 42K y 34K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
-                <h4><mark>INFO PRÓXIMAMENTE</mark></h4>
             
-                {/* <p>Destildar la distancia que no se quiera ver</p>
+                 <p>Destildar la distancia que no se quiera ver</p>
+                 <p>(El lugar exacto de largada de las 3 distancias aún no está confirmado)</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
-                <div className='containerAltimetria'>
+                {/*  <div className='containerAltimetria'>
                      <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
                 </div> 
-                </div> */}
+                </div>  */}
+
+                <div className='containerAltimetria'>
+                <div className='altimetriaIMG'>
+                {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
+                </div> 
+                 <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 50K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.950 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                </div> 
+                </div>
 
                 <br></br>
                 
@@ -274,33 +290,43 @@ function M42() {
                 <div className='altimetriaIMG'>
                 {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
                 </div> 
-                {/* <div>
-                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>42K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.800 metros</p>
+                 <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 42K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.600 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
-                </div> */}
+                </div> 
                 </div>
 
                 <br></br>
 
-                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
-                <h4><mark>INFO PRÓXIMAMENTE</mark></h4>
+                <div className='containerAltimetria'>
+                <div className='altimetriaIMG'>
+                {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
+                </div> 
+                 <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 34K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 855 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                </div> 
+                </div>
 
+                <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
             
-                {/* <p>Destildar la distancia que no se quiera ver</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> */}
+                 <p>Destildar la distancia que no se quiera ver</p>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> 
 
                 <div className='containerAltimetria'>
                 {/*  <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
                 </div>  */}
-                {/* <div>
-                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>25K</h5>
+                 <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 25K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 616 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇ </span>Altura mínima: 369 msnm</p>
-                </div> */}
+                </div> 
                 </div>
                 <br></br>
 
@@ -308,12 +334,12 @@ function M42() {
                {/*   <div className='altimetriaIMG'>
                 <img src={km10} alt='Altimetria 10kM Los Alerces' className='img' />
                 </div>  */}
-                {/* <div>
-                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>10K</h5>
+                <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 10K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 261 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
-                </div> */}
+                </div> 
                 </div>
 {/* 
                 <br></br>
@@ -341,11 +367,19 @@ function M42() {
                 </ol>
 
                 <div className='contenedorBoton'>
-                <Button disabled variant="info" size='lg' className='boton'>
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
-          INSCRIBITE ACÁ
+                
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
+        <Button variant="info" size='lg' className='boton'>
+            INSCRIBITE ACÁ
+        </Button>
       </Link> 
-      </Button>
+
+      {/* <Button disabled variant="info" size='lg' className='boton'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
+            INSCRIBITE ACÁ
+            </Link> 
+        </Button> */}
+      
     </div>
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
@@ -366,21 +400,21 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
-                  <h4><strong>¡PRECIO PROMOCIONAL! ¡PRIMEROS 100 CUPOS!</strong></h4>
+                   <h4><strong>¡SEGUNDA ETAPA! ¡200 CUPOS!</strong></h4>
                 <ul>
-                    <li><strong>50K: $129.000</strong> en 3 pagos de $43.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>42K: $111.000</strong> en 3 pagos de $37.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>34K: $99.000</strong> en 3 pagos de $33.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>25K: $87.000</strong> en 3 pagos de $29.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>10K: $63.000</strong> en 3 pagos de $21.000 por transferencia o depósito bancaria (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $9.900</strong> pago total AL INSCRIBIRSE.</li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $12.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>50K: $147.000</strong> en 3 pagos de $49.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>42K: $129.000</strong> en 3 pagos de $43.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>34K: $114.000</strong> en 3 pagos de $38.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>25K: $99.000</strong> en 3 pagos de $33.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>10K: $72.000</strong> en 3 pagos de $24.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $10.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $13.900</strong> pago total AL INSCRIBIRSE.</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
-                <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>  
+                <p>Cuando los cupos de la segunda etapa se agoten, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>    
  
-                {/*  <h5 style={{textAlign:'center'}}><mark>CUPO PROMOCIONAL COMPLETO</mark></h5>
-                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>¡ESTÉN ATENTOS A LA APERTURA DEL CUARTO PERÍODO!</h5>   */}
+                 {/*  <h5 style={{textAlign:'center'}}><mark>¡PRIMERA ETAPA AGOTADA!</mark></h5>
+                 <h5 style={{textAlign:'center', marginBottom: '3rem'}}>Pronto abriremos la segunda etapa.</h5>   */}
 
 
                 <h4><mark>¿QUERÉS CORRER LOS DOS DÍAS?¡PODÉS! HAY UN DESCUENTO ESPECIAL</mark></h4>
@@ -394,30 +428,30 @@ function M42() {
 
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
-                <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4>
-                {/* <h4><mark>VIERNES 31 DE MAYO</mark></h4>
-                <p><strong>De 11 a 19hs</strong>: acreditación de todas las distancias en Los Alerces, ubicado en el corazón de San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires. Calles: Gnena-Kena y Melica.</p>
+                 <h4><mark>VIERNES 30 DE MAYO</mark></h4>
+                <p><strong>De 11 a 19hs</strong>: ACREDITACIÓN TODAS LA DISTANCIAS.</p>
+                <p>Lugar: Plaza Salerno, Villa Ventana.</p>
                 
-                <h4><mark>SÁBADO 1 DE JUNIO</mark></h4>
+                <h4><mark>SÁBADO 31 DE MAYO</mark></h4>
                 <ul>
-                    <li><strong>De 6.30 a 7.45 am</strong> acreditación de 50 y 42K. Lugar: Plaza Salerno, en el centro de Villa Ventana.</li>
-                    <li><strong>9 am</strong> LARGADA 50 Y 42K Lugar: Los Alerces, San Andrés de la Sierra.</li>
+                    <li><strong>De 6.30 a 7.30 am</strong> acreditación de 50, 42 y 34K. Lugar: Plaza Salerno, en el centro de Villa Ventana.</li>
+                    <li><strong>9 am</strong> lARGADA 50, 42 Y 34K. Lugar: Puesta del Sol Houses & Nature, San Andrés de la Sierra.</li>
                     <li><strong>De 10 a 18 hs</strong> ACREDITACIÓN 25 Y 10K Lugar: Plaza Salerno, Villa Ventana.</li>
-                    <li><strong>17 hs</strong> premiación 50 Y 42K. Lugar: Plaza Salerno, Villa Ventana.</li>
+                    <li><strong>17 hs</strong> premiación 50, 42 Y 34K. Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>18 hs</strong> Charla técnica 25 y 10K. Lugar: Plaza Salerno, Villa Ventana.</li>
-                    <li><strong>18:30 hs</strong>: Desfile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
+                    <li><strong>18:30 hs</strong>: Baile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
                 </ul>
 
-                <h4><mark>DOMINGO 2 DE JUNIO</mark></h4>
-                <p>Todo se llevará a cabo en Estancia Las Vertientes (Ruta 76, km 221, Villa Ventana).</p>
+                <h4><mark>DOMINGO 1 DE JUNIO</mark></h4>
+                <p>Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
-                    <li><strong>De 8 a 9 am:</strong> ACREDITACIÓN 25K</li>
-                    <li><strong>De 9 a 10 am:</strong> ACREDITACIÓN 10K</li>
-                    <li><strong>10 am:</strong> LARGADA 25K</li>
-                    <li><strong>11 am:</strong> LARGADA 10K</li>
-                    <li><strong>13 hs:</strong> LARGADA KIDS</li>
-                    <li><strong>14 hs:</strong> PREMIACIÓN 10 y 25K</li>
-                </ul> */}
+                    <li><strong>De 8 a 9 am:</strong> ACREDITACIÓN 25K.</li>
+                    <li><strong>De 9 a 10 am:</strong> ACREDITACIÓN 10K.</li>
+                    <li><strong>10 am:</strong> LARGADA 25K.</li>
+                    <li><strong>11 am:</strong> LARGADA 10K.</li>
+                    <li><strong>13 hs:</strong> LARGADA KIDS.</li>
+                    <li><strong>14/14:30hs:</strong> PREMIACIÓN.</li>
+                </ul> 
 
                 <h3 id='reglamento'>REGLAMENTO M42</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
@@ -568,11 +602,19 @@ function M42() {
                 
                 <div className='contenedorBoton'>
       
+                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
         <Button disabled variant="info" size='lg' className='boton'>
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-los-alerces-2024' className='enlaceBoton'>
-          INSCRIBITE ACÁ
-      </Link> 
-      </Button>
+            INSCRIBITE ACÁ
+        </Button>
+      </Link>  
+
+      
+       {/*  <Button disabled variant="info" size='lg' className='boton'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
+            INSCRIBITE ACÁ
+            </Link> 
+        </Button> */}
+    
 
     </div>
              
