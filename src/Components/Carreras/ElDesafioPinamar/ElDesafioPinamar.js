@@ -46,9 +46,10 @@ function ElDesafioPinamar() {
            </div>
               
                <div>
-              <p className='descripcion'>Este 2024 te traemos una nueva propuesta. El Desafío Columbia expande sus fronteras y además de trepar sierras en octubre, en Sierra de la Ventana, tendrá otra versión de un día subiendo médanos en Pinamar.</p>
-              <p className='descripcion'>Será tu nuevo desafío por médanos y senderos. El domingo 4 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 10K y KIDS.</p>
-              <p className='descripcion'>Partiendo desde el Centro Comercial Pinamar Norte, vivirás un recorrido realmente soñado y conocerás la ciudad desde otro lado. <strong>Inscripciones abiertas</strong>. Aquí abajo toda la información.</p>
+              <p className='descripcion'>Este es tu nuevo desafío por médanos y senderos. El domingo 3 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 15k, 10K y KIDS. Partiendo desde el Centro Comercial Pinamar Norte, vivirás un recorrido realmente soñado y diferente en donde conocerás la ciudad desde otro lado. 
+              </p>
+              <p className='descripcion'>A pedido de ustedes, agregamos nueva distancia de 15K. Inscripciones abiertas. Aquí abajo toda la información.</p>
+               <p className='descripcion'><mark className='mark'><b>ABRIMOS INSCRIPCIONES LUNES 27/01</b></mark></p>  
               <ul className='redes'>
               
                 <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -82,9 +83,9 @@ function ElDesafioPinamar() {
 
           <h4><mark className='mark'>DATOS GENERALES</mark></h4>
           <p><strong>Carrera:</strong> El Desafío Columbia Pinamar</p>
-          <p><strong>Fecha:</strong> 4 de agosto 2024</p>
+          <p><strong>Fecha:</strong> 3 de agosto 2025</p>
           <p><strong>Lugar:</strong> Centro Comercial Pinamar Norte, Pinamar, Buenos Aires</p>
-          <p><strong>Distancias:</strong> 25K, 10K y KIDS.</p>
+          <p><strong>Distancias:</strong> 25K, 15K, 10K y KIDS.</p>
           <p><strong>Modalidad:</strong> Individual</p>
           <p><strong>Concepto:</strong> Recorrido por médanos y senderos</p>
 
@@ -98,9 +99,9 @@ function ElDesafioPinamar() {
  */}
 
           <h3>CATEGORÍAS</h3>
-          <p><strong>INDIVIDUAL:</strong> Damas y caballeros (Hasta 35 años / 36 a 45 años / 46 a 55 años / +56 años)*</p>
-          <p>Las edades serán computadas al 04/08/2024</p>
-          <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad.</p>
+          <p><strong>INDIVIDUAL:</strong>  Damas y caballeros (Hasta 25 años / 26 a 35 años / 36 a 45 años / 46 a 55 años / 56  a 65 años / +56 años)*</p>
+          <p>Las edades serán computadas al 03/08/2025</p>
+          <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad o no alcance a llegar a la cantidad necesaria.</p>
           <p>*La edad para poder correr el Desafío Columbia Pinamar es a partir de los 16 años.</p>
           <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar.</p>
            <div className='contenedorBoton'>
@@ -110,8 +111,6 @@ function ElDesafioPinamar() {
           <h3>DESCUENTO PARA TEAMS DE ENTRENAMIENTO</h3>
           <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos, ANTES DE INSCRIBIRSE, tendrán que enviarnos un mail a <b>info@fcproducciones.com.ar</b> solicitando el CÓDIGO DE INSCRIPCIÓN, el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
 
-          <h3>REMERAS</h3>
-          <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 12. El talle de remera elegido al momento de inscribirse <b>no tiene cambio</b>.</p>
 
           <h3>LA INSCRIPCIÓN INCLUYE</h3>
           <ul>
@@ -124,22 +123,98 @@ function ElDesafioPinamar() {
               <li>Seguro de corredor.</li>
               <li>Servicio de rescate.</li>
               <li>Servicio de salud.</li>
-              <li> Premiación ganadores de categorías.</li>
+              <li>Premiación ganadores de categorías.</li>
               <li>Premiación ganadores de la general.</li>
           </ul>
           
+
+          <h3>REMERAS</h3>
+          <p>El talle de remeras está sujeto a stock. No hay posibilidad de cambio. Una vez se agota el talle, deberá seleccionar el siguiente disponible al inscribirse. Los talles de adultos van del XS al XXL. La de niños de 6 a 14.</p>
+
+          
+          <h3 id='inscripcion'>INSCRIPCIÓN ONLINE</h3>
+          <p><b>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.
+          </b></p>
+
+          <p>Los pasos para inscribirse online son:</p>
+          <ol>
+              <li>En caso de tener un código de descuento por ser 10 ó más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
+              <li>Elegir la distancia.</li>
+              <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podés subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
+              <li>Abonar la primera cuota vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
+              <li>Se avisará por mail cuándo es momento de abonar la segunda cuota (30 días) y la tercera (60 días). Si no abonan las mismas, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
+
+            <div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-colimbia-pinamar-2025' className='enlaceBoton'>
+                    <Button disabled variant="warning" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
+          </ol>
+        
+
+          <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN</mark></h4>
+          <p>Les llegará un mail que dice “inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible.</p>
+          <p>Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado.</p>
+          <p>Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
+
+
+          <h3>INSCRIPCIÓN PRESENCIAL</h3>
+          <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
+          <h4>CENTROS DE INSCRIPCIÓN:</h4>
+          <ul>
+              <li><u>Aerorunners</u>: Av. Córdoba 1360, CABA. Tel: 011-5811-1043</li>
+              <li><u>TriSport Necochea</u>: Calle 57, 3043. Tel: 2262-52-6684</li>
+              <li><u>BicyShop Mar del Plata</u>: Av. Independencia 3565. Tel: 0223-474-9816</li>
+              <li><u>La Fe Deportes</u>: Loria 193, Lomas de Zamora. Tel: 11-6069-3133</li>
+              <li><u>Adrogué Outdoors</u>: Av. Mitre 1110, Adrogué. Tel: 4293-6350</li>
+          </ul>
+
+          <h3>COSTOS</h3>
+           <h4 style={{textAlign: "center"}}>¡PRECIO PROMO LANZAMIENTO!</h4> 
+         
+        {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
+          <ul>
+              <li>25K: <strong>$72.000</strong> en 3 pagos $24.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+              <li>15K: <strong>$60.000</strong> en 3 pagos $20.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+              <li>10K: <strong>$51.000</strong> en 3 pagos $17.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
+              <li>KIDS: <strong>$10.900</strong> pago total. </li>
+
+          </ul>
+          <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
+          <p>Cuando los cupos se acaben, se cerrarán las inscripciones.</p>
+
+          <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
+          <p>La forma de pago de inscripción es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse). Si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
+
+          <div className='contenedorBoton'>
+            <div className='botonIntermedio'>
+                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-colimbia-pinamar-2025' className='enlaceBoton'>
+                <Button disabled variant="warning" size='lg' className='boton'>
+                    INSCRIBITE ACÁ
+                </Button>
+                </Link>
+            </div>
+            </div>
+
+
+
+          
           <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
 
-          <h4><mark className='mark'>- VIERNES 02/08 de 15 a 20HS</mark></h4>
+          <h4><mark className='mark'>- VIERNES 01/08 de 15 a 20HS</mark></h4>
           <p>Hotel Garden Suites Pinamar (Av. Arquitecto Jorge Bunge 1544, Pinamar, Provincia de Buenos Aires)</p>
 
-          <h4><mark className='mark'>- SÁBADO 03/08 de 10 a 19HS</mark></h4>
+          <h4><mark className='mark'>- SÁBADO 02/08 de 10 a 19HS</mark></h4>
           <p>Hotel Garden Suites Pinamar (Av. Arquitecto Jorge Bunge 1544, Pinamar, Provincia de Buenos Aires)</p>
 
           <h5>¿CÓMO LLEGAR AL HOTEL GARDEN SUITES?</h5>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d101847.56564779286!2d-56.6914625!3d-37.087584!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cde1503f251%3A0xd7c4ef04a7b95fc9!2sGarden%20Suites%20Pinamar%20Hotel%20Spa!5e0!3m2!1ses-419!2sar!4v1709009595214!5m2!1ses-419!2sar" width="600" height="450" loading='lazy' className='mapas' title='Mapa Hotel Garden Suites'></iframe>
           
-          <h4><mark className='mark'>- DOMINGO 04/08 de 08:00 a 9:30AM</mark></h4>
+          <h4><mark className='mark'>- DOMINGO 03/08 de 08:00 a 9:30AM</mark></h4>
           <p>Centro Comercial Pinamar Norte (Aquiles 4070, Pinamar, Provincia de Buenos Aires)</p>
 
           <h5>¿CÓMO LLEGAR AL CENTRO COMERCIAL PINAMAR NORTE?</h5>
@@ -147,7 +222,6 @@ function ElDesafioPinamar() {
          
          <p><mark>Por razones operativas, recomendamos no venir el último día. El kit puede retirarlo otra persona llevando los papeles firmados por el titular (ver apartado siguiente).</mark></p>
           
-
 
           <h3>PAPELES A PRESENTAR EN ACREDITACIÓN</h3>
           <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p>
@@ -164,118 +238,76 @@ function ElDesafioPinamar() {
               <li>DESLINDE DE RESPONSABILIDAD (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
 
               <li>AUTORIZACIÓN MENOR DE EDAD. En caso de ser necesario (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
+              
+              <div className='contenedorBoton'>
+          <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AutMenores} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
+              </div> 
+
           </ol>
 
+          <h3>RETIRO DE KITS POR TERCEROS</h3>
+          <p>Si el participante titular ya firmó el deslinde virtual y subió el apto médico a su inscripción, sólo deberá presentar dni. Si no hizo el proceso correspondiente, el requisito es que se acerque con los siguientes documentos:</p>
+          <ol>
+            <li>FOTOCOPIA DEL DNI DEL TITULAR</li>
+            <li>FICHA DE INSCRIPCIÓN FIRMADA POR EL TITULAR</li>
+            <li>APTO FÍSICO DEL TITULAR</li>
+          </ol>
+          <p><b>De no contar con estos requisitos la organización NO entregará el Kit.</b></p>
 
-          <h3>LUGAR Y HORARIOS DE LARGADA</h3>
 
-          <h4><mark className='mark'>25 y 10K</mark></h4>
-          <p><strong>- DÍA:</strong> Domingo 4 de agosto</p>
+          <h3>LARGADA: LUGAR Y HORARIOS</h3>
+
+          <h4><mark className='mark'>25, 15 y 10K</mark></h4>
+          <p><strong>- DÍA:</strong> Domingo 3 de agosto</p>
           <p><strong>- LUGAR DE SALIDA:</strong> Centro Comercial Pinamar Norte</p>
           <p><strong>- HORARIO DE SALIDA:</strong> 10AM</p>
           <p><strong>- LUGAR DE LLEGADA:</strong> Centro Comercial Pinamar Norte</p>
 
           <h4><mark className='mark'>KIDS</mark></h4>
-          <p><strong>- DÍA:</strong> Domingo 4 de agosto</p>
+          <p><strong>- DÍA:</strong> Domingo 3 de agosto</p>
           <p><strong>- LUGAR DE SALIDA:</strong> Centro Comercial Pinamar Norte</p>
-          <p><strong>- HORARIO DE SALIDA:</strong> 13HS</p>
+          <p><strong>- HORARIO DE SALIDA:</strong> 13HS aprox</p>
           <p><strong>- LUGAR DE LLEGADA:</strong> Centro Comercial Pinamar Norte</p>
           
 
 
           <h3>RECORRIDOS</h3>
-          <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
-          <img src={recorrido25k} className='img' alt='Recorrido 25KM Desafio Pinamar' />
+           <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> 
+
           
-          <h5>VER MAPA INTERACTIVO</h5>
-          <iframe src="https://www.google.com/maps/d/embed?mid=1r5D5euOYMhnz3Wrp4DRC1RFhTGd0UDc&ehbc=2E312F" width="600" height="450" loading='lazy' className='mapas' title='Mapa Interactivo Desafio Pinamar'></iframe>
+          {/* <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
+          <img src={recorrido25k} className='img' alt='Recorrido 25KM Desafio Pinamar' /> */}
+          
+         {/*  <h5>VER MAPA INTERACTIVO</h5>
+          <iframe src="https://www.google.com/maps/d/embed?mid=1r5D5euOYMhnz3Wrp4DRC1RFhTGd0UDc&ehbc=2E312F" width="600" height="450" loading='lazy' className='mapas' title='Mapa Interactivo Desafio Pinamar'></iframe> */}
           
 
          
 
           <h3>RUNNING KIDS</h3>
-          <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor e hidratación.</p>
+          <p>Tiene como objetivo ofrecer a los más chicos la oportunidad de disfrutar de la aventura de forma sana y no competitiva, siendo protagonistas de un gran evento junto a sus padres o familiares. La distancia kids no será competitiva, por lo que no tendrá premiación ni clasificación. Sí contará con remera de corredor, medalla e hidratación.</p>
 
-          <h3 id='inscripcion'>INSCRIPCIÓN ONLINE</h3>
-          <p>Los pasos para inscribirse online son:</p>
-          <ol>
-              <li>En caso de tener un código de descuento por ser 10 ó más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
-              <li>Elegir la distancia.</li>
-              <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podés subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
-              <li>Abonar vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
-              <li>Se avisará por mail cuándo es momento de abonar la segunda cuota. Si no abonan la misma, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
-            <div className='contenedorBoton'>
-                <div className='botonIntermedio'>
-                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
-                    <Button disabled variant="warning" size='lg' className='boton'>
-                        INSCRIBITE ACÁ
-                    </Button>
-                    </Link>
-                        </div>
-                             </div>
-          </ol>
-        
-
-          <h4><mark className='mark'>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN</mark></h4>
-          <p>Les llegará un mail que dice “inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible.</p>
-          <p>Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado.</p>
-          <p>Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
-
-          <h3>INSCRIPCIÓN PRESENCIAL</h3>
-          <p>Se abona el <b>TOTAL</b> de la carrera únicamente en <b>EFECTIVO</b> en los centros de inscripción.</p>
-          <h4>CENTROS DE INSCRIPCIÓN:</h4>
-          <ul>
-              <li><u>Aerorunners</u>: Av. Córdoba 1360, CABA. Tel: 011-5811-1043</li>
-              <li><u>TriSport Necochea</u>: Calle 57, 3043. Tel: 2262-52-6684</li>
-              <li><u>BicyShop Mar del Plata</u>: Av. Independencia 3565. Tel: 0223-474-9816</li>
-              <li><u>La Fe Deportes</u>: Loria 193, Lomas de Zamora. Tel: 11-6069-3133</li>
-              <li><u>Adrogué Outdoors</u>: Av. Mitre 1110, Adrogué. Tel: 4293-6350</li>
-          </ul>
-
-          <h3>COSTOS - ÚLTIMOS CUPOS</h3>
-          {/* <h4 style={{textAlign: "center"}}>¡EN DOS PAGOS SIN INTERÉS!</h4> */}
-         
-        {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
-          <ul>
-              <li>25K: <strong>$54.000</strong> en dos pagos (un 50% al inscribirse por transferencia bancaria o depósito y el otro 50% en EFECTIVO en acreditación).</li>
-              <li><strong>CUPOS COMPLETOS EN 10K</strong></li>
-              <li>KIDS: <strong>$6.900</strong> pago total.</li>
-          </ul>
-          <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-          <p>Cuando los cupos se acaben, se cerrarán las inscripciones.</p>
-
-          <h5>POLÍTICA DE PAGOS DE CUOTAS</h5>
-          <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
-
-          <div className='contenedorBoton'>
-            <div className='botonIntermedio'>
-                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
-                <Button disabled variant="warning" size='lg' className='boton'>
-                    INSCRIBITE ACÁ
-                </Button>
-                </Link>
-            </div>
-            </div>
+          
            
 
           <h3 id='cronograma'>CRONOGRAMA GENERAL DEL EVENTO</h3>
-         <h4><strong><mark className='mark'>VIERNES 02/08</mark></strong></h4>
+         <h4><strong><mark className='mark'>VIERNES 01/08</mark></strong></h4>
          <ul>
           <li><strong>15 a 20HS:</strong> Acreditación y entrega de kits en Garden Suites Pinamar.</li>
          </ul>
 
-         <h4><strong><mark className='mark'>SÁBADO 03/08</mark></strong></h4>
+         <h4><strong><mark className='mark'>SÁBADO 02/08</mark></strong></h4>
          <ul>
           <li><strong>10 a 19HS:</strong> Acreditación y entrega de kits en Garden Suites Pinamar.</li>
           <li><strong>18HS:</strong> Charla técnica.</li>
          </ul>
 
-         <h4><strong><mark className='mark'>DOMINGO 04/08</mark></strong></h4>
+         <h4><strong><mark className='mark'>DOMINGO 03/08</mark></strong></h4>
          <ul>
           <li><strong>8 a 9:30HS:</strong> Acreditación y entrega de kits en Centro Comercial Pinamar Norte.</li>
           <li><strong>10HS:</strong> Largadas 25K y 10K.</li>
           <li><strong>13HS:</strong> Largada distancia Kids (horario aproximado).</li>
-          <li><strong>14HS:</strong> Premiación (horario aproximado)</li>
+          <li><strong>14HS:</strong> Premiación (horario aproximado).</li>
          </ul>
 
 
@@ -283,15 +315,15 @@ function ElDesafioPinamar() {
          <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
 
          <h4><mark className='mark'><strong>IMPORTANTE</strong></mark></h4>
-         <p>Tanto los 25 kilómetros como los 10, no tendrán tiempo de corte, salvo que la organización considere hacerlo por cuestiones ajenas y/o seguridad del corredor únicamente para beneficio y resguardo del mismo. Además, recordamos que ambas modalidades son trail y no trekking.</p>
+         <p>Los 25k, 15k y 10k , no tendrán tiempo de corte, salvo que la organización considere hacerlo por cuestiones ajenas y/o seguridad del corredor únicamente para beneficio y resguardo del mismo. Además, recordamos que ambas modalidades son trail y no trekking.</p>
 
          <h4><mark className='mark'>RECLAMOS</mark></h4>
           <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
 
 
           <h4><mark className='mark'>APTO MÉDICO</mark></h4>
-          <p>A partir de ahora, en las carreras de FC Producciones podrán cargar el apto médico en la web a la hora de inscribirse y firmar el deslinde online para no tener que llevarlo a la acreditación. De no cargarlo, deberán presentarlo presencial en la acreditación.</p>
-          <p>El apto médico que se debe cargar en la inscripción tiene que tener una vigencia de 1 año teniendo en cuenta la fecha de la carrera. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma, con sello, del médico.</p>
+          <p>El apto médico debe cargarse en la web a la hora de inscribirse al igual que firmar el deslinde online para no tener que llevarlo a la acreditación. De no cargarlo, deberán presentarlo presencial en la acreditación.</p>
+          <p>El apto médico que se debe cargar en la inscripción tiene que tener una vigencia de 1 año a partir de la fecha que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma, con sello, del médico.</p>
           <p>La validación del apto médico será realizada por la organización.</p>
           <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
           <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
@@ -324,27 +356,27 @@ function ElDesafioPinamar() {
          </ul>
 
           <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
-          <p>La forma de pago de inscripción es en dos pagos sin interés (uno al inscribirse y el segundo a los 30 días de hacerlo). Si no se abona la segunda cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el precio de la segunda cuota pasará a valer el precio vigente.</p>
+          <p>La forma de pago de inscripción es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse). Si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
 
           <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
           <p>Las inscripciones <strong>NO</strong> tienen devolución.</p>
          
         
           <h4><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
-          <p>Hasta el viernes 19/07, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+          <p>Hasta el viernes 18/07, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que: solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
           <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
 
           <h4><mark className='mark'>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
-          <p>Hasta el viernes 19/07, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+          <p>Hasta el viernes 18/07, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
         
 
          <h3>CAMBIO DE DISTANCIA O DE OTRO TIPO</h3>
          <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
          <ol>
           <li>Sólo se considerarán aquellos casos en que se solicite al mail de la organización.</li>
-          <li>A partir del lunes 22/07 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
+          <li>A partir del lunes 21/07 NO se aceptarán más modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
           <li>Si el cambio es a una distancia mayor, abona la diferencia del monto de inscripción.</li>
-          <li> Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
+          <li>Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
          </ol>
 
           <h3>NÚMERO DE CORREDOR</h3>
@@ -364,13 +396,13 @@ function ElDesafioPinamar() {
           </ul>
 
           <h3>PREMIACIÓN</h3>
-          <p>Todos los participantes que finalicen el recorrido de forma reglamentaria, recibirán medalla finisher..</p>
+          <p>Todos los participantes que finalicen el recorrido de forma reglamentaria, recibirán medalla finisher.</p>
           <p>Se premiará cada categoría en sus respectivos primeros 3 puestos, tanto hombre como mujer. También habrá premio para las generales (hombre y mujer) de cada distancia.</p>
           <p>Los auspiciantes pueden disponer de premios especiales a los participantes, sin que esto implique responsabilidad alguna de la organización.</p>
           <p>Los premios no tienen cambio.</p>
 
           <h4><mark className='mark'>ENVÍO DE PREMIOS</mark></h4>
-          <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y se le enviará por terminal de micros, Oca o Correo Argentino. El COSTO de ENVÍO corre por cuenta del corredor, sin excepción.</p>
+          <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y se le enviará por terminal de micros, Oca o Correo Argentino en el tiempo que considere la organización. Pasado el mes del evento, no tendrá derecho a reclamo. El COSTO de ENVÍO corre por cuenta del corredor, sin excepción.</p>
 
           <h3>TOMA DE TIEMPO Y CLASIFICACIONES</h3>
           <p>La toma de tiempo y clasificación será electrónica con chip. Los participantes deberán retirar el chip en la acreditación y utilizarlo obligatoriamente en la carrera, a fin de poder ser clasificados. El chip deberá ser utilizado de forma VISIBLE.</p>
@@ -387,7 +419,7 @@ function ElDesafioPinamar() {
 
           <div className='contenedorBoton'>
       <div className='botonIntermedio'>
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2024' className='enlaceBoton'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-colimbia-pinamar-2025' className='enlaceBoton'>
           <Button disabled variant="warning" size='lg' className='boton'>
             INSCRIBITE ACÁ
           </Button>

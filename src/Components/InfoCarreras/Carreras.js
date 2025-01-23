@@ -6,7 +6,7 @@ import m42 from '../../Img/index/m42.webp'
 import eldesafio from '../../Img/index/elDesafio.webp'
 import Circuito from '../../Img/index/circuito.webp';
 import AlcecPrueba from '../../Img/Alecec/alecec.webp';
-import DesafioPinamar from '../../Img/index/pinamar.png'
+import DesafioPinamar from '../../Img/index/pinamar.webp'
 import DesafioColinas from '../../Img/ColinasVerdes/indexColinas.png'
 
 import './carreras.css'
@@ -58,7 +58,7 @@ function Carreras() {
                <article className='container' id='novedades'>
            <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
            <h2 className='tituloResultados'>DESAFÍO COLUMBIA PINAMAR</h2>
-            <p className='texto'>El desafío Columbia Pinamar será tu nuevo desafío por médanos y senderos. 25K, 15K, 10K y KIDS. ¡Nueva distancia! Te esperamos el 3 de agosto 2025, Pinamar, Buenos Aires. ¡Inscripciones próximamente!</p>
+            <p className='texto'>El desafío Columbia Pinamar es tu nuevo desafío por médanos y senderos. 25K, 15K, 10K y KIDS. ¡Nueva distancia! Te esperamos el 3 de agosto 2025, Pinamar, Buenos Aires.</p>
             <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
            </article>
            </div>
