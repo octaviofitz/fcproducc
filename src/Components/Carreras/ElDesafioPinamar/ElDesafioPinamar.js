@@ -49,7 +49,7 @@ function ElDesafioPinamar() {
               <p className='descripcion'>Este es tu nuevo desafío por médanos y senderos. El domingo 3 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 15k, 10K y KIDS. Partiendo desde el Centro Comercial Pinamar Norte, vivirás un recorrido realmente soñado y diferente en donde conocerás la ciudad desde otro lado. 
               </p>
               <p className='descripcion'>A pedido de ustedes, agregamos nueva distancia de 15K. Inscripciones abiertas. Aquí abajo toda la información.</p>
-               <p className='descripcion'><mark className='mark'><b>ABRIMOS INSCRIPCIONES LUNES 27/01</b></mark></p>  
+               <p className='descripcion'><mark className='mark'><b>INSCRIPCIONES ABIERTAS</b></mark></p>  
               <ul className='redes'>
               
                 <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -146,8 +146,8 @@ function ElDesafioPinamar() {
 
             <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
-                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-colimbia-pinamar-2025' className='enlaceBoton'>
-                    <Button disabled variant="warning" size='lg' className='boton'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2025' className='enlaceBoton'>
+                    <Button variant="warning" size='lg' className='boton'>
                         INSCRIBITE ACÁ
                     </Button>
                     </Link>
@@ -192,8 +192,8 @@ function ElDesafioPinamar() {
 
           <div className='contenedorBoton'>
             <div className='botonIntermedio'>
-                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-colimbia-pinamar-2025' className='enlaceBoton'>
-                <Button disabled variant="warning" size='lg' className='boton'>
+                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2025' className='enlaceBoton'>
+                <Button variant="warning" size='lg' className='boton'>
                     INSCRIBITE ACÁ
                 </Button>
                 </Link>
@@ -419,8 +419,8 @@ function ElDesafioPinamar() {
 
           <div className='contenedorBoton'>
       <div className='botonIntermedio'>
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-colimbia-pinamar-2025' className='enlaceBoton'>
-          <Button disabled variant="warning" size='lg' className='boton'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2025' className='enlaceBoton'>
+          <Button variant="warning" size='lg' className='boton'>
             INSCRIBITE ACÁ
           </Button>
         </Link>
