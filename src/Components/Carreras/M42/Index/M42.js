@@ -397,7 +397,7 @@ function M42() {
                 </ul>
 
                 <h4><mark>DESCUENTO TEAMS DE ENTRENAMIENTO</mark></h4>
-                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
+                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro WhatsApp (+549-11-5135-6267) o al mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
                    <h4><strong>¡SEGUNDA ETAPA! ¡200 CUPOS!</strong></h4>
