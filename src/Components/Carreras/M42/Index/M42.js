@@ -88,9 +88,17 @@ function M42() {
                 <p><strong>Domingo 1 de junio 2025: 25K, 10K Y KIDS (Estancia las Vertientes).</strong></p>
                 <p><strong>Modalidad:</strong> Individual</p>
 
-                <h4><mark>CATEGORÍAS</mark></h4>
-                <p><strong>INDIVIDUAL:</strong> Damas y caballeros*</p>
-                <p>Hasta 25 años | 26 a 35 | 36 a 45 años | 46 a 55 años | 56 a 65 años | +66 años. Las edades serán computadas al 01/06/2025</p>
+                <h3>CATEGORÍAS</h3>
+                <p><strong>- INDIVIDUAL:</strong> Damas y caballeros:</p>
+                <ul >
+                    <li>Hasta 25 años</li>
+                    <li>26 a 35 años</li>
+                    <li>36 a 45 años</li>
+                    <li>46 a 55 años</li>
+                    <li>56 a 65 años</li>
+                    <li>66 años en adelante*</li>
+                </ul>
+                <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad.</p>
                 <p>*La edad para poder correr el M42 es a partir de los 16 años.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
                

@@ -99,7 +99,15 @@ function ElDesafioPinamar() {
  */}
 
           <h3>CATEGORÍAS</h3>
-          <p><strong>INDIVIDUAL:</strong>  Damas y caballeros (Hasta 25 años / 26 a 35 años / 36 a 45 años / 46 a 55 años / 56  a 65 años / +56 años)*</p>
+          <p><strong>- INDIVIDUAL:</strong> Damas y caballeros:</p>
+                <ul >
+                    <li>Hasta 25 años</li>
+                    <li>26 a 35 años</li>
+                    <li>36 a 45 años</li>
+                    <li>46 a 55 años</li>
+                    <li>56 a 65 años</li>
+                    <li>66 años en adelante*</li>
+                </ul>
           <p>Las edades serán computadas al 03/08/2025</p>
           <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad o no alcance a llegar a la cantidad necesaria.</p>
           <p>*La edad para poder correr el Desafío Columbia Pinamar es a partir de los 16 años.</p>

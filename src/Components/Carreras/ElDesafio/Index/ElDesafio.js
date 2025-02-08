@@ -131,7 +131,15 @@ function ElDesafio() {
                 <p><strong>- EQUIPOS:</strong> Únicamente en la modalidad de 2 días y será de 2 integrantes. Puede ser MASCULINO, FEMENINO O MIXTO. Los participantes tendrán que realizar juntos el total del recorrido. Esto puede modificarse y pasar a individual en caso de que no llegue a completarse la cantidad necesaria.</p>
 
                 <h3>CATEGORÍAS</h3>
-                <p><strong>- INDIVIDUAL:</strong> Damas y caballeros (Hasta 25 años / 26 a 35/  36 a 45 años / 46 a 55 años / 56 a 65 / más 66 años)*</p>
+                <p><strong>- INDIVIDUAL:</strong> Damas y caballeros:</p>
+                <ul >
+                    <li>Hasta 25 años</li>
+                    <li>26 a 35 años</li>
+                    <li>36 a 45 años</li>
+                    <li>46 a 55 años</li>
+                    <li>56 a 65 años</li>
+                    <li>66 años en adelante*</li>
+                </ul>
                 <p><strong>- EQUIPO MIXTO:</strong> Sin categoría. *</p>
                 <p><strong>- EQUIPO MASC Y FEM:</strong> Sin categoría. *</p>
                 <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad.</p>
