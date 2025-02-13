@@ -8,11 +8,11 @@ import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 /* import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';*/
 import AutMenoresDesafio from '../../../../PDF/autMenoresDesafio.pdf';
 
-import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp';
-import Imagen10KM from '../../../../Img/ElDesafio/10KM.webp';
-import Imagen21KM from '../../../../Img/ElDesafio/21KM.webp';
-import Imagen25KM from '../../../../Img/ElDesafio/25KM.webp';
-import comoLlegar from '../../../../Img/ElDesafio/comoLlegar.webp'
+import elDesafio from '../../../../Img/elDesafio/elDesafio.webp';
+import Imagen10KM from '../../../../Img/elDesafio/10KM.webp';
+import Imagen21KM from '../../../../Img/elDesafio/21KM.webp';
+import Imagen25KM from '../../../../Img/elDesafio/25KM.webp';
+import comoLlegar from '../../../../Img/elDesafio/comoLlegar.webp'
 
 
 import '../Index/elDesafio.css'
@@ -50,7 +50,7 @@ function ElDesafio() {
                  </div>
                     
                      <div>
-                    <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de 2 días de competencia compuesta por 25K el sábado + 21K el domingo, o solo 1 día de 21K, 10K o KIDS el domingo, ambas modalidades con CAMPAMENTO OPCIONAL</p>
+                    <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de 2 días de competencia compuesta por 25K el sábado + 21K el domingo, o solo 1 día de 21K, 10K o KIDS el domingo, ambas modalidades con CAMPAMENTO OPCIONAL.</p>
                     <p className='descripcion'>El Desafío Columbia de Sierra de la Ventana es la carrera MÁS ALTA DE LA PROVINCIA con un ascenso de más de 1.000 metros al Cerro Carpa ¿Te la vas a perder?</p>
                     <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante día a día.</p>
                     <ul className='redes'>
