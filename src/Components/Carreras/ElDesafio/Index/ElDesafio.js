@@ -151,7 +151,7 @@ function ElDesafio() {
                 </div>
 
                 <h3>DESCUENTO PARA TEAMS</h3>
-                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos, <strong>ANTES DE INSCRIBIRSE</strong>, tendrán que enviarnos un mail a <b>info@fcproducciones.com.ar</b> solicitando el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
+                <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos, <strong>PRIMERO</strong> hay que solicitarlo a nuestro WhatsApp (+549-11-5135-6267) o al mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p>
 
                 <h3>REMERAS</h3>
                 <p>Los talles de adultos van del XS al XXL. Los de niños del 6 al 14. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
