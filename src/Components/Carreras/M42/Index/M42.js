@@ -152,12 +152,12 @@ function M42() {
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
                  <h4><mark>VIERNES 30 DE MAYO</mark></h4>
-                <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
+                <p>Lugar: La Gran Cabaña, Belisario y Picaflor, Villa Ventana, Provincia de Buenos Aires.</p>
                 <p>Horario: De 11 a 19 hs.</p>
                 <p>*El día y horario es todas las distancias (50K, 42K, 34K, 25K,10K y Kids)</p>
-                {/* <h5>¿CÓMO LLEGAR A LOS ALERCES?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12565.668852426901!2d-62.0961989!3d-38.0606637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec6143bc37e253%3A0xe806173c3f397c3c!2sLos%20Alerces%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2sar!4v1684965720811!5m2!1ses-419!2sar" width="600" height="450" className='mapas' title='Mapa Los Alerces'></iframe> */}
-
+                 <h5>¿CÓMO LLEGAR A LA GRAN CABAÑA?</h5>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3140.386906552386!2d-61.929315!3d-38.084657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf2d093d0f4fd%3A0xad4d33cb6aa65910!2sLa%20Gran%20Caba%C3%B1a%20-%20Hotel%20Spa%20%26%20Restaurante!5e0!3m2!1ses-419!2sar!4v1740175342495!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
+               
                 <h4><mark>SÁBADO 31 DE MAYO</mark></h4>
                 <p>ATENCIÓN: Los horarios serán exclusivos y respetados por distancias. No acreditaremos a nadie fuera de su horario correspondiente.</p>
                 <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -438,7 +438,7 @@ function M42() {
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
                  <h4><mark>VIERNES 30 DE MAYO</mark></h4>
                 <p><strong>De 11 a 19hs</strong>: ACREDITACIÓN TODAS LA DISTANCIAS.</p>
-                <p>Lugar: Plaza Salerno, Villa Ventana.</p>
+                <p>Lugar: La Gran Cabaña, Villa Ventana.</p>
                 
                 <h4><mark>SÁBADO 31 DE MAYO</mark></h4>
                 <ul>
