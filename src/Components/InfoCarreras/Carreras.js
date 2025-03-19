@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 import m42 from '../../Img/index/m42.webp'
-import eldesafio from '../../Img/index/eldesafio.webp'
+import eldesafio from '../../Img/index/elDesafio.webp'
 import Circuito from '../../Img/index/circuito.webp';
 import AlcecPrueba from '../../Img/Alecec/alecec.webp';
 import DesafioPinamar from '../../Img/index/pinamar.webp'

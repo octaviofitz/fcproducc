@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import NosotrosImg from "../../../Img/nosotros/nosotros.JPG";
+import NosotrosImg from "../../../Img/nosotros/nosotros.jpg";
 import FerCAM from "../../../Img/nosotros/fercam.webp";
 
 import "./nosotros.css";

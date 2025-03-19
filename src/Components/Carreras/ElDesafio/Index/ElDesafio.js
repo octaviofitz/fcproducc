@@ -8,11 +8,11 @@ import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 /* import DeslindeDesafio from '../../../../PDF/deslindeDesafio.pdf';*/
 import AutMenoresDesafio from '../../../../PDF/autMenoresDesafio.pdf';
 
-import elDesafio from '../../../../Img/elDesafio/elDesafio.webp';
-import Imagen10KM from '../../../../Img/elDesafio/10KM.webp';
-import Imagen21KM from '../../../../Img/elDesafio/21KM.webp';
-import Imagen25KM from '../../../../Img/elDesafio/25KM.webp';
-import comoLlegar from '../../../../Img/elDesafio/comoLlegar.webp'
+import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp';
+/* import Imagen10KM from '../../../../Img/ElDesafio/10KM.webp';
+import Imagen21KM from '../../../../Img/ElDesafio/21KM.webp';
+import Imagen25KM from '../../../../Img/ElDesafio/25KM.webp'; */
+import comoLlegar from '../../../../Img/ElDesafio/comoLlegar.webp'
 
 
 import '../Index/elDesafio.css'
