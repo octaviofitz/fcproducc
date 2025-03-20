@@ -18,6 +18,11 @@ import Sox from "../../Img/Patrocinios/Sox.png";
 import Trisport from "../../Img/Patrocinios/Trisport.png";
 import Coco from "../../Img/Patrocinios/Coco.png";
 import Mervick from "../../Img/Patrocinios/Mervick.png";
+import IconSox from "../../Img/Patrocinios/IconSex.png";
+import Maraton from "../../Img/Patrocinios/Maraton.png";
+import PuestaDeSol from "../../Img/Patrocinios/PuestaDeSol.png";
+import Atrevo from "../../Img/Patrocinios/Atrevo.png";
+
 
 import "../Patrocinios/patrocinios.css";
 
@@ -27,9 +32,9 @@ function Patrocinios() {
       <h2 className="titulo">NOS ACOMPAÑAN</h2>
       <div>
         <div className="containerIMG">
-          <div id="LosAlerces">
+          {/* <div id="LosAlerces">
             <img src={Alerces} alt="Logo Alerces" className="img"/>
-          </div>
+          </div> */}
           <div id="Columbia">
             <img src={Columbia} alt="Logo Columbia" className="img"  />
           </div>
@@ -47,6 +52,18 @@ function Patrocinios() {
           </div>
           <div id="Heracles">
             <img src={Heracles} alt="Logo Heracles" className="img" />
+          </div>
+          <div id="IconSox">
+            <img src={IconSox} alt="Logo IconSox" className="img"  />
+          </div>
+          <div id="Maraton">
+            <img src={Maraton} alt="Logo Maraton" className="img"  />
+          </div>
+          <div id="PuestaDeSol">
+            <img src={PuestaDeSol} alt="Logo Puesta de Sol" className="img"  />
+          </div>
+          <div id="Atrevo">
+            <img src={Atrevo} alt="Logo Atrevo" className="img"  />
           </div>
           <div id="ProRun">
             <img src={Prorun} alt="Logo ProRun" className="img" />

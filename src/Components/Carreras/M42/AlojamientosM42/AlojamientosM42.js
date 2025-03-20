@@ -7,7 +7,6 @@ import HotelProv from '../../../../Img/Alojamientos/hotelProv.webp';
 import ElMirador from '../../../../Img/Alojamientos/elMirador.webp';
 import LuzDelCielo from '../../../../Img/Alojamientos/luzDelCielo.webp';
 import Jorge from '../../../../Img/Alojamientos/jorge.webp';
-import YMCA from '../../../../Img/Alojamientos/ymca.webp';
 import PuestaDelSol from '../../../../Img/Alojamientos/puestaDelSol.webp';
 import Cabania from '../../../../Img/Alojamientos/cabania.webp';
 import Tornquist from '../../../../Img/Alojamientos/tornquist.webp';
@@ -15,6 +14,12 @@ import Cocolanel from '../../../../Img/Alojamientos/cocolonanel.webp';
 import RocioDeLuna from '../../../../Img/Alojamientos/rociodeluna.webp';
 import Alerces from '../../../../Img/Alojamientos/alerces.webp';
 import Mapu from '../../../../Img/Alojamientos/mapuM42.webp';
+import Ventania from '../../../../Img/Alojamientos/ventania.webp'
+import Robles from '../../../../Img/Alojamientos/robles.webp'
+import LasGolondrinas from '../../../../Img/Alojamientos/lasGolondrinas.webp'
+import Calandrias from '../../../../Img/Alojamientos/calandrias.webp'
+import PuntoCadia from '../../../../Img/Alojamientos/puntoCadia.webp'
+
 
 
 import '../AlojamientosM42/alojamientosM42.css'
@@ -167,6 +172,24 @@ function AlojamientosM42() {
 
         <h3>ALOJAMIENTOS EN SIERRA DE LA VENTANA</h3>
         <p>Sierra de La Ventana se encuentra ubicado a 19,7 km de la Estancia Las Vertientes.</p>
+
+        <article>
+        <h4><mark className='marcador'>VENTANIA GOLF RESORT</mark></h4>
+        <div className='containerTop'> 
+        <div>
+        <img src={Ventania} className='img' alt='Ventania' />
+        </div>
+        <div>
+        <ul>
+            <li>Calle: Los Robles, Sierra de la Ventana, Bs As. Manzana Los Teros s/n - Barrio Golf.</li>
+            <li>Tel:  0291 474-8387</li>
+            <li>Email: reservas@ventaniaresort.com.ar</li>
+            <li>Redes: @ventaniaresort </li>
+            <li>Web: <Link to='https://ventaniaresort.com.ar/' target='_blank' rel="noopener noreferrer">https://ventaniaresort.com.ar</Link></li>
+        </ul>
+        </div>
+        </div>
+        </article>
         
         <article>
         <h4><mark className='marcador'>HOTEL PROVINCIAL</mark></h4>
@@ -187,22 +210,6 @@ function AlojamientosM42() {
         </article>
 
         <article>
-            <h4><mark className='marcador'>YMCAPOLIS</mark></h4>
-            <div className='containerTop'>
-                <div>
-                <img src={YMCA} className='img' alt='YMCA'/>
-                </div>
-           <div>
-            <ul>
-                <li>Calle: Av. Ymcapolis 298 (entre Av. Rayces y Cnel. Suárez), Villa La Arcadia - Coronel Suárez</li>
-                <li>Tel: 4311-4785 (int 250)</li>
-                <li>Email: facundo.zuccoli@ymca.org.ar</li>
-            </ul>
-            </div>
-            </div>
-        </article>
-        
-        <article>
            <h4><mark className='marcador'>COMPLEJO EL MIRADOR</mark></h4>
            <div className='containerTop'>
             <div>
@@ -214,6 +221,79 @@ function AlojamientosM42() {
             <li>Tel: (0291) 4941 338</li>
             <li>Email:info@complejoelmirador.com.ar</li>
             <li>Web: <Link to='http://www.complejoelmirador.com.ar/' target='_blank' rel="noopener noreferrer">http://www.complejoelmirador.com.ar/</Link></li>
+           </ul>
+           </div>
+           </div>
+        </article>
+
+        <article>
+           <h4><mark className='marcador'>LOS ROBLES APART HOTEL l LOS ROBLES SUITES & SPA</mark></h4>
+           <div className='containerTop'>
+            <div>
+           <img src={Robles} className='img' alt='Los Robles Apart Hotel'  />
+           </div>
+           <div>
+           <ul>
+            <li>Calle: Los tilos 126, Sierra de La Ventana, Bs. As.</li>
+            <li>Tel: +54 9 291 6466700</li>
+            <li>Email: info.losroblesaparthotel@gmail.com</li>
+            <li>Redes: @losroblesapart l @losroblessuites</li>
+            <li>Web: <Link to='https://refugio-ventana.webflow.io' target='_blank' rel="noopener noreferrer">https://refugio-ventana.webflow.io</Link></li>
+           </ul>
+           </div>
+           </div>
+        </article>
+
+        <article>
+           <h4><mark className='marcador'>POSADA Y SPA LAS GOLONDRINAS</mark></h4>
+           <div className='containerTop'>
+            <div>
+           <img src={LasGolondrinas} className='img' alt='Spa Las Golondrinas'  />
+           </div>
+           <div>
+           <ul>
+            <li>Calle: Las margaritas 390 - Barrio Ceferino, Sierra de La Ventana, Bs. As.</li>
+            <li>Tel: +54 9 291 4434630</li>
+            <li>Email: info.posadayspalasgolondrinas@gmail.com</li>
+            <li>Redes: @lasgolondrinasposada</li>
+            <li>Web: <Link to='https://refugio-ventana.webflow.io' target='_blank' rel="noopener noreferrer">https://refugio-ventana.webflow.io</Link></li>
+           </ul>
+           </div>
+           </div>
+        </article>
+
+        <article>
+           <h4><mark className='marcador'>COMPLEJO LAS CALANDRIAS</mark></h4>
+           <div className='containerTop'>
+            <div>
+           <img src={Calandrias} className='img' alt='El Mirador'  />
+           </div>
+           <div>
+           <ul>
+            <li>Calle: Del arroyo 266, Sierra de La Ventana, Bs. As.</li>
+            <li>Tel: +54 9 291 4312542</li>
+            <li>Email: info.complejolascalandrias@gmail.com</li>
+            <li>Redes: @complejolascalandriasok</li>
+            <li>Web: <Link to='https://refugio-ventana.webflow.io ' target='_blank' rel="noopener noreferrer">https://refugio-ventana.webflow.io</Link></li>
+           </ul>
+           </div>
+           </div>
+        </article>
+
+
+        <article>
+           <h4><mark className='marcador'>HOSTEL PUNTO CADIA</mark></h4>
+           <div className='containerTop'>
+            <div>
+           <img src={PuntoCadia} className='img' alt='Hostel Punto Cadia'  />
+           </div>
+           <div>
+           <ul>
+            <li>Calle: Av. Coronel Suárez 80 - Villa Arcadia - Sierra de la Ventana, Bs As.</li>
+            <li>Tel: +54 9 291 404-7149</li>
+            <li>Email: hostelpuntocadia@gmail.com</li>
+            <li>Redes: @hostelpuntocadia</li>
+            <li>Web: <Link to='https://www.hostelpuntocadia.com/' target='_blank' rel="noopener noreferrer">https://www.hostelpuntocadia.com/</Link></li>
            </ul>
            </div>
            </div>
