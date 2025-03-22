@@ -84,8 +84,8 @@ function M42() {
                 <p><strong>Lugares:</strong> San Andrés de la Sierra y Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
                 <p><strong>Concepto:</strong> Carrera de trail y ultratrail running.</p>
                 <p><strong>Distancias:</strong> 50K, 42K, 34K, 25K, 10K y KIDS. ¡Atención, agregamos nueva distancia!</p>
-                <p><strong>Sábado 31 de mayo 2025: 50K, 42K y 34K (San Andrés de la Sierra).</strong></p>
-                <p><strong>Domingo 1 de junio 2025: 25K, 10K Y KIDS (Estancia las Vertientes).</strong></p>
+                <p><strong>Sábado 31 de mayo 2025: 50K, 42K y 34K (Salida desde San Andrés de la Sierra, llegada a la Plaza Salerno en Villa Ventana).</strong></p>
+                <p><strong>Domingo 1 de junio 2025: 25K, 10K Y KIDS (Salida y llegada en Estancia las Vertientes).</strong></p>
                 <p><strong>Modalidad:</strong> Individual</p>
 
                 <h3>CATEGORÍAS</h3>
@@ -447,7 +447,7 @@ function M42() {
                     <li><strong>De 10 a 18 hs</strong> ACREDITACIÓN 25 Y 10K Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>17 hs</strong> premiación 50, 42 Y 34K. Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>18 hs</strong> Charla técnica 25 y 10K. Lugar: Plaza Salerno, Villa Ventana.</li>
-                    <li><strong>18:30 hs</strong>: Baile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
+                    <li><strong>18:30 hs</strong>: Desfile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
                 </ul>
 
                 <h4><mark>DOMINGO 1 DE JUNIO</mark></h4>
@@ -594,7 +594,19 @@ function M42() {
                     <li>No hay que devolverlo</li>
                 </ul>
                 <p>Los resultados se publicarán en esta página el mismo día a la noche o el día posterior al evento.</p>
-                
+
+                <h3>𝐃𝐄𝐒𝐅𝐈𝐋𝐄 𝐃𝐄 𝐓𝐄𝐀𝐌𝐒</h3>
+                <p>En el M42 no solo corremos... también HACEMOS COREOS, PERREAMOS Y BAILAMOS. Bueno... ustedes lo hacen.</p>
+                <p>El sábado 18:30hs aproximadamente, en la PLAZA SALERNO, en el corazón de Villa Ventana, una vez finalizados los 50K, 42K y 34K, y luego de la premiación, es momento de MOVER LAS CACHAS, pero con mucha creatividad.</p>
+                <h4>¿DE QUÉ SE TRATA?</h4>
+                <p>Un momento único para que cada running team se pueda lucir arriba del escenario con la coreo y canción que elijan. También, como podrán ver en las imágenes del año pasado, con MUCHO cotillón y dejando todo.</p>
+                <p>La idea es divertirnos, bailar, saltar, cantar, gritar, demostrar la unión que tienen como equipo y, para los que ya corrieron (50K, 34K y 42K), aflojar un poco las piernas -o acalambrarse-, y para los que corren el domingo (25k y 10K), tener un subidón de adrenalina para lo que vendrá.</p>
+                <p>Aquellos que no son un running team pero son un grupo que quiere participar, también pueden. Ya hubo equipos de 2 o 3 integrantes.</p>
+                <h4>¿CÓMO SUMARSE?</h4>
+                <p>Nos tienen que mandar el nombre del team y la canción elegida al WhatsApp o al mail: info@fcproducciones.com.ar</p>
+                <p>Además... ¡HAY PREMIO!</p>
+                <p>La más creativa se llevará una inscripción gratuita para el M42 2026.</p>
+                <p>Tienen tiempo para empezar a pensar una coreo en conjunto para deslumbrar a los espectadores. ¡Ya vimos por ahí que hay varios teams que arrancaron! Y ojo, porque los teams del año pasado dejaron MUY alta la vara!</p>
                 
                 <h3>FOTOGRAFÍA Y VIDEO</h3>
                 <p>El material audiovisual otorgado por el staff podrá ser utilizado por la organización y los auspiciantes con fines de publicidad. Al aceptar participar en la carrera, los corredores aceptan este uso no dando lugar a reclamos posteriores.</p>
