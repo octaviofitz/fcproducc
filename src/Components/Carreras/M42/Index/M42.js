@@ -143,8 +143,8 @@ function M42() {
                 <h3>TRASLADO 50, 42 Y 34K</h3>
                 <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Puesta del Sol (lugar de largada) el día sábado 31 de mayo.</p>
                 <p>El micro saldrá el sábado 31/5 a las 7.45 de la mañana puntual desde Plaza Salerno. Estar 10 min antes.</p>
-                <p>El costo estará disponible próximamente y se abona EN EFECTIVO al retirar el kit.</p>
-                <p>La reserva se hace previamente a <strong>info@fcproducciones.com.ar</strong> indicando nombre completo, dni y celular.</p>
+                <p>El costo será de $5.000 y se abona EN EFECTIVO al retirar el kit.</p>
+                <p>La reserva se hace previamente a <strong>info@fcproducciones.com.ar</strong> o al <strong>Whatsapp (+549-11-5135-6267)</strong> indicando nombre completo, dni y celular.</p>
                 <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p>
                 {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4> */}
 
@@ -271,7 +271,6 @@ function M42() {
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 50k, 42K y 34K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
             
                  <p>Destildar la distancia que no se quiera ver</p>
-                 <p>(El lugar exacto de largada de las 3 distancias aún no está confirmado)</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
                 {/*  <div className='containerAltimetria'>
@@ -286,7 +285,7 @@ function M42() {
                 </div> 
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 50K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.950 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 1.950 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
@@ -300,7 +299,7 @@ function M42() {
                 </div> 
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 42K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 1.600 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 1.600 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
@@ -314,7 +313,7 @@ function M42() {
                 </div> 
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 34K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 855 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 855 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
@@ -331,7 +330,7 @@ function M42() {
                 </div>  */}
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 25K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 616 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 616 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇ </span>Altura mínima: 369 msnm</p>
                 </div> 
@@ -344,7 +343,7 @@ function M42() {
                 </div>  */}
                 <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 10K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: + 261 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 261 metros</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
                 </div> 
@@ -595,7 +594,7 @@ function M42() {
                 </ul>
                 <p>Los resultados se publicarán en esta página el mismo día a la noche o el día posterior al evento.</p>
 
-                <h3>𝐃𝐄𝐒𝐅𝐈𝐋𝐄 𝐃𝐄 𝐓𝐄𝐀𝐌𝐒</h3>
+                <h3>DESFILE DE TEAMS</h3>
                 <p>En el M42 no solo corremos... también HACEMOS COREOS, PERREAMOS Y BAILAMOS. Bueno... ustedes lo hacen.</p>
                 <p>El sábado 18:30hs aproximadamente, en la PLAZA SALERNO, en el corazón de Villa Ventana, una vez finalizados los 50K, 42K y 34K, y luego de la premiación, es momento de MOVER LAS CACHAS, pero con mucha creatividad.</p>
                 <h4>¿DE QUÉ SE TRATA?</h4>
@@ -623,7 +622,7 @@ function M42() {
                 <div className='contenedorBoton'>
       
                 <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
-        <Button disabled variant="info" size='lg' className='boton'>
+        <Button variant="info" size='lg' className='boton'>
             INSCRIBITE ACÁ
         </Button>
       </Link>  

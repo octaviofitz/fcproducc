@@ -280,8 +280,9 @@ function ElDesafioPinamar() {
 
 
           <h3>RECORRIDOS</h3>
-           <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> 
+          <p><b>Destildar la distancia que no se quiera ver</b></p>
 
+          <iframe src="https://www.google.com/maps/d/embed?mid=1r5D5euOYMhnz3Wrp4DRC1RFhTGd0UDc&ehbc=2E312F" width="600" height="450" loading='lazy' className='mapas' title='Mapa Interactivo Desafio Pinamar'></iframe>
           
           {/* <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
           <img src={recorrido25k} className='img' alt='Recorrido 25KM Desafio Pinamar' /> */}

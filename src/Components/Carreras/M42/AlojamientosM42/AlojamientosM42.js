@@ -19,6 +19,7 @@ import Robles from '../../../../Img/Alojamientos/robles.webp'
 import LasGolondrinas from '../../../../Img/Alojamientos/lasGolondrinas.webp'
 import Calandrias from '../../../../Img/Alojamientos/calandrias.webp'
 import PuntoCadia from '../../../../Img/Alojamientos/puntoCadia.webp'
+import SerranasMargaritas from '../../../../Img/Alojamientos/serranasMargaritas.webp'
 
 
 
@@ -298,6 +299,24 @@ function AlojamientosM42() {
            </div>
            </div>
         </article>
+
+        <article>
+           <h4><mark className='marcador'>CASAS SERRANAS MARGARITAS</mark></h4>
+           <div className='containerTop'>
+            <div>
+           <img src={SerranasMargaritas} className='img' alt='Hostel Punto Cadia'  />
+           </div>
+           <div>
+           <ul>
+            <li>Calle: Los Robles y, Los Juilgeros Lote 16, Sierra de la Ventana, Bs As.</li>
+            <li>Tel: +5492914191700</li>
+            <li>Email: hostelpuntocadia@gmail.com</li>
+            <li>Redes: @casas.serranas.margaritas</li>
+           </ul>
+           </div>
+           </div>
+        </article>
+
 
 
         <article>
