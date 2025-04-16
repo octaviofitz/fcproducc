@@ -322,7 +322,7 @@
         /* justify-content: space-around;
         padding: 1rem 3vw; */
         margin-left: 3rem auto;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .m42 .altimetriaTxt:first-child{

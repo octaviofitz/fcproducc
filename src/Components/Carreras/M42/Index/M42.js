@@ -8,6 +8,7 @@ import m42General from '../../../../Img/m42/flyerM42.webp';
 import Remera from '../../../../Img/m42/remera.webp';
 import km50 from '../../../../Img/m42/50k.webp'
 import km42 from '../../../../Img/m42/42k.webp'
+import km34 from '../../../../Img/m42/34k.webp'
 import km25 from '../../../../Img/m42/25k.webp'
 import km10 from '../../../../Img/m42/10k.webp'
 
@@ -267,21 +268,21 @@ function M42() {
                 <h5>¿Cómo llegar a Estancia Las Vertientes?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6281.567071671955!2d-61.943919!3d-38.075422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec8cd2287f4b2d%3A0xffaacc594c32d622!2sEstancia%20Las%20Vertientes!5e0!3m2!1ses!2sus!4v1682008795355!5m2!1ses!2sus" width="600" height="450" className='mapas' title='Mapa Las Vertientes' loading="lazy"></iframe>
 
-
+ 
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 50k, 42K y 34K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
             
                  <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
-                {/*  <div className='containerAltimetria'>
+               {/*    <div className='containerAltimetria'>
                      <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
                 </div> 
-                </div>  */}
+                </div>   */}
 
                 <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
-                {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
+                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' /> 
                 </div> 
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 50K</h5>
@@ -295,7 +296,7 @@ function M42() {
                 
                 <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
-                {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
+                 <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> 
                 </div> 
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 42K</h5>
@@ -309,7 +310,7 @@ function M42() {
 
                 <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
-                {/* <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> */}
+                 <img src={km34} alt='Altimetria 42kM Los Alerces' className='img' /> 
                 </div> 
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 34K</h5>
@@ -325,9 +326,9 @@ function M42() {
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> 
 
                 <div className='containerAltimetria'>
-                {/*  <div className='altimetriaIMG'>
+                 <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
-                </div>  */}
+                </div>  
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 25K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 616 metros</p>
@@ -338,9 +339,9 @@ function M42() {
                 <br></br>
 
                 <div className='containerAltimetria'>
-               {/*   <div className='altimetriaIMG'>
+                  <div className='altimetriaIMG'>
                 <img src={km10} alt='Altimetria 10kM Los Alerces' className='img' />
-                </div>  */}
+                </div>  
                 <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 10K</h5>
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 261 metros</p>
@@ -407,18 +408,18 @@ function M42() {
                 <p>Otorgamos un 10% de descuento en cada inscripción y liberamos únicamente a 1 profesor/a. La condición para obtenerlo es ser 10 corredores o más. Para adquirir los descuentos: PRIMERO hay que solicitarlo a nuestro WhatsApp (+549-11-5135-6267) o al mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento. Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</p> 
 
                 <h3>COSTOS</h3>
-                   <h4><strong>¡SEGUNDA ETAPA! ¡200 CUPOS!</strong></h4>
+                   <h4><strong>¡TERCERA ETAPA! ¡200 CUPOS!</strong></h4>
                 <ul>
-                    <li><strong>50K: $147.000</strong> en 3 pagos de $49.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>42K: $129.000</strong> en 3 pagos de $43.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>34K: $114.000</strong> en 3 pagos de $38.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>25K: $99.000</strong> en 3 pagos de $33.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>10K: $72.000</strong> en 3 pagos de $24.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $10.900</strong> pago total AL INSCRIBIRSE.</li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $13.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>50K: $162.000</strong> el 50% ($81.000) por transferencia o depósito bancario y el otro 50% ($81.000) en acreditación en EFECTIVO.</li>
+                    <li><strong>42K: $140.000</strong> el 50% ($70.000) por transferencia o depósito bancario y el otro 50% ($70.000) en acreditación en EFECTIVO.</li>
+                    <li><strong>34K: $126.000</strong> el 50% ($63.000) por transferencia o depósito bancario y el otro 50% ($63.000) en acreditación en EFECTIVO.</li>
+                    <li><strong>25K: $108.000</strong> el 50% ($54.000) por transferencia o depósito bancario y el otro 50% ($54.000) en acreditación en EFECTIVO</li>
+                    <li><strong>10K: $80.000</strong> el 50% ($40.000) por transferencia o depósito bancario y el otro 50% ($40.000) en acreditación en EFECTIVO.</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $11.900</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $14.900</strong> pago total AL INSCRIBIRSE.</li>
                 </ul> 
-                <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</b></p>
-                <p>Cuando los cupos de la segunda etapa se agoten, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>    
+                <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre el total.</b></p>
+                <p>Cuando los cupos de la tercera etapa se agoten, se cerrarán las inscripciones.</p>    
  
                  {/*  <h5 style={{textAlign:'center'}}><mark>¡PRIMERA ETAPA AGOTADA!</mark></h5>
                  <h5 style={{textAlign:'center', marginBottom: '3rem'}}>Pronto abriremos la segunda etapa.</h5>   */}

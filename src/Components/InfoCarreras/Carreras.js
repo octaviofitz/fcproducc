@@ -58,7 +58,7 @@ function Carreras() {
                <article className='container' id='novedades'>
            <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
            <h2 className='tituloResultados'>DESAFÍO COLUMBIA PINAMAR</h2>
-            <p className='texto'>El desafío Columbia Pinamar es tu nuevo desafío por médanos y senderos. 25K, 15K, 10K y KIDS. ¡Nueva distancia! Te esperamos el 3 de agosto 2025, Pinamar, Buenos Aires.</p>
+            <p className='texto'>El Desafío Columbia Pinamar es tu nuevo desafío por médanos y senderos. 25K, 15K, 10K y KIDS. ¡Nueva distancia! Te esperamos el 3 de agosto 2025, Pinamar, Buenos Aires.</p>
             <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
            </article>
            </div>
