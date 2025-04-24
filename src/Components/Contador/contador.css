@@ -15,6 +15,8 @@
     justify-content: center; /* Centra horizontalmente */
     min-height: 30vh; /* Altura mínima de toda la pantalla */
     box-sizing: border-box; /* Incluye padding en el tamaño total */
+    margin: -1.5rem 0;
+    margin-bottom: 0.5rem;
   }
   
   /* Caja principal del contador */
