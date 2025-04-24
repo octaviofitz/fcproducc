@@ -370,8 +370,8 @@ function M42() {
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero.</li>
                     <li>Elegir la distancia.</li>
                     <li> Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
-                    <li>Abonar la primera cuota vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
-                    <li>Se avisará por mail cuándo es momento de abonar la segunda cuota (30 días) y la tercera (60 días).  Si no abonan las mismas, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
+                    <li>Abonar el 50% vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
+                    <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL.</li>
                 </ol>
 
                 <div className='contenedorBoton'>
@@ -513,7 +513,7 @@ function M42() {
                 </ul>
 
                 <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
-                <p>La forma de pago de inscripción es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse). Si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
+                <p>Si te inscribiste en las fechas donde el pago era en tres sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
 
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
                 <p>Las inscripciones <strong>NO</strong> tienen devolución. Sin excepción.</p>

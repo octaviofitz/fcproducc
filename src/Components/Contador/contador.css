@@ -1,0 +1,136 @@
+.containerContador {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5; /* Mejora legibilidad */
+  }
+  
+  /* Contenedor principal para centrar el contenido */
+  .containerContador {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    min-height: 30vh; /* Altura mínima de toda la pantalla */
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+  }
+  
+  /* Caja principal del contador */
+  .countdown-box {
+    background-color: white;
+    padding: 1.5rem 1rem; /* Más padding vertical */
+    border-radius: 0.75rem; /* Bordes redondeados */
+    text-align: center;
+    width: 100%; /* Ocupa el ancho disponible */
+    max-width: 800px; /* Ancho máximo */
+  }
+  
+  /* Título del contador */
+  .titleContador {
+    font-size: 1.5rem; /* Tamaño de fuente base */
+    font-weight: 600; /* Negrita */
+    color: #000; /* Color de texto gris oscuro */
+    margin-bottom: 1.5rem; /* Espacio debajo del título */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Contenedor de las unidades de tiempo (flexbox para alinear) */
+  .countdown-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea */
+    justify-content: center; /* Centra los elementos */
+    gap: 0.5rem; /* Espacio entre unidades de tiempo */
+  }
+  
+  /* Estilo para cada bloque de unidad de tiempo */
+  .time-unit {
+    background-color: #f3f4f6; /* Fondo gris claro */
+    padding: 0.75rem; /* Espaciado interno */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); /* Sombra interior */
+    text-align: center;
+    min-width: 60px; /* Ancho mínimo */
+    flex-grow: 1; /* Permite que crezcan para ocupar espacio */
+    flex-basis: calc(25% - 1rem); /* Base para 4 columnas, ajustado por gap */
+  }
+  
+  /* Valor numérico del tiempo */
+  .time-value {
+    display: block; /* Ocupa su propia línea */
+    font-size: 1.875rem; /* Tamaño de fuente grande */
+    font-weight: 700; /* Negrita */
+    color: #1f2937; /* Color gris oscuro */
+  }
+  
+  /* Etiqueta (Días, Horas, etc.) */
+  .time-label {
+    display: block; /* Ocupa su propia línea */
+    font-size: 0.75rem; /* Tamaño de fuente pequeño */
+    color: #6b7280; /* Color gris medio */
+  }
+  
+  /* Mensaje cuando el contador llega a cero */
+  .expired-message {
+    margin-top: 1.5rem; /* Espacio arriba */
+    font-size: 1.25rem; /* Tamaño de fuente */
+    font-weight: 700; /* Negrita */
+    color: #16a34a; /* Color verde */
+  }
+  
+  /* --- Media Queries para Responsividad --- */
+  
+  /* Estilos para pantallas medianas (tablets) y mayores */
+  @media (min-width: 640px) {
+    .countdown-box {
+      padding: 2rem; /* Más padding */
+    }
+    .title {
+      font-size: 1.875rem; /* Título más grande */
+    }
+    .countdown-grid {
+      gap: 1rem; /* Más espacio entre unidades */
+    }
+    .time-unit {
+      padding: 1rem;
+      min-width: 80px;
+    }
+    .time-value {
+      font-size: 2.25rem; /* Números más grandes */
+    }
+    .time-label {
+      font-size: 0.875rem; /* Etiquetas un poco más grandes */
+    }
+    .expired-message {
+      font-size: 1.5rem; /* Mensaje de expiración más grande */
+    }
+  }
+  
+ 
+/* Estilos para pantallas grandes (desktops) y mayores */
+@media (min-width: 768px) {
+    .countdown-box {
+        max-width: 700px; /* Aumentamos más el ancho máximo para asegurar espacio */
+    }
+    .titleContador {
+      font-size: 2.25rem; /* Título aún más grande */
+      font-weight: 700;
+    }
+    .countdown-grid {
+        gap: 1.5rem; /* Aún más espacio */
+        flex-wrap: nowrap; /* <<-- AÑADIDO: Evita el salto de línea */
+        justify-content: space-between; /* Distribuye el espacio extra */
+    }
+    .time-unit {
+        min-width: 150px; /* Ajustamos el ancho mínimo si es necesario */
+        flex-basis: auto; /* <<-- CAMBIADO: Dejamos que el tamaño se ajuste automáticamente */
+        flex-grow: 0; /* Evitamos que crezcan desproporcionadamente */
+    }
+     .time-value {
+      font-size: 3rem; /* Números mucho más grandes */
+    }
+     .time-label {
+      font-size: 1rem; /* Etiquetas más grandes */
+    }
+  }

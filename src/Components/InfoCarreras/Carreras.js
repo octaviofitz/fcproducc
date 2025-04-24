@@ -8,6 +8,8 @@ import Circuito from '../../Img/index/circuito.webp';
 import AlcecPrueba from '../../Img/Alecec/alecec.webp';
 import DesafioPinamar from '../../Img/index/pinamar.webp'
 import DesafioColinas from '../../Img/ColinasVerdes/indexColinas.png'
+import Contador from '../Contador/Contador';
+
 
 import './carreras.css'
 
@@ -15,6 +17,10 @@ function Carreras() {
 
     return (
         <section className='carreras'>
+            
+
+        <Contador />
+
 
      {/*    <div className='containerGeneral'>
         <article className='container'>
