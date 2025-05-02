@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 /* Imágenes */
 import m42General from '../../../../Img/m42/flyerM42.webp';
 import Remera from '../../../../Img/m42/remera.webp';
+import Productos from '../../../../Img/m42/productos.webp';
 import km50 from '../../../../Img/m42/50k.webp'
 import km42 from '../../../../Img/m42/42k.webp'
 import km34 from '../../../../Img/m42/34k.webp'
@@ -125,8 +126,14 @@ function M42() {
 
                 <h3>REMERA</h3>
                  <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 14. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
-                {/* <img src={Remera} className='img' alt='Remera M42' />  */}
+                 <img src={Remera} className='img' alt='Remera M42' /> 
 
+                 <h3>PRODUCTOS OFICIALES</h3>
+                 <p>Si querés tener el mejor y más completo outfit para correr por las sierras de Villa Ventana, comprá por la web y retirá con tu kit.</p>
+                 <p><strong>¿Quiénes pueden comprarlos?</strong> Aquellos que ya estén inscriptos o quienes se vayan a inscribir al M42 2025.</p>
+                 <p><strong>¿Cómo pueden hacerlo?</strong> Para acceder al carrito de compras, debés ingresar desde tu estado de inscripción al cual llegás vía mail recibido de Eventols. Los que se vayan a inscribir ya lo tendrán disponible al momento de la inscripción</p>
+                 <p><strong>Paso a paso si ya estás inscripto:</strong> vas al mail de eventols, clic en VER MI ESTADO (te lleva a la web de eventols) + EXTRAS + AGREGAR PRODUCTO DESEADO + CONFIRMAR + PAGAR + ADJUNTAR COMPROBANTE (como las cuotas de la inscripción) + LISTO RETIRÁS CON TU KIT</p>
+                 <img src={Productos} className='img' alt='Productos M42' /> 
                 
 
                 <h3>RUNNING KIDS</h3>
@@ -442,10 +449,10 @@ function M42() {
                 
                 <h4><mark>SÁBADO 31 DE MAYO</mark></h4>
                 <ul>
-                    <li><strong>De 6.30 a 7.30 am</strong> acreditación de 50, 42 y 34K. Lugar: Plaza Salerno, en el centro de Villa Ventana.</li>
-                    <li><strong>9 am</strong> lARGADA 50, 42 Y 34K. Lugar: Puesta del Sol Houses & Nature, San Andrés de la Sierra.</li>
+                    <li><strong>De 6.30 a 7.30 am</strong> Acreditación de 50, 42 y 34K. Lugar: Plaza Salerno, en el centro de Villa Ventana.</li>
+                    <li><strong>9 am</strong> LARGADA 50, 42 Y 34K. Lugar: Puesta del Sol Houses & Nature, San Andrés de la Sierra.</li>
                     <li><strong>De 10 a 18 hs</strong> ACREDITACIÓN 25 Y 10K Lugar: Plaza Salerno, Villa Ventana.</li>
-                    <li><strong>17 hs</strong> premiación 50, 42 Y 34K. Lugar: Plaza Salerno, Villa Ventana.</li>
+                    <li><strong>17 hs</strong> Premiación 50, 42 Y 34K. Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>18 hs</strong> Charla técnica 25 y 10K. Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>18:30 hs</strong>: Desfile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
                 </ul>
