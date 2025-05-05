@@ -314,7 +314,7 @@ function ElDesafioPinamar() {
          <h4><strong><mark className='mark'>DOMINGO 03/08</mark></strong></h4>
          <ul>
           <li><strong>8 a 9:30HS:</strong> Acreditación y entrega de kits en Centro Comercial Pinamar Norte.</li>
-          <li><strong>10HS:</strong> Largadas 25K y 10K.</li>
+          <li><strong>10HS:</strong> Largadas 25K, 15K y 10K.</li>
           <li><strong>13HS:</strong> Largada distancia Kids (horario aproximado).</li>
           <li><strong>14HS:</strong> Premiación (horario aproximado).</li>
          </ul>
