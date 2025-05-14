@@ -53,6 +53,8 @@ function ElDesafio() {
                     <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de 2 días de competencia compuesta por 25K el sábado + 21K el domingo, o solo 1 día de 21K, 10K o KIDS el domingo, ambas modalidades con CAMPAMENTO OPCIONAL.</p>
                     <p className='descripcion'>El Desafío Columbia de Sierra de la Ventana es la carrera MÁS ALTA DE LA PROVINCIA con un ascenso de más de 1.000 metros al Cerro Carpa ¿Te la vas a perder?</p>
                     <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante día a día.</p>
+                    <p className='descripcion'><mark className='mark'><strong>27 Y 29 DE SEPTIEMBRE 2025</strong></mark></p>
+                    <p className='descripcion'><mark className='mark'><strong>INSCRIPCIONES ABIERTAS</strong></mark></p>
                     <ul className='redes'>
                     
                       <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -174,11 +176,57 @@ function ElDesafio() {
                 </ul>
 
                 <h3>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <p style={{textAlign: "center"}}><strong>INSCRIPCIÓN ONLINE PRÓXIMAMENTE</strong></p>
-                <p style={{textAlign: "center"}}><strong>INSCRIPCIÓN PRESENCIAL PRÓXIMAMENTE</strong></p>
+                <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p>
+                <h4><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
+                <p>Los pasos para inscribirse online son:</p>
+                <ol>
+                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero.</li>
+                    <li>Elegir la distancia.</li>
+                    <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera.</li>
+                    <li>Abonar la primera cuota vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
+                    <li>Se avisará por mail cuándo es momento de abonar la segunda cuota (30 días) y la tercera (60 días). Si no abonan las mismas, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
+                    <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li>
+                </ol>
+                
+                      <div className='contenedorBoton'>
+                    <div className='botonIntermedio'>
+                        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/desafio-columbia-sierra-de-la-ventana-2025' className='enlaceBoton'>
+                        <Button variant="success" size='lg' className='boton'>
+                            INSCRIBITE ACÁ
+                        </Button>
+                        </Link>
+                    </div>
+                    </div>
+
+                    <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
+                    <p>Les llegará un mail que dice “Inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
+             
+                <h4><mark className='mark'>INSCRIPCIÓN PRESENCIAL</mark></h4>
+                <p>Se abona el TOTAL de la carrera únicamente en EFECTIVO en los centros de inscripción.</p>
+                <p><strong>CENTRO DE INSCRIPCIÓN</strong></p>
+                <ul>
+                    <li>Aerorunners: Av. Córdoba 1360, CABA. Tel: 011-5811-1043</li>
+                    <li>TriSport Necochea: Calle 57, 3043. Tel: 2262-52-6684</li>
+                    <li>BicyShop Mar del Plata: Av. Independencia 3565. Tel: 0223-474-9816</li>
+                    <li>La Fe Deportes: Loria 193, Lomas de Zamora. Tel 11-6069-3133</li>
+                    <li>Adrogué Outdoors: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
+                </ul>
 
                 <h3>COSTOS</h3>
-                <p style={{textAlign: "center"}}><strong>PRÓXIMAMENTE</strong></p>
+                <h4>PRECIOS LANZAMIENTO</h4>
+                <h4>¡EN TRES PAGOS SIN INTERÉS! HASTA AGOTAR 100 CUPOS</h4>
+                <p>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$258.000</strong> en tres pagos de <strong>$86.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
+                <p>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <strong>$219.000</strong> en tres pagos de <strong>$73.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>.</p>
+                <p>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$516.000</strong> total en tres pagos de <strong>$172.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
+                <p>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: <strong>$438.000</strong> total en tres pagos de <strong>$146.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
+                <p>1 DÍA (DOMINGO) 21K: <strong>$108.000</strong> en tres pagos de <strong>$36.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
+                <p>1 DÍA (DOMINGO) 10K: <strong>$78.000</strong> en tres pagos de <strong>$26.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
+                <p>KIDS (DOMINGO) 1K: <strong>$12.000</strong> pago total.</p>
+
+
+                <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
+                <p><u>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa</u>.</p>
+
 
                 {/* <h3>TRASLADO</h3>
 
@@ -521,7 +569,8 @@ function ElDesafio() {
                 <li>Repelente para mosquitos</li>
                </ul>
 
-                
+                <h3>POLÍTICA DE PAGO DE CUOTAS</h3>
+                <p>Si te inscribiste en las fechas donde el pago es en tres sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
 
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
                 <p><strong>LEER CON ATENCIÓN:</strong></p>
@@ -585,16 +634,16 @@ function ElDesafio() {
                 </ul>
                 <p><strong><mark className='mark'>NO SE PUEDE HACER FUEGO DENTRO DE LA RESERVA NATURAL SIERRAS GRANDES. POR FAVOR NO NOS COMPROMETA.</mark></strong></p>
 
-             {/*    <div className='contenedorBoton'>
+                <div className='contenedorBoton'>
                     <div className='botonIntermedio'>
-                        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-sierra-de-la-ventana-2024' className='enlaceBoton'>
+                        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/desafio-columbia-sierra-de-la-ventana-2025' className='enlaceBoton'>
                         <Button variant="success" size='lg' className='boton'>
                             INSCRIBITE ACÁ
                         </Button>
                         </Link>
                     </div>
                     </div>
- */}
+ 
         </section>
     );
 }
