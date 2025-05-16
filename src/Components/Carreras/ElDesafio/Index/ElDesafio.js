@@ -175,7 +175,7 @@ function ElDesafio() {
                     <li>Premiación para ganadores de las generales</li>
                 </ul>
 
-                <h3>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
+                <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p>
                 <h4><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
                 <p>Los pasos para inscribirse online son:</p>
@@ -340,7 +340,7 @@ function ElDesafio() {
                 <ul>
                     <li>El campamento será opcional tanto para la modalidad de dos días como para la de un día de carrera. LA CARPA Y TODOS LOS ELEMENTOS DE CAMPAMENTO CORREN POR CUENTA DEL CORREDOR.</li>
                     <li>Los corredores que contratan campamento, deberán primero acreditarse para luego poder acceder al mismo. Cada corredor contará con una pulsera para ingresar al predio, otorgado en la acreditación.</li>
-                    <li>El campamento (que será dentro de la Reserva Natural Sierras Grandes, donde salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 5 de octubre desde las 10 am para que cada corredor pueda armar su propia carpa antes de correr.</li>
+                    <li>El campamento (que será dentro de la Reserva Natural Sierras Grandes, donde salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 27 de septiembre desde las 10 am para que cada corredor pueda armar su propia carpa antes de correr.</li>
                     <li>Los autos quedarán dentro del campamento, contamos con un <strong>estacionamiento sin cargo para quienes contratan el servicio</strong>.</li>
                     <li>El servicio de campamento incluye: estadía en el campo, cena del sábado, desayuno del domingo y estacionamiento sin cargo.</li>
                     <li>Los corredores de dos días que quieran acceder al campamento, lo seleccionan al momento de inscribirse. Los de 1 día y/o acompañantes, solicitan la estadía con un costo adicional por mail info@fcproducciones.com.ar</li>
