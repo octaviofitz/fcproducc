@@ -12,6 +12,12 @@ import km42 from '../../../../Img/m42/42k.webp'
 import km34 from '../../../../Img/m42/34k.webp'
 import km25 from '../../../../Img/m42/25k.webp'
 import km10 from '../../../../Img/m42/10k.webp'
+import Hidratacion10KM from '../../../../Img/m42/hidratacion10k.webp'
+import Hidratacion25KM from '../../../../Img/m42/hidratacion25k.webp'
+import Hidratacion34KM from '../../../../Img/m42/hidratacion34k.webp'
+import Hidratacion42KM from '../../../../Img/m42/hidratacion42k.webp'
+import Hidratacion50KM from '../../../../Img/m42/hidratacion50k.webp'
+
 
 
 /* Documentos */
@@ -298,6 +304,10 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
                 </div>
+                <br></br>
+
+                <img src={Hidratacion50KM} alt='Hidratación M42 50KM' className='img' /> 
+
 
                 <br></br>
                 
@@ -312,6 +322,9 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
                 </div>
+                <br></br>
+                <img src={Hidratacion42KM} alt='Hidratación M42 42KM' className='img' /> 
+
 
                 <br></br>
 
@@ -326,6 +339,9 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
                 </div>
+                <br></br>
+                <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' /> 
+
 
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
             
@@ -344,6 +360,9 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
+                <img src={Hidratacion25KM} alt='Hidratación M42 25KM' className='img' /> 
+
+                <br></br>
 
                 <div className='containerAltimetria'>
                   <div className='altimetriaIMG'>
@@ -356,6 +375,9 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
                 </div> 
                 </div>
+                <br></br>
+                <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' /> 
+
 {/* 
                 <br></br>
                 <h4>RECORRIDOS INTERACTIVOS 50 Y 42K</h4>
