@@ -154,11 +154,10 @@ function M42() {
 
                 
                 
-                <h3>TRASLADO 50, 42 Y 34K</h3>
-                <p>Habrá disponibilidad de un micro para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Puesta del Sol (lugar de largada) el día sábado 31 de mayo.</p>
+                <h3>TRASLADO 50, 42 Y 34K COMPLETO</h3>
+                <p>El traslado para ir desde Plaza Salerno (Villa Ventana) hasta el Complejo Puesta del Sol (lugar de largada) el día sábado 31 de mayo <strong>se encuentra completo</strong>.</p>
                 <p>El micro saldrá el sábado 31/5 a las 7.45 de la mañana puntual desde Plaza Salerno. Estar 10 min antes.</p>
                 <p>El costo será de $5.000 y se abona EN EFECTIVO al retirar el kit.</p>
-                <p>La reserva se hace previamente a <strong>info@fcproducciones.com.ar</strong> o al <strong>Whatsapp (+549-11-5135-6267)</strong> indicando nombre completo, dni y celular.</p>
                 <p>Por favor les solicitamos que la reserva sea confirmada por tema de cupos del micro. Es decir, una vez que reservan, que sea segura su participación en el traslado.</p>
                 {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4> */}
 
