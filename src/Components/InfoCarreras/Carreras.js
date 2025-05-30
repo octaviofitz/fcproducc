@@ -19,25 +19,27 @@ function Carreras() {
         <section className='carreras'>
             
 
-        <Contador />
+        {/* <Contador /> */}
+
+        <h1 className='titulo'>RESULTADOS PARCIALES M42</h1>
 
 
-     {/*    <div className='containerGeneral'>
+        <div className='containerGeneral'>
         <article className='container'>
-        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2>
-        <p className='texto'>Acá podrán ver los resultados y posteriormente las fotos y videos de llegada de todas las distancias.</p>
+        <img src={m42} className="carrerasimg" alt='Carrera El Desafío'></img>
+        {/* <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2> */}
+        <p className='texto'>¡Felicitaciones! Acá podés ver los resultados de los 50K, 42K y 34K. Las fotos se comienzan a cargar desde el lunes.</p>
         
-        <Link to='https://eventols.com/e/desafio-columbia-sierra-de-la-ventana-2024/results'>
-        <Button variant="success" size='lg' className='botondesafio'> RESULTADOS</Button>
+        <Link to='https://eventols.com/p/m42-2025/results'>
+        <Button variant="info" size='lg' className='botonm42'> RESULTADOS</Button>
         </Link>
 
         
-        <Button variant="success" size='lg' className='botondesafio' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS</Link></Button>
+       {/*  <Button variant="info" size='lg' className='botonm42' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS</Link></Button> */}
        
 
         </article>
-        </div> */}
+        </div> 
 
 
         <h1 className='titulo'>CARRERAS</h1>
