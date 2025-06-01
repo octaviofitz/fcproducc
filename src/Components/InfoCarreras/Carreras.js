@@ -21,14 +21,14 @@ function Carreras() {
 
         {/* <Contador /> */}
 
-        <h1 className='titulo'>RESULTADOS PARCIALES M42</h1>
+        <h1 className='titulo'>TODOS LOS RESULTADOS M42 2025</h1>
 
 
         <div className='containerGeneral'>
         <article className='container'>
         <img src={m42} className="carrerasimg" alt='Carrera El Desafío'></img>
         {/* <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2> */}
-        <p className='texto'>¡Felicitaciones! Acá podés ver los resultados de los 50K, 42K y 34K. Las fotos se comienzan a cargar desde el lunes.</p>
+        <p className='texto'>¡Felicitaciones! Acá podés ver los resultados de los 50K, 42K, 34K, 25K y 10K. Las fotos se comienzan a cargar desde el lunes.</p>
         
         <Link to='https://eventols.com/p/m42-2025/results'>
         <Button variant="info" size='lg' className='botonm42'> RESULTADOS</Button>
