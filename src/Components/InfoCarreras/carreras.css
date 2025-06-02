@@ -190,6 +190,14 @@
     padding-bottom: 0.5rem;
 }
 
+.carreras .contenedorBotones{
+    display: flex;
+    flex-direction: column;
+}
+
+.carreras .contenedorBotones .contenedorBoton:last-child{
+    margin-top: 1.75rem;
+}
 
 @media (min-width: 768px){
     .carreras .titulo{
@@ -323,6 +331,15 @@
 } */
 
 
+.carreras .contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.carreras .contenedorBotones .contenedorBoton:last-child{
+    margin-top: 0;
+}
 
 }
 
