@@ -79,7 +79,7 @@ function M42() {
                 <Button variant="info" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
                 <Button variant="info" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
                 <Button variant="info" size='lg' className='boton'><Link to='/m42/alojamientos'>Alojamientos</Link></Button>
-                <Button variant="info" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2024</Link></Button> 
+                <Button variant="info" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2025</Link></Button> 
                  {/* <Button variant="info" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
                 
@@ -111,7 +111,7 @@ function M42() {
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
                
                 <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                 <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
@@ -211,7 +211,7 @@ function M42() {
                     
                     <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -225,7 +225,7 @@ function M42() {
  */}
                     <li>AUTORIZACIÓN MENOR DE EDAD.</li>
                     <div className='contenedorBoton'>
-                <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
+                <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
                     {/* <div className='contenedorBoton'>
@@ -254,7 +254,7 @@ function M42() {
                 <p>Podés descargar un modelo del apto médico y presentarlo a tu médico para que lo complete y luego lo puedas cargar.</p>
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
-                         <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
+                         <Button disabled variant="info" size='lg' className='boton'><Link target='_blank' download='Apto Médico' to={AptoMedico}>DESCARGAR APTO MÉDICO</Link></Button>
                           </div>
                           </div>
 
@@ -404,9 +404,9 @@ function M42() {
 
                 <div className='contenedorBoton'>
                 
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
+        <Link /* target='_blank' rel="noopener noreferrer"  */to='/m42/resultados' className='enlaceBoton'>
         <Button variant="info" size='lg' className='boton'>
-            INSCRIBITE ACÁ
+            VER RESULTADOS
         </Button>
       </Link> 
 
@@ -650,9 +650,9 @@ function M42() {
                 
                 <div className='contenedorBoton'>
       
-                <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/m42-2025' className='enlaceBoton'>
+                <Link /* target='_blank' rel="noopener noreferrer"  */to='/m42/resultados' className='enlaceBoton'>
         <Button variant="info" size='lg' className='boton'>
-            INSCRIBITE ACÁ
+            VER RESULTADOS
         </Button>
       </Link>  
 

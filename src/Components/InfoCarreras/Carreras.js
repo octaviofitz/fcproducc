@@ -42,7 +42,7 @@ function Carreras() {
 
         <div className='contenedorBoton'>
         <Link to='https://fotols.com/e/m42-2025/fc-producciones'>
-        <Button variant="info" size='lg' className='botonm42' id='fotoResultado'>IMÁGENES</Button>
+        <Button variant="info" size='lg' className='botonm42' id='fotoResultado'>FOTOS</Button>
         </Link>
         </div>
         
