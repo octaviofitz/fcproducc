@@ -53,7 +53,7 @@ function ElDesafio() {
                     <p className='descripcion'>El Desafío Columbia es una carrera de trail running que sacará tu mejor versión aventurera. Se trata de 2 días de competencia compuesta por 25K el sábado + 21K el domingo, o solo 1 día de 21K, 10K o KIDS el domingo, ambas modalidades con CAMPAMENTO OPCIONAL.</p>
                     <p className='descripcion'>El Desafío Columbia de Sierra de la Ventana es la carrera MÁS ALTA DE LA PROVINCIA con un ascenso de más de 1.000 metros al Cerro Carpa ¿Te la vas a perder?</p>
                     <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante día a día.</p>
-                    <p className='descripcion'><mark className='mark'><strong>27 Y 29 DE SEPTIEMBRE 2025</strong></mark></p>
+                    <p className='descripcion'><mark className='mark'><strong>27 Y 28 DE SEPTIEMBRE 2025</strong></mark></p>
                     <p className='descripcion'><mark className='mark'><strong>INSCRIPCIONES ABIERTAS</strong></mark></p>
                     <ul className='redes'>
                     
