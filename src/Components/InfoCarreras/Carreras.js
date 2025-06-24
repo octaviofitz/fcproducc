@@ -19,15 +19,14 @@ function Carreras() {
         <section className='carreras'>
             
 
-        {/* <Contador /> */}
+         <Contador /> 
 
-        <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1>
+       {/*  <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1>
 
 
         <div className='containerGeneral'>
         <article className='container'>
         <img src={m42} className="carrerasimg" alt='Carrera El Desafío'></img>
-        {/* <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2> */}
         <p className='texto'>¡Felicitaciones! Acá podés ver la clasificación final de los 50K, 42K, 34K, 25K y 10K. Las fotos se comienzan a cargar desde el lunes.</p>
         
 
@@ -51,7 +50,7 @@ function Carreras() {
        
 
         </article>
-        </div> 
+        </div>  */}
 
 
         <h1 className='titulo'>CARRERAS</h1>
@@ -67,13 +66,6 @@ function Carreras() {
 
             <div className='containerGeneral'>
 
-            <article className='container'>
-            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
-            <h2 className='tituloResultados'>MARATÓN M42</h2>
-            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 10K y KIDS. ¡Nueva distancia! 31 de mayo, 1 de junio de 2025. ¡Inscripciones abiertas!</p>
-             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
-            </article>
-
             <div>
                <article className='container' id='novedades'>
            <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
@@ -82,6 +74,15 @@ function Carreras() {
             <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
            </article>
            </div>
+
+
+            <article className='container'>
+            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
+            <h2 className='tituloResultados'>MARATÓN M42</h2>
+            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 10K y KIDS. ¡Nueva distancia! 31 de mayo, 1 de junio de 2025. ¡Inscripciones abiertas!</p>
+             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
+            </article>
+
 
            <article className='container'>
            <img src={AlcecPrueba} id='AlcecPrueba' className="carrerasimg" alt='Carrera Alecec'></img>

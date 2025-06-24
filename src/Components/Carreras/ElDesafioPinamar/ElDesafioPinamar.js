@@ -149,8 +149,9 @@ function ElDesafioPinamar() {
               <li>En caso de tener un código de descuento por ser 10 ó más en un running team (leer apartado de teams), colocarlo en su casillero.</li>
               <li>Elegir la distancia.</li>
               <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podés subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
-              <li>Abonar la primera cuota vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
-              <li>Se avisará por mail cuándo es momento de abonar la segunda cuota (30 días) y la tercera (60 días). Si no abonan las mismas, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
+              <li>Abonar el 50% vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
+              <li>El 50% restante se abona el día de la acreditación en EFECTIVO.</li>
+              <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL.</li>
 
             <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
@@ -182,21 +183,21 @@ function ElDesafioPinamar() {
           </ul>
 
           <h3>COSTOS</h3>
-           <h4 style={{textAlign: "center"}}>¡PRECIO PRIMERA ETAPA!</h4> 
+           <h4 style={{textAlign: "center"}}>¡PRECIO SEGUNDA ETAPA!</h4> 
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li>25K: <strong>$78.000</strong> en 3 pagos $26.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-              <li>15K: <strong>$66.000</strong> en 3 pagos $22.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-              <li>10K: <strong>$57.000</strong> en 3 pagos $19.000 por transferencia o depósito bancario (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse).</li>
-              <li>KIDS: <strong>$10.900</strong> pago total. </li>
+              <li>25K: <strong>$84.000</strong> el 50% ($42.000) por transferencia o depósito bancario y el otro 50% ($42.000) en acreditación en EFECTIVO.</li>
+              <li>15K: <strong>$72.000</strong> el 50% ($36.000) por transferencia o depósito bancario y el otro 50% ($36.000) en acreditación en EFECTIVO.</li>
+              <li>10K: <strong>$62.000</strong> el 50% ($31.000) por transferencia o depósito bancario y el otro 50% ($31.000) en acreditación en EFECTIVO.</li>
+              <li>KIDS: <strong>$11.900</strong> pago total. </li>
 
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-          <p>Cuando los cupos se acaben, se cerrarán las inscripciones.</p>
+          <p>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</p>
 
           <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
-          <p>La forma de pago de inscripción es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse). Si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
+          <p>Si te inscribiste bajo la forma de pago de tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse). Si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo de la segunda cuota o la tercera pasará a valer el precio vigente.</p>
 
           <div className='contenedorBoton'>
             <div className='botonIntermedio'>
