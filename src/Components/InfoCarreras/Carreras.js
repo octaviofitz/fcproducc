@@ -75,6 +75,13 @@ function Carreras() {
            </article>
            </div>
 
+           <article className='container'>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
+        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
+        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
+        </article>
+
 
             <article className='container'>
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
@@ -91,13 +98,7 @@ function Carreras() {
              <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alcec'>Más información</Link></Button>
             </article>
 
-            <article className='container'>
-        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
-        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
-        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
-        </article>
-
+          
         <article className='container'>
            <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
            <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
