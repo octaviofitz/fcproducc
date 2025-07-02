@@ -1,4 +1,5 @@
 import React from 'react';
+import Ratio from "react-bootstrap/Ratio";
 import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
@@ -82,7 +83,20 @@ function M42() {
                 <Button variant="info" size='lg' className='boton'><Link to='/m42/resultados'>Resultados y fotos 2025</Link></Button> 
                  {/* <Button variant="info" size='lg' className='boton'><Link to='/m42/fotos2022'>Fotos 2023</Link></Button> */}
                 </div>
-                
+
+
+                <article className='video'>
+                <Ratio aspectRatio="16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/__ZwNgk0rxU?si=fAez1gJMw3vws9nL"
+              title="Carrera Alecec"
+            ></iframe>
+          </Ratio>              
+                </article>
+
+        
                 <h3 id='cartas'>Cartas</h3>
 
 

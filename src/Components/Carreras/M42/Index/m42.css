@@ -157,6 +157,7 @@
     color: #fff;
 }
 
+
 @media (min-width: 768px){
 
     .m42{
@@ -221,6 +222,13 @@
         justify-content: center;
         border-radius: 5%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+  
+    .m42 .video{
+        width: 75vw;
+        display: flex;
+        margin: auto;
+        border-radius: 10px;
     }
 }
 
@@ -335,7 +343,9 @@
         padding: 0.5rem 0;
     }
 
-    
+    .m42 .video{
+        width: 50vw;
+    }
 }
 
 @media (min-width: 1440px){
