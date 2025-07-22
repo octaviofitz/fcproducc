@@ -5,7 +5,10 @@ import Button from 'react-bootstrap/Button';
 
 import DesafioPinamar from '../../../Img/DesafioPinamar/flyerPinamar.webp';
 import recorrido10k from '../../../Img/DesafioPinamar/recorrido10k.webp';
+import recorrido15k from '../../../Img/DesafioPinamar/recorrido15k.webp';
 import recorrido25k from '../../../Img/DesafioPinamar/recorrido25k.webp';
+import recorridoKids from '../../../Img/DesafioPinamar/recorridoKids.webp';
+
 
 import AutMenores from '../../../PDF/Pinamar/autMenores.pdf';
 import AptoMedico from '../../../PDF/Pinamar/aptoMedico.pdf';
@@ -285,8 +288,10 @@ function ElDesafioPinamar() {
 
           <iframe src="https://www.google.com/maps/d/embed?mid=1r5D5euOYMhnz3Wrp4DRC1RFhTGd0UDc&ehbc=2E312F" width="600" height="450" loading='lazy' className='mapas' title='Mapa Interactivo Desafio Pinamar'></iframe>
           
-          {/* <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
-          <img src={recorrido25k} className='img' alt='Recorrido 25KM Desafio Pinamar' /> */}
+           <img src={recorrido10k} className='img' alt='Recorrido 10KM Desafio Pinamar' />
+           <img src={recorrido15k} className='img' alt='Recorrido 15KM Desafio Pinamar' />
+          <img src={recorrido25k} className='img' alt='Recorrido 25KM Desafio Pinamar' /> 
+          <img src={recorridoKids} className='img' alt='Recorrido Kids Desafio Pinamar' />
           
          {/*  <h5>VER MAPA INTERACTIVO</h5>
           <iframe src="https://www.google.com/maps/d/embed?mid=1r5D5euOYMhnz3Wrp4DRC1RFhTGd0UDc&ehbc=2E312F" width="600" height="450" loading='lazy' className='mapas' title='Mapa Interactivo Desafio Pinamar'></iframe> */}

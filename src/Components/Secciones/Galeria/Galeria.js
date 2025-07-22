@@ -33,9 +33,9 @@ function Galeria() {
             <Ratio aspectRatio="16x9">
             <iframe className='video' src="https://www.youtube.com/embed/cP7v7k5j7GA?si=WMVKpSf-WjA_B1fu" title="TODOS SOMOS ALCEC 2024"></iframe>
                 </Ratio>
-                <Ratio aspectRatio="16x9">
+               {/*  <Ratio aspectRatio="16x9">
             <iframe className='video' src="https://www.youtube.com/embed/lTBvSelSzyo" title="Todos somos Alcec 2022"></iframe>
-                </Ratio>
+                </Ratio> */}
             </div>
             <p className='texto'>Pero atención: hay mucho más. Suscribite al canal de YouTube de Revista Desafíos y mirá las ediciones de años anteriores.</p>
             <Button variant="danger" size='lg' className='boton'><Link to='https://www.youtube.com/user/RevistaDesafios' target="_blank" rel="noopener noreferrer">Canal de Youtube</Link></Button>
