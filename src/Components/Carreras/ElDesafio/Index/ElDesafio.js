@@ -177,15 +177,16 @@ function ElDesafio() {
 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p>
+             
                 <h4><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero.</li>
                     <li>Elegir la distancia.</li>
                     <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera.</li>
-                    <li>Abonar la primera cuota vía transferencia o depósito bancario y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
-                    <li>Se avisará por mail cuándo es momento de abonar la segunda cuota (30 días) y la tercera (60 días). Si no abonan las mismas, lo abonado en su primer momento pasará como parte de pago del siguiente precio sin descuento.</li>
-                    <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li>
+                    <li>Abonar el 50% al inscribirse por transferencia bancaria y/o billeteras virtuales y compartir el comprobante. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 7 días se elimina).</li>
+                    <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL.</li>
+                  {/*   <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li> */}
                 </ol>
                 
                       <div className='contenedorBoton'>
@@ -212,20 +213,20 @@ function ElDesafio() {
                     <li>Adrogué Outdoors: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
                 </ul>
 
-                <h3>COSTOS</h3>
-                <h4>PRECIOS LANZAMIENTO</h4>
-                <h4>¡EN TRES PAGOS SIN INTERÉS! HASTA AGOTAR 100 CUPOS</h4>
-                <p>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$258.000</strong> en tres pagos de <strong>$86.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
-                <p>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <strong>$219.000</strong> en tres pagos de <strong>$73.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>.</p>
-                <p>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: <strong>$516.000</strong> total en tres pagos de <strong>$172.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
-                <p>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: <strong>$438.000</strong> total en tres pagos de <strong>$146.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
-                <p>1 DÍA (DOMINGO) 21K: <strong>$108.000</strong> en tres pagos de <strong>$36.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
-                <p>1 DÍA (DOMINGO) 10K: <strong>$78.000</strong> en tres pagos de <strong>$26.000</strong> por transferencia o depósito bancario (<u>uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse</u>).</p>
-                <p>KIDS (DOMINGO) 1K: <strong>$12.000</strong> pago total.</p>
+                <h3>COSTOS PRIMERA ETAPA</h3>
+                {/* <h4>PRECIOS LANZAMIENTO</h4>
+                <h4>¡EN TRES PAGOS SIN INTERÉS! HASTA AGOTAR 100 CUPOS</h4> */}
+                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: $270.000</strong> el 50% ($135.000) por transferencia al inscribirse y el otro 50% ($135.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: $230.000</strong> el 50% ($115.000) por transferencia al inscribirse y el otro 50% ($115.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: $540.000</strong> el 50% ($270.000) por transferencia al inscribirse y el otro 50% ($270.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: $460.000</strong> el 50% ($230.000) por transferencia al inscribirse y el otro 50% ($230.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>1 DÍA (DOMINGO) 21K: $114.000</strong> el 50% ($57.000) por transferencia al inscribirse y el otro 50% ($57.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>1 DÍA (DOMINGO) 10K: $82.000</strong> el 50% ($81.000) por transferencia al inscribirse y el otro 50% ($81.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>KIDS (DOMINGO) 1K: $12.000</strong> <u>pago total al inscribirse</u>.</p>
 
 
-                <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-                <p><u>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa</u>.</p>
+                <p>Si tenés tu código de descuento por running team (solicitado previamente) debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
+                <p><u>Cuando los cupos se acaben, se cerrarán las inscripciones y los costos cambiarán en la próxima etapa.</u>.</p>
 
 
                 {/* <h3>TRASLADO</h3>

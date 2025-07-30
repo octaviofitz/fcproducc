@@ -89,7 +89,7 @@ function AlojamientosPinamar() {
             </div>
             </article> */}
 
-            <h3 className='recomendados'><Link to='https://pinamar.tur.ar/beneficios-desafio-columbia-pinamar/' target='_blank' rel='noopener noreferrer'>CLICK ACÁ PARA VER ALOJAMIENTOS RECOMENDADOS POR LA SECRETARÍA DE TURISMO</Link></h3>
+          {/*   <h3 className='recomendados'><Link to='https://pinamar.tur.ar/beneficios-desafio-columbia-pinamar/' target='_blank' rel='noopener noreferrer'>CLICK ACÁ PARA VER ALOJAMIENTOS RECOMENDADOS POR LA SECRETARÍA DE TURISMO</Link></h3> */}
 
 
         </div>
