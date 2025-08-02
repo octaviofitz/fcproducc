@@ -19,29 +19,30 @@ function Carreras() {
         <section className='carreras'>
             
 
-         <Contador /> 
+        {/*  <Contador />  */}
 
-       {/*  <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1>
+         <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA PINAMAR 2025</h1>
 
 
         <div className='containerGeneral'>
         <article className='container'>
-        <img src={m42} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <p className='texto'>¡Felicitaciones! Acá podés ver la clasificación final de los 50K, 42K, 34K, 25K y 10K. Las fotos se comienzan a cargar desde el lunes.</p>
+        <img src={DesafioPinamar} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>RESULTADOS + FOTOS Y VIDEOS</h2>
+        <p className='texto'>Acá podrán ver los resultados, las fotos y los videos de llegada de cada corredor. A medida que pasan las horas se irá cargando el material audiovisual.</p>
         
 
         <div className='contenedorBotones'>
             
             <div className='contenedorBoton'>
-            <Link to='https://eventols.com/p/m42-2025/results'>
-        <Button variant="info" size='lg' className='botonm42'>RESULTADOS</Button>
+            <Link to='https://eventols.com/p/desafio-columbia-pinamar-2025/results'>
+        <Button variant="warning" size='lg' className='botonDesafioPinamar' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
         </Link>
             </div>
         
 
         <div className='contenedorBoton'>
-        <Link to='https://fotols.com/e/m42-2025/fc-producciones'>
-        <Button variant="info" size='lg' className='botonm42' id='fotoResultado'>FOTOS</Button>
+        <Link to='https://fotols.com/e/desafio-columbia-pinamar-2025/fc-producciones'>
+        <Button variant="warning" size='lg' className='botonDesafioPinamar' id='fotoResultado'>FOTOS</Button>
         </Link>
         </div>
         
@@ -50,7 +51,7 @@ function Carreras() {
        
 
         </article>
-        </div>  */}
+        </div>  
 
 
         <h1 className='titulo'>CARRERAS</h1>
