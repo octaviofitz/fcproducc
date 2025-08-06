@@ -52,7 +52,7 @@ function ElDesafioPinamar() {
               <p className='descripcion'>Este es tu nuevo desafío por médanos y senderos. El domingo 3 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 15k, 10K y KIDS. Partiendo desde el Centro Comercial Pinamar Norte, vivirás un recorrido realmente soñado y diferente en donde conocerás la ciudad desde otro lado. 
               </p>
               <p className='descripcion'>A pedido de ustedes, agregamos nueva distancia de 15K. Inscripciones abiertas. Aquí abajo toda la información.</p>
-               <p className='descripcion'><mark className='mark'><b>INSCRIPCIONES ABIERTAS</b></mark></p>  
+              {/*  <p className='descripcion'><mark className='mark'><b>INSCRIPCIONES ABIERTAS</b></mark></p>   */}
               <ul className='redes'>
               
                 <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -116,7 +116,7 @@ function ElDesafioPinamar() {
           <p>*La edad para poder correr el Desafío Columbia Pinamar es a partir de los 16 años.</p>
           <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrá participar.</p>
            <div className='contenedorBoton'>
-          <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AutMenores} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
+          <Button variant="warning" size='lg' className='boton' disabled ><Link target='_blank' rel="noopener noreferrer" to={AutMenores} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
           </div> 
 
           <h3>DESCUENTO PARA TEAMS DE ENTRENAMIENTO</h3>
@@ -159,7 +159,7 @@ function ElDesafioPinamar() {
             <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
                     <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2025' className='enlaceBoton'>
-                    <Button variant="warning" size='lg' className='boton'>
+                    <Button variant="warning" size='lg' className='boton' disabled >
                         INSCRIBITE ACÁ
                     </Button>
                     </Link>
@@ -205,7 +205,7 @@ function ElDesafioPinamar() {
           <div className='contenedorBoton'>
             <div className='botonIntermedio'>
                 <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2025' className='enlaceBoton'>
-                <Button variant="warning" size='lg' className='boton'>
+                <Button variant="warning" size='lg' className='boton' disabled>
                     INSCRIBITE ACÁ
                 </Button>
                 </Link>
@@ -244,7 +244,7 @@ function ElDesafioPinamar() {
               <li>APTO MÉDICO.</li>
                <div className='contenedorBoton'>
                   <div className='botonIntermedio'>
-                      <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer"  to={AptoMedico}  download='Apto médico'>DESCARGAR APTO MÉDICO</Link></Button>
+                      <Button variant="warning" size='lg' className='boton' disabled><Link target='_blank' rel="noopener noreferrer"  to={AptoMedico}  download='Apto médico'>DESCARGAR APTO MÉDICO</Link></Button>
                       </div>
                           </div> 
               <li>DESLINDE DE RESPONSABILIDAD (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
@@ -252,7 +252,7 @@ function ElDesafioPinamar() {
               <li>AUTORIZACIÓN MENOR DE EDAD. En caso de ser necesario (SOLICITAR POR MAIL INFO@FCPRODUCCIONES.COM.AR)</li>
               
               <div className='contenedorBoton'>
-          <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer" to={AutMenores} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
+          <Button variant="warning" size='lg' className='boton' disabled><Link target='_blank' rel="noopener noreferrer" to={AutMenores} download='Autorización menores'>DESCARGAR AUTORIZACIÓN</Link></Button>
               </div> 
 
           </ol>
@@ -435,7 +435,8 @@ function ElDesafioPinamar() {
           <div className='contenedorBoton'>
       <div className='botonIntermedio'>
         <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/e/desafio-columbia-pinamar-2025' className='enlaceBoton'>
-          <Button variant="warning" size='lg' className='boton'>
+          <Button variant="warning" size='lg' className='boton' disabled
+          >
             INSCRIBITE ACÁ
           </Button>
         </Link>
