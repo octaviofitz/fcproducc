@@ -68,7 +68,7 @@ function ElDesafioPinamar() {
           <Button variant="warning" size='lg' className='boton' onClick={scrollInscripcion}><Link to='#inscripcion'>Inscripción</Link></Button>
           <Button variant="warning" size='lg' className='boton' onClick={scrollCronograma}><Link to='#cronograma'>Cronograma</Link></Button>
           <Button variant="warning" size='lg' className='boton' onClick={scrollReglamento}><Link to='#reglamento'>Reglamento</Link></Button>
-          <Button variant="warning" size='lg' className='boton' onClick={scrollReglamento}><Link to='/desafio-pinamar/resultados'>Resultados + FOTOS 2024</Link></Button>
+          <Button variant="warning" size='lg' className='boton' onClick={scrollReglamento}><Link to='/desafio-pinamar/resultados'>Resultados + FOTOS 2025</Link></Button>
           <Button variant="warning" size='lg' className='boton' ><Link to='/desafio-pinamar/alojamientos'>Alojamientos</Link></Button>
 
        {/*    <Button variant="warning" size='lg' className='boton'><Link to='/desafio-columbia/alojamientos'>Alojamientos</Link></Button>
