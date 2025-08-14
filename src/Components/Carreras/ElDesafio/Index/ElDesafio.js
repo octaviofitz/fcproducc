@@ -135,16 +135,14 @@ function ElDesafio() {
                 <h3>CATEGORÍAS</h3>
                 <p><strong>- INDIVIDUAL:</strong> Damas y caballeros:</p>
                 <ul >
-                    <li>Hasta 25 años</li>
-                    <li>26 a 35 años</li>
+                    <li>Hasta 35 años</li>
                     <li>36 a 45 años</li>
                     <li>46 a 55 años</li>
-                    <li>56 a 65 años</li>
-                    <li>66 años en adelante*</li>
+                    <li>56 años en adelante*</li>
                 </ul>
                 <p><strong>- EQUIPO MIXTO:</strong> Sin categoría. *</p>
                 <p><strong>- EQUIPO MASC Y FEM:</strong> Sin categoría. *</p>
-                <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad.</p>
+                <p><strong>*Las categorías pueden modificarse en caso de no completar el cupo mínimo de 6 corredores en la misma a 45 días antes de la carrera.</strong></p>
                 <p><b>LAS EDADES SERÁN COMPUTADAS AL 27 DE SEPTIEMBRE DE 2025</b></p>
                 <p>*La edad mínima para poder correr El Desafío Columbia es a partir de los 16 años.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr. De lo contrario, no podrán participar.</p>
@@ -357,14 +355,15 @@ function ElDesafio() {
                     <li><strong>HORARIO DE DESAYUNO 28/09:</strong> 7 a 8:30 horas</li>
                 </ul>
              
+
+
+
              <h3>RECORRIDOS</h3>
-             <p style={{textAlign: "center"}} ><strong>PRÓXIMAMENTE</strong></p>
+              <p style={{textAlign: "center"}} ><strong>Destildar la distancia que no se quiera ver</strong></p> 
 
 
-           {/*      <h3>RECORRIDO 25K</h3>
-                
              <iframe
-                    src="https://www.instagram.com/p/C_wTaRKOPc4/embed"
+                    src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"
                     width="400"
                     height="480"
                     frameBorder="0"
@@ -375,9 +374,9 @@ function ElDesafio() {
                 ></iframe>
 
 
-                <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' /> */}
+             {/*    <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' /> 
 
-            {/*     <h3>RECORRIDO 21K</h3>
+             <h3>RECORRIDO 21K</h3>
 
              <iframe
                     src="https://www.instagram.com/p/C_0Ta_lunWl/embed"
@@ -391,9 +390,9 @@ function ElDesafio() {
                 ></iframe>
  
 
-                <img src={Imagen21KM} alt='Recorrido 21KM Desafío Sierras' className='recorridos' /> */}
+                <img src={Imagen21KM} alt='Recorrido 21KM Desafío Sierras' className='recorridos' /> 
 
-               {/*  <h3>RECORRIDO 10K</h3>
+                <h3>RECORRIDO 10K</h3>
 
                  <iframe
                     src="https://www.instagram.com/p/C_9BsyvuV-0/embed"
@@ -407,15 +406,34 @@ function ElDesafio() {
                 ></iframe>
                
 
-                <img src={Imagen10KM} alt='Recorrido 10KM Desafío Sierras' className='recorridos' /> */}
-{/* 
+                <img src={Imagen10KM} alt='Recorrido 10KM Desafío Sierras' className='recorridos' /> 
+
                 <h3>VER MAPA INTERACTIVO DE RECORRIDOS</h3>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"  width="600" height="450" loading="lazy" className='mapas' title='Mapa interactivo carrera'></iframe> */}
+                <iframe src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"  width="600" height="450" loading="lazy" className='mapas' title='Mapa interactivo carrera'></iframe> 
+
+
+ */}
 
                 
-
+                <div style={{display:'flex', flexDirection:'column', margin:'auto', textAlign:'center'}}>
                 <h3>ALTIMETRÍA</h3>
-                <p style={{textAlign: "center"}}>PRÓXIMAMENTE</p>
+                
+                <h4>🏃ALTIMETRÍA DÍA 1: 25K</h4>
+                <p>📈Desnivel: 1127 metros positivo</p>
+                <p>🔝Altura máxima: 1037 metros</p>
+                <p>⬇ Altura mínima: 345 metros</p>
+
+                <h4>🏃ALTIMETRÍA DÍA 2: 21K</h4>
+                <p>📈Desnivel: 909 metros positivo</p>
+                <p>🔝Altura máxima: 592 metros</p>
+                <p>⬇ Altura mínima: 344 metros</p>
+
+                <h4>🏃ALTIMETRÍA DÍA 2: 10K</h4>
+                <p>📈Desnivel: 399 metros positivo</p>
+                <p>🔝Altura máxima: 553 metros</p>
+                <p>⬇ Altura mínima: 391 metros</p>
+                </div>
+
 
                 <h3>RUNNING KIDS</h3>
                 <p>Desde el staff de FC Producciones buscamos otro tipo de carrera para los más chicos. Realizamos una correcaminata controlada con parte de nuestro equipo en donde vamos con todos los chicos juntos, en un gran grupo, frenando en puntos clave, para ir explicando cómo pisar o cómo manejarse en este tipo de eventos. Una especie de introducción pedagógica al trail running.</p>
@@ -533,6 +551,9 @@ function ElDesafio() {
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
                 <p>Podés usar el modelo de apto médico nuestro u cualquier otro.</p>
 
+                <h4><mark className='mark'>CATEGORÍAS:</mark></h4>
+                <p>Las categorías pueden modificarse en caso de no completar el cupo mínimo de 6 corredores en la misma a 45 días antes de la carrera.</p>
+
 
             <h3>ELEMENTOS OBLIGATORIOS PARA LA CARRERA</h3>
                <ul>
@@ -619,7 +640,7 @@ function ElDesafio() {
                 <p>Los premios no tienen cambio.</p>
 
                 <h4><mark className='mark'>ENVÍO DE PREMIOS</mark></h4>
-                <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y se le enviará por terminal de micros, Oca o Correo Argentino. El COSTO de ENVÍO corre por cuenta del corredor, sin excepción.</p>
+                <p>Toda persona que no se encuentre presente al momento de la premiación y le corresponda premio, podrá solicitarlo vía mail y retirar únicamente por LOMAS DE ZAMORA.</p>
 
                 <h3>TOMA DE TIEMPO Y CLASIFICACIONES</h3>
                 <p>La toma de tiempo y clasificación será electrónica con chip. Los participantes deberán utilizar el dorsal (junto con el chip) obligatoriamente durante la carrera por control y seguridad, para poder ser clasificados y tener sus respectivas fotos. El dorsal siempre tiene que estar VISIBLE.</p>

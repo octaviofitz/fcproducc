@@ -21,7 +21,7 @@ function Carreras() {
 
         {/*  <Contador />  */}
 
-         <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA PINAMAR 2025</h1>
+    {/*      <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA PINAMAR 2025</h1>
 
 
         <div className='containerGeneral'>
@@ -51,7 +51,7 @@ function Carreras() {
        
 
         </article>
-        </div>  
+        </div>   */}
 
 
         <h1 className='titulo'>CARRERAS</h1>
@@ -67,6 +67,13 @@ function Carreras() {
 
             <div className='containerGeneral'>
 
+            <article className='container'>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
+        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
+        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
+        </article>
+
             <div>
                <article className='container' id='novedades'>
            <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
@@ -75,13 +82,6 @@ function Carreras() {
             <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
            </article>
            </div>
-
-           <article className='container'>
-        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
-        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
-        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
-        </article>
 
 
             <article className='container'>
