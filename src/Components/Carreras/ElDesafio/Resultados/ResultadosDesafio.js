@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import Button from 'react-bootstrap/Button';
 
 /* Img */
-import ResultadosLogo from '../../../../Img/Resultados/Logo-Desafio.webp'
-
+/* import ResultadosLogo from '../../../../Img/Resultados/Logo-Desafio.webp'
+ */
 /*PDF */
-import Categorias2110 from '../../../../PDF/desafioResultados/CATEGORIAS10-21K.pdf'
+/* import Categorias2110 from '../../../../PDF/desafioResultados/CATEGORIAS10-21K.pdf'
 import General2110 from '../../../../PDF/desafioResultados/GENERALM2110K21K.pdf'
 import CategoriasDesafio from '../../../../PDF/desafioResultados/CATEGORIASDESAFÍO2D.pdf'
-import SUMATIEMPOS from '../../../../PDF/desafioResultados/SUMATIEMPOS.pdf'
+import SUMATIEMPOS from '../../../../PDF/desafioResultados/SUMATIEMPOS.pdf' */
 import PersonalColumbia from '../../../../Img/index/PersonalColumbia.webp'
 import GeneralColumbia from '../../../../Img/index/GeneralColumbia.webp'
 
@@ -18,10 +18,10 @@ import '../Resultados/resultadosDesafio.css'
 
 function ResultadosDesafio() {
 
-    function volverAtras() {
+ /*    function volverAtras() {
         window.history.back();
       }
-
+ */
     return (
         <section className='resultadosDesafio'>
             <h5 className='titulo'>Resultados Y FOTOS DESAFÍO COLUMBIA</h5>

@@ -7,7 +7,6 @@ import HotelProv from '../../../../Img/Alojamientos/hotelProv.webp'
 import ElMirador from '../../../../Img/Alojamientos/elMirador.webp'
 import LuzDelCielo from '../../../../Img/Alojamientos/luzDelCielo.webp'
 import Jorge from '../../../../Img/Alojamientos/jorge.webp'
-import YMCA from '../../../../Img/Alojamientos/ymca.webp'
 import PuestaDelSol from '../../../../Img/Alojamientos/puestaDelSol.webp'
 import Cabania from '../../../../Img/Alojamientos/cabania.webp';
 import Tornquist from '../../../../Img/Alojamientos/tornquist.webp'

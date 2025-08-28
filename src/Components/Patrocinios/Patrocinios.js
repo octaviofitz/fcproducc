@@ -2,7 +2,6 @@ import React from "react";
 
 /* IMG */
 import Columbia from "../../Img/Patrocinios/Columbia.png";
-import Alerces from "../../Img/Patrocinios/Alerces.png";
 import CerroColorado from "../../Img/Patrocinios/cerroColorado.png";
 import Ciclismo from "../../Img/Patrocinios/Ciclismo.png";
 import CorrerLomas from "../../Img/Patrocinios/CorrerLomas.png";

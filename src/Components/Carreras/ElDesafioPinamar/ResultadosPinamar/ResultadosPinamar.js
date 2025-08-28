@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-import PinamarResultados from '../../../../Img/index/pinamarResultados.webp';
+/* import PinamarResultados from '../../../../Img/index/pinamarResultados.webp'; */
 import DesafioPinamarResultados from '../../../../Img/index/pinamar.webp';
 
 import './resultadosPinamar.css';

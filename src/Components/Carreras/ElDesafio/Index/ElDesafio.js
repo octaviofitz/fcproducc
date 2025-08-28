@@ -371,6 +371,7 @@ function ElDesafio() {
                     allowtransparency="true"
                     allow="encrypted-media"
                     className='recorridos'
+                    title='Mapa interactivo recorridos El Desafio'
                 ></iframe>
 
 
@@ -418,20 +419,20 @@ function ElDesafio() {
                 <div style={{display:'flex', flexDirection:'column', margin:'auto', textAlign:'center'}}>
                 <h3>ALTIMETRÍA</h3>
                 
-                <h4>🏃ALTIMETRÍA DÍA 1: 25K</h4>
-                <p>📈Desnivel: 1127 metros positivo</p>
-                <p>🔝Altura máxima: 1037 metros</p>
-                <p>⬇ Altura mínima: 345 metros</p>
+                <h4><span role="img" aria-label="emoji corredor">🏃</span>ALTIMETRÍA DÍA 1: 25K</h4>
+                <p><span role="img" aria-label="emoji desnivel">📈</span>Desnivel: 1127 metros positivo</p>
+                <p><span role="img" aria-label="emoji altura máxima">🔝</span>Altura máxima: 1037 metros</p>
+                <p><span role="img" aria-label="emoji altura mínima">⬇</span> Altura mínima: 345 metros</p>
 
-                <h4>🏃ALTIMETRÍA DÍA 2: 21K</h4>
-                <p>📈Desnivel: 909 metros positivo</p>
-                <p>🔝Altura máxima: 592 metros</p>
-                <p>⬇ Altura mínima: 344 metros</p>
+                <h4><span role="img" aria-label="emoji corredor">🏃</span>ALTIMETRÍA DÍA 2: 21K</h4>
+                <p><span role="img" aria-label="emoji desnivel">📈</span>Desnivel: 909 metros positivo</p>
+                <p><span role="img" aria-label="emoji altura máxima">🔝</span>Altura máxima: 592 metros</p>
+                <p><span role="img" aria-label="emoji corredor">⬇</span>Altura mínima: 344 metros</p>
 
-                <h4>🏃ALTIMETRÍA DÍA 2: 10K</h4>
-                <p>📈Desnivel: 399 metros positivo</p>
-                <p>🔝Altura máxima: 553 metros</p>
-                <p>⬇ Altura mínima: 391 metros</p>
+                <h4><span role="img" aria-label="emoji corredor">🏃</span>ALTIMETRÍA DÍA 2: 10K</h4>
+                <p><span role="img" aria-label="emoji desnivel">📈</span>Desnivel: 399 metros positivo</p>
+                <p><span role="img" aria-label="emoji altura máxima">🔝</span>Altura máxima: 553 metros</p>
+                <p><span role="img" aria-label="emoji altura mínima">⬇</span>Altura mínima: 391 metros</p>
                 </div>
 
 

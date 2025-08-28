@@ -8,8 +8,8 @@ import AlececFlyer from "../../../Img/Alecec/alecec.webp";
 import AlececResultados from "../../../Img/index/alcec2.webp";
 
 /* PDF */
-import AlcecCategorias from "../../../PDF/alcecCategorias.pdf";
-import AlcecGenerales from "../../../PDF/alcecGenerales.pdf";
+/* import AlcecCategorias from "../../../PDF/alcecCategorias.pdf";
+import AlcecGenerales from "../../../PDF/alcecGenerales.pdf"; */
 
 import "./alecec.css";
 

@@ -28,7 +28,7 @@ function TimeUnit({ value, label }) {
 function Contador() {
   // Define la fecha y hora objetivo (1 de Mayo, 14:00 hs, zona horaria Argentina UTC-3)
   // Asegúrate que el año sea futuro si quieres ver el contador activo.
-  const targetDate = new Date("2025-08-03T09:10:00-03:00").getTime(); // Ejemplo: 1 de Mayo 2026
+  const targetDate = new Date("2025-09-27T14:00:00-03:00").getTime(); // Ejemplo: 1 de Mayo 2026
 
   // --- Lógica interna del contador ---
   const calculateTimeLeft = () => {
@@ -72,7 +72,7 @@ function Contador() {
     <div className="containerContador">
       <div className="countdown-box">
         <h1 className="titleContador">
-          CUENTA REGRESIVA DESAFÍO COLUMBIA PINAMAR
+          DESAFÍO COLUMBIA SIERRA DE LA VENTANA
         </h1>
 
         {timeLeft.expired ? (

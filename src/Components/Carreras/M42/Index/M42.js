@@ -23,7 +23,7 @@ import Hidratacion50KM from '../../../../Img/m42/hidratacion50k.webp'
 
 /* Documentos */
 import AutorizacionMenores from '../../../../PDF/autMenores.pdf';
-import Deslinde from '../../../../PDF/deslinde.pdf';
+/* import Deslinde from '../../../../PDF/deslinde.pdf'; */
 import AptoMedico from '../../../../PDF/aptoMedico.pdf'
 
 import '../Index/m42.css'

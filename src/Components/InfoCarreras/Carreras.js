@@ -19,7 +19,7 @@ function Carreras() {
         <section className='carreras'>
             
 
-        {/*  <Contador />  */}
+          <Contador />  
 
     {/*      <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA PINAMAR 2025</h1>
 

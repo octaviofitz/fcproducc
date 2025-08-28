@@ -12,7 +12,6 @@ import Cabania from '../../../../Img/Alojamientos/cabania.webp';
 import Tornquist from '../../../../Img/Alojamientos/tornquist.webp';
 import Cocolanel from '../../../../Img/Alojamientos/cocolonanel.webp';
 import RocioDeLuna from '../../../../Img/Alojamientos/rociodeluna.webp';
-import Alerces from '../../../../Img/Alojamientos/alerces.webp';
 import Mapu from '../../../../Img/Alojamientos/mapuM42.webp';
 import Ventania from '../../../../Img/Alojamientos/ventania.webp'
 import Robles from '../../../../Img/Alojamientos/robles.webp'

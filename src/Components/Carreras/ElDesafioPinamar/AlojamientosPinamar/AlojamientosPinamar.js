@@ -6,8 +6,6 @@ import Button from 'react-bootstrap/Button';
 import GardenSuites from '../../../../Img/DesafioPinamar/Alojamientos/gardenSuites.webp';
 import HotelPlayas from '../../../../Img/DesafioPinamar/Alojamientos/hotelPlayas.webp';
 import Mojomar from '../../../../Img/DesafioPinamar/Alojamientos/mojomar.webp';
-import Wanglen from '../../../../Img/DesafioPinamar/Alojamientos/wanglen.webp';
-
 
 import './alojamientosPinamar.css';
 

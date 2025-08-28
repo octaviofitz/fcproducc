@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 import Button from 'react-bootstrap/Button';
 
-import General from '../../../../Img/index/General.webp';
+/* import General from '../../../../Img/index/General.webp'; */
 import imgM42 from '../../../../Img/index/m42.webp'
 
-import '../Resultados/resultadosM42.css';
+import '../Resultados/resultadosM42.css';   
 
 function ResultadosM42() {
 
