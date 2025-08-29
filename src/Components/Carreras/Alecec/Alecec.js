@@ -30,13 +30,16 @@ function Alecec() {
           FC Producciones, en conjunto con ALCEC la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, provincia de Entre Ríos, creó un mega evento con un sentido de pertenencia muy grande, tanto para los que la organizan, como para los que participan.
           </p>
           <p className="descripcion">
-          Comenzó hace 11 años, en su primera edición 700 fueron las personas que se acercaron para colaborar y año a año fue aumentando el número, a tal punto que, hoy en día, son más de 3.000 las personas que se anotan para colaborar con la causa de ALCEC.
+          Comenzó hace 12 años, en su primera edición 700 fueron las personas que se acercaron para colaborar y año a año fue aumentando el número, a tal punto que, hoy en día, son más de 3.000 las personas que se anotan para colaborar con la causa de ALCEC.
           </p>
           <p className="descripcion">
-          Cada octubre (en algunos casos septiembre), mes rosa, mes de la sensibilización sobre el cáncer de mama, se realiza el Maratón Solidario Todos Somos ALCEC. Con distancias de 8 kilómetros competitivos, 4 kilómetros participativos, en los cuales muchos compiten a su máximo rendimiento, pero muchos otros participan con simple fin de colaborar, por lo tanto, se pueden ver caminantes, cochecitos de bebés, adultos mayores y mucho más y, una distancia de 1K para los más pequeños.
+          Cada octubre (en algunos casos septiembre), mes rosa, mes de la sensibilización sobre el cáncer de mama, se realiza el Maratón Solidario Todos Somos ALCEC. Con distancias de 10 kilómetros competitivos, 4 kilómetros participativos, en los cuales muchos compiten a su máximo rendimiento, pero muchos otros participan con simple fin de colaborar, por lo tanto, se pueden ver caminantes, cochecitos de bebés, adultos mayores y mucho más y, una distancia de 1K para los más pequeños.
           </p>
           <p className="descripcion">
-          Cada año se vive una fiesta solidaria en familia. Y este 2024 se cumplen 11 años, ¡te esperamos el 28 de septiembre! Las inscripciones ya están abiertas. 
+          Todo lo recaudado es destinado para el centro de detección temprana y tratamiento de ALCEC.
+          </p>
+          <p className="descripcion">
+          Cada año se vive una fiesta solidaria en familia. Y este 2025 se cumplen 12 años, ¡te esperamos el 13 de septiembre! Las inscripciones ya están abiertas.
           </p>
 
           <div className="contenedorBotones">
@@ -91,9 +94,11 @@ function Alecec() {
         </div>
       </article>
 
+      
+
       <article className="categorias">
 
-        <div className="container">
+        {/* <div className="container">
           <h4>CATEGORÍAS 2023</h4>
           <img
             src={AlececResultados}
@@ -109,10 +114,10 @@ function Alecec() {
               VER RESULTADOS
             </Link>
           </Button>
-        </div>
+        </div> */}
 
         <div className="container">
-          <h4>GENERALES 2023</h4>
+          <h4>RESULTADOS 2024</h4>
           <img
             src={AlececResultados}
             alt="Resultados Alcec Generales"
@@ -122,7 +127,7 @@ function Alecec() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              to='https://www.cronomet.com.ar/?cronomet=alcec23-8g'
+              to='https://www.cronomet.com.ar/?cronomet=alcec2024-g'
               download="Alcec generales 2022"
             >
               VER RESULTADOS

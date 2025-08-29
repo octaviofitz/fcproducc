@@ -35,7 +35,7 @@ function BasicExample() {
             <NavDropdown.Item as={Link} to='/desafio-columbia' id='el-Desafio' onClick={handleNavClick}>
               DESAFÍO SIERRA DE LA VENTANA
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to='/colinasenaccion' id='colinas' onClick={handleNavClick}>
+            <NavDropdown.Item as={Link} to='/colinasenaccion' id='colinas' onClick={handleNavClick} disabled>
               COLINAS EN ACCIÓN
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to='/alcec' id='alecec' onClick={handleNavClick}>

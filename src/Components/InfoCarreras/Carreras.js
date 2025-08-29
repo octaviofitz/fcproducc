@@ -74,6 +74,26 @@ function Carreras() {
         <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
         </article>
 
+        <article className='container'>
+           <img src={AlcecPrueba} id='AlcecPrueba' className="carrerasimg" alt='Carrera Alecec'></img>
+           <h2 className='tituloResultados'>TODOS SOMOS ALCEC</h2>
+            <p className='texto'>Todos Somos Alcec es un evento solidario que organizamos junto a la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, en Entre Ríos, hace 10 años. Son 8K, 4K y 1K con más de 3.000 participantes.</p>
+             <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alcec'>Más información</Link></Button>
+            </article>
+
+            <article className='container'>
+           <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
+           <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
+            <p className='texto'>Colinas en acción es un evento solidario que organizamos junto al colegio Colinas Verdes de Lomas de Zamora, en su cuarta edición. Son 7K competitivos, 3.5K participativos y 1k para los más peques. 2 de noviembre 2025.</p>
+              <Button variant="secondary" size='lg' className='botonColinas' disabled> <Link to='https://eventols.com/p/colinas-en-accion-2025'>Más información</Link></Button> 
+           {/*   <Link to='https://eventols.com/e/colinas-en-accion/results'>
+        <Button variant="success" size='lg' className='botonColinas'>RESULTADOS</Button>
+        </Link>
+        
+        <Button variant="success" size='lg' className='botonColinas' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS</Link></Button> */}
+       
+            </article>
+
             <div>
                <article className='container' id='novedades'>
            <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
@@ -91,27 +111,6 @@ function Carreras() {
              <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
             </article>
 
-
-           <article className='container'>
-           <img src={AlcecPrueba} id='AlcecPrueba' className="carrerasimg" alt='Carrera Alecec'></img>
-           <h2 className='tituloResultados'>TODOS SOMOS ALCEC</h2>
-            <p className='texto'>Todos Somos Alcec es un evento solidario que organizamos junto a la Asociación de Lucha Contra el Cáncer de Concepción del Uruguay, en Entre Ríos, hace 10 años. Son 8K, 4K y 1K con más de 3.000 participantes.</p>
-             <Button variant="danger" size='lg' className='botonAlecec'> <Link to='alcec'>Más información</Link></Button>
-            </article>
-
-          
-        <article className='container'>
-           <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
-           <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
-            <p className='texto'>Colinas en acción es un evento solidario que organizamos junto al colegio Colinas Verdes de Lomas de Zamora, en su tercera edición. Son 7K competitivos, 4K participativos y 1k para los más peques.</p>
-              <Button variant="secondary" size='lg' className='botonColinas'> <Link to='colinasenaccion'>Más información</Link></Button> 
-           {/*   <Link to='https://eventols.com/e/colinas-en-accion/results'>
-        <Button variant="success" size='lg' className='botonColinas'>RESULTADOS</Button>
-        </Link>
-        
-        <Button variant="success" size='lg' className='botonColinas' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS</Link></Button> */}
-       
-            </article>
 
 
 
