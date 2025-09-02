@@ -84,7 +84,7 @@ function Carreras() {
             <article className='container'>
            <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
            <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
-            <p className='texto'>Colinas en acción es un evento solidario que organizamos junto al colegio Colinas Verdes de Lomas de Zamora, en su cuarta edición. Son 7K competitivos, 3.5K participativos y 1k para los más peques. 2 de noviembre 2025.</p>
+            <p className='texto'>Colinas en acción es un evento solidario organizado junto al colegio Colinas Verdes de Lomas de Zamora, en su cuarta edición. Son 7K competitivos, 3.5K participativos y 1k para los más peques. 2 de noviembre 2025.</p>
               <Button variant="secondary" size='lg' className='botonColinas' disabled> <Link to='https://eventols.com/p/colinas-en-accion-2025'>Más información</Link></Button> 
            {/*   <Link to='https://eventols.com/e/colinas-en-accion/results'>
         <Button variant="success" size='lg' className='botonColinas'>RESULTADOS</Button>

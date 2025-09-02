@@ -1,4 +1,5 @@
 import React from 'react';
+import Ratio from "react-bootstrap/Ratio";
 import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
@@ -75,6 +76,30 @@ function ElDesafioPinamar() {
           <Button variant="warning" size='lg' className='boton'><Link to='/desafio-columbia/resultados'>Resultados + FOTOS 2023</Link></Button> */}
          {/*  <Button variant="warning" size='lg' className='boton' disabled><Link to='/desafio-columbia/fotos2022'>Fotos 2023</Link></Button> */}
           </div>
+
+          
+          <article className='video'>
+                <Ratio aspectRatio="16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/HktKzyS9jM8?si=ckKyF7eDRUEVM6UQ"
+              title="Carrera El Desafio Pinamar"
+            ></iframe>
+          </Ratio>              
+                </article>
+
+                 
+                <article className='video'>
+                <Ratio aspectRatio="16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_oYEBBGDcYA?si=0EZOTdXxc40BCEFM"
+              title="Carrera El Desafio Pinamar"
+            ></iframe>
+          </Ratio>              
+                </article> 
 
           <h3 id='cartas'>Cartas</h3>
 

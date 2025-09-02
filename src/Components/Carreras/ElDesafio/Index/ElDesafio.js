@@ -79,18 +79,18 @@ function ElDesafio() {
                 <ul>
                     <li><strong>El Desafío Columbia: 46K divididos en 2 días:</strong></li>
                 </ul>
-                <p>Son distancias reales de 25 kilómetros el sábado y 21 kilómetros el domingo, con campamento opcional.</p>
+                <p>Son distancias reales de 23 kilómetros el sábado y 20 kilómetros el domingo, con campamento opcional.</p>
                 <p>Disfrutarán un recorrido duro con varios ascensos, uno de ellos es al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de 1.000 metros. Es un evento ideal para prepararse para otras carreras exigentes de mayor distancia y también de varios días como El Cruce.</p>
 
                 <ul>
                     <li><strong>21K media maratón de domingo</strong></li>
                 </ul>
-                <p>Un día de carrera. 21 kilómetros. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
+                <p>Un día de carrera. 20 kilómetros. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
 
                 <ul>
                     <li><strong>10K y un inicio al trail running para muchos</strong></li>
                 </ul>
-                <p>Un día de carrera. 10 kilómetros el domingo. Una carrera para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas.</p>
+                <p>Un día de carrera. 11 kilómetros el domingo. Una carrera para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas.</p>
 
                 <ul>
                     <li><strong>Distancia kids: introducción al trail</strong></li>
@@ -100,7 +100,7 @@ function ElDesafio() {
                 <ul>
                     <li><strong>RESUMEN PARA TODAS LAS DISTANCIAS</strong></li>
                 </ul>
-                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes. Las distancias son reales: 25K, 21K, 10K y 1K para los kids.</p>
+                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes. Las distancias son reales: 23K, 20K, 11K y 1K para los kids.</p>
 
 
                 <ul>

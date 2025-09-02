@@ -152,6 +152,14 @@
     color: #fff;
 }
 
+.elDesafioPinamar .video{
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
 
 
 @media (min-width: 768px){
@@ -308,6 +316,10 @@
 
     .elDesafioPinamar .img{
         width: 40vw;
+    }
+
+    .elDesafioPinamar  .video{
+        width: 50vw;
     }
 
 }
