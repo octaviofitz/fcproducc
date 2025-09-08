@@ -219,7 +219,7 @@ function ElDesafio() {
                 <p><strong>DOS DÍAS EQUIPO (25K + 21K) CON SERVICIO DE CAMPAMENTO: $540.000</strong> el 50% ($270.000) por transferencia al inscribirse y el otro 50% ($270.000) <u>en acreditación en EFECTIVO</u>.</p>
                 <p><strong>DOS DÍAS EQUIPO (25K + 21K) SIN CAMPAMENTO: $460.000</strong> el 50% ($230.000) por transferencia al inscribirse y el otro 50% ($230.000) <u>en acreditación en EFECTIVO</u>.</p>
                 <p><strong>1 DÍA (DOMINGO) 21K: $114.000</strong> el 50% ($57.000) por transferencia al inscribirse y el otro 50% ($57.000) <u>en acreditación en EFECTIVO</u>.</p>
-                <p><strong>1 DÍA (DOMINGO) 10K: $82.000</strong> el 50% ($81.000) por transferencia al inscribirse y el otro 50% ($81.000) <u>en acreditación en EFECTIVO</u>.</p>
+                <p><strong>1 DÍA (DOMINGO) 10K: $82.000</strong> el 50% ($41.000) por transferencia al inscribirse y el otro 50% ($41.000) <u>en acreditación en EFECTIVO</u>.</p>
                 <p><strong>KIDS (DOMINGO) 1K: $12.000</strong> <u>pago total al inscribirse</u>.</p>
 
 
