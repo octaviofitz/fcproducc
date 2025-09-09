@@ -9,10 +9,11 @@ import AptoMedicoDesafio from '../../../../PDF/aptoMedicoDesafio.pdf';
 import AutMenoresDesafio from '../../../../PDF/autMenoresDesafio.pdf';
 
 import elDesafio from '../../../../Img/ElDesafio/elDesafio.webp';
-/* import Imagen10KM from '../../../../Img/ElDesafio/10KM.webp';
+import Imagen10KM from '../../../../Img/ElDesafio/10KM.webp';
 import Imagen21KM from '../../../../Img/ElDesafio/21KM.webp';
-import Imagen25KM from '../../../../Img/ElDesafio/25KM.webp'; */
-import comoLlegar from '../../../../Img/ElDesafio/comoLlegar.webp'
+import Imagen25KM from '../../../../Img/ElDesafio/25KM.webp'; 
+import ImagenKids from '../../../../Img/ElDesafio/KIDS.webp';
+import comoLlegar from '../../../../Img/ElDesafio/comoLlegar.webp';
 
 
 import '../Index/elDesafio.css'
@@ -79,18 +80,21 @@ function ElDesafio() {
                 <ul>
                     <li><strong>El Desafío Columbia: 46K divididos en 2 días:</strong></li>
                 </ul>
-                <p>Son distancias reales de 23 kilómetros el sábado y 20 kilómetros el domingo, con campamento opcional.</p>
-                <p>Disfrutarán un recorrido duro con varios ascensos, uno de ellos es al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de 1.000 metros. Es un evento ideal para prepararse para otras carreras exigentes de mayor distancia y también de varios días como El Cruce.</p>
+                <p>El sábado comienza la aventura para ustedes con la distancia más larga en el DÍA 1. Largan 14hs.</p>
+                <p>El campamento es opcional. Recomendamos vivir la experiencia.</p>
+                <p>El domingo, 10am, largan su DÍA 2 con el resto de las modalidades.</p>
+                <p>Disfrutarán un recorrido duro con varios ascensos, uno de ellos, el sábado, es al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de 1.000 metros.</p>
+                <p>Es un evento ideal para prepararse para otras carreras exigentes de mayor distancia y también de varios días como El Cruce.</p>
 
                 <ul>
                     <li><strong>21K media maratón de domingo</strong></li>
                 </ul>
-                <p>Un día de carrera. 20 kilómetros. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
+                <p>Un día de carrera. Domingo. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
 
                 <ul>
                     <li><strong>10K y un inicio al trail running para muchos</strong></li>
                 </ul>
-                <p>Un día de carrera. 11 kilómetros el domingo. Una carrera para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas.</p>
+                <p>Un día de carrera. Domingo. Una distancia para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas.</p>
 
                 <ul>
                     <li><strong>Distancia kids: introducción al trail</strong></li>
@@ -100,7 +104,7 @@ function ElDesafio() {
                 <ul>
                     <li><strong>RESUMEN PARA TODAS LAS DISTANCIAS</strong></li>
                 </ul>
-                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes. Las distancias son reales: 23K, 20K, 11K y 1K para los kids.</p>
+                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes.</p>
 
 
                 <ul>
@@ -375,11 +379,13 @@ function ElDesafio() {
                 ></iframe>
 
 
-             {/*    <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' /> 
+                <h3>RECORRIDO 25K</h3>
+
+                 <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' /> 
 
              <h3>RECORRIDO 21K</h3>
 
-             <iframe
+           {/*   <iframe
                     src="https://www.instagram.com/p/C_0Ta_lunWl/embed"
                     width="400"
                     height="480"
@@ -388,14 +394,14 @@ function ElDesafio() {
                     allowtransparency="true"
                     allow="encrypted-media"
                     className='recorridos'
-                ></iframe>
+                ></iframe> */}
  
 
                 <img src={Imagen21KM} alt='Recorrido 21KM Desafío Sierras' className='recorridos' /> 
 
                 <h3>RECORRIDO 10K</h3>
 
-                 <iframe
+                {/*  <iframe
                     src="https://www.instagram.com/p/C_9BsyvuV-0/embed"
                     width="400"
                     height="480"
@@ -404,16 +410,16 @@ function ElDesafio() {
                     allowtransparency="true"
                     allow="encrypted-media"
                     className='recorridos'
-                ></iframe>
+                ></iframe> */}
                
 
                 <img src={Imagen10KM} alt='Recorrido 10KM Desafío Sierras' className='recorridos' /> 
 
-                <h3>VER MAPA INTERACTIVO DE RECORRIDOS</h3>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"  width="600" height="450" loading="lazy" className='mapas' title='Mapa interactivo carrera'></iframe> 
 
+                <h3>RECORRIDO KIDS</h3>
 
- */}
+                <img src={ImagenKids} alt='Recorrido Kids Desafío Sierras' className='recorridos' /> 
+
 
                 
                 <div style={{display:'flex', flexDirection:'column', margin:'auto', textAlign:'center'}}>
