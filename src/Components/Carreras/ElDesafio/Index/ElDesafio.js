@@ -215,7 +215,7 @@ function ElDesafio() {
                     <li>Adrogué Outdoors: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
                 </ul>
 
-                <h3>COSTOS PRIMERA ETAPA</h3>
+                <h3>COSTOS</h3>
                 {/* <h4>PRECIOS LANZAMIENTO</h4>
                 <h4>¡EN TRES PAGOS SIN INTERÉS! HASTA AGOTAR 100 CUPOS</h4> */}
                 <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: $270.000</strong> el 50% ($135.000) por transferencia al inscribirse y el otro 50% ($135.000) <u>en acreditación en EFECTIVO</u>.</p>
