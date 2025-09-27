@@ -19,39 +19,58 @@ function Carreras() {
         <section className='carreras'>
             
 
-          <Contador />  
+         {/*  <Contador />   */}
 
-    {/*      <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA PINAMAR 2025</h1>
+          <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA SIERRA</h1>
 
 
         <div className='containerGeneral'>
         <article className='container'>
-        <img src={DesafioPinamar} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
         <h2 className='tituloResultados'>RESULTADOS + FOTOS Y VIDEOS</h2>
-        <p className='texto'>Acá podrán ver los resultados, las fotos y los videos de llegada de cada corredor. A medida que pasan las horas se irá cargando el material audiovisual.</p>
+        <p className='texto'>Aquí se van a ir actualizando los resultados del Desafío Columbia Sierras Grandes y desde el lunes se van a ir cargando las fotos y los videos de llegada.</p>
         
 
         <div className='contenedorBotones'>
             
             <div className='contenedorBoton'>
-            <Link to='https://eventols.com/p/desafio-columbia-pinamar-2025/results'>
-        <Button variant="warning" size='lg' className='botonDesafioPinamar' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
+            <Link to='https://eventols.com/p/desafio-columbia-sierra-de-la-ventana-2025/results'>
+        <Button variant="success" size='lg' className='botondesafio' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
         </Link>
             </div>
         
 
-        <div className='contenedorBoton'>
-        <Link to='https://fotols.com/e/desafio-columbia-pinamar-2025/fc-producciones'>
-        <Button variant="warning" size='lg' className='botonDesafioPinamar' id='fotoResultado'>FOTOS</Button>
+       {/*  <div className='contenedorBoton'>
+        <Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'>
+        <Button variant="success" size='lg' className='botondesafio' id='fotoResultado'>FOTOS</Button>
         </Link>
-        </div>
+        </div>   versión ACTIVA */}
+
+        <div className='contenedorBoton'>
+  <Link
+    to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'
+    onClick={(e) => e.preventDefault()} // evita navegar
+    style={{ pointerEvents: 'none' }}   // bloquea clics
+  >
+    <Button
+      variant="success"
+      size='lg'
+      className='botondesafio'
+      id='fotoResultado'
+      disabled
+    >
+      FOTOS
+    </Button>
+  </Link>
+</div>
+
         
         </div>
         
        
 
         </article>
-        </div>   */}
+        </div>   
 
 
         <h1 className='titulo'>CARRERAS</h1>
