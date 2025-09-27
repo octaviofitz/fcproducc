@@ -542,7 +542,12 @@ function ElDesafio() {
                <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
                <ul>
                 <li>La participación en la carrera implica su responsabilidad por los datos suministrados en la ficha de inscripción, su aceptación plena del reglamento, bases y condiciones del evento, y el pago de la inscripción.</li>
-                <li>La organización podrá impedir que un participante continúe en la competencia en caso de que el staff médico lo aconseje. La organización podrá realizar modificaciones de distancias, recorridos y horarios por factores climáticos, de seguridad u otros motivos. Tales decisiones no darán derecho a reclamo alguno hacia la organización, sponsors o staff médico.</li>
+                <li>La organización podrá impedir que un participante continúe en la competencia en caso de que el staff médico lo aconseje.</li>
+                <li>La organización podrá realizar modificaciones de distancias, recorridos y horarios por inclemencias climáticas, de seguridad u otros factores que impidan su normal desarrollo.</li>
+                <li>Además, podrá suspender, cancelar o reprogramar el evento por los mismos motivos.</li>
+                <li>Tales decisiones no darán derecho a reclamo alguno hacia la organización, sponsors o staff médico.</li>
+                <li>La decisión será tomada en función de las circunstancias y comunicada oportunamente a los participantes.</li>
+
                </ul>
 
                <h4><mark className='mark'>ABANDONO</mark></h4>
