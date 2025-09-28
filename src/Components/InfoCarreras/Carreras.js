@@ -27,8 +27,8 @@ function Carreras() {
         <div className='containerGeneral'>
         <article className='container'>
         <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>RESULTADOS + FOTOS Y VIDEOS</h2>
-        <p className='texto'>Aquí se van a ir actualizando los resultados del Desafío Columbia Sierras Grandes y desde el lunes se van a ir cargando las fotos y los videos de llegada.</p>
+        <h2 className='tituloResultados'>RESULTADOS + FOTOS</h2>
+        <p className='texto'>Aquí se van a ir actualizando los resultados del Desafío Columbia Sierras Grandes y desde el lunes se van a ir cargando las fotos.</p>
         
 
         <div className='contenedorBotones'>
