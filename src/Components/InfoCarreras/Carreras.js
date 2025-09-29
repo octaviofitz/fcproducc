@@ -40,13 +40,13 @@ function Carreras() {
             </div>
         
 
-       {/*  <div className='contenedorBoton'>
+         <div className='contenedorBoton'>
         <Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'>
         <Button variant="success" size='lg' className='botondesafio' id='fotoResultado'>FOTOS</Button>
         </Link>
-        </div>   versión ACTIVA */}
+        </div>    
 
-        <div className='contenedorBoton'>
+{/*         <div className='contenedorBoton'>
   <Link
     to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'
     onClick={(e) => e.preventDefault()} // evita navegar
@@ -63,7 +63,7 @@ function Carreras() {
     </Button>
   </Link>
 </div>
-
+ */}
         
         </div>
         
