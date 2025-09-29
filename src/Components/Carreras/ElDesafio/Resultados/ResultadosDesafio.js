@@ -12,6 +12,7 @@ import CategoriasDesafio from '../../../../PDF/desafioResultados/CATEGORIASDESAF
 import SUMATIEMPOS from '../../../../PDF/desafioResultados/SUMATIEMPOS.pdf' */
 import PersonalColumbia from '../../../../Img/index/PersonalColumbia.webp'
 import GeneralColumbia from '../../../../Img/index/GeneralColumbia.webp'
+import DesafioColumbia from '../../../../Img/index/elDesafio.webp'
 
 
 import '../Resultados/resultadosDesafio.css'
@@ -29,11 +30,11 @@ function ResultadosDesafio() {
             <div className='Container'>
               <div>
             <article className='cards'>
-            <img src={PersonalColumbia} className='logo' alt='Resultados Desafío' />
+            <img src={DesafioColumbia} className='logo' alt='Resultados Desafío' />
             <p className='texto'><strong>CLASIFICACIÓN</strong></p>
-            <p className='texto'>Acá podrán ver su resultado y descargar su certificado finisher.</p>
+            <p className='texto'>Acá podrán ver su resultado </p>
 
-           <Button variant="success" size="lg" className="boton"> <a href='https://eventols.com/e/desafio-columbia-sierra-de-la-ventana-2024/results'>RESULTADOS</a></Button>
+           <Button variant="success" size="lg" className="boton"> <a href='https://eventols.com/p/desafio-columbia-sierra-de-la-ventana-2025/results'>RESULTADOS</a></Button>
             
             </article>
             </div>
@@ -41,10 +42,10 @@ function ResultadosDesafio() {
             <div>
 
             <article className='cards'>
-            <img src={GeneralColumbia} className='logo' alt='Resultados Desafío' />
+            <img src={DesafioColumbia} className='logo' alt='Resultados Desafío' />
             <p className='texto'><strong>TODAS LAS FOTOS DE LA CARRERA</strong></p>
             <p className='texto'>Fotos de todo el fin de semana: acreditación, salidas, recorrido, campamento y mucho más</p>
-           <Button variant="success" size="lg" className="boton"> <a href='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana/fc-producciones'>FOTOS GENERALES</a></Button>
+           <Button variant="success" size="lg" className="boton"> <a href='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'>FOTOS</a></Button>
 
             </article>
             </div>
