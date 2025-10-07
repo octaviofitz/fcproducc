@@ -19,7 +19,7 @@ function Carreras() {
         <section className='carreras'>
             
 
-         {/*  <Contador />   */}
+   {/*         <Contador />   
 
           <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA SIERRA</h1>
 
@@ -46,31 +46,14 @@ function Carreras() {
         </Link>
         </div>    
 
-{/*         <div className='contenedorBoton'>
-  <Link
-    to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'
-    onClick={(e) => e.preventDefault()} // evita navegar
-    style={{ pointerEvents: 'none' }}   // bloquea clics
-  >
-    <Button
-      variant="success"
-      size='lg'
-      className='botondesafio'
-      id='fotoResultado'
-      disabled
-    >
-      FOTOS
-    </Button>
-  </Link>
-</div>
- */}
+
         
         </div>
         
        
 
         </article>
-        </div>   
+        </div>    */}
 
 
         <h1 className='titulo'>CARRERAS</h1>
@@ -87,13 +70,6 @@ function Carreras() {
             <div className='containerGeneral'>
 
             <article className='container'>
-        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
-        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
-        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
-        </article>
-
-        <article className='container'>
            <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
            <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
             <p className='texto'>Colinas en acción es un evento solidario organizado junto al colegio Colinas Verdes de Lomas de Zamora, en su cuarta edición. Son 7K competitivos, 3.5K participativos y 1k para los más peques. 2 de noviembre 2025.</p>
@@ -105,6 +81,15 @@ function Carreras() {
         <Button variant="success" size='lg' className='botonColinas' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS</Link></Button> */}
        
             </article>
+
+            <article className='container'>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
+        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
+        <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
+        </article>
+
+        
 
         <article className='container'>
            <img src={AlcecPrueba} id='AlcecPrueba' className="carrerasimg" alt='Carrera Alecec'></img>
