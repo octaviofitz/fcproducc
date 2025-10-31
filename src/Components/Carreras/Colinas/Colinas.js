@@ -23,30 +23,31 @@ function Colinas() {
         
         <div className="containerDescripcion">
           <p className="descripcion">
-          ¡El domingo 3 de noviembre preparate para vivir un fin de semana solidario!
+          <strong>¡Gracias por participar de la cuarta edición de nuestra carrera solidaria COLINAS EN ACCIÓN!</strong>
           </p>
           <p className="descripcion">
-          Colinas en acción, la tercera edición de una hermosa carrera para toda la familia. 
+          Todo lo recaudado será a beneficio del Hogar Pereyra.
           </p>
           <p className="descripcion">
-          Podés correr 7 kilómetros competitivos, 4 kilómetros participativos y también acompañar a los más peques en su distancia de 1K.
+          ¡Acá podrán ver su resultados y sus fotos cuando estés listas!
           </p>
-          <p className="descripcion">
-          Lo recaudado será a beneficio del Hogar Pereyra. 
-          </p>
-          <p className="descripcion">
+         {/*  <p className="descripcion">
           ¡Los esperamos a todos! A quienes quieran venir a correr a su máximo rendimiento, a los que vengan a trotar y a quienes quieran participar con el simple fin de colaborar.
-          </p>
+          </p> */}
 
 
           <div className="contenedorBotones">
       
 
-        <Link to='https://eventols.com/e/colinas-en-accion/results'>
-        <Button variant="secondary" size='lg' className='botonColinas'>RESULTADOS 2024</Button>
+        <Link to='https://eventols.com/p/colinas-en-accion-2025/results'>
+        <Button variant="secondary" size='lg' className='botonColinas'>RESULTADOS 2025</Button>
+        </Link>
+
+        <Link to='https://fotols.com/e/colinas-en-accion-2025/colinas-en-accion-2025'>
+        <Button variant="secondary" size='lg' className='botonColinas' style={{marginTop: '1rem'}}>FOTOS 2025</Button>
         </Link>
         
-        <Button variant="secondary" size='lg' className='botonColinas' style={{marginTop: '1rem'}}><Link to='https://fotols.com/e/colinas-en-accion/fc-producciones'>FOTOS 2024</Link></Button> 
+       {/*  <Button variant="secondary" size='lg' className='botonColinas' ><Link to=''></Link></Button>  */}
 
 
       </div>
