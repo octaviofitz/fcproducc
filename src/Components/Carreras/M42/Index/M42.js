@@ -65,7 +65,7 @@ function M42() {
                                     <p className='descripcion'>Paisajes inolvidables, cruces de arroyos, un histórico hotel abandonado por donde pasaron Nazis, senderos, bosques y mucho trail, sumado a una compañía única de los demás corredores y del staff de FC Producciones que harán que sea un fin de semana que no olvidarás jamás.</p>
                                     <p className='descripcion'>50K, 42K y 34K el sábado 30 de mayo y 25K, 15K, 10K y las distancias KIDS de 3K y 1K el domingo. Sí,  LA GRAN NOVEDAD de este 2026 son los ¡15 kilómetros! nuestra nueva distancia. Si querés un poco más de exigencia, vas a poder correr los dos días.</p>
                                     <p className='descripcion'>Estas son las 8 modalidades que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42, volver a participar, pero elevando la distancia en la próxima edición.</p>
-                                    <p className='descripcion'>Agendá la fecha de la edición N°14: 30 y 31 de mayo de 2026. ¡Inscripciones abiertas!</p>                                      
+                                    <p className='descripcion'>Agendá la fecha de la edición N°14: 30 y 31 de mayo de 2026.</p>                                      
                                   {/*   <ul className='redes'>
                     
                                         <li><Link to='https://www.instagram.com/MaratonM42/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -102,7 +102,7 @@ function M42() {
                 <h3 id='cartas'>Cartas</h3>
 
 
-                <h4><mark>DATOS GENERALES</mark></h4>
+                <h4>DATOS GENERALES</h4>
                 <p><strong>Carrera:</strong> Maratón de montaña M42 edición N°14.</p>
                 <p><strong>Fechas:</strong> 30 Y 31 de mayo de 2026.</p>
                 <p><strong>Lugares:</strong> San Andrés de la Sierra y Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -131,7 +131,7 @@ function M42() {
                 <Button variant="info" size='lg' className='boton'><Link target='_blank' download='Autorización Menores' to={AutorizacionMenores}>DESCARGAR AUTORIZACIÓN</Link></Button>
                 </div>
 
-                <h4><mark>LA INSCRIPCIÓN INCLUYE</mark></h4>
+                <h4>LA INSCRIPCIÓN INCLUYE</h4>
                 <ul>
                     <li>Derecho a participar.</li>
                     <li>Servicio de hidratación durante el recorrido.</li>
@@ -176,24 +176,24 @@ function M42() {
                 <p>El micro saldrá a las 7:45 de la mañana puntual desde Plaza Salerno. Deben estar 10 min antes.</p>
                 <p>El costo se define próximamente.</p>
                 <p>Deben confirmar la reserva con anticipación para obtener su lugar en el traslado. En caso de reservar y luego no utilizarlo, avisar a la organización.</p>
-                {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</mark></h4> */}
+                {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</h4> */}
 
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
-                 <h4><mark>VIERNES 29 DE MAYO</mark></h4>
+                 <h4><mark className='mark'>VIERNES 29 DE MAYO</mark></h4>
                 <p>Lugar: La Gran Cabaña, Belisario y Picaflor, Villa Ventana, Provincia de Buenos Aires.</p>
-                <p>Horario: De 11 a 19 hs.</p>
+                <p><strong>Horario: De 11 a 19 hs.</strong></p>
                 <p>*El día y horario es todas las distancias (50K, 42K, 34K, 25K, 15K, 10K y Kids)</p>
                 
                  <h5>¿CÓMO LLEGAR A LA GRAN CABAÑA?</h5>
                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3140.386906552386!2d-61.929315!3d-38.084657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf2d093d0f4fd%3A0xad4d33cb6aa65910!2sLa%20Gran%20Caba%C3%B1a%20-%20Hotel%20Spa%20%26%20Restaurante!5e0!3m2!1ses-419!2sar!4v1740175342495!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
                
-                <h4><mark>SÁBADO 30 DE MAYO</mark></h4>
-                <p>ATENCIÓN: *El día y horario es únicamente para las distancias del domingo (25K, 15K, 10K y KIDS). Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
+                <h4><mark className='mark'>SÁBADO 30 DE MAYO</mark></h4>
+                <p style={{textDecoration:'underline'}}>ATENCIÓN: *El día y horario es únicamente para las distancias del domingo <strong>(25K, 15K, 10K y KIDS)</strong>. Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <ul>
-                    <li>Horario 50K, 42K y 34K: 6:30 a 7:30 am</li>
-                    <li>Horario 25K y 10K: de 10 a 18 hs</li>
+                    {/* <li>Horario 50K, 42K y 34K: 6:30 a 7:30 am</li> */}
+                    <li><strong>Horario 25K, 15K y 10K:</strong> de 10 a 18 hs</li>
                 </ul>
                 {/* <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p> */}
                
@@ -202,13 +202,13 @@ function M42() {
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
-                <h4><mark>DOMINGO 31 DE MAYO</mark></h4>
+                <h4><mark className='mark'>DOMINGO 31 DE MAYO</mark></h4>
                 <p>ATENCIÓN: Los horarios serán respetados por distancias. No acreditaremos a nadie fuera de su horario correspondiente.</p>
                 <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
-                    <li>Horario 25K: 6.30 a 7.30 am</li>
-                    <li>Horario 15K: 7.30 a 8.30 am</li>
-                    <li>Horario 10K: 8.30 a 9.30 am</li>
+                    <li><strong>Horario 25K: 6.30 a 7.30 am</strong></li>
+                    <li><strong>Horario 15K: 7.30 a 8.30 am</strong></li>
+                    <li><strong>Horario 10K: 8.30 a 9.30 am</strong></li>
                 </ul>
 {/*                 <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO ESPERAR AL DOMINGO PARA RETIRAR. EL KIT PUEDE RETIRARLO OTRA PERSONA (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
  */}
@@ -217,9 +217,9 @@ function M42() {
  
 
 
-               {/*  <h4><mark>A PRESENTAR EN ACREDITACIÓN</mark></h4>
-                <p><mark>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR 
-                VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</mark></p> */}
+               {/*  <h4>A PRESENTAR EN ACREDITACIÓN</h4>
+                <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR 
+                VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p> */}
 
               {/*   <h5>De completar el proceso de inscripción online como corresponde (esto es: completar los datos, firmar el deslinde ONLINE y adjuntar el apto físico) NO DEBERÁN PRESENTAR NINGUNA DOCUMENTACIÓN EN ACREDITACIÓN. Solo presentarse con el DNI. </h5> */}
                 
@@ -250,13 +250,13 @@ function M42() {
 
                 </ol> */}
 
-                <h3><mark>RETIRO DE KITS POR TITULAR</mark></h3>
+                <h3>RETIRO DE KITS POR TITULAR</h3>
                 <p>Para retirar el kit deberán presentarse dentro de los horarios de acreditación correspondientes con el DNI físico.</p>
                 <p>La organización sólo entregará el kit si el titular tiene firmado el deslinde de responsabilidad virtual y subido/confirmado el apto médico de forma online.</p>
                 <p>En caso de no tenerlo hecho, deben completar los pasos en el momento (no recomendado)</p>
 
 
-                <h3><mark>RETIRO DE KITS POR TERCEROS</mark></h3>
+                <h3>RETIRO DE KITS POR TERCEROS</h3>
                 <p>Si el participante titular de la inscripción firmó el deslinde virtual y subió el apto médico a su estado de Eventols (y está confirmado)  el tercero deberá presentar el DNI o la fotocopia del titular. De no contar con estos requisitos, la organización NO entregará el kit.</p>
                {/*  <ol>
                     <li>FOTOCOPIA DEL DNI DEL TITULAR</li>
@@ -266,7 +266,7 @@ function M42() {
                 <p><strong>De no contar con estos requisitos la organización NO entregará el Kit.</strong></p> */}
                             
                 
-                <h3><mark>APTO MÉDICO</mark></h3>
+                <h3>APTO MÉDICO</h3>
                 <p>El apto médico debe cargarse en la web a la hora de inscribirse. El apto médico tiene que tener <strong>vigencia de 1 año</strong> a partir de la fecha que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma con sello del médico.</p>
                 <p>La validación del apto médico será realizada por la organización.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
@@ -281,7 +281,7 @@ function M42() {
 
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
-                <h4><mark>SÁBADO 30 DE MAYO | 50K, 42K Y 34K</mark></h4>
+                <h4>SÁBADO 30 DE MAYO | 50K, 42K Y 34K</h4>
                 <p><strong>- LARGADA</strong>: Puesta del Sol Houses & Nature (Calle Gnena Kena y Chila, San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires).</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -289,7 +289,7 @@ function M42() {
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.2079439959557!2d-62.091638599999996!3d-38.0655381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c416455dcb%3A0x57970baf20e534ec!2sPuesta%20del%20Sol%20Houses%20%26%20Nature!5e0!3m2!1ses-419!2sar!4v1737142048342!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Puesta de Sol'></iframe>
 
 
-                <h4><mark>DOMINGO 31 DE MAYO | 25K, 15K, 10K y KIDS</mark></h4>
+                <h4>DOMINGO 31 DE MAYO | 25K, 15K, 10K y KIDS</h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
                 <p><strong>HORARIOS</strong></p>
                 <ul>
@@ -307,13 +307,15 @@ function M42() {
                  <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
+                <h3>ALTIMETRÍA PRÓXIMAMENTE</h3>
+
                {/*    <div className='containerAltimetria'>
                      <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
                 </div> 
                 </div>   */}
-
-                <div className='containerAltimetria'>
+{/* 
+                 <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
                  <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' /> 
                 </div> 
@@ -360,7 +362,7 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
-                <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' /> 
+                <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' />  */}
 
 
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K, 15K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
@@ -368,9 +370,9 @@ function M42() {
                  <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> 
 
-                <h4><strong>RECORRIDO 15K PRÓXIMAMENTE</strong></h4>
+                <h4 style={{textAlign:'center'}}><mark className='mark' >RECORRIDO 15K PRÓXIMAMENTE</mark></h4>
 
-                <div className='containerAltimetria'>
+                {/* <div className='containerAltimetria'>
                  <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
                 </div>  
@@ -399,7 +401,7 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
-                <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' /> 
+                <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />   */}
 
 {/* 
                 <br></br>
@@ -415,7 +417,7 @@ function M42() {
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <p><b>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</b></p>
                 
-                <h4><mark>INSCRIPCIÓN ONLINE</mark></h4>
+                <h4>INSCRIPCIÓN ONLINE</h4>
                 <p>Los pasos para inscribirse online son:</p>
 
                 <ol>
@@ -440,7 +442,7 @@ function M42() {
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
                 <p>Les llegará un mail que dice “Inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
 
-                <h4><mark>INSCRIPCIÓN PRESENCIAL</mark></h4>
+                <h4>INSCRIPCIÓN PRESENCIAL</h4>
                 <p>Se abona el TOTAL de la carrera únicamente en EFECTIVO en los centros de inscripción.</p>
                 <h5>CENTROS DE INSCRIPCIÓN:</h5>
                 <ul>
@@ -451,14 +453,14 @@ function M42() {
                     <li><strong>Adrogué Outdoors</strong>: Av. Mitre 1110, Adrogué. Tel 4293-6350</li>
                 </ul>
 
-                <h4><mark>DESCUENTO TEAMS DE ENTRENAMIENTO</mark></h4>
+                <h4>DESCUENTO TEAMS DE ENTRENAMIENTO</h4>
                 <p>10% de descuento en cada inscripción y un cupo liberado para 1 profesor/a. La condición es ser 10 participantes o más.</p>
                 <p>Para obtener los beneficios: primero el profesor/a debe solicitarlo a nuestro WhatsApp (+549-11-5135-6267) o al mail info@fcproducciones.com.ar, así les enviamos el CÓDIGO DE INSCRIPCIÓN el cual habilita el descuento.</p>
                 <p><strong>Si se anotan sin pedirlo o sin ingresarlo, no obtendrán el descuento y no podrá aplicarse luego.</strong></p>
 
                
                 <h3>COSTOS</h3>
-                   <h4><strong>¡PROMO LANZAMIENTO! HASTA AGOTAR 200 CUPOS</strong></h4>
+                   <h4><strong>¡PROMO LANZAMIENTO! HASTA AGOTAR LOS PRIMEROS 100 CUPOS</strong></h4>
                 <ul>
                     <li><strong>50K: $219.000 a pagar en 3 cuotas de $73.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
                     <li><strong>42K: $195.000 a pagar en 3 cuotas de $65.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
@@ -470,9 +472,10 @@ function M42() {
                     <li><strong>KIDS 1K (sin límite de edad): $15.000</strong> pago total AL INSCRIBIRSE.</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</b></p>
-                <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>    
+                <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>
+                <p>Si te inscribiste en las fechas donde el pago es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    
  
-                 {/*  <h5 style={{textAlign:'center'}}><mark>¡PRIMERA ETAPA AGOTADA!</mark></h5>
+                 {/*  <h5 style={{textAlign:'center'}}>¡PRIMERA ETAPA AGOTADA!</h5>
                  <h5 style={{textAlign:'center', marginBottom: '3rem'}}>Pronto abriremos la segunda etapa.</h5>   */}
 
 <div className='contenedorBoton'>
@@ -486,7 +489,7 @@ function M42() {
                 
               </div>
               
-              <h3> <mark className='mark'>DOS DÍAS DE COMPETENCIA CON DESCUENTO ESPECIAL</mark></h3>
+              <h3>DOS DÍAS DE COMPETENCIA CON DESCUENTO ESPECIAL</h3>
               <p>Para aquellos corredores de 50K, 42K o 34K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25K, 15K o 10K.</p>
               <p><strong>Deberán solicitar el código de descuento online por mail info@fcproducciones.com.ar para inscribirse en el día domingo de competencia.</strong></p>
             <p><strong>CONSIDERACIONES:</strong></p>
@@ -512,11 +515,11 @@ function M42() {
 
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
-                 <h4><mark>VIERNES 29 DE MAYO</mark></h4>
-                <p><strong>De 11 a 19hs</strong>: ACREDITACIÓN TODAS LA DISTANCIAS.</p>
+                 <h4>VIERNES 29 DE MAYO</h4>
+                <p><strong>De 11 a 19hs: ACREDITACIÓN TODAS LA DISTANCIAS.</strong></p>
                 <p>Lugar: La Gran Cabaña, Villa Ventana.</p>
                 
-                <h4><mark>SÁBADO 30 DE MAYO</mark></h4>
+                <h4>SÁBADO 30 DE MAYO</h4>
                 <ul>
         
                     <li><strong>9 am</strong> LARGADA 50, 42 Y 34K. Lugar: San Andrés de la Sierra.</li>
@@ -526,7 +529,7 @@ function M42() {
                     <li><strong>18:30 hs</strong>: Desfile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
                 </ul>
 
-                <h4><mark>DOMINGO 31 DE MAYO</mark></h4>
+                <h4>DOMINGO 31 DE MAYO</h4>
                 <p>Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
                     <li><strong>De 6.30 a 7.30 am:</strong> ACREDITACIÓN 25K.</li>
@@ -582,15 +585,15 @@ function M42() {
                 </ul>
 
 {/* 
-                <h4><mark>HORARIO Y LUGAR DE CORTE EN 50K</mark></h4>
+                <h4>HORARIO Y LUGAR DE CORTE EN 50K</h4>
                 <p>Los participantes tendrán, como límite, 7 horas (a las 16:00hs del sábado) para llegar al kilómetro 42, ubicado a 500 metros del PA6 donde se divide 50K y 42K. En caso de no llegar a tiempo, el corredor será dirigido por el recorrido de 42K hacia la llegada.</p>
                 <p>En la clasificación aparecerá al final de la grilla. Y la medalla va a depender de cada corredor querer recibirla o no. Por favor: NO COMPROMETA A LA GENTE DEL STAFF UNA VEZ CUMPLIDO EL TIEMPO DE CARRERA.</p>
 
-                <h4><mark>ABANDONO</mark></h4>
+                <h4>ABANDONO</h4>
                 <p>En caso de abandono, el competidor tiene la obligación indelegable de avisar a la Organización. El aviso deberá ser realizado únicamente en los Puestos de Asistencia, en la Largada o Meta. Los banderilleros o personal fuera de estos lugares no están autorizados a registrar el aviso de abandono. Es muy importante dar aviso de abandono, pues de lo contrario el participante se presumirá extraviado y generará inconvenientes evitables.</p>
 
 
-                <h4><mark>CERTIFICADO MÉDICO</mark></h4>
+                <h4>CERTIFICADO MÉDICO</h4>
                 <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p> 
  */}
@@ -599,16 +602,16 @@ function M42() {
                
 
                 <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
-                <p>Si te inscribiste en las fechas donde el pago es en tres sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>
+                <p>Si te inscribiste en las fechas donde el pago es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>
 
                 <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
                 <p>Las inscripciones <strong>NO</strong> tienen devolución. Sin excepción.</p>
 
-                <h4><mark>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
+                <h4>TRANSFERENCIA POR NO PODER PARTICIPAR</h4>
                 <p>Para poder transferir debe estar toda la carrera abonada. Hasta el viernes 15/05/2026, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
             
                 
-                <h4><mark>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
+                <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
                 <p>Para poder transferir debe estar toda la carrera abonada. Hasta el viernes 15/5/2026, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Solo se considerarán aquellos casos en que se solicite a la organización por mail y solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
                
