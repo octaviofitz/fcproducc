@@ -96,7 +96,7 @@ function M42() {
           </Ratio>              
                 </article>
 
-                <h4 style={{textAlign:'center', marginTop:'4rem'}}><mark style={{backgroundColor:'red'}}>APERTURA DE INSCRIPCIONES LUNES 1 DE DICIEMBRE 2025</mark></h4>
+                <h4 style={{textAlign:'center', marginTop:'4rem'}}><mark className='mark'>INSCRIPCIONES ABIERTAS</mark></h4>
 
         
                 <h3 id='cartas'>Cartas</h3>
@@ -428,16 +428,19 @@ function M42() {
                     <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li>
                 </ol>
 
-                <div className='contenedorBoton'>
                 
-
-      <Button disabled variant="info" size='lg' className='boton'>
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
-            INSCRIBITE ACÁ
-            </Link> 
-        </Button> 
+           
+        <div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Button variant="info" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
       
-    </div>
+   
                 
                 <h5>CÓMO SABER SI REALIZAMOS BIEN EL PROCEDIMIENTO DE INSCRIPCIÓN:</h5>
                 <p>Les llegará un mail que dice “Inscripción confirmada” desde Eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. Primero les llegará uno que dice “comenzaste el proceso de inscripción” el cual NO indica que estás confirmado. Si el mail de confirmación no llega es porque no terminaron la inscripción, indicaron mal su correo o porque está en correo no deseado. Si eso sucede, marcalo como correo deseado y agreganos a tu lista de contactos.</p>
@@ -460,34 +463,35 @@ function M42() {
 
                
                 <h3>COSTOS</h3>
-                   <h4><strong>¡PROMO LANZAMIENTO! HASTA AGOTAR LOS PRIMEROS 100 CUPOS</strong></h4>
+                <h4><strong>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</strong></h4>
+                   <h4><strong>ETAPA 1</strong></h4>
                 <ul>
-                    <li><strong>50K: $219.000 a pagar en 3 cuotas de $73.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>42K: $195.000 a pagar en 3 cuotas de $65.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>34K: $168.000 a pagar en 3 cuotas de $56.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>25K: $150.000 a pagar en 3 cuotas de $50.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>15K: $129.000 a pagar en 3 cuotas de $36.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>10K: $108.000 a pagar en 3 cuotas de $36.000.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $20.000</strong> pago total AL INSCRIBIRSE.</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $15.000</strong> pago total AL INSCRIBIRSE.</li>
+                    <li><strong>50K: $240.000 a pagar en 3 cuotas de $80.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>42K: $213.000 a pagar en 3 cuotas de $71.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>34K: $183.000 a pagar en 3 cuotas de $61.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>25K: $165.000 a pagar en 3 cuotas de $55.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>15K: $141.000 a pagar en 3 cuotas de $47.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>10K: $117.000 a pagar en 3 cuotas de $39.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $22.00</strong> pago total al inscribirse por transferencia bancaria.</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $16.00</strong> pago total al inscribirse por transferencia bancaria.</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</b></p>
                 <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>
+
                 <p>Si te inscribiste en las fechas donde el pago es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    
  
                  {/*  <h5 style={{textAlign:'center'}}>¡PRIMERA ETAPA AGOTADA!</h5>
                  <h5 style={{textAlign:'center', marginBottom: '3rem'}}>Pronto abriremos la segunda etapa.</h5>   */}
 
 <div className='contenedorBoton'>
-                
-
-                <Button disabled variant="info" size='lg' className='boton'>
-                  <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
-                      INSCRIBITE ACÁ
-                      </Link> 
-                  </Button> 
-                
-              </div>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Button variant="info" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
               
               <h3>DOS DÍAS DE COMPETENCIA CON DESCUENTO ESPECIAL</h3>
               <p>Para aquellos corredores de 50K, 42K o 34K que quieran correr también el domingo, les otorgamos un 20% de descuento en su segunda inscripción de 25K, 15K o 10K.</p>
@@ -707,17 +711,18 @@ function M42() {
                     <li>Sólo dejar la huella de tu calzado y no de tu basura.</li>
                 </ul>
                 
-                <div className='contenedorBoton'>
 
       
-         <Button disabled variant="info" size='lg' className='boton'>
-        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
-            INSCRIBITE ACÁ
-            </Link> 
-        </Button> 
-    
+                <div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Button variant="info" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
 
-    </div>
              
 
         </section>
