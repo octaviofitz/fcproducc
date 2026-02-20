@@ -12,6 +12,7 @@ import km50 from '../../../../Img/m42/50k.webp'
 import km42 from '../../../../Img/m42/42k.webp'
 import km34 from '../../../../Img/m42/34k.webp'
 import km25 from '../../../../Img/m42/25k.webp'
+import km15 from '../../../../Img/m42/15k.webp'
 import km10 from '../../../../Img/m42/10k.webp'
 import Hidratacion10KM from '../../../../Img/m42/hidratacion10k.webp'
 import Hidratacion25KM from '../../../../Img/m42/hidratacion25k.webp'
@@ -307,14 +308,13 @@ function M42() {
                  <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
 
-                <h3>ALTIMETRÍA PRÓXIMAMENTE</h3>
 
-               {/*    <div className='containerAltimetria'>
+                  {/*  <div className='containerAltimetria'>
                      <div className='altimetriaIMG'>
                 <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' />
                 </div> 
-                </div>   */}
-{/* 
+                </div>    */}
+ 
                  <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
                  <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' /> 
@@ -328,7 +328,7 @@ function M42() {
                 </div>
                 <br></br>
 
-                <img src={Hidratacion50KM} alt='Hidratación M42 50KM' className='img' /> 
+               {/*  <img src={Hidratacion50KM} alt='Hidratación M42 50KM' className='img' />  */}
 
 
                 <br></br>
@@ -345,7 +345,7 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
-                <img src={Hidratacion42KM} alt='Hidratación M42 42KM' className='img' /> 
+                {/* <img src={Hidratacion42KM} alt='Hidratación M42 42KM' className='img' />  */}
 
 
                 <br></br>
@@ -362,7 +362,7 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
-                <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' />  */}
+               {/*  <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' />  */} 
 
 
                 <h3><span role="img" aria-label="Emoji de montaña">⛰️</span>RECORRIDOS 25K, 15K y 10K<span role="img" aria-label="Emoji de montaña">⛰️</span></h3>
@@ -370,9 +370,9 @@ function M42() {
                  <p>Destildar la distancia que no se quiera ver</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> 
 
-                <h4 style={{textAlign:'center'}}><mark className='mark' >RECORRIDO 15K PRÓXIMAMENTE</mark></h4>
+                {/* <h4 style={{textAlign:'center'}}><mark className='mark' >RECORRIDO 15K PRÓXIMAMENTE</mark></h4> */}
 
-                {/* <div className='containerAltimetria'>
+                 <div className='containerAltimetria'>
                  <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
                 </div>  
@@ -384,8 +384,23 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
-                <img src={Hidratacion25KM} alt='Hidratación M42 25KM' className='img' /> 
+               {/*  <img src={Hidratacion25KM} alt='Hidratación M42 25KM' className='img' />  */}
 
+
+
+               <div className='containerAltimetria'>
+                  <div className='altimetriaIMG'>
+                <img src={km15} alt='Altimetria 15kM Los Alerces' className='img' />
+                </div>  
+                <div>
+                <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 15K</h5>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 261 metros</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
+                </div> 
+                </div>
+                <br></br>
+                {/* <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />    */}
 
                 <br></br>
 
@@ -401,9 +416,8 @@ function M42() {
                 </div> 
                 </div>
                 <br></br>
-                <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />   */}
-
-{/* 
+               {/*  <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />    */}
+ 
                 <br></br>
                 <h4>RECORRIDOS INTERACTIVOS 50 Y 42K</h4>
                 <p>Destildar la distancia que no se quiera ver.</p>
@@ -413,7 +427,9 @@ function M42() {
                 <h4>RECORRIDOS INTERACTIVOS 25 Y 10k</h4>
                 <p>Destildar la distancia que no se quiera ver.</p>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
-                 */}
+                 
+
+
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
                 <p><b>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</b></p>
                 

@@ -50,7 +50,7 @@ function ElDesafioPinamar() {
            </div>
               
                <div>
-              <p className='descripcion'>Pinamar siempre tuvo carreras, pero ninguna como esta. El domingo 9 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 15k, 10K y KIDS.  
+              <p className='descripcion'>Pinamar siempre tuvo carreras, pero ninguna como ésta. El domingo 9 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 15k, 10K y KIDS.  
               </p>
               <p className='descripcion'>Partiendo desde el Centro Comercial Pinamar Norte, con el DESAFÍO PINAMAR 3° EDICIÓN vivirás un recorrido realmente soñado y diferente, en donde conocerás la ciudad desde otro lado: bosques, médanos, mar y muuuucha, pero mucha arena.</p>
               <p className='descripcion'><mark className='mark'><b>Inscripciones abiertas. Aquí abajo toda la información.</b></mark></p>   
@@ -306,8 +306,8 @@ function ElDesafioPinamar() {
 
 
           <h3>RETIRO DE KITS POR TERCEROS</h3>
-          <p>Si el participante titular firmó el deslinde virtual y subió el apto médico a su estado de inscripción, solo deberá presentar fotocopia del DNI del titular.
-          <strong>De no contar con estos requisitos la organización NO entregará el kit</strong>.</p>
+          <p>Para retirar el kit deberán presentarse dentro de los horarios de acreditación correspondientes con el DNI físico.</p>
+          <p>Para poder retirarlo, el corredor debe tener el deslinde online firmado y el apto médico subido y aprobado. De lo contrario, no se le entregará el kit.</p>
 
 
        {/*    <ol>
@@ -373,7 +373,7 @@ function ElDesafioPinamar() {
           <li>La decisión será tomada en función de las circunstancias y comunicada oportunamente a los participantes.</li>
          </ul>
 
-         <h3>ABANDONO</h3>
+         <h3><mark className='mark'>ABANDONO</mark></h3>
          <p>En caso de abandono, el competidor tiene la obligación indelegable de avisar a la organización. El aviso deberá ser realizado únicamente en los puestos de asistencia, en la largada o llegada. Los banderilleros o personal fuera de estos lugares no están autorizados a registrar el aviso de abandono. Es muy importante avisar, de lo contrario el participante se presumirá extraviado y generará inconvenientes evitables.</p>
 
 
@@ -381,11 +381,11 @@ function ElDesafioPinamar() {
          <h4><mark className='mark'><strong>IMPORTANTE - CORTES</strong></mark></h4>
          <p>Los 25k, 15k y 10k, no tendrán tiempo de corte, salvo que la organización considere hacerlo por cuestiones ajenas y/o de seguridad del corredor, únicamente para beneficio y resguardo del mismo. Además, recordamos que ambas modalidades son carreras y no trekking, o sea, no son caminatas.</p>
 
-         <h4><mark className='mark'>RECLAMOS</mark></h4>
+         <h4><mark className='mark'><strong>RECLAMOS</strong></mark></h4>
           <p>Todos los reclamos deberán ser presentados por escrito a la organización luego del evento. Las resoluciones que determine el director serán comunicadas a los competidores, no existiendo posibilidad de reclamo alguno al respecto.</p>
 
 
-          <h4><mark className='mark'>APTO MÉDICO</mark></h4>
+          <h4><mark className='mark'><strong>APTO MÉDICO</strong></mark></h4>
           <p>El apto médico debe cargarse en la inscripción y el mismo debe ser aprobado. De no hacerlo, no podrá retirar kit ni participar del evento.</p>
           <p>El apto médico que se debe cargar en la inscripción tiene que tener una vigencia de 1 año a partir de la fecha en que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma con sello del médico.</p>
           <p>La validación del apto médico será realizada por la organización.</p>
@@ -409,7 +409,7 @@ function ElDesafioPinamar() {
       </div>
     </div>
 
-      <h3>ELEMENTOS OBLIGATORIOS PARA LA CARRERA</h3>
+      <h3><strong><mark className='mark'>ELEMENTOS OBLIGATORIOS PARA LA CARRERA</mark></strong></h3>
          <ul>
           <li><strong>APTO MÉDICO</strong></li>
           <li><strong>REMERA OFICIAL</strong> <br></br>
@@ -419,7 +419,7 @@ function ElDesafioPinamar() {
           <li><strong>RECIPIENTE PARA 1 LITRO DE AGUA</strong></li>
          </ul>
 
-         <h3>ELEMENTOS RECOMENDADOS</h3>
+         <h3><strong><mark className='mark'>ELEMENTOS RECOMENDADOS</mark></strong></h3>
          <ul>
           <li>Celular</li>
           <li>Calza larga o símil</li>
@@ -435,23 +435,23 @@ function ElDesafioPinamar() {
           <li>Repelente de mosquitos</li>
          </ul>
 
-          <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
+          <h3><mark className='mark'><strong>POLÍTICA DE PAGOS DE CUOTAS</strong></mark></h3>
           <p>Si te inscribiste en las fechas donde se paga mediante 3 cuotas sin interés (una al inscribirse, la segunda a los 30 días y la tercera a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>
 
-          <h3>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</h3>
+          <h3><mark className='mark'><strong>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</strong></mark></h3>
           <p>Las inscripciones <strong>NO</strong> tienen devolución.</p>
          
         
-          <h4><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
+          <h4 style={{textDecoration: 'underline'}}><mark className='mark'>TRANSFERENCIA A OTRO CORREDOR</mark></h4>
           <p>Hasta el viernes 24/07, inclusive, se podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
           <p>En caso de no avisar con ese tiempo de anticipación, se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro, entre otras cuestiones.</p>
 
 
-          <h4><mark className='mark'>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
+          <h4 style={{textDecoration: 'underline'}}><mark className='mark'>TRANSFERENCIA POR NO PODER PARTICIPAR</mark></h4>
           <p>Hasta el viernes 24/07, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
         
 
-         <h3>CAMBIO DE DISTANCIA O DE OTRO TIPO</h3>
+         <h3><mark className='mark'><strong>CAMBIO DE DISTANCIA O DE OTRO TIPO</strong></mark></h3>
          <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
          <ol>
           <li>Sólo se considerarán aquellos casos en que se solicite al mail de la organización.</li>
@@ -460,13 +460,13 @@ function ElDesafioPinamar() {
           <li>Si el cambio es a una distancia menor NO se le devolverá dinero.</li>
          </ol>
 
-          <h3>NÚMERO DE CORREDOR</h3>
+          <h3><mark className='mark'><strong>NÚMERO DE CORREDOR</strong></mark></h3>
           <p>Disponible una semana antes del evento.</p>
 
-          <h3>DERECHOS</h3>
+          <h3><mark className='mark'><strong>DERECHOS</strong></mark></h3>
           <p>La organización se reserva el derecho de cualquier modificación que surja en cualquier momento del correspondiente a la carrera.</p>
 
-          <h3>MARCACIÓN</h3>
+          <h3><mark className='mark'><strong>MARCACIÓN</strong></mark></h3>
           <p>Deberás guiarte por las cintas de la organización para poder confirmar que estás por la senda o circuito correcto. Siempre verás la próxima cinta. Seguir las marcaciones y no a los corredores. Si en algún momento no ves las cintas de la organización, deberás volver hasta el punto donde avistaste la última.</p>
           <p><strong>ELEMENTOS:</strong></p>
           <ul>
@@ -476,7 +476,7 @@ function ElDesafioPinamar() {
               <li>Banderilleros en puntos claves</li>
           </ul>
 
-          <h3>PREMIACIÓN</h3>
+          <h3><mark className='mark'><strong>PREMIACIÓN</strong></mark></h3>
           <p>Todos los participantes que finalicen el recorrido de forma reglamentaria, recibirán medalla finisher.</p>
           <p>Se premiará cada categoría en sus respectivos primeros 3 puestos, tanto hombre como mujer. También habrá premio para las generales (hombre y mujer) de cada distancia.</p>
           <p>Los auspiciantes pueden disponer de premios especiales a los participantes, sin que esto implique responsabilidad alguna de la organización.</p>
@@ -484,12 +484,12 @@ function ElDesafioPinamar() {
           <p><strong>La presencia en la premiación es obligatoria. Toda persona que no se encuentre presente en ese momento, no podrá reclamar su premio, perdiendo el beneficio.</strong></p>
 
 
-          <h3>TOMA DE TIEMPO Y CLASIFICACIONES</h3>
+          <h3><mark className='mark'><strong>TOMA DE TIEMPO Y CLASIFICACIONES</strong></mark></h3>
           <p>La toma de tiempo y clasificación será electrónica con chip. Los participantes deberán retirar el chip en la acreditación y utilizarlo obligatoriamente en la carrera, a fin de poder ser clasificados. El chip deberá ser utilizado de forma VISIBLE.</p>
           <p>El tiempo de los cronómetros comienza con la largada de la competencia y se detiene una vez cruzada la meta.</p>
           <p>Los resultados se publicarán en esta página el mismo día a la noche o el día posterior al evento.</p>
 
-          <h3>MEDIO AMBIENTE</h3>
+          <h3><mark className='mark'><strong>MEDIO AMBIENTE</strong></mark></h3>
           <p>Es importante que entre todos preservemos y cuidemos la naturaleza, es nuestro principal requisito. Por eso:</p>
           <ul>
               <li>No se deben dejar residuos durante el recorrido y en el resto de lugares. Lo que llevás a la carrera, vuelve con vos</li>

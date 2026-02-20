@@ -101,8 +101,8 @@ function Carreras() {
 
             <article className='container'>
         <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>DESAFÍO COLUMBIA SIERRA</h2>
-        <p className='texto'>El Desafío Columbia es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 27 y 28 de septiembre 2025.</p>
+        <h2 className='tituloResultados'>DESAFÍO SIERRAS GRANDES</h2>
+        <p className='texto'>El Desafío es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 3 y 4 de octubre 2026.</p>
         <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-columbia'>Más información</Link></Button>
         </article>
 
