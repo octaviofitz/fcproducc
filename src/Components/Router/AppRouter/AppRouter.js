@@ -49,10 +49,10 @@ const AppRouter = () => {
             <Routes >
            
             <Route path='/' element={<Index />} />
-            <Route path='/desafio-columbia' element={<ElDesafio />} />
-            <Route path='/desafio-columbia/fotos2022' element={<ImagenesElDesafio />} />
-            <Route path='/desafio-columbia/resultados' element={<ResultadosDesafio />} />
-            <Route path='/desafio-columbia/alojamientos' element={<AlojamientosDesafio />} />
+            <Route path='/desafio-sierras-grandes' element={<ElDesafio />} />
+            <Route path='/desafio-sierras-grandes/fotos' element={<ImagenesElDesafio />} />
+            <Route path='/desafio-sierras-grandes/resultados' element={<ResultadosDesafio />} />
+            <Route path='/desafio-sierras-grandes/alojamientos' element={<AlojamientosDesafio />} />
             <Route path='/m42' element={<M42 />} />
             <Route path='/m42/fotos2022' element={<ImagenesM42 />} />
             <Route path='/m42/resultados' element={<ResultadosM42 />} />

@@ -480,16 +480,17 @@ function M42() {
                
                 <h3>COSTOS</h3>
                 <h4><strong>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</strong></h4>
-                   <h4><strong>ETAPA 1</strong></h4>
+                   <h4><strong><s>ETAPA 1 COMPLETA</s></strong></h4>
+                   <h4><strong>ETAPA 2</strong></h4>
                 <ul>
-                    <li><strong>50K: $240.000 a pagar en 3 cuotas de $80.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>42K: $213.000 a pagar en 3 cuotas de $71.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>34K: $183.000 a pagar en 3 cuotas de $61.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>25K: $165.000 a pagar en 3 cuotas de $55.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>15K: $141.000 a pagar en 3 cuotas de $47.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>10K: $117.000 a pagar en 3 cuotas de $39.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $22.00</strong> pago total al inscribirse por transferencia bancaria.</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $16.00</strong> pago total al inscribirse por transferencia bancaria.</li>
+                    <li><strong>50K: $252.000 a pagar en 3 cuotas de $84.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>42K: $222.000 a pagar en 3 cuotas de $74.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>34K: $192.000 a pagar en 3 cuotas de $64.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>25K: $174.000 a pagar en 3 cuotas de $58.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>15K: $147.000 a pagar en 3 cuotas de $49.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>10K: $123.000 a pagar en 3 cuotas de $41.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $23.000</strong> pago total al inscribirse por transferencia bancaria.</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $17.000</strong> pago total al inscribirse por transferencia bancaria.</li>
                 </ul> 
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</b></p>
                 <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>

@@ -52,7 +52,7 @@ function Nosotros() {
           </Link>
         </li>
         <li>
-          <Link to="/desafio-columbia" id="btnDesafio">
+          <Link to="/desafio-sierras-grandes" id="btnDesafio">
             DESAFÍO SIERRA DE LA VENTANA
           </Link>
         </li>

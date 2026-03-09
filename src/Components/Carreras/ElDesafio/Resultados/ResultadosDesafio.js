@@ -25,7 +25,7 @@ function ResultadosDesafio() {
  */
     return (
         <section className='resultadosDesafio'>
-            <h5 className='titulo'>Resultados Y FOTOS DESAFÍO COLUMBIA</h5>
+            <h5 className='titulo'>Resultados Y FOTOS DESAFÍO SIERRAS GRANDES</h5>
             
             <div className='Container'>
               <div>
