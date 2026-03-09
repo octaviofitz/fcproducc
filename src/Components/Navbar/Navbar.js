@@ -33,7 +33,7 @@ function BasicExample() {
               DESAFIO PINAMAR
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to='/desafio-columbia' id='el-Desafio' onClick={handleNavClick}>
-              DESAFÍO SIERRA DE LA VENTANA
+              DESAFÍO SIERRAS GRANDES
             </NavDropdown.Item>
             <NavDropdown.Item as={Link} to='/colinasenaccion' id='colinas' onClick={handleNavClick}>
               COLINAS EN ACCIÓN

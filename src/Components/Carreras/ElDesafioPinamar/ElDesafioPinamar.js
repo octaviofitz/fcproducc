@@ -361,6 +361,18 @@ function ElDesafioPinamar() {
          </ul>
 
 
+         <div className='contenedorBoton'>
+      <div className='botonIntermedio'>
+        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/el-desafio-pinamar-2026' className='enlaceBoton'>
+          <Button variant="warning" size='lg' className='boton' 
+          >
+            INSCRIBITE ACÁ
+          </Button>
+        </Link>
+      </div>
+    </div>
+
+
          <h3 id='reglamento'>REGLAMENTO DESAFÍO PINAMAR</h3>
          <p>La organización controlará el cumplimiento del reglamento, que detallamos a continuación, por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
 

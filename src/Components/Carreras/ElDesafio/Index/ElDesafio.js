@@ -204,10 +204,8 @@ function ElDesafio() {
                     <li>Premiación para ganadores de las generales</li>
                 </ul>
 
-                {/* <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p> */}
              
-                <h4><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
+                <h4 id='inscripcion'><mark className='mark'>INSCRIPCIÓN ONLINE</mark></h4>
                 <p>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE; PUEDE REALIZARSE LUEGO, SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</p>
                 <p>Los pasos para inscribirse online son:</p>
                 <ol>
@@ -247,24 +245,23 @@ function ElDesafio() {
                 </ul>
 
                 <h3>COSTOS</h3>
-                <h4 style={{textAlign: 'center'}}><mark className='mark'>PROMO LANZAMIENTO</mark></h4>
-                <h4 style={{textAlign: 'center', marginBottom: '2rem'}}><mark className='mark'>CUMPLIMOS 10 AÑOS Y LES REGALAMOS ESTE:<br></br> 
-                ¡PRECIO ÚNICO E IMPERDIBLE SOLO POR 5 DIAS!</mark></h4> 
+                <h4 style={{textAlign: 'center'}}><mark className='mark'><s>PROMO LANZAMIENTO AGOTADA</s></mark></h4>
+                <h4 style={{textAlign: 'center', marginBottom: '2rem'}}><mark className='mark'>ETAPA 1</mark></h4> 
 
-                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO:</strong>  <strong><s>$324.000</s> <mark className='mark'>$270.000</mark> a pagar en tres cuotas de $90.000 por transferencia bancaria</strong>. La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</p>
+                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <mark className='mark'>$324.000</mark></strong> a pagar en tres cuotas de $108.000 por transferencia bancaria.</p>
 
-                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO:</strong>  <strong><s>$273.000</s> <mark className='mark'>$228.000</mark> a pagar en tres cuotas de $76.000 por transferencia bancaria</strong>. La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</p>
+                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <mark className='mark'>$273.000</mark></strong> a pagar en tres cuotas de $91.000 por transferencia bancaria.</p>
 
-                <p><strong>1 DÍA (DOMINGO) 21K:</strong>  <strong><s>$135.000</s> <mark className='mark'>$114.000</mark> a pagar en tres cuotas de $38.000 por transferencia bancaria</strong>. La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</p>
+                <p><strong>1 DÍA (DOMINGO) 21K: <mark className='mark'>$135.000</mark></strong> a pagar en tres cuotas de $45.000 por transferencia bancaria.</p>
 
-                <p><strong>1 DÍA (DOMINGO) 10K:</strong>  <strong><s>$96.000</s> <mark className='mark'>$81.000</mark> a pagar en tres cuotas de $27.000 por transferencia bancaria</strong>. La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</p>
+                <p><strong>1 DÍA (DOMINGO) 10K: <mark className='mark'>$96.000</mark></strong> a pagar en tres cuotas de $32.000 por transferencia bancaria.</p>
 
-                <p><strong>KIDS (DOMINGO) 1K:</strong>  <strong><s>$25.000</s> <mark className='mark'>$20.000</mark> pago total.</strong> </p>
+                <p><strong>KIDS (DOMINGO) 1K: <mark className='mark'>$25.000</mark></strong> pago total.</p>
                 
 
 
                 <p>Si tenés tu código de descuento por running team (solicitado previamente), debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-                <p><u>Cuando pasen los 5 días, se actualizarán los costos para la ETAPA 1.</u>.</p>
+                <p><u>Cuando se agoten los cupos, se actualizarán los costos para la ETAPA 2.</u>.</p>
 
 
                 <h3>POLÍTICA DE PAGO DE CUOTAS</h3>
@@ -471,6 +468,16 @@ function ElDesafio() {
                 <p><span role="img" aria-label="emoji altura máxima">🔝</span>Altura máxima: 553 metros</p>
                 <p><span role="img" aria-label="emoji altura mínima">⬇</span>Altura mínima: 391 metros</p>
                 </div>
+
+                <div className='contenedorBoton'>
+                    <div className='botonIntermedio'>
+                        <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/desafio-sierra-de-la-ventana-2026' className='enlaceBoton'>
+                        <Button variant="success" size='lg' className='boton'>
+                            INSCRIBITE ACÁ
+                        </Button>
+                        </Link>
+                    </div>
+                    </div>
 
 
                 <h3>RUNNING KIDS</h3>

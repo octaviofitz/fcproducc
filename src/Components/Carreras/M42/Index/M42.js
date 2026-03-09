@@ -617,6 +617,17 @@ function M42() {
                 <p>El certificado médico que se debe presentar tendrá que ser de no más de un año de vigencia. Si el corredor no va a dejar el original (porque lo necesita) es obligatorio traer una copia del mismo, de lo contrario la organización se quedará con el certificado original sin excepción.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p> 
  */}
+
+
+<div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Button variant="info" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
                
 
                
