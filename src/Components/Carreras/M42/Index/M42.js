@@ -479,8 +479,8 @@ function M42() {
 
                
                 <h3>COSTOS</h3>
-                <h4><strong>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</strong></h4>
-                   <h4><strong><s>ETAPA 1 COMPLETA</s></strong></h4>
+                <h4><strong><s>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</s></strong></h4>
+                   <h4><strong><s>ETAPA 1: COMPLETA</s></strong></h4>
                    <h4><strong>ETAPA 2</strong></h4>
                 <ul>
                     <li><strong>50K: $252.000 a pagar en 3 cuotas de $84.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
