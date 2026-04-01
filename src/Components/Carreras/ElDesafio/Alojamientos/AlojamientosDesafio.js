@@ -15,6 +15,7 @@ import Robles from '../../../../Img/Alojamientos/robles.webp'
 import LasGolondrinas from '../../../../Img/Alojamientos/lasGolondrinas.webp'
 import Calandrias from '../../../../Img/Alojamientos/calandrias.webp'
 import PuntoCadia from '../../../../Img/Alojamientos/puntoCadia.webp'
+import Alerces from '../../../../Img/Alojamientos/alerces.webp'
 
 import '../Alojamientos/alojamientosDesafio.css'
 
@@ -215,21 +216,23 @@ function AlojamientosDesafio() {
             <h3>ALOJAMIENTOS EN SAN ANDRES DE LA SIERRA</h3>
 
             <article>
-                <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>
-                <div className='containerTop'>
-                    <div>
-                        <img src={PuestaDelSol} className='img' alt='Complejo Puesta del Sol' />
-                            </div>
-                    <div>
-                <ul>
-                    <li>Calle:Gnena Kena y Chilca, San Andrés de la Sierra</li>
-                    <li>Tel: +54 9 11 5561 8000</li>
-                    <li>info@complejopuestadelsol.com.ar</li>
-                    <li>Web: <Link to='https://www.complejopuestadelsol.com.ar' target='_blank' rel="noopener noreferrer">www.complejopuestadelsol.com.ar</Link></li>
-                </ul>
-                </div>
-                </div>
-            </article>
+            <h4><mark className='marcador'>PUESTA DEL SOL Houses & Nature</mark></h4>
+            <div className='containerTop'> 
+            <div>
+            <img src={Alerces} className='img' alt='Complejo Puesta del Sol' />
+            </div>
+            <div>            <ul>
+                <li>Complejo Puesta del Sol</li>
+                <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra</li>
+                {/* <li>Whatsapp: 2914460503</li> */}
+                <li>Teléfono: +54 9 291 509 3384</li>
+                <li>info@puestadelsolnature.comr</li>
+                <li>Web: <Link to='www.puestadelsolnature.com' target='_blank' rel="noopener noreferrer">www.puestadelsolnature.com</Link></li>
+            </ul>
+            </div>
+
+            </div>
+        </article> 
             
             <article >
             <h4><mark className='marcador'>MÁS</mark></h4>

@@ -19,6 +19,8 @@ import LasGolondrinas from '../../../../Img/Alojamientos/lasGolondrinas.webp'
 import Calandrias from '../../../../Img/Alojamientos/calandrias.webp'
 import PuntoCadia from '../../../../Img/Alojamientos/puntoCadia.webp'
 import SerranasMargaritas from '../../../../Img/Alojamientos/serranasMargaritas.webp'
+import alerces from '../../../../Img/Alojamientos/alerces.webp'
+
 
 
 
@@ -37,14 +39,14 @@ function AlojamientosM42() {
         <h2>ALOJAMIENTOS</h2>
         <h3>ALOJAMIENTOS EN VILLA VENTANA</h3>
 
-        {/* <article>
-            <h4><mark className='marcador'>LOS ALERCES RESORT & SPA</mark></h4>
+        {/*  <article>
+            <h4><mark className='marcador'>PUESTA DEL SOL Houses & Nature</mark></h4>
             <div className='containerTop'> 
             <div>
             <img src={Alerces} className='img' alt='Complejo Puesta del Sol' />
             </div>
             <div>            <ul>
-                <li>Calle: Gnena-Kena y Grindella, ex Melica, San Andrés de la Sierra</li>
+                <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra.</li>
                 <li>Whatsapp: 2914460503</li>
                 <li>Teléfono: (11)77000310</li>
                 <li>reservas@losalercesresort.com.ar</li>
@@ -135,23 +137,24 @@ function AlojamientosM42() {
         <h3>ALOJAMIENTOS EN SAN ANDRES DE LA SIERRA</h3>
         <p>San Andrés de la Sierra se encuentra ubicado a 13,1km de la Estancia Las Vertientes.</p>
 
-       {/*  <article>
-            <h4><mark className='marcador'>LOS ALERCES RESORT & SPA</mark></h4>
+        <article>
+            <h4><mark className='marcador'>PUESTA DEL SOL Houses & Nature</mark></h4>
             <div className='containerTop'> 
             <div>
-            <img src={Alerces} className='img' alt='Complejo Puesta del Sol' />
+            <img src={alerces} className='img' alt='Complejo Puesta del Sol' />
             </div>
             <div>            <ul>
-                <li>Calle: Gnena-Kena y Grindella, ex Melica, San Andrés de la Sierra</li>
-                <li>Whatsapp: 2914460503</li>
-                <li>Teléfono: (11)77000310</li>
-                <li>reservas@losalercesresort.com.ar</li>
-                <li>Web: <Link to='https://www.losalercesresort.com' target='_blank' rel="noopener noreferrer">www.losalercesresort.com</Link></li>
+                <li>Complejo Puesta del Sol</li>
+                <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra</li>
+                {/* <li>Whatsapp: 2914460503</li> */}
+                <li>Teléfono: +54 9 291 509 3384</li>
+                <li>info@puestadelsolnature.comr</li>
+                <li>Web: <Link to='www.puestadelsolnature.com' target='_blank' rel="noopener noreferrer">www.puestadelsolnature.com</Link></li>
             </ul>
             </div>
 
             </div>
-        </article> */}
+        </article> 
 
         <article>
             <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>
