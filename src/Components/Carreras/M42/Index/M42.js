@@ -189,8 +189,8 @@ function M42() {
                 <p><strong>Horario: De 11 a 19 hs.</strong></p>
                 <p>*El día y horario es todas las distancias (50K, 42K, 34K, 25K, 15K, 10K y Kids)</p>
                 
-                 <h5>¿CÓMO LLEGAR A LA GRAN CABAÑA?</h5>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3140.386906552386!2d-61.929315!3d-38.084657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf2d093d0f4fd%3A0xad4d33cb6aa65910!2sLa%20Gran%20Caba%C3%B1a%20-%20Hotel%20Spa%20%26%20Restaurante!5e0!3m2!1ses-419!2sar!4v1740175342495!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
+                {/*  <h5>¿CÓMO LLEGAR A LA GRAN CABAÑA?</h5>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3140.386906552386!2d-61.929315!3d-38.084657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf2d093d0f4fd%3A0xad4d33cb6aa65910!2sLa%20Gran%20Caba%C3%B1a%20-%20Hotel%20Spa%20%26%20Restaurante!5e0!3m2!1ses-419!2sar!4v1740175342495!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe> */}
                
                 <h4><mark className='mark'>SÁBADO 30 DE MAYO</mark></h4>
                 <p style={{textDecoration:'underline'}}>ATENCIÓN: *El día y horario es únicamente para las distancias del domingo <strong>(25K, 15K, 10K y KIDS)</strong>. Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -374,7 +374,7 @@ function M42() {
 
                 {/* <h4 style={{textAlign:'center'}}><mark className='mark' >RECORRIDO 15K PRÓXIMAMENTE</mark></h4> */}
 
-                 <div className='containerAltimetria'>
+               {/*   <div className='containerAltimetria'>
                  <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
                 </div>  
@@ -385,12 +385,12 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇ </span>Altura mínima: 369 msnm</p>
                 </div> 
                 </div>
-                <br></br>
+                <br></br> */}
                {/*  <img src={Hidratacion25KM} alt='Hidratación M42 25KM' className='img' />  */}
 
 
 
-               <div className='containerAltimetria'>
+              {/*  <div className='containerAltimetria'>
                   <div className='altimetriaIMG'>
                 <img src={km15} alt='Altimetria 15kM Los Alerces' className='img' />
                 </div>  
@@ -401,10 +401,10 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
                 </div> 
                 </div>
-                <br></br>
+                <br></br> */}
                 {/* <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />    */}
 
-                <br></br>
+               {/*  <br></br>
 
                 <div className='containerAltimetria'>
                   <div className='altimetriaIMG'>
@@ -417,18 +417,18 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
                 </div> 
                 </div>
-                <br></br>
+                <br></br> */}
                {/*  <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />    */}
  
-                <br></br>
+               {/*  <br></br>
                 <h4>RECORRIDOS INTERACTIVOS 50 Y 42K</h4>
                 <p>Destildar la distancia que no se quiera ver.</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe>
-
+                <iframe src="https://www.google.com/maps/d/embed?mid=188OABtZoQmLkQDV6yr1VhjAJgQESCww&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 50 y 42K'></iframe> */}
+{/* 
                 <br></br>
                 <h4>RECORRIDOS INTERACTIVOS 25 Y 10k</h4>
                 <p>Destildar la distancia que no se quiera ver.</p>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1_rIxKArmPu-MzlBcFOmp6dYxsk_UN2v1&ehbc=2E312F" width="640" height="480" className='mapas' title='Recorrido 25 y 10K'></iframe> */}
                  
 
 
