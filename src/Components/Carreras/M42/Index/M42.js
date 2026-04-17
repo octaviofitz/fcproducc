@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 /* Imágenes */
 import m42General from '../../../../Img/m42/flyerM42.webp';
 import Remera from '../../../../Img/m42/remera.webp';
+import Bufyremera from '../../../../Img/m42/bufyremera.webp';
 import Productos from '../../../../Img/m42/productos.webp';
 import km50 from '../../../../Img/m42/50k.webp'
 import km42 from '../../../../Img/m42/42k.webp'
@@ -125,7 +126,7 @@ function M42() {
                 </ul>
                 <p>*Las edades serán computadas a la fecha de carrera.</p>
                 <p>*Las categorías pueden modificarse en el caso de que se inscriba un grupo grande de corredores en la modalidad o no se llegue a la cantidad necesaria.</p>
-                <p>*La edad para poder correr el M42 es a partir de los 16 años.</p>
+                <p>*La edad para poder correr el M42 es a partir de los 16 años. De lo contrario deben comunicarse a <strong>info@fcproducciones.com.ar</strong> para firmar una autorización.</p>
                 <p>*Los menores de 18 años tendrán que llevar una autorización firmada por los padres para poder correr el M42. De lo contrario, no podrá participar.</p>
                
                 <div className='contenedorBoton'>
@@ -148,9 +149,9 @@ function M42() {
                     <li>Premiación ganadores de la general.</li>
                 </ul>
 
-                <h3>REMERA</h3>
+                <h3>REMERA OFICIAL</h3>
                  <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 14. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
-                 {/* <img src={Remera} className='img' alt='Remera M42' />  */}
+                  <img src={Remera} className='img' alt='Remera M42' />  
 
                  {/* <h3>PRODUCTOS OFICIALES</h3>
                  <p>Si querés tener el mejor y más completo outfit para correr por las sierras de Villa Ventana, comprá por la web y retirá con tu kit.</p>
@@ -173,17 +174,18 @@ function M42() {
                 
                 
                 <h3>TRASLADO 50, 42 Y 34K</h3>
-                <p>Quienes corran 50K, 42K o 34K y no tengan cómo llegar a la largada, pondremos un traslado desde Plaza Salerno (Villa Ventana) hasta el Complejo Puesta del Sol (lugar de largada) el sábado 30 de mayo.</p>
+                <p>Quienes corran 50K, 42K o 34K y no tengan cómo llegar a la largada, pondremos un traslado desde Plaza Salerno (Villa Ventana) hasta Puesta del Sol Houses & Nature (lugar de largada) el sábado 30 de mayo.</p>
                 <p>El micro saldrá a las 7:45 de la mañana puntual desde Plaza Salerno. Deben estar 10 min antes.</p>
-                <p>El costo se define próximamente.</p>
-                <p>Deben confirmar la reserva con anticipación para obtener su lugar en el traslado. En caso de reservar y luego no utilizarlo, avisar a la organización.</p>
+                <p>El costo es de $8.000* y se paga por transferencia bancaria. Para reservar, comunicarse a <strong>info@fcproducciones.com.ar</strong> o al Whatsapp <strong>115135 - 6267</strong></p>
+                <p>Deben confirmar la reserva con anticipación para obtener su lugar en el traslado.</p>
+                <p>*No tiene devolución.</p>
                 {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</h4> */}
 
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
                  <h4><mark className='mark'>VIERNES 29 DE MAYO</mark></h4>
-                <p>Lugar: La Gran Cabaña, Belisario y Picaflor, Villa Ventana, Provincia de Buenos Aires.</p>
+                <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <p><strong>Horario: De 11 a 19 hs.</strong></p>
                 <p>*El día y horario es todas las distancias (50K, 42K, 34K, 25K, 15K, 10K y Kids)</p>
                 
@@ -315,7 +317,7 @@ function M42() {
                 </div> 
                 </div>    */}
  
-                 <div className='containerAltimetria'>
+          {/*        <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
                  <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' /> 
                 </div> 
@@ -326,12 +328,12 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
                 </div>
-                <br></br>
+                <br></br> */}
 
                {/*  <img src={Hidratacion50KM} alt='Hidratación M42 50KM' className='img' />  */}
 
 
-                <br></br>
+              {/*   <br></br>
                 
                 <div className='containerAltimetria'>
                 <div className='altimetriaIMG'>
@@ -344,10 +346,10 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
                 </div>
-                <br></br>
+                <br></br> */}
                 {/* <img src={Hidratacion42KM} alt='Hidratación M42 42KM' className='img' />  */}
 
-
+{/* 
                 <br></br>
 
                 <div className='containerAltimetria'>
@@ -361,7 +363,7 @@ function M42() {
                 <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
                 </div> 
                 </div>
-                <br></br>
+                <br></br> */}
                {/*  <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' />  */} 
 
 
@@ -479,23 +481,24 @@ function M42() {
 
                
                 <h3>COSTOS</h3>
-                <h4><strong><s>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</s></strong></h4>
-                   <h4><strong><s>ETAPA 1: COMPLETA</s></strong></h4>
-                   <h4><strong>ETAPA 2</strong></h4>
+                {/* <h4><strong><s>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</s></strong></h4> */}
+                   <h4><strong>ETAPA 3</strong></h4>
+                   {/* <h4><strong>ETAPA 2</strong></h4> */}
                 <ul>
-                    <li><strong>50K: $252.000 a pagar en 3 cuotas de $84.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>42K: $222.000 a pagar en 3 cuotas de $74.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>34K: $192.000 a pagar en 3 cuotas de $64.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>25K: $174.000 a pagar en 3 cuotas de $58.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>15K: $147.000 a pagar en 3 cuotas de $49.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-                    <li><strong>10K: $123.000 a pagar en 3 cuotas de $41.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+                    <li><strong>50K: $252.000 a pagar el 50% ($126.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($126.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>42K: $222.000 a pagar el 50% ($111.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($111.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>34K: $192.000 a pagar el 50% ($96.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($96.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>25K: $174.000 a pagar el 50% ($87.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($87.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>15K: $148.000 a pagar el 50% ($74.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($74.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>10K: $124.000 a pagar el 50% ($62.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($62.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
                     <li><strong>KIDS 3K (de 10 a 15 años): $23.000</strong> pago total al inscribirse por transferencia bancaria.</li>
                     <li><strong>KIDS 1K (sin límite de edad): $17.000</strong> pago total al inscribirse por transferencia bancaria.</li>
                 </ul> 
+                <br></br>
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</b></p>
                 <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>
 
-                <p>Si te inscribiste en las fechas donde el pago es en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    
+                <p>Si te inscribiste en las ETAPAS ANTERIORES (1 Y 2) donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    
  
                  {/*  <h5 style={{textAlign:'center'}}>¡PRIMERA ETAPA AGOTADA!</h5>
                  <h5 style={{textAlign:'center', marginBottom: '3rem'}}>Pronto abriremos la segunda etapa.</h5>   */}
@@ -538,7 +541,7 @@ function M42() {
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
                  <h4>VIERNES 29 DE MAYO</h4>
                 <p><strong>De 11 a 19hs: ACREDITACIÓN TODAS LA DISTANCIAS.</strong></p>
-                <p>Lugar: La Gran Cabaña, Villa Ventana.</p>
+                <p>Lugar: Plaza Salerno, Villa Ventana.</p>
                 
                 <h4>SÁBADO 30 DE MAYO</h4>
                 <ul>
@@ -562,6 +565,11 @@ function M42() {
                     <li><strong>12/12.30 hs:</strong> LARGADA KIDS (horario aproximado, puede modificarse).</li>
                     <li><strong>13/13:30hs:</strong> PREMIACIÓN (horario aproximado, puede modificarse).</li>
                 </ul> 
+
+                <h3>PRODUCTOS OFICIALES</h3>
+                <p>El cuello y la remera de manga corta son productos adicionales que se pueden comprar desde el ESTADO DE INSCRIPCIÓN de cada inscripto (acceden desde cualquier mail de eventols) o la agregan al carrito cuando se inscriben.</p>
+                <p>La remera que viene incluida en el kit es la de manga larga. Si compran la de manga corta y la quieren usar durante la carrera, pueden hacerlo.</p>
+                <img src={Bufyremera} className='img' alt='Buf y Remera M42' />  
 
                 <h3 id='reglamento'>REGLAMENTO M42</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>

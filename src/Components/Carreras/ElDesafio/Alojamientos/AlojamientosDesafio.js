@@ -226,7 +226,7 @@ function AlojamientosDesafio() {
                 <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra</li>
                 {/* <li>Whatsapp: 2914460503</li> */}
                 <li>Teléfono: +54 9 291 509 3384</li>
-                <li>info@puestadelsolnature.comr</li>
+                <li>info@puestadelsolnature.com</li>
                 <li>Web: <Link to='www.puestadelsolnature.com' target='_blank' rel="noopener noreferrer">www.puestadelsolnature.com</Link></li>
             </ul>
             </div>
