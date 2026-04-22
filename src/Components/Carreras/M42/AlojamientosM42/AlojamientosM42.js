@@ -37,25 +37,42 @@ function AlojamientosM42() {
         <div className='AlojamientosM42'>
              
         <h2>ALOJAMIENTOS</h2>
-        <h3>ALOJAMIENTOS EN VILLA VENTANA</h3>
 
-        {/*  <article>
+        <article>
             <h4><mark className='marcador'>PUESTA DEL SOL Houses & Nature</mark></h4>
             <div className='containerTop'> 
             <div>
-            <img src={Alerces} className='img' alt='Complejo Puesta del Sol' />
+            <img src={alerces} className='img' alt='Complejo Puesta del Sol' />
             </div>
             <div>            <ul>
-                <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra.</li>
-                <li>Whatsapp: 2914460503</li>
-                <li>Teléfono: (11)77000310</li>
-                <li>reservas@losalercesresort.com.ar</li>
-                <li>Web: <Link to='https://www.losalercesresort.com' target='_blank' rel="noopener noreferrer">www.losalercesresort.com</Link></li>
+                <li>Complejo Puesta del Sol</li>
+                <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra</li>
+                {/* <li>Whatsapp: 2914460503</li> */}
+                <li>Teléfono: +54 9 291 509 3384</li>
+                <li>info@puestadelsolnature.com</li>
+                <li>Web: <Link to='www.puestadelsolnature.com' target='_blank' rel="noopener noreferrer">www.puestadelsolnature.com</Link></li>
             </ul>
             </div>
 
             </div>
-        </article> */}
+        </article> 
+
+        <article>
+           <h4><mark className='marcador'>COMPLEJO EL MIRADOR</mark></h4>
+           <div className='containerTop'>
+            <div>
+           <img src={ElMirador} className='img' alt='El Mirador'  />
+           </div>
+           <div>
+           <ul>
+            <li>Calle: Ruta Provincial 76 Km 226, Sierra de La Ventana.</li>
+            <li>Tel: (0291) 4941 338</li>
+            <li>Email:info@complejoelmirador.com.ar</li>
+            <li>Web: <Link to='http://www.complejoelmirador.com.ar/' target='_blank' rel="noopener noreferrer">http://www.complejoelmirador.com.ar/</Link></li>
+           </ul>
+           </div>
+           </div>
+        </article>
 
         <article>
             <h4><mark className='marcador'>LA GRAN CABAÑA</mark></h4>
@@ -134,47 +151,7 @@ function AlojamientosM42() {
             </div>
         </article>
         
-        <h3>ALOJAMIENTOS EN SAN ANDRES DE LA SIERRA</h3>
-        <p>San Andrés de la Sierra se encuentra ubicado a 13,1km de la Estancia Las Vertientes.</p>
 
-        <article>
-            <h4><mark className='marcador'>PUESTA DEL SOL Houses & Nature</mark></h4>
-            <div className='containerTop'> 
-            <div>
-            <img src={alerces} className='img' alt='Complejo Puesta del Sol' />
-            </div>
-            <div>            <ul>
-                <li>Complejo Puesta del Sol</li>
-                <li>Calle: Gnena Kena y Chilca, San Andrés de la Sierra</li>
-                {/* <li>Whatsapp: 2914460503</li> */}
-                <li>Teléfono: +54 9 291 509 3384</li>
-                <li>info@puestadelsolnature.com</li>
-                <li>Web: <Link to='www.puestadelsolnature.com' target='_blank' rel="noopener noreferrer">www.puestadelsolnature.com</Link></li>
-            </ul>
-            </div>
-
-            </div>
-        </article> 
-
-        <article>
-            <h4><mark className='marcador'>COMPLEJO PUESTA DEL SOL</mark></h4>
-            <div className='containerTop'> 
-            <div>
-            <img src={PuestaDelSol} className='img' alt='Complejo Puesta del Sol' />
-            </div>
-            <div>            <ul>
-                <li>Calle:Gnena Kena y Chilca, San Andrés de la Sierra</li>
-                <li>Tel: +54 9 11 5561 8000</li>
-                <li>info@complejopuestadelsol.com.ar</li>
-                <li>Web: <Link to='https://www.complejopuestadelsol.com.ar' target='_blank' rel="noopener noreferrer">www.complejopuestadelsol.com.ar</Link></li>
-            </ul>
-            </div>
-
-            </div>
-        </article>
-
-        <h3>ALOJAMIENTOS EN SIERRA DE LA VENTANA</h3>
-        <p>Sierra de La Ventana se encuentra ubicado a 19,7 km de la Estancia Las Vertientes.</p>
 
         <article>
         <h4><mark className='marcador'>VENTANIA GOLF RESORT</mark></h4>
@@ -212,22 +189,7 @@ function AlojamientosM42() {
         </div>
         </article>
 
-        <article>
-           <h4><mark className='marcador'>COMPLEJO EL MIRADOR</mark></h4>
-           <div className='containerTop'>
-            <div>
-           <img src={ElMirador} className='img' alt='El Mirador'  />
-           </div>
-           <div>
-           <ul>
-            <li>Calle: Ruta Provincial 76 Km 226, Sierra de La Ventana.</li>
-            <li>Tel: (0291) 4941 338</li>
-            <li>Email:info@complejoelmirador.com.ar</li>
-            <li>Web: <Link to='http://www.complejoelmirador.com.ar/' target='_blank' rel="noopener noreferrer">http://www.complejoelmirador.com.ar/</Link></li>
-           </ul>
-           </div>
-           </div>
-        </article>
+       
 
         <article>
            <h4><mark className='marcador'>LOS ROBLES APART HOTEL l LOS ROBLES SUITES & SPA</mark></h4>
@@ -355,6 +317,10 @@ function AlojamientosM42() {
             </div>
             </div>
         </article>
+
+        <p>Tener en cuenta que San Andrés de la Sierra se encuentra ubicado a 13,1km de la Estancia Las Vertientes.</p>
+
+        <p>Tener en cuenta que Sierra de La Ventana se encuentra ubicado a 19,7 km de la Estancia Las Vertientes.</p>
         
         <h4><mark className='marcador'>MÁS ALOJAMIENTOS DE TORNQUIST</mark></h4>
         <div className='tornquist'> 
