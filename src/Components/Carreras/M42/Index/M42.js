@@ -467,7 +467,7 @@ function M42() {
                 <p>Se abona el TOTAL de la carrera únicamente en EFECTIVO en los centros de inscripción.</p>
                 <h5>CENTROS DE INSCRIPCIÓN:</h5>
                 <ul>
-                    <li><strong>Aerorunners</strong>: Av. Córdoba 1360, CABA. Tel: 011-5811-1043</li>
+                    <li><strong>Aerorunners</strong>: Av. Córdoba 1360, CABA. Tel: 114372-2489 - Whatsapp: 1156467318</li>
                     <li><strong>TriSport Necochea</strong>: Calle 57, 3043. Tel: 2262-52-6684</li>
                     <li><strong>BicyShop Mar del Plata</strong>: Av. Independencia 3565. Tel: 0223-474-9816</li>
                     <li><strong>La Fe Deportes</strong>: Loria 193, Lomas de Zamora. Tel 11-6069-3133</li>
