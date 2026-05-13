@@ -317,53 +317,53 @@ function M42() {
                 </div> 
                 </div>    */}
  
-          {/*        <div className='containerAltimetria'>
-                <div className='altimetriaIMG'>
+                  <div className='containerAltimetria'>
+               {/*  <div className='altimetriaIMG'>
                  <img src={km50} alt='Altimetria 50kM Los Alerces' className='img' /> 
-                </div> 
+                </div>  */}
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 50K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 1.950 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel positivo: 1576+</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 958 m</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">­­­­­­­ ⬇</span> Altura mínima: 353 m</p>
                 </div> 
                 </div>
-                <br></br> */}
+                <br></br> 
 
                {/*  <img src={Hidratacion50KM} alt='Hidratación M42 50KM' className='img' />  */}
 
 
-              {/*   <br></br>
+                <br></br>
                 
                 <div className='containerAltimetria'>
-                <div className='altimetriaIMG'>
+                {/* <div className='altimetriaIMG'>
                  <img src={km42} alt='Altimetria 42kM Los Alerces' className='img' /> 
-                </div> 
+                </div>  */}
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 42K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 1.600 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel positivo: 1237+</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 958 m</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">­­­­­­­ ⬇</span> Altura mínima: 353 m</p>
                 </div> 
                 </div>
-                <br></br> */}
+                <br></br> 
                 {/* <img src={Hidratacion42KM} alt='Hidratación M42 42KM' className='img' />  */}
 
-{/* 
+
                 <br></br>
 
                 <div className='containerAltimetria'>
-                <div className='altimetriaIMG'>
+                {/* <div className='altimetriaIMG'>
                  <img src={km34} alt='Altimetria 42kM Los Alerces' className='img' /> 
-                </div> 
+                </div>  */}
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 34K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 855 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 944 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 390 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel positivo: 1015+</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 958 m</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">­­­­­­­ ⬇</span> Altura mínima: 353 m</p>
                 </div> 
                 </div>
-                <br></br> */}
+                <br></br> 
                {/*  <img src={Hidratacion34KM} alt='Hidratación M42 34KM' className='img' />  */} 
 
 
@@ -374,50 +374,50 @@ function M42() {
 
                 {/* <h4 style={{textAlign:'center'}}><mark className='mark' >RECORRIDO 15K PRÓXIMAMENTE</mark></h4> */}
 
-               {/*   <div className='containerAltimetria'>
-                 <div className='altimetriaIMG'>
+                  <div className='containerAltimetria'>
+               {/*   <div className='altimetriaIMG'>
                 <img src={km25} alt='Altimetria 25kM Los Alerces' className='img' />
-                </div>  
+                </div>   */}
                  <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 25K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 616 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇ </span>Altura mínima: 369 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel positivo: 732+</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 550 m</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">­­­­­­­ ⬇ </span>Altura mínima: 366 m</p>
                 </div> 
                 </div>
-                <br></br> */}
+                <br></br> 
                {/*  <img src={Hidratacion25KM} alt='Hidratación M42 25KM' className='img' />  */}
 
 
 
-              {/*  <div className='containerAltimetria'>
-                  <div className='altimetriaIMG'>
+                <div className='containerAltimetria'>
+                  {/* <div className='altimetriaIMG'>
                 <img src={km15} alt='Altimetria 15kM Los Alerces' className='img' />
-                </div>  
+                </div> */}  
                 <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 15K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 261 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel positivo: 252+</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 550 m</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">­­­­­­­ ⬇</span> Altura mínima: 366 m</p>
                 </div> 
                 </div>
-                <br></br> */}
+                <br></br> 
                 {/* <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />    */}
 
-               {/*  <br></br>
+                 <br></br>
 
                 <div className='containerAltimetria'>
-                  <div className='altimetriaIMG'>
+                 {/*  <div className='altimetriaIMG'>
                 <img src={km10} alt='Altimetria 10kM Los Alerces' className='img' />
-                </div>  
+                </div>   */}
                 <div>
                 <h5 className='altimetriaTxt'><span role="img" aria-label="Gráfico de recorrido">🏃</span>ALTIMETRÍA 10K</h5>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel: 261 metros</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 548 msnm</p>
-                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">⬇</span> Altura mínima: 369 msnm</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de desnivel">📈</span>Desnivel positivo: 252+</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura máxima">🔝</span>Altura máxima: 550 m</p>
+                <p className='altimetriaTxt'><span role="img" aria-label="Gráfico de altura mínima">­­­­­­­ ­⬇</span> Altura mínima: 366 m</p>
                 </div> 
                 </div>
-                <br></br> */}
+                <br></br> 
                {/*  <img src={Hidratacion10KM} alt='Hidratación M42 10KM' className='img' />    */}
  
                {/*  <br></br>
@@ -482,21 +482,21 @@ function M42() {
                
                 <h3>COSTOS</h3>
                 {/* <h4><strong><s>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</s></strong></h4> */}
-                   <h4><strong>ETAPA 3</strong></h4>
+                   <h4><strong>ETAPA 4 (ÚLTIMA ETAPA HASTA AGOTAR CUPOS)</strong></h4>
                    {/* <h4><strong>ETAPA 2</strong></h4> */}
                 <ul>
-                    <li><strong>50K: $252.000 a pagar el 50% ($126.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($126.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>42K: $222.000 a pagar el 50% ($111.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($111.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>34K: $192.000 a pagar el 50% ($96.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($96.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>25K: $174.000 a pagar el 50% ($87.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($87.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>15K: $148.000 a pagar el 50% ($74.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($74.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>10K: $124.000 a pagar el 50% ($62.000) al INSCRIBIRSE por transferencia bancaria el otro 50% ($62.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>50K: $276.000 a pagar el 50% ($138.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($138.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>42K: $244.000 a pagar el 50% ($122.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($122.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>34K: $212.000 a pagar el 50% ($106.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($106.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>25K: $190.000 a pagar el 50% ($95.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($95.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>15K: $162.000 a pagar el 50% ($81.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($81.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
+                    <li><strong>10K: $136.000 a pagar el 50% ($68.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($68.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
                     <li><strong>KIDS 3K (de 10 a 15 años): $23.000</strong> pago total al inscribirse por transferencia bancaria.</li>
                     <li><strong>KIDS 1K (sin límite de edad): $17.000</strong> pago total al inscribirse por transferencia bancaria.</li>
                 </ul> 
                 <br></br>
                 <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</b></p>
-                <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>
+                <p><strong>Cuando los cupos de la etapa se agoten, NO HABRÁ MÁS INSCRIPCIONES DISPONIBLES</strong>. No comprometa a la organización.</p>
 
                 <p>Si te inscribiste en las ETAPAS ANTERIORES (1 Y 2) donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    
  
