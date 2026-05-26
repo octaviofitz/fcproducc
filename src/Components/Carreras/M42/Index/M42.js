@@ -206,12 +206,12 @@ function M42() {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
                 <h4><mark className='mark'>DOMINGO 31 DE MAYO</mark></h4>
-                <p>ATENCIÓN: Los horarios serán respetados por distancias. No acreditaremos a nadie fuera de su horario correspondiente.</p>
+                <p><mark><strong>ATENCIÓN: ¡HUBO MODIFICACIONES!</strong></mark></p>
                 <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
-                    <li><strong>Horario 25K: 6.30 a 7.30 am</strong></li>
+                    <li><strong>Horario 25K: 7 a 8 am</strong></li>
                     <li><strong>Horario 15K: 7.30 a 8.30 am</strong></li>
-                    <li><strong>Horario 10K: 8.30 a 9.30 am</strong></li>
+                    <li><strong>Horario 10K: 8.30 a 9 am</strong></li>
                 </ul>
 {/*                 <p><strong>POR RAZONES OPERATIVAS, RECOMENDAMOS NO ESPERAR AL DOMINGO PARA RETIRAR. EL KIT PUEDE RETIRARLO OTRA PERSONA (VER EL APARTADO “RETIRO DE KITS POR TERCEROS”).</strong></p>
  */}
@@ -294,11 +294,11 @@ function M42() {
 
                 <h4>DOMINGO 31 DE MAYO | 25K, 15K, 10K y KIDS</h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
-                <p><strong>HORARIOS</strong></p>
+                <p><strong>HORARIOS</strong> <mark><strong>¡ATENCIÓN HUBO MODIFICACIONES!</strong></mark></p>
                 <ul>
-                    <li>25K: 8 am</li>
+                    <li>25K: 8.30 am</li>
                     <li>15K: 9 am</li>
-                    <li>10K: 10 am</li>
+                    <li>10K: 9.30 am</li>
                     <li>KIDS: 12/12.30hs (horario aproximado, puede modificarse)</li>
                 </ul>
                 <h5>¿Cómo llegar a Estancia Las Vertientes?</h5>
@@ -554,17 +554,19 @@ function M42() {
                 </ul>
 
                 <h4>DOMINGO 31 DE MAYO</h4>
-                <p>Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
+                <p><strong><mark>ATENCIÓN: ¡HUBO MODIFICACIONES!</mark></strong></p>
+                <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
-                    <li><strong>De 6.30 a 7.30 am:</strong> ACREDITACIÓN 25K.</li>
-                    <li><strong>8 am:</strong> LARGADA 25K.</li>
+                    <li><strong>De 7 a 8 am:</strong> ACREDITACIÓN 25K.</li>
+                    <li><strong>8.30 am:</strong> LARGADA 25K.</li>
                     <li><strong>7.30 a 8.30 am:</strong> ACREDITACIÓN 15K.</li>
                     <li><strong>9 am:</strong> LARGADA 15K.</li>
-                    <li><strong>8.30 a 9.30 am:</strong> ACREDITACIÓN 10K.</li>
-                    <li><strong>10 am:</strong> LARGADA 10K.</li>
+                    <li><strong>8 a 9 am:</strong> ACREDITACIÓN 10K.</li>
+                    <li><strong>9.30 am:</strong> LARGADA 10K.</li>
                     <li><strong>12/12.30 hs:</strong> LARGADA KIDS (horario aproximado, puede modificarse).</li>
                     <li><strong>13/13:30hs:</strong> PREMIACIÓN (horario aproximado, puede modificarse).</li>
                 </ul> 
+                <p><strong><u>Habrá prioridad para las distancias que larguen antes</u></strong></p>
 
                 <h3>PRODUCTOS OFICIALES</h3>
                 <p>El cuello y la remera de manga corta son productos adicionales que se pueden comprar desde el ESTADO DE INSCRIPCIÓN de cada inscripto (acceden desde cualquier mail de eventols) o la agregan al carrito cuando se inscriben.</p>
