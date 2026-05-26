@@ -206,7 +206,7 @@ function M42() {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
                 <h4><mark className='mark'>DOMINGO 31 DE MAYO</mark></h4>
-                <p><mark><strong>ATENCIÓN: ¡HUBO MODIFICACIONES!</strong></mark></p>
+                <p><mark style={{backgroundColor:'Yellow', color:'black'}}><strong>ATENCIÓN: ¡HUBO MODIFICACIONES!</strong></mark></p>
                 <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
                     <li><strong>Horario 25K: 7 a 8 am</strong></li>
@@ -294,7 +294,7 @@ function M42() {
 
                 <h4>DOMINGO 31 DE MAYO | 25K, 15K, 10K y KIDS</h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
-                <p><strong>HORARIOS</strong> <mark><strong>¡ATENCIÓN HUBO MODIFICACIONES!</strong></mark></p>
+                <p><strong>HORARIOS</strong> <mark style={{backgroundColor:'Yellow', color:'black'}}><strong>¡ATENCIÓN HUBO MODIFICACIONES!</strong></mark></p>
                 <ul>
                     <li>25K: 8.30 am</li>
                     <li>15K: 9 am</li>
@@ -554,7 +554,7 @@ function M42() {
                 </ul>
 
                 <h4>DOMINGO 31 DE MAYO</h4>
-                <p><strong><mark>ATENCIÓN: ¡HUBO MODIFICACIONES!</mark></strong></p>
+                <p><strong><mark style={{backgroundColor:'Yellow', color:'black'}}>ATENCIÓN: ¡HUBO MODIFICACIONES!</mark></strong></p>
                 <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
                     <li><strong>De 7 a 8 am:</strong> ACREDITACIÓN 25K.</li>
