@@ -19,9 +19,9 @@ function Carreras() {
         <section className='carreras'>
             
 
-   {/*         <Contador />   
+            <Contador />   
 
-          <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA SIERRA</h1>
+        {/*   <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA SIERRA</h1>
 
 
         <div className='containerGeneral'>
@@ -53,7 +53,7 @@ function Carreras() {
        
 
         </article>
-        </div>    */}
+        </div>     */}
 
 
         <h1 className='titulo'>CARRERAS</h1>
