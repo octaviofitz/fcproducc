@@ -28,8 +28,7 @@ function TimeUnit({ value, label }) {
 function Contador() {
   // Define la fecha y hora objetivo (1 de Mayo, 14:00 hs, zona horaria Argentina UTC-3)
   // Asegúrate que el año sea futuro si quieres ver el contador activo.
-  const targetDate = new Date("2026-05-30T09:00:00-00:00").getTime(); // Ejemplo: 1 de Mayo 2026
-
+  const targetDate = new Date("2026-05-30T09:00:00-03:00").getTime();
   // --- Lógica interna del contador ---
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
@@ -77,7 +76,7 @@ function Contador() {
 
         {timeLeft.expired ? (
           <div className="expired-message">
-            ¡El momento ha llegado!
+            ¡Llegó el día!
           </div>
         ) : (
           <div className="countdown-grid">
