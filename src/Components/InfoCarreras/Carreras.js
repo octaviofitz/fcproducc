@@ -19,33 +19,34 @@ function Carreras() {
         <section className='carreras'>
             
 
-            <Contador />   
-
-        {/*   <h1 className='titulo'>RESULTADOS DESAFÍO COLUMBIA SIERRA</h1>
+          {/*   <Contador />   
+ */}
+       <h1 className='titulo'>RESULTADOS M42</h1>
 
 
         <div className='containerGeneral'>
         <article className='container'>
-        <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>RESULTADOS + FOTOS</h2>
-        <p className='texto'>Aquí está la clasificación del Desafío Columbia Sierras Grandes y poco a poco se están cargando las fotos.</p>
+        <img src={m42} className="carrerasimg" alt='Carrera El Desafío'></img>
+        <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2>
+        <p className='texto'>Acá podrán ver la clasificación de 50K, 42K, 34K, 25K, 15K y 10K del M42 2026 y las fotos del equipo de Locos de las Foto.</p>
         
 
         <div className='contenedorBotones'>
             
             <div className='contenedorBoton'>
-            <Link to='https://eventols.com/p/desafio-columbia-sierra-de-la-ventana-2025/results'>
-        <Button variant="success" size='lg' className='botondesafio' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
+            <Link to='https://eventols.com/p/m42-maraton-de-montana-2026/results'>
+        <Button variant="info" size='lg' className='botonm42' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
         </Link>
             </div>
         
 
-         <div className='contenedorBoton'>
-        <Link to='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'>
-        <Button variant="success" size='lg' className='botondesafio' id='fotoResultado'>FOTOS</Button>
-        </Link>
-        </div>    
-
+            <div className='contenedorBoton'>
+  <Link to='#' onClick={(e) => e.preventDefault()}>
+    <Button disabled variant="info" size='lg' className='botonm42' id='fotoResultado'>
+      FOTOS
+    </Button>
+  </Link>
+</div>
 
         
         </div>
@@ -53,7 +54,7 @@ function Carreras() {
        
 
         </article>
-        </div>     */}
+        </div>     
 
 
         <h1 className='titulo'>CARRERAS</h1>
