@@ -40,13 +40,11 @@ function Carreras() {
             </div>
         
 
-            <div className='contenedorBoton'>
-  <Link to='#' onClick={(e) => e.preventDefault()}>
-    <Button disabled variant="info" size='lg' className='botonm42' id='fotoResultado'>
-      FOTOS
-    </Button>
-  </Link>
-</div>
+            <div className='contenedorBoton'> 
+              <Link to='https://locosdelafoto.mirelia.net/eventos/e0d84666-e2f2-45aa-bf48-710a13f0bab3'>
+               <Button variant="info" size='lg' className='botonm42' id='fotoResultado'>FOTOS</Button>
+                </Link> 
+                </div>
 
         
         </div>
