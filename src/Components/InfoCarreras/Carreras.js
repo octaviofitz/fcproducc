@@ -21,7 +21,7 @@ function Carreras() {
 
           {/*   <Contador />   
  */}
-       <h1 className='titulo'>RESULTADOS M42</h1>
+       <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1>
 
 
         <div className='containerGeneral'>
@@ -71,7 +71,7 @@ function Carreras() {
             <article className='container'>
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
             <h2 className='tituloResultados'>MARATÓN M42</h2>
-            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 30 y 31 de mayo 2026. <strong>Inscripciones abiertas.</strong></p>
+            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 30 y 31 de mayo 2026.</p>
              <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
             </article>
 
