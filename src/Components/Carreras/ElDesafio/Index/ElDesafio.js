@@ -115,7 +115,7 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
-                <p><strong>La acreditación</strong> se llevará a cabo <strong><u>únicamente</u> los días <u>viernes y sábado en el Hotel Days Inn (Drago 130, Sierra de la Ventana)</u></strong>.</p>
+                <p><strong>La acreditación</strong> se llevará a cabo <strong><u>únicamente</u> los días <u>viernes y sábado en Pie de Piedra, Hotel Boutique, Sierra de la Ventana</u></strong>.</p>
                 <p>Todo lo que respecta a <strong>la carrera</strong>, es decir, la largada, llegada y campamento de la modalidad 2 días y 1 día, se realizará <strong><u>íntegramente</u> en la Reserva Natural Privada Sierras Grandes</strong>, un lugar de ensueño ubicado en Sierra de la Ventana, comarca de Tornquist, Provincia de Buenos Aires.</p>
                 <p>La Reserva se encuentra <strong>a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana</strong> (lugar de acreditación ya mencionado). Los que vinieron a correr el año pasado no nos van a dejar mentir: una vez que lleguen se van a enamorar. Y si ya lo conocen, lo mirarán con otros ojos.</p>
 
@@ -284,7 +284,7 @@ function ElDesafio() {
 
                 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
-                <p><strong>La acreditación se realizará únicamente los días viernes y sábado en el Hotel Days Inn de Sierra de la Ventana (Drago 130). La Reserva Sierras Grandes, lugar donde se realiza la carrera, se encuentra a 12 kilómetros del Hotel Days Inn.</strong></p> 
+                <p><strong>La acreditación se realizará únicamente los días viernes y sábado en Pie de Piedra, Hotel Boutique, Sierra de la Ventana. La Reserva Sierras Grandes, lugar donde se realiza la carrera, se encuentra a 12 kilómetros de Pie de Piedra.</strong></p> 
 
                 <h4><mark className='mark'>- VIERNES 02/10</mark></h4>
                 <p>16 a 19hs: Acreditación a todas las distancias.</p>
@@ -295,9 +295,9 @@ function ElDesafio() {
 
                 <p><strong><u>ATENCIÓN:</u> El día domingo 4/10 NO HABRÁ ACREDITACIÓN. Se retira el kit únicamente el viernes o sábado, con la posibilidad de que lo haga un tercero con tu fotocopia de dni siempre y cuando esté el deslinde firmado y el apto médico subido.</strong></p>
     
-                <h5>CÓMO LLEGAR AL HOTEL DAYS INN?</h5>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12853598.356428366!2d-61.798543!3d-38.138204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eceecaac28d5a3%3A0x820b68edb61e3981!2sDays%20Inn%20Hotel%20Sierra%20de%20la%20Ventana!5e0!3m2!1ses!2sus!4v1772655430468!5m2!1ses!2sus" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Provincial'></iframe>
-                <p><b>IMPORTANTE: EN LA RESERVA NATURAL PRIVADA SIERRAS GRANDES NO SE PODRÁ RETIRAR KIT NI TAMPOCO INSCRIBIRSE AL EVENTO, NINGÚN DÍA.</b></p>
+                <h5>CÓMO LLEGAR A PIE DE PADRE, HOTEL BOUTIQUE?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.463083281655!2d-61.79391376885545!3d-38.119998749208506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ece9368a48003b%3A0x53c10bbfa65126c6!2sPie%20de%20piedra%20-%20Hotel%20boutique.%20%2B18!5e0!3m2!1ses!2sar!4v1780945671509!5m2!1ses!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Pie de Piedra'></iframe>
+                {/* <p><b>IMPORTANTE: EN LA RESERVA NATURAL PRIVADA SIERRAS GRANDES NO SE PODRÁ RETIRAR KIT NI TAMPOCO INSCRIBIRSE AL EVENTO, NINGÚN DÍA.</b></p> */}
                
                 <h3>RETIRO DE KITS POR TITULAR</h3>
                 <p>Para retirar el kit deberán presentarse dentro de los horarios de acreditación correspondientes (viernes o sábado) con el DNI físico.</p>
@@ -352,7 +352,7 @@ function ElDesafio() {
                     </Link>
                     </li>
             
-                    <li>Es una tranquera que está ubicada a 2,6 km del Hotel Days Inn de Sierra de la Ventana (lugar de acreditación).</li>
+                    {/* <li>Es una tranquera que está ubicada a 2,6 km del Hotel Days Inn de Sierra de la Ventana (lugar de acreditación).</li> */}
                     <li>Una vez atravesada la tranquera, son, aproximadamente, 9 kilómetros por camino de tierra hasta llegar a la Reserva Natural Sierras Grandes (lugar de llegada y salida de todas las carreras y del campamento).</li>
                     <li>Al camino de tierra inicial se accede desde la ruta provincial 72. Verán banderas y referencias de la carrera.</li>
                 </ol>
@@ -546,13 +546,13 @@ function ElDesafio() {
                 <h3 id='cronograma'>CRONOGRAMA GENERAL DEL EVENTO</h3>
                <h4><strong><mark className='mark'>VIERNES 02/10</mark></strong></h4>
                <ul>
-                <li><strong>16 a 19 hs:</strong> Acreditación y entrega de kits. Hotel Days Inn de Sierra de la Ventana, ubicado en Drago 130.</li>
+                <li><strong>16 a 19 hs:</strong> Acreditación y entrega de kits. Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</li>
                </ul>
 
                <h4><strong><mark className='mark'>SÁBADO 03/10</mark></strong></h4>
                <ul>
-                <li><strong>9 a 13 hs:</strong> Acreditación y entrega de kits con prioridad para la modalidad 2 días: Hotel Days Inn de Sierra de la Ventana.</li>
-                <li><strong>9 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Hotel Days Inn Sierra de la Ventana.</li>
+                <li><strong>9 a 13 hs:</strong> Acreditación y entrega de kits con prioridad para la modalidad 2 días: Pie de Piedra, Hotel Boutique, Sierra de la Ventana</li>
+                <li><strong>9 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</li>
                 <li><strong>13:45 hs:</strong> Charla técnica modalidad 2 días en el arco de largada. Reserva Natural Sierras Grandes, Sierra de la Ventana, Tornquist.</li>
                 <li><strong>14 hs:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes.</li>
                 <li><strong>20 a 21:30 hs:</strong> Cena en el campamento de la Reserva Natural Sierras Grandes.</li>

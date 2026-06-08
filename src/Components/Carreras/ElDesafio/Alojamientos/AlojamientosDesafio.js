@@ -16,6 +16,8 @@ import LasGolondrinas from '../../../../Img/Alojamientos/lasGolondrinas.webp'
 import Calandrias from '../../../../Img/Alojamientos/calandrias.webp'
 import PuntoCadia from '../../../../Img/Alojamientos/puntoCadia.webp'
 import Alerces from '../../../../Img/Alojamientos/alerces.webp'
+import PieDePiedra from '../../../../Img/Alojamientos/pieDePiedra.webp'
+
 
 import '../Alojamientos/alojamientosDesafio.css'
 
@@ -50,7 +52,7 @@ function AlojamientosDesafio() {
         </div>
         </article>
         
-        <article>
+       {/*  <article>
         <h4><mark className='marcador'>HOTEL PROVINCIAL</mark></h4>
         <div className='containerTop'> 
         <div>
@@ -63,6 +65,24 @@ function AlojamientosDesafio() {
             <li>Email: reservas@hotelprovincialsierra.com</li>
             <li>Facebook: Hotel Provincial Sierra de la Ventana</li>
             <li>Web: <Link to='https://www.hotelprovincialsierra.com' target='_blank' rel="noopener noreferrer">www.hotelprovincialsierra.com</Link></li>
+        </ul>
+        </div>
+        </div>
+        </article> */}
+
+        <article>
+        <h4><mark className='marcador'>PIE DE PIEDRA - HOTEL BOUTIQUE</mark></h4>
+        <div className='containerTop'> 
+        <div>
+        <img src={PieDePiedra} className='img' alt='Hotel Pie de Piedra' />
+        </div>
+        <div>
+        <ul>
+            <li>Calle: Las lavandas, Los Lirios y, B8168 Sierra de la Ventana, Bs As.</li>
+            <li>Tel: 011 2475-8109 | Whatsapp:  +54 9 11 2475-8109</li>
+            <li>Email: piedepiedrahotelboutique@gmail.com</li>
+            <li>Facebook: Hotel Provincial Sierra de la Ventana</li>
+            <li>Web: <Link to='www.piedepiedra.com ' target='_blank' rel="noopener noreferrer">www.piedepiedra.com</Link></li>
         </ul>
         </div>
         </div>

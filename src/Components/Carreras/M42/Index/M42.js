@@ -63,11 +63,11 @@ function M42() {
 
                             <div>           
                                  <p className='descripcion'>El Maratón de montaña M42 es, desde hace años, el clásico de trail y ultra trail de la comarca de Tornquist, provincia de Buenos Aires. Con más de 1.800 corredores en cada edición, la fiesta que se vive es total y muy esperada por los participantes.</p>
-                                    <p className='descripcion'>Con la edición N°14 llevaremos tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único en Villa Ventana y San Andrés de la Sierra, dos paraísos.</p>
+                                    <p className='descripcion'>Con la edición N°15 llevaremos tu cuerpo al extremo en un recorrido que mezcla la exigencia con el disfrute en un contexto natural único en Villa Ventana y San Andrés de la Sierra, dos paraísos.</p>
                                     <p className='descripcion'>Paisajes inolvidables, cruces de arroyos, un histórico hotel abandonado por donde pasaron Nazis, senderos, bosques y mucho trail, sumado a una compañía única de los demás corredores y del staff de FC Producciones que harán que sea un fin de semana que no olvidarás jamás.</p>
-                                    <p className='descripcion'>50K, 42K y 34K el sábado 30 de mayo y 25K, 15K, 10K y las distancias KIDS de 3K y 1K el domingo. Sí,  LA GRAN NOVEDAD de este 2026 son los ¡15 kilómetros! nuestra nueva distancia. Si querés un poco más de exigencia, vas a poder correr los dos días.</p>
+                                    <p className='descripcion'>50K, 42K y 34K el sábado 29 de mayo y 25K, 15K, 10K y las distancias KIDS de 3K y 1K el domingo 30. Si querés un poco más de exigencia, vas a poder correr los dos días.</p>
                                     <p className='descripcion'>Estas son las 8 modalidades que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42, volver a participar, pero elevando la distancia en la próxima edición.</p>
-                                    <p className='descripcion'>Agendá la fecha de la edición N°14: 30 y 31 de mayo de 2026.</p>                                      
+                                    <p className='descripcion'>Agendá la fecha de la edición N°15: 29, 30 y 31 de mayo de 2027.</p>                                      
                                   {/*   <ul className='redes'>
                     
                                         <li><Link to='https://www.instagram.com/MaratonM42/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -105,13 +105,13 @@ function M42() {
 
 
                 <h4>DATOS GENERALES</h4>
-                <p><strong>Carrera:</strong> Maratón de montaña M42 edición N°14.</p>
-                <p><strong>Fechas:</strong> 30 Y 31 de mayo de 2026.</p>
+                <p><strong>Carrera:</strong> Maratón de montaña M42 edición N°15.</p>
+                <p><strong>Fechas:</strong> 29 Y 30 de mayo de 2027.</p>
                 <p><strong>Lugares:</strong> San Andrés de la Sierra y Villa Ventana. Todo ubicado en la comarca de Tornquist, provincia de Buenos Aires.</p>
                 <p><strong>Concepto:</strong> Carrera de trail y ultra trail running.</p>
-                <p><strong>Distancias:</strong> 50K, 42K, 34K, 25K, 15K (nuevos), 10K y KIDS.</p>
-                <p><strong>Sábado 30 de mayo de 2026: 50K, 42K y 34K (Salida desde San Andrés de la Sierra, llegada a la Plaza Salerno en Villa Ventana)</strong></p>
-                <p><strong>Domingo 31 de mayo de 2026: 25K, 15K, 10K, 3K KIDS Y 1K KIDS (Salida y llegada en Estancia las Vertientes).</strong></p>
+                <p><strong>Distancias:</strong> 50K, 42K, 34K, 25K, 15K, 10K y KIDS.</p>
+                <p><strong>Sábado 29 de mayo de 2027: 50K, 42K y 34K (Salida desde San Andrés de la Sierra, llegada a la Plaza Salerno en Villa Ventana)</strong></p>
+                <p><strong>Domingo 30 de mayo de 2027: 25K, 15K, 10K, 3K KIDS Y 1K KIDS (Salida y llegada en Estancia las Vertientes).</strong></p>
                 <p><strong>Modalidad:</strong> Individual</p>
 
                 <h3>CATEGORÍAS</h3>
@@ -151,7 +151,7 @@ function M42() {
 
                 <h3>REMERA OFICIAL</h3>
                  <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 14. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
-                  <img src={Remera} className='img' alt='Remera M42' />  
+                  {/* <img src={Remera} className='img' alt='Remera M42' />   */}
 
                  {/* <h3>PRODUCTOS OFICIALES</h3>
                  <p>Si querés tener el mejor y más completo outfit para correr por las sierras de Villa Ventana, comprá por la web y retirá con tu kit.</p>
@@ -176,7 +176,7 @@ function M42() {
                 <h3>TRASLADO 50, 42 Y 34K</h3>
                 <p>Quienes corran 50K, 42K o 34K y no tengan cómo llegar a la largada, pondremos un traslado desde Plaza Salerno (Villa Ventana) hasta Puesta del Sol Houses & Nature (lugar de largada) el sábado 30 de mayo.</p>
                 <p>El micro saldrá a las 7:45 de la mañana puntual desde Plaza Salerno. Deben estar 10 min antes.</p>
-                <p>El costo es de $8.000* y se paga por transferencia bancaria. Para reservar, comunicarse a <strong>info@fcproducciones.com.ar</strong> o al Whatsapp <strong>115135 - 6267</strong></p>
+                <p>El costo estará próximamente y se paga por transferencia bancaria. Para reservar, comunicarse a <strong>info@fcproducciones.com.ar</strong> o al Whatsapp <strong>11- 5135 - 6267</strong></p>
                 <p>Deben confirmar la reserva con anticipación para obtener su lugar en el traslado.</p>
                 <p>*No tiene devolución.</p>
                 {/* <h4><mark className='mark'>INFO PRÓXIMAMENTE</h4> */}
@@ -184,7 +184,7 @@ function M42() {
 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
                 
-                 <h4><mark className='mark'>VIERNES 29 DE MAYO</mark></h4>
+                 <h4><mark className='mark'>VIERNES 28 DE MAYO</mark></h4>
                 <p>Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <p><strong>Horario: De 11 a 19 hs.</strong></p>
                 <p>*El día y horario es todas las distancias (50K, 42K, 34K, 25K, 15K, 10K y Kids)</p>
@@ -192,7 +192,7 @@ function M42() {
                 {/*  <h5>¿CÓMO LLEGAR A LA GRAN CABAÑA?</h5>
                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3140.386906552386!2d-61.929315!3d-38.084657!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf2d093d0f4fd%3A0xad4d33cb6aa65910!2sLa%20Gran%20Caba%C3%B1a%20-%20Hotel%20Spa%20%26%20Restaurante!5e0!3m2!1ses-419!2sar!4v1740175342495!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe> */}
                
-                <h4><mark className='mark'>SÁBADO 30 DE MAYO</mark></h4>
+                <h4><mark className='mark'>SÁBADO 29 DE MAYO</mark></h4>
                 <p style={{textDecoration:'underline'}}>ATENCIÓN: *El día y horario es únicamente para las distancias del domingo <strong>(25K, 15K, 10K y KIDS)</strong>. Lugar: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
                 <ul>
                     {/* <li>Horario 50K, 42K y 34K: 6:30 a 7:30 am</li> */}
@@ -205,8 +205,8 @@ function M42() {
                 <h5>¿CÓMO LLEGAR A LA PLAZA SALERNO?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100532.41661521242!2d-61.93467999999999!3d-38.05552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ecf3c631137e11%3A0x652387499a504212!2sPlaza%20Salerno!5e0!3m2!1ses-419!2sar!4v1682008713151!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Plaza Salerno'></iframe>
 
-                <h4><mark className='mark'>DOMINGO 31 DE MAYO</mark></h4>
-                <p><mark style={{backgroundColor:'Yellow', color:'black'}}><strong>ATENCIÓN: ¡HUBO MODIFICACIONES!</strong></mark></p>
+                <h4><mark className='mark'>DOMINGO 30 DE MAYO</mark></h4>
+               {/*  <p><mark style={{backgroundColor:'Yellow', color:'black'}}><strong>ATENCIÓN: ¡HUBO MODIFICACIONES!</strong></mark></p> */}
                 <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
                     <li><strong>Horario 25K: 7 a 8 am</strong></li>
@@ -270,10 +270,10 @@ function M42() {
                             
                 
                 <h3>APTO MÉDICO</h3>
-                <p>El apto médico debe cargarse en la web a la hora de inscribirse. El apto médico tiene que tener <strong>vigencia de 1 año</strong> a partir de la fecha que fue realizado el estudio. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma con sello del médico.</p>
+                {/* <p>El apto médico debe cargarse en la web a la hora de inscribirse. El certificado médico deberá tener una fecha posterior al 30 de mayo de 2026 para ser tomado como válido. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma con sello del médico.</p>
                 <p>La validación del apto médico será realizada por la organización.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
-                <p>Podés descargar nuestro modelo de  apto y presentarlo a tu médico para que lo complete o cualquier formato.</p>
+                <p>Podés descargar nuestro modelo de apto y presentarlo a tu médico para que lo complete.</p> */}
                 
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
@@ -284,7 +284,7 @@ function M42() {
 
                 <h3>LARGADAS: LUGARES Y HORARIOS</h3>
 
-                <h4>SÁBADO 30 DE MAYO | 50K, 42K Y 34K</h4>
+                <h4>SÁBADO 29 DE MAYO | 50K, 42K Y 34K</h4>
                 <p><strong>- LARGADA</strong>: Puesta del Sol Houses & Nature (Calle Gnena Kena y Chila, San Andrés de la Sierra, comarca de Tornquist, provincia de Buenos Aires).</p>
                 <p><strong>- HORARIO</strong>: 9 am</p>
                 <p><strong>- LLEGADA</strong>: Plaza Salerno, en el centro de Villa Ventana, comarca de Tornquist, provincia de Buenos Aires.</p>
@@ -292,9 +292,9 @@ function M42() {
                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.2079439959557!2d-62.091638599999996!3d-38.0655381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ec61c416455dcb%3A0x57970baf20e534ec!2sPuesta%20del%20Sol%20Houses%20%26%20Nature!5e0!3m2!1ses-419!2sar!4v1737142048342!5m2!1ses-419!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Puesta de Sol'></iframe>
 
 
-                <h4>DOMINGO 31 DE MAYO | 25K, 15K, 10K y KIDS</h4>
+                <h4>DOMINGO 30 DE MAYO | 25K, 15K, 10K y KIDS</h4>
                 <p><strong>LARGADA Y LLEGADA</strong>: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana)</p>
-                <p><strong>HORARIOS</strong> <mark style={{backgroundColor:'Yellow', color:'black'}}><strong>¡ATENCIÓN HUBO MODIFICACIONES!</strong></mark></p>
+                <p><strong>HORARIOS</strong> {/* <mark style={{backgroundColor:'Yellow', color:'black'}}><strong>¡ATENCIÓN HUBO MODIFICACIONES!</strong></mark> */}</p>
                 <ul>
                     <li>25K: 8.30 am</li>
                     <li>15K: 9 am</li>
@@ -433,13 +433,13 @@ function M42() {
 
 
                 <h3 id='inscripcion'>IMPORTANTE: ¿CÓMO ME INSCRIBO?</h3>
-                <p><b>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</b></p>
+                <p><b>DENTRO DE LA INSCRIPCIÓN ONLINE DEBERÁN   FIRMAR VIRTUALMENTE EL DESLINDE DE RESPONSABILIDAD Y TAMBIÉN SUBIR EL APTO MÉDICO. NO ES OBLIGATORIO HACERLO AL MOMENTO DE INSCRIBIRSE, PUEDE REALIZARSE LUEGO SIEMPRE Y CUANDO SEA ANTES DEL EVENTO. LO PUEDEN HACER INGRESANDO A SU INSCRIPCIÓN DENTRO DEL MAIL DE CONFIRMACIÓN DE EVENTOLS.</b></p>
                 
                 <h4>INSCRIPCIÓN ONLINE</h4>
                 <p>Los pasos para inscribirse online son:</p>
 
                 <ol>
-                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero.</li>
+                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero. <mark className='mark' style={{backgroundColor:'yellow', color:'black', marginTop:'20px'}}><strong></strong>¡ATENCIÓN, EN LA INSTANCIA DE PRECIO LANZAMIENTO NO ES VÁLIDO  EL DESCUENTO TEAM)</mark></li>
                     <li>Elegir la distancia.</li>
                     <li> Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
                     <li>Abonar la primera cuota vía transferencia o depósito bancario y <strong>subir el comprobante</strong>. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 5 días se elimina).</li>
@@ -450,7 +450,7 @@ function M42() {
            
         <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
-                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2027' className='enlaceBoton'>
                     <Button variant="info" size='lg' className='boton'>
                         INSCRIBITE ACÁ
                     </Button>
@@ -482,30 +482,30 @@ function M42() {
                
                 <h3>COSTOS</h3>
                 {/* <h4><strong><s>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</s></strong></h4> */}
-                   <h4><strong>ETAPA 4 (ÚLTIMA ETAPA HASTA AGOTAR CUPOS)</strong></h4>
+                   <h4><strong><mark>PROMO LANZAMIENTO: ¡PRECIO IRRISORIO HASTA AGOTAR LOS PRIMEROS 100 CUPOS</mark></strong></h4>
                    {/* <h4><strong>ETAPA 2</strong></h4> */}
                 <ul>
-                    <li><strong>50K: $276.000 a pagar el 50% ($138.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($138.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>42K: $244.000 a pagar el 50% ($122.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($122.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>34K: $212.000 a pagar el 50% ($106.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($106.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>25K: $190.000 a pagar el 50% ($95.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($95.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>15K: $162.000 a pagar el 50% ($81.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($81.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>10K: $136.000 a pagar el 50% ($68.000) al INSCRIBIRSE por transferencia bancaria y el otro 50% ($68.000) en EFECTIVO en ACREDITACIÓN.</strong></li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $23.000</strong> pago total al inscribirse por transferencia bancaria.</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $17.000</strong> pago total al inscribirse por transferencia bancaria.</li>
+                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>50K: $248.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($124.000) y la otra a los 30 días ($124.000).</mark></strong></li>
+                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>42K: $220.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($110.000) y la otra a los 30 días ($110.000).</mark></strong></li>
+                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>34K: $190.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($95.000) y la otra a los 30 días ($95.000).</mark></strong></li>
+                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>25K: $172.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($86.000) y la otra a los 30 días ($86.000).</mark></strong></li>
+                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>15K: $146.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($73.000) y la otra a los 30 días ($73.000).</mark></strong></li>
+                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>10K: $122.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($61.000) y la otra a los 30 días ($61.000).</mark></strong></li>
+                    <li><mark style={{backgroundColor:'yellow', color:'black'}}><strong>KIDS 3K (de 10 a 15 años): $20.000</strong> pago total al inscribirse por transferencia bancaria.</mark></li>
+                    <li><mark style={{backgroundColor:'yellow', color:'black'}}><strong>KIDS 1K (sin límite de edad): $15.000</strong> pago total al inscribirse por transferencia bancaria.</mark></li>
                 </ul> 
                 <br></br>
-                <p><b>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</b></p>
-                <p><strong>Cuando los cupos de la etapa se agoten, NO HABRÁ MÁS INSCRIPCIONES DISPONIBLES</strong>. No comprometa a la organización.</p>
+                <p><b><mark style={{backgroundColor:'yellow', color:'black'}}>NO ES COMPATIBLE CON OTROS DESCUENTOS.</mark></b></p>
+                <p><b><mark style={{backgroundColor:'yellow', color:'black'}}>Cuando los cupos de la etapa se agoten, el precio pasará a ser a costo 2027</mark>.</b></p>
 
-                <p>Si te inscribiste en las ETAPAS ANTERIORES (1 Y 2) donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    
+               {/*  <p>Si te inscribiste en las ETAPAS ANTERIORES (1 Y 2) donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    */} 
  
                  {/*  <h5 style={{textAlign:'center'}}>¡PRIMERA ETAPA AGOTADA!</h5>
                  <h5 style={{textAlign:'center', marginBottom: '3rem'}}>Pronto abriremos la segunda etapa.</h5>   */}
 
 <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
-                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2027' className='enlaceBoton'>
                     <Button variant="info" size='lg' className='boton'>
                         INSCRIBITE ACÁ
                     </Button>
@@ -519,7 +519,7 @@ function M42() {
             <p><strong>CONSIDERACIONES:</strong></p>
                 <p>*No es acumulable con otros descuentos.</p>
                 <p>*La inscripción es únicamente online y de forma previa, no se inscribirá el mismo día.</p>
-                <p>*No se puede dar de baja ni modificar nada a partir del lunes 18/05/2026.</p>
+                <p>*No se puede dar de baja ni modificar nada a partir del lunes 17/05/2027.</p>
                 <p>*Se inscribe en dos carreras y realiza dos acreditaciones, dos largadas, dos premiaciones, todo por separado.</p>
                 <p>*No se harán devoluciones. (Ver política de devolución de inscripciones en reglamento)</p>
 
@@ -534,16 +534,16 @@ function M42() {
                 <h4>¿CÓMO SUMARSE?</h4>
                 <p>Nos tienen que mandar el nombre del team y la canción elegida al WhatsApp o al mail: info@fcproducciones.com.ar</p>
                 <p>Además..¡HAY PREMIO!</p>
-                <p>La más creativa se llevará una inscripción gratuita para el M42 2027.</p>
+                <p>La más creativa se llevará una inscripción gratuita para el M42 2028.</p>
                 <p>Tienen tiempo para empezar a pensar una coreo en conjunto para deslumbrar a los espectadores. ¡Ya vimos por ahí que hay varios teams que arrancaron! Y ojo, porque los teams del año pasado dejaron MUY alta la vara!</p>
 
 
                 <h3 id='cronograma'>CRONOGRAMA GENERAL</h3>
-                 <h4>VIERNES 29 DE MAYO</h4>
+                 <h4>VIERNES 28 DE MAYO</h4>
                 <p><strong>De 11 a 19hs: ACREDITACIÓN TODAS LA DISTANCIAS.</strong></p>
                 <p>Lugar: Plaza Salerno, Villa Ventana.</p>
                 
-                <h4>SÁBADO 30 DE MAYO</h4>
+                <h4>SÁBADO 29 DE MAYO</h4>
                 <ul>
         
                     <li><strong>9 am</strong> LARGADA 50, 42 Y 34K. Lugar: San Andrés de la Sierra.</li>
@@ -553,8 +553,8 @@ function M42() {
                     <li><strong>18:30 hs</strong>: Desfile de teams. Lugar: Plaza Salerno, Villa Ventana.</li>
                 </ul>
 
-                <h4>DOMINGO 31 DE MAYO</h4>
-                <p><strong><mark style={{backgroundColor:'Yellow', color:'black'}}>ATENCIÓN: ¡HUBO MODIFICACIONES!</mark></strong></p>
+                <h4>DOMINGO 30 DE MAYO</h4>
+                {/* <p><strong><mark style={{backgroundColor:'Yellow', color:'black'}}>ATENCIÓN: ¡HUBO MODIFICACIONES!</mark></strong></p> */}
                 <p>Lugar: Estancia Las Vertientes (Ruta 76, Km 221, Villa Ventana).</p>
                 <ul>
                     <li><strong>De 7 a 8 am:</strong> ACREDITACIÓN 25K.</li>
@@ -568,10 +568,10 @@ function M42() {
                 </ul> 
                 <p><strong><u>Habrá prioridad para las distancias que larguen antes</u></strong></p>
 
-                <h3>PRODUCTOS OFICIALES</h3>
+                {/* <h3>PRODUCTOS OFICIALES</h3>
                 <p>El cuello y la remera de manga corta son productos adicionales que se pueden comprar desde el ESTADO DE INSCRIPCIÓN de cada inscripto (acceden desde cualquier mail de eventols) o la agregan al carrito cuando se inscriben.</p>
                 <p>La remera que viene incluida en el kit es la de manga larga. Si compran la de manga corta y la quieren usar durante la carrera, pueden hacerlo.</p>
-                <img src={Bufyremera} className='img' alt='Buf y Remera M42' />  
+                <img src={Bufyremera} className='img' alt='Buf y Remera M42' />   */}
 
                 <h3 id='reglamento'>REGLAMENTO M42</h3>
                 <p>La organización controlará el cumplimiento del reglamento por parte de los competidores y decidirá sobre cualquier tema que tenga que ver con la carrera. Los corredores deberán remitirse al mismo ante cualquier duda sobre temas técnicos, de circuito, competencia, clasificaciones y demás.</p>
@@ -632,7 +632,7 @@ function M42() {
 
 <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
-                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2027' className='enlaceBoton'>
                     <Button variant="info" size='lg' className='boton'>
                         INSCRIBITE ACÁ
                     </Button>
@@ -650,11 +650,11 @@ function M42() {
                 <p>Las inscripciones <strong>NO</strong> tienen devolución. Sin excepción.</p>
 
                 <h4>TRANSFERENCIA POR NO PODER PARTICIPAR</h4>
-                <p>Para poder transferir debe estar toda la carrera abonada. Hasta el viernes 15/05/2026, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
+                <p>Para poder transferir debe estar toda la carrera abonada. Hasta el viernes 14/05/2027, inclusive, podrá transferir el 100% de lo abonado a cuenta de la inscripción únicamente de la edición del año siguiente de la organización. De optar por esta opción, la inscripción próxima será intransferible para otra edición o participante y sin devolución total o parcial.</p>
             
                 
                 <h4>TRANSFERENCIA A OTRO CORREDOR</h4>
-                <p>Para poder transferir debe estar toda la carrera abonada. Hasta el viernes 15/5/2026, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Solo se considerarán aquellos casos en que se solicite a la organización por mail y solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>Para poder transferir debe estar toda la carrera abonada. Hasta el viernes 14/5/2027, inclusive, podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Solo se considerarán aquellos casos en que se solicite a la organización por mail y solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro y más.</p>
                
                
@@ -662,18 +662,18 @@ function M42() {
                 <p>Para los corredores que se hayan inscripto, en caso de querer cambiar de distancia, tener en cuenta que:</p>
                 <ol>
                     <li>Sólo se considerarán aquellos casos en que se solicite al mail de la organización.</li>
-                    <li>El viernes 15/05/2026 es el último día en que se aceptarán modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
+                    <li>El viernes 14/05/2027 es el último día en que se aceptarán modificaciones en las inscripciones realizadas, ya sea de talle de remera, cambio de distancia o similar.</li>
                     <li>Si el cambio es a una distancia mayor, se debe abonar la diferencia del monto de inscripción. Esta diferencia entre ambas inscripciones corresponderá al importe vigente al momento del cambio de distancia.</li>
                     <li>No se devolverá dinero si el cambio es a una distancia menor.</li>
                 </ol>
 
 
                 <h3>CORTES OBLIGATORIOS</h3>
-                <p><strong>La distancia de 42k</strong>, la cual larga el sábado 30 de mayo a las 9 de la mañana, tendrá un único corte a las 6 horas de carrera (o sea, 15:00hs del sábado) en el kilómetro 34 donde se encuentra la última subida (la antena).</p>
+                <p><strong>La distancia de 42k</strong>, la cual larga el sábado 29 de mayo a las 9 de la mañana, tendrá un único corte a las 6 horas de carrera (o sea, 15:00hs del sábado) en el kilómetro 34 donde se encuentra la última subida (la antena).</p>
                 <p>No comprometa al staff de FC producciones al momento del corte. En el punto indicado se les redireccionará para continuar con la carrera. La persona indicada les retirará el chip y su clasificación pasará al final de la tabla donde figurará como un DNF. Está en cada corredor recibir la medalla finisher.</p>
                 <p>Todos estos puntos son sujetos a cambio en caso de que la organización lo decida, por factores climáticos, luz, hasta estado del corredor.</p>
 
-                <p><strong>La distancia de 50k</strong>, la cual larga el sábado 30 de mayo a las 9 de la mañana, tendrá tres cortes. El primero será a las 6 horas de carrera (o sea, 15:00hs del sábado), en el kilómetro 34 (subida a la antena).</p>
+                <p><strong>La distancia de 50k</strong>, la cual larga el sábado 29 de mayo a las 9 de la mañana, tendrá tres cortes. El primero será a las 6 horas de carrera (o sea, 15:00hs del sábado), en el kilómetro 34 (subida a la antena).</p>
                 <p>El segundo corte será a las a las 7 horas y 50 minutos de haber largado (o sea, a las 16:50hs del sábado), en la entrada a Cerro Colorado en el kilómetro 40.</p>
                 <p>El tercer corte será en la división final de 50K y 42K a las 8 horas y 30 minutos de haber largado (o sea a las 17:30hs del sábado), en el kilómetro 44.</p>
                 <p>No comprometa al staff de FC producciones al momento del corte. En el punto indicado se les redireccionará para continuar con la carrera. La persona indicada les retirará el chip y su clasificación pasará al final de la tabla donde figurará como un DNF. Está en cada corredor recibir la medalla finisher.</p>
@@ -682,7 +682,7 @@ function M42() {
                 <p><strong>Los 34K, 25K, 15K y 10K no tienen corte.</strong> (La organización tiene el derecho de realizar el que crea conveniente en el momento que lo considere por razones operativas).</p>
 
                 <h3>NÚMERO DE CORREDOR</h3>
-                <p>Disponible una semana antes del evento desde su inscripción.</p>
+                <p><mark style={{backgroundColor:'yellow', color:'black'}}>Disponible una semana antes del evento desde su inscripción.</mark></p>
 
                 <h3>DERECHOS</h3>
                 <p>La organización se reserva el derecho de cualquier modificación que surja en cualquier momento del correspondiente a la carrera.</p>
@@ -753,7 +753,7 @@ function M42() {
       
                 <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
-                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2026' className='enlaceBoton'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2027' className='enlaceBoton'>
                     <Button variant="info" size='lg' className='boton'>
                         INSCRIBITE ACÁ
                     </Button>
