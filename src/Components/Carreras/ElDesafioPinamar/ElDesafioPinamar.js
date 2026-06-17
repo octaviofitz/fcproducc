@@ -230,13 +230,13 @@ function ElDesafioPinamar() {
           </ul>
 
           <h3>COSTOS</h3>
-           <h4 style={{textAlign: "center"}}>¡PROMO LANZAMIENTO!</h4> 
+           <h4 style={{textAlign: "center"}}>ETAPA 1</h4> 
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li>25K: <strong>$99.000 a pagar en 3 cuotas de $33.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-              <li>15K: <strong>$78.000 a pagar en 3 cuotas de $26.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-              <li>10K: <strong>$69.000  a pagar en 3 cuotas de $23.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+              <li>25K: <strong>$108.000 a pagar en 3 cuotas de $36.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+              <li>15K: <strong>$84.000 a pagar en 3 cuotas de $28.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
+              <li>10K: <strong>$75.000 a pagar en 3 cuotas de $25.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
               <li>KIDS: <strong>$25.000</strong> pago total.</li>
 
           </ul>

@@ -33,43 +33,9 @@ function AlojamientosDesafio() {
              
             <h2>ALOJAMIENTOS</h2>
             <h3>ALOJAMIENTOS EN SIERRA DE LA VENTANA</h3>
-            
-            <article>
-        <h4><mark className='marcador'>VENTANIA GOLF RESORT</mark></h4>
-        <div className='containerTop'> 
-        <div>
-        <img src={Ventania} className='img' alt='Ventania' />
-        </div>
-        <div>
-        <ul>
-            <li>Calle: Los Robles, Sierra de la Ventana, Bs As. Manzana Los Teros s/n - Barrio Golf.</li>
-            <li>Tel:  0291 474-8387</li>
-            <li>Email: reservas@ventaniaresort.com.ar</li>
-            <li>Redes: @ventaniaresort </li>
-            <li>Web: <Link to='https://ventaniaresort.com.ar/' target='_blank' rel="noopener noreferrer">https://ventaniaresort.com.ar</Link></li>
-        </ul>
-        </div>
-        </div>
-        </article>
         
-       {/*  <article>
-        <h4><mark className='marcador'>HOTEL PROVINCIAL</mark></h4>
-        <div className='containerTop'> 
-        <div>
-        <img src={HotelProv} className='img' alt='Hotel Provincial' />
-        </div>
-        <div>
-        <ul>
-            <li>Calle: Drago 130, Sierra de La Ventana, Bs. As.</li>
-            <li>Tel: (0291) 5024 / 25</li>
-            <li>Email: reservas@hotelprovincialsierra.com</li>
-            <li>Facebook: Hotel Provincial Sierra de la Ventana</li>
-            <li>Web: <Link to='https://www.hotelprovincialsierra.com' target='_blank' rel="noopener noreferrer">www.hotelprovincialsierra.com</Link></li>
-        </ul>
-        </div>
-        </div>
-        </article> */}
-
+        
+    
         <article>
         <h4><mark className='marcador'>PIE DE PIEDRA - HOTEL BOUTIQUE</mark></h4>
         <div className='containerTop'> 
@@ -83,6 +49,24 @@ function AlojamientosDesafio() {
             <li>Email: piedepiedrahotelboutique@gmail.com</li>
             <li>Facebook: Hotel Provincial Sierra de la Ventana</li>
             <li>Web: <Link to='www.piedepiedra.com ' target='_blank' rel="noopener noreferrer">www.piedepiedra.com</Link></li>
+        </ul>
+        </div>
+        </div>
+        </article>
+
+        <article>
+        <h4><mark className='marcador'>VENTANIA GOLF RESORT</mark></h4>
+        <div className='containerTop'> 
+        <div>
+        <img src={Ventania} className='img' alt='Ventania' />
+        </div>
+        <div>
+        <ul>
+            <li>Calle: Los Robles, Sierra de la Ventana, Bs As. Manzana Los Teros s/n - Barrio Golf.</li>
+            <li>Tel:  0291 474-8387</li>
+            <li>Email: reservas@ventaniaresort.com.ar</li>
+            <li>Redes: @ventaniaresort </li>
+            <li>Web: <Link to='https://ventaniaresort.com.ar/' target='_blank' rel="noopener noreferrer">https://ventaniaresort.com.ar</Link></li>
         </ul>
         </div>
         </div>

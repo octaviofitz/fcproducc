@@ -67,7 +67,7 @@ function M42() {
                                     <p className='descripcion'>Paisajes inolvidables, cruces de arroyos, un histórico hotel abandonado por donde pasaron Nazis, senderos, bosques y mucho trail, sumado a una compañía única de los demás corredores y del staff de FC Producciones que harán que sea un fin de semana que no olvidarás jamás.</p>
                                     <p className='descripcion'>50K, 42K y 34K el sábado 29 de mayo y 25K, 15K, 10K y las distancias KIDS de 3K y 1K el domingo 30. Si querés un poco más de exigencia, vas a poder correr los dos días.</p>
                                     <p className='descripcion'>Estas son las 8 modalidades que harán que te sea imposible venir tan solo por un año, vas a querer, como muchos habitués del M42, volver a participar, pero elevando la distancia en la próxima edición.</p>
-                                    <p className='descripcion'>Agendá la fecha de la edición N°15: 29, 30 y 31 de mayo de 2027.</p>                                      
+                                    <p className='descripcion'>Agendá la fecha de la edición N°15: 29 y 30 de mayo de 2027.</p>                                      
                                   {/*   <ul className='redes'>
                     
                                         <li><Link to='https://www.instagram.com/MaratonM42/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
@@ -148,6 +148,16 @@ function M42() {
                     <li>Premiación ganadores de categoría.</li>
                     <li>Premiación ganadores de la general.</li>
                 </ul>
+
+                <div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2027' className='enlaceBoton'>
+                    <Button variant="info" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
 
                 <h3>REMERA OFICIAL</h3>
                  <p>Los talles de adultos van del XS al XXL. La de niños de 6 a 14. El talle de remera elegido al momento de inscribirse no tiene cambio.</p>
@@ -270,10 +280,10 @@ function M42() {
                             
                 
                 <h3>APTO MÉDICO</h3>
-                {/* <p>El apto médico debe cargarse en la web a la hora de inscribirse. El certificado médico deberá tener una fecha posterior al 30 de mayo de 2026 para ser tomado como válido. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma con sello del médico.</p>
+                <p>El apto médico debe cargarse en la web a la hora de inscribirse. El certificado médico deberá tener una fecha posterior al 30 de mayo de 2026 para ser tomado como válido. El documento a cargar debe mostrar claramente: tus datos personales, la fecha del apto y la firma con sello del médico.</p>
                 <p>La validación del apto médico será realizada por la organización.</p>
                 <p>La organización se reserva el derecho, bajo la consulta previa al staff médico, de prohibir a un competidor de realizar y/o continuar la competencia si a criterio de la organización existe riesgo para la salud del mismo.</p>
-                <p>Podés descargar nuestro modelo de apto y presentarlo a tu médico para que lo complete.</p> */}
+                <p>Podés descargar nuestro modelo de apto y presentarlo a tu médico para que lo complete.</p> 
                 
                 <div className='contenedorBoton'>
                         <div className='botonIntermedio'>
@@ -485,18 +495,18 @@ function M42() {
                    <h4><strong><mark>PROMO LANZAMIENTO: ¡PRECIO IRRISORIO HASTA AGOTAR LOS PRIMEROS 100 CUPOS</mark></strong></h4>
                    {/* <h4><strong>ETAPA 2</strong></h4> */}
                 <ul>
-                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>50K: $248.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($124.000) y la otra a los 30 días ($124.000).</mark></strong></li>
-                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>42K: $220.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($110.000) y la otra a los 30 días ($110.000).</mark></strong></li>
-                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>34K: $190.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($95.000) y la otra a los 30 días ($95.000).</mark></strong></li>
-                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>25K: $172.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($86.000) y la otra a los 30 días ($86.000).</mark></strong></li>
-                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>15K: $146.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($73.000) y la otra a los 30 días ($73.000).</mark></strong></li>
-                    <li><strong><mark style={{backgroundColor:'yellow', color:'black'}}>10K: $122.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($61.000) y la otra a los 30 días ($61.000).</mark></strong></li>
-                    <li><mark style={{backgroundColor:'yellow', color:'black'}}><strong>KIDS 3K (de 10 a 15 años): $20.000</strong> pago total al inscribirse por transferencia bancaria.</mark></li>
-                    <li><mark style={{backgroundColor:'yellow', color:'black'}}><strong>KIDS 1K (sin límite de edad): $15.000</strong> pago total al inscribirse por transferencia bancaria.</mark></li>
+                    <li><strong>50K: $248.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($124.000) y la otra a los 30 días ($124.000).</strong></li>
+                    <li><strong>42K: $220.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($110.000) y la otra a los 30 días ($110.000).</strong></li>
+                    <li><strong>34K: $190.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($95.000) y la otra a los 30 días ($95.000).</strong></li>
+                    <li><strong>25K: $172.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($86.000) y la otra a los 30 días ($86.000).</strong></li>
+                    <li><strong>15K: $146.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($73.000) y la otra a los 30 días ($73.000).</strong></li>
+                    <li><strong>10K: $122.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($61.000) y la otra a los 30 días ($61.000).</strong></li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $20.000</strong> pago total al inscribirse por transferencia bancaria.</li>
+                    <li><strong>KIDS 1K (sin límite de edad): $15.000</strong> pago total al inscribirse por transferencia bancaria.</li>
                 </ul> 
                 <br></br>
-                <p><b><mark style={{backgroundColor:'yellow', color:'black'}}>NO ES COMPATIBLE CON OTROS DESCUENTOS.</mark></b></p>
-                <p><b><mark style={{backgroundColor:'yellow', color:'black'}}>Cuando los cupos de la etapa se agoten, el precio pasará a ser a costo 2027</mark>.</b></p>
+                <p><b>NO ES COMPATIBLE CON OTROS DESCUENTOS.</b></p>
+                <p><b>Cuando los cupos de la etapa se agoten, el precio pasará a ser a costo 2027.</b></p>
 
                {/*  <p>Si te inscribiste en las ETAPAS ANTERIORES (1 Y 2) donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    */} 
  
@@ -682,10 +692,20 @@ function M42() {
                 <p><strong>Los 34K, 25K, 15K y 10K no tienen corte.</strong> (La organización tiene el derecho de realizar el que crea conveniente en el momento que lo considere por razones operativas).</p>
 
                 <h3>NÚMERO DE CORREDOR</h3>
-                <p><mark style={{backgroundColor:'yellow', color:'black'}}>Disponible una semana antes del evento desde su inscripción.</mark></p>
+                <p>Disponible una semana antes del evento desde su inscripción.</p>
 
                 <h3>DERECHOS</h3>
                 <p>La organización se reserva el derecho de cualquier modificación que surja en cualquier momento del correspondiente a la carrera.</p>
+
+                <div className='contenedorBoton'>
+                <div className='botonIntermedio'>
+                    <Link target='_blank' rel="noopener noreferrer" to='https://eventols.com/p/m42-maraton-de-montana-2027' className='enlaceBoton'>
+                    <Button variant="info" size='lg' className='boton'>
+                        INSCRIBITE ACÁ
+                    </Button>
+                    </Link>
+                        </div>
+                             </div>
 
                 <h3>MARCACIÓN</h3>
                 <p>Deberás guiarte por las cintas de la organización para poder confirmar que estás por la senda o circuito correcto. Siempre verás la próxima cinta. Seguir las marcaciones y no a los corredores. En caso de extravío, por no ver una cinta, o no prestar atención a los senderos o indicaciones por parte de la organización, deberás volver sobre tus pasos hasta el punto donde avistaste la última y retomar el camino.</p>
