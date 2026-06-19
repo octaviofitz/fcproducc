@@ -197,7 +197,7 @@ function ElDesafioPinamar() {
               <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
               <li>Abonar la primera cuota vía transferencia o depósito bancario y <strong>subir el comprobante</strong>. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 5 días se elimina).</li>
               <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li>
-              <li>Les llegará aviso de cuando sea momento de abonar la segunda cuota y la tercera. La única forma de quedar confirmados los pagos es subiendo el comprobante a la inscripción.</li>
+              <li>La única forma de quedar confirmados el pago es subiendo el comprobante a la inscripción.</li>
 
             <div className='contenedorBoton'>
                 <div className='botonIntermedio'>
@@ -234,14 +234,14 @@ function ElDesafioPinamar() {
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li>25K: <strong>$108.000 a pagar en 3 cuotas de $36.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-              <li>15K: <strong>$84.000 a pagar en 3 cuotas de $28.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-              <li>10K: <strong>$75.000 a pagar en 3 cuotas de $25.000 por transferencia bancaria.</strong> La primera al inscribirse, la segunda a los 30 días y la última a los 60 días de inscribirse.</li>
-              <li>KIDS: <strong>$25.000</strong> pago total.</li>
+              <li><strong>25K: $108.000 a pagar el 50% al inscribirse ($54.000) y el otro 50% ($54.000)</strong> en EFECTIVO al retirar el kit.</li>
+              <li><strong>15K: $84.000 a pagar el 50% al inscribirse ($42.000) y el otro 50% ($42.000)</strong> en EFECTIVO al retirar el kit.</li>
+              <li><strong>10K: $76.000 a pagar el 50% al inscribirse ($38.000) y el otro 50% ($38.000)</strong> en EFECTIVO al retirar el kit.</li>
+              <li><strong>KIDS: $25.000</strong> pago total.</li>
 
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</p>
-          <p>Cuando los cupos de la etapa se agoten, se cerrarán las inscripciones y cambiará el costo.</p>
+          <p>Cuando los cupos de la etapa se agoten cambiará el costo.</p>
 
 
           <h3>POLÍTICA DE PAGOS DE CUOTAS</h3>
@@ -448,7 +448,7 @@ function ElDesafioPinamar() {
          </ul>
 
           <h3><mark className='mark'><strong>POLÍTICA DE PAGOS DE CUOTAS</strong></mark></h3>
-          <p>Si te inscribiste en las fechas donde se paga mediante 3 cuotas sin interés (una al inscribirse, la segunda a los 30 días y la tercera a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>
+          <p>Si te inscribiste hasta antes del 19 de junio donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>
 
           <h3><mark className='mark'><strong>POLÍTICA DE DEVOLUCIÓN DE INSCRIPCIONES</strong></mark></h3>
           <p>Las inscripciones <strong>NO</strong> tienen devolución.</p>
