@@ -9,7 +9,7 @@ import recorrido10k from '../../../Img/DesafioPinamar/recorrido10k.webp';
 import recorrido15k from '../../../Img/DesafioPinamar/recorrido15k.webp';
 import recorrido25k from '../../../Img/DesafioPinamar/recorrido25k.webp';
 import recorridoKids from '../../../Img/DesafioPinamar/recorridoKids.webp';
-
+import RemeraDesafioPinamar from '../../../Img/DesafioPinamar/RemeraPinamar.webp'
 
 import AutMenores from '../../../PDF/Pinamar/autMenores.pdf';
 import AptoMedico from '../../../PDF/Pinamar/aptoMedico.pdf';
@@ -161,6 +161,7 @@ function ElDesafioPinamar() {
           
             <h3>REMERAS</h3>
           <p>El talle de remeras está sujeto a stock. No hay posibilidad de cambio. Una vez se agota el talle, deberá seleccionar el siguiente disponible al inscribirse. Los talles de adultos van del XS al XXL. La de niños de 6 a 14.</p> 
+          <img src={RemeraDesafioPinamar} className='img' alt='Remera El Desafio Pinamar' />   
 
 
           <h3>DESCUENTO PARA TEAMS DE ENTRENAMIENTO</h3>
