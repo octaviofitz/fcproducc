@@ -235,10 +235,10 @@ function ElDesafioPinamar() {
          
         {/*   <p style={{textAlign: "center"}}>(PRÓXIMAMENTE)</p> */}
           <ul>
-              <li><strong>25K: $108.000 a pagar el 50% al inscribirse ($54.000) y el otro 50% ($54.000)</strong> en EFECTIVO al retirar el kit.</li>
-              <li><strong>15K: $84.000 a pagar el 50% al inscribirse ($42.000) y el otro 50% ($42.000)</strong> en EFECTIVO al retirar el kit.</li>
-              <li><strong>10K: $76.000 a pagar el 50% al inscribirse ($38.000) y el otro 50% ($38.000)</strong> en EFECTIVO al retirar el kit.</li>
-              <li><strong>KIDS: $25.000</strong> pago total.</li>
+              <li><strong>25K: $108.000 a pagar el 50% al inscribirse ($54.000) por transferencia bancaria y el otro 50% ($54.000)</strong> en EFECTIVO al retirar el kit.</li>
+              <li><strong>15K: $84.000 a pagar el 50% al inscribirse ($42.000) por transferencia bancaria y el otro 50% ($42.000)</strong> en EFECTIVO al retirar el kit.</li>
+              <li><strong>10K: $76.000 a pagar el 50% al inscribirse ($38.000) por transferencia bancaria y el otro 50% ($38.000)</strong> en EFECTIVO al retirar el kit.</li>
+              <li><strong>KIDS: $25.000</strong> pago total al inscribirse, por transferencia bancaria.</li>
 
           </ul>
           <p>Si tenés tu código de descuento por running team debés ponerlo cuando comenzás la inscripción (al seleccionar la distancia) y se hará el 10% de descuento sobre el total.</p>
