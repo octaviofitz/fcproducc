@@ -28,7 +28,7 @@ function TimeUnit({ value, label }) {
 function Contador() {
   // Define la fecha y hora objetivo (1 de Mayo, 14:00 hs, zona horaria Argentina UTC-3)
   // Asegúrate que el año sea futuro si quieres ver el contador activo.
-  const targetDate = new Date("2026-05-30T09:00:00-03:00").getTime();
+  const targetDate = new Date("2026-08-09T10:00:00-03:00").getTime();
   // --- Lógica interna del contador ---
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
@@ -71,7 +71,7 @@ function Contador() {
     <div className="containerContador">
       <div className="countdown-box">
         <h1 className="titleContador">
-          MARATÓN DE MONTAÑA M42
+          DESAFÍO PINAMAR
         </h1>
 
         {timeLeft.expired ? (

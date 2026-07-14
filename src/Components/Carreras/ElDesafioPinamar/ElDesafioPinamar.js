@@ -112,7 +112,7 @@ function ElDesafioPinamar() {
           <h4><mark className='mark'>DATOS GENERALES</mark></h4>
           <p><strong>Carrera:</strong> El Desafío Pinamar</p>
           <p><strong>Fecha:</strong> 9 de agosto 2026</p>
-          <p><strong>Lugar:</strong> Centro Comercial Pinamar Norte, Pinamar, Buenos Aires</p>
+          <p><strong>Lugar:</strong> Centro Comercial Pinamar Norte, Pinamar, Buenos Aires. <a href='#comoLlegar' style={{color: '#ffcc19', fontWeight: 700}}>Ver Ubicación</a></p>
           <p><strong>Distancias:</strong> 25K, 15K, 10K y KIDS.</p>
           <p><strong>Modalidad:</strong> Individual</p>
           <p><strong>Concepto:</strong> Recorrido por médanos y senderos</p>
@@ -157,6 +157,9 @@ function ElDesafioPinamar() {
           <p><strong>- DÍA:</strong> Domingo 9 de agosto</p>
           <p><strong>- LUGAR DE SALIDA Y LLEGADA:</strong> Centro Comercial Pinamar Norte</p>
           <p><strong>- HORARIO DE SALIDA:</strong> 13HS aproximadamente</p>
+
+          <h5>¿CÓMO LLEGAR AL CENTRO COMERCIAL PINAMAR NORTE?</h5>
+          <iframe id='comoLlegar' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d50906.92949498081!2d-56.9000981!3d-37.1126605!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9cab5682b11f%3A0x12ca1bfb9399be91!2sCentro%20Pinamar%20Norte!5e0!3m2!1ses-419!2sar!4v1709009837605!5m2!1ses-419!2sar" width="600" height="450" loading='lazy' className='mapas' title='Mapa Centro Comercial Pinamar Norte'></iframe>
 
           
             <h3>REMERAS</h3>

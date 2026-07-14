@@ -87,10 +87,16 @@ function AlojamientosPinamar() {
             </div>
             </article> */}
 
-          {/*   <h3 className='recomendados'><Link to='https://pinamar.tur.ar/beneficios-desafio-columbia-pinamar/' target='_blank' rel='noopener noreferrer'>CLICK ACÁ PARA VER ALOJAMIENTOS RECOMENDADOS POR LA SECRETARÍA DE TURISMO</Link></h3> */}
+             <h3 className='recomendados'><Link to='https://drive.google.com/file/d/1twhP7AVfsVmfbVxvzegNo4uEwOSvJe40/view' target='_blank' rel='noopener noreferrer'>CLICK ACÁ PARA VER ALOJAMIENTOS RECOMENDADOS TURISMO DE PINAMAR</Link></h3> 
 
+       
 
         </div>
+
+       {/*  <article className='recomendados' style={{backgroundColor: '#efeeee', margin: '2rem 1rem', padding: "2rem 1rem", borderRadius: '10px'}}>
+            <p style={{fontWeight: 700, fontSize: '1.5rem'}}>Alojamientos Recomendados por Turismo de Pinamar</p>
+            <Button variant="warning" size='lg' className='boton'><Link target='_blank' rel="noopener noreferrer">VER</Link></Button>
+        </article> */}
 
         <div className='contenedorBotonDesafio'>
             <Button variant='success' onClick={volverAtras} className='goBack'>Volver ←</Button>

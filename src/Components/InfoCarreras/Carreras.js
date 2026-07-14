@@ -19,8 +19,8 @@ function Carreras() {
         <section className='carreras'>
             
 
-          {/*   <Contador />   
- */}
+             <Contador />   
+
        {/* <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1>
 
 
@@ -68,12 +68,7 @@ function Carreras() {
 
             <div className='containerGeneral'>
 
-            <article className='container'>
-            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
-            <h2 className='tituloResultados'>MARATÓN M42</h2>
-            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 29 y 30 de mayo 2027. <strong>Inscripciones abiertas.</strong></p>
-             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
-            </article>
+           
 
             <div>
                <article className='container' id='novedades'>
@@ -90,6 +85,13 @@ function Carreras() {
         <p className='texto'>El Desafío es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 3 y 4 de octubre 2026.</p>
         <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-sierras-grandes'>Más información</Link></Button>
         </article>
+
+        <article className='container'>
+            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
+            <h2 className='tituloResultados'>MARATÓN M42</h2>
+            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 29 y 30 de mayo 2027. <strong>Inscripciones abiertas.</strong></p>
+             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
+            </article>
 
 
             <article className='container'>
