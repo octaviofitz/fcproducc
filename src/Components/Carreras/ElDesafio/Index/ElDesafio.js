@@ -115,9 +115,9 @@ function ElDesafio() {
 
                 <h3 id='cartas'>Cartas</h3>
 
-                <p><strong>La acreditación</strong> se llevará a cabo <strong><u>únicamente</u> los días <u>viernes y sábado en Pie de Piedra, Hotel Boutique, Sierra de la Ventana</u></strong>.</p>
-                <p>Todo lo que respecta a <strong>la carrera</strong>, es decir, la largada, llegada y campamento de la modalidad 2 días y 1 día, se realizará <strong><u>íntegramente</u> en la Reserva Natural Privada Sierras Grandes</strong>, un lugar de ensueño ubicado en Sierra de la Ventana, comarca de Tornquist, Provincia de Buenos Aires.</p>
-                <p>La Reserva se encuentra <strong>a tan solo 9 kilómetros del Hotel Provincial Sierra de la Ventana</strong> (lugar de acreditación ya mencionado). Los que vinieron a correr el año pasado no nos van a dejar mentir: una vez que lleguen se van a enamorar. Y si ya lo conocen, lo mirarán con otros ojos.</p>
+                <p><strong>La acreditación</strong> se llevará a cabo <strong><u>únicamente</u></strong> los días <strong><u>viernes y sábado en Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</u></strong> <mark>EL DOMINGO NO HABRÁ ACREDITACIÓN.</mark></p>
+                <p>Todo lo que respecta a la carrera, es decir, la largada, llegada y campamento de la modalidad 2 días y 1 día, se realizará <u>íntegramente</u> en la Reserva Natural Privada Sierras Grandes, un lugar de ensueño ubicado en Sierra de la Ventana, comarca de Tornquist, Provincia de Buenos Aires.</p>
+                <p><mark><strong>La Reserva se encuentra a 15 kilómetros del Hotel Pie de Piedra (lugar de acreditación ya mencionado)</strong></mark>. Los que vinieron a correr el año pasado no nos van a dejar mentir: una vez que lleguen se van a enamorar. Y si ya lo conocen, lo mirarán con otros ojos.</p>
 
         
 
@@ -261,7 +261,7 @@ function ElDesafio() {
 
 
                 <p>Si tenés tu código de descuento por running team (solicitado previamente), debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-                <p><u>Cuando se agoten los cupos, se actualizarán los costos para la ETAPA 2.</u>.</p>
+                <p><u>Cuando se agoten los cupos, se actualizarán los costos para la ETAPA 2.</u></p>
 
 
                 <h3>POLÍTICA DE PAGO DE CUOTAS</h3>
@@ -284,18 +284,19 @@ function ElDesafio() {
 
                 
                 <h3>ACREDITACIÓN Y ENTREGA DE KITS</h3>
-                <p><strong>La acreditación se realizará únicamente los días viernes y sábado en Pie de Piedra, Hotel Boutique, Sierra de la Ventana. La Reserva Sierras Grandes, lugar donde se realiza la carrera, se encuentra a 12 kilómetros de Pie de Piedra.</strong></p> 
+                <p><strong>La acreditación se realizará únicamente los días viernes y sábado en Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</strong></p>
+                <p><strong>La Reserva Sierras Grandes, lugar donde se realiza la carrera, se encuentra a 15 kilómetros de Pie de Piedra.</strong></p>
 
                 <h4><mark className='mark'>- VIERNES 02/10</mark></h4>
                 <p>16 a 19hs: Acreditación a todas las distancias.</p>
 
                 <h4><mark className='mark'>- SÁBADO 03/10</mark></h4>
                 <p>9 a 13hs: Prioridad acreditación para modalidad 2 días.</p>
-                <p>9 a 17hs: Acreditación modalidad 1 día: 21K, 10K y Kids.</p>
+                <p>9 a 18hs: Acreditación modalidad 1 día: 21K, 10K y Kids.</p>
 
-                <p><strong><u>ATENCIÓN:</u> El día domingo 4/10 NO HABRÁ ACREDITACIÓN. Se retira el kit únicamente el viernes o sábado, con la posibilidad de que lo haga un tercero con tu fotocopia de dni siempre y cuando esté el deslinde firmado y el apto médico subido.</strong></p>
+                <p><strong><mark><u>ATENCIÓN:</u> El día domingo 4/10 NO HABRÁ ACREDITACIÓN. Se retira el kit únicamente el viernes o sábado, con la posibilidad de que lo haga un tercero con tu fotocopia de dni siempre y cuando esté el deslinde firmado y el apto médico subido.</mark></strong></p>
     
-                <h5>CÓMO LLEGAR A PIE DE PADRE, HOTEL BOUTIQUE?</h5>
+                <h5>CÓMO LLEGAR A PIE DE PIEDRA, HOTEL BOUTIQUE?</h5>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.463083281655!2d-61.79391376885545!3d-38.119998749208506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ece9368a48003b%3A0x53c10bbfa65126c6!2sPie%20de%20piedra%20-%20Hotel%20boutique.%20%2B18!5e0!3m2!1ses!2sar!4v1780945671509!5m2!1ses!2sar" width="600" height="450" loading="lazy" className='mapas' title='Mapa Hotel Pie de Piedra'></iframe>
                 {/* <p><b>IMPORTANTE: EN LA RESERVA NATURAL PRIVADA SIERRAS GRANDES NO SE PODRÁ RETIRAR KIT NI TAMPOCO INSCRIBIRSE AL EVENTO, NINGÚN DÍA.</b></p> */}
                
@@ -376,24 +377,26 @@ function ElDesafio() {
                 
                 <h3>CAMPAMENTO OPCIONAL</h3>
                 <ul>
-                    <li>El campamento será opcional tanto para la modalidad de dos días como para la de un día de carrera. LA CARPA Y TODOS LOS ELEMENTOS DE CAMPAMENTO CORREN POR CUENTA DEL CORREDOR.</li>
+                    <li>El campamento será opcional tanto para la modalidad de dos días como para la de un día de carrera. <strong>LA CARPA Y TODOS LOS ELEMENTOS DE CAMPAMENTO CORREN POR CUENTA DEL CORREDOR</strong>.</li>
                     <li>Los corredores que contratan campamento, deberán primero acreditarse para luego poder acceder al mismo. Cada corredor contará con una pulsera para ingresar al predio, otorgada en la acreditación.</li>
                     <li>El campamento (que será dentro de la Reserva Natural Sierras Grandes, donde salen y llegan todas las distancias) abrirá sus puertas a partir del sábado 3 de octubre desde las 10 am para que cada corredor pueda armar su propia carpa antes de correr.</li>
                     <li>Los autos quedarán dentro del campamento, contamos con un estacionamiento sin cargo para quienes contratan el servicio.</li>
                     <li>El servicio de campamento incluye también: estadía en el campo, cena del sábado y desayuno del domingo.</li>
-                    <li>Los corredores de dos días que quieran acceder al campamento lo seleccionan al momento de inscribirse. Los de 1 día y/o acompañantes, solicitan la estadía con un costo adicional por mail info@fcproducciones.com.ar.</li>
+                    <li>Los corredores de dos días que quieran acceder al campamento lo seleccionan en la modalidad al momento de inscribirse.</li>
+                    <li>Los de 1 día y/o acompañantes, solicitan la estadía con un costo adicional por mail info@fcproducciones.com.ar.</li>
                     <li>Avisar con anticipación al mail en caso de ser celíacos, vegetarianos o veganos para poder ofrecerles la comida adecuada en el campamento.</li>
                     <li>HORARIO DE CENA SÁBADO 3/10: 20 a 21:30 horas.</li>
                     <li>HORARIO DE DESAYUNO 4/10: 7 a 8:30 horas.</li>
-                    <li>El campamento para los corredores y la Reserva en general no cuenta con una proveeduría. Se les proporcionará la cena y el desayuno correspondientes a quienes contraten campamento. Para los corredores de ambas modalidades habrá posibilidad de comprar únicamente bebidas sin alcohol, sandwiches y agua caliente. Al no haber señal en la zona, y solamente antena de internet, se recomienda llevar efectivo, sin excepción. Recomendamos proveerse de todo lo que consuman fuera de todo lo mencionado ya que la reserva se encuentra en una zona alejada a la ciudad. No olvidemos que el objetivo es disfrutar de dos días de correr y vincularse con la naturaleza. Contamos con 12 Baños químicos y dos duchas con agua caliente de hombres) y dos de mujeres (este último es exclusivo para el campamento).</li>
+                    <li>El campamento para los corredores y la Reserva en general no cuenta con una proveeduría. Se les proporcionará la cena y el desayuno correspondientes a quienes contraten campamento. Para los corredores de ambas modalidades habrá posibilidad de comprar únicamente bebidas sin alcohol, sandwiches y agua caliente. Al no haber señal en la zona, y solamente antena de internet, se recomienda llevar efectivo, sin excepción. Recomendamos proveerse de todo lo que consuman fuera de todo lo mencionado ya que la reserva se encuentra en una zona alejada a la ciudad. No olvidemos que el objetivo es disfrutar de dos días de correr y vincularse con la naturaleza.</li>
+                    <li>Contamos con 12 Baños químicos y dos duchas con agua caliente de hombres y dos de mujeres (este último es exclusivo para el campamento).</li>
                 </ul>
                
 
 
              <h3>RECORRIDOS</h3>
-              <p style={{textAlign: "center"}} ><strong>PRÓXIMAMENTE</strong></p> 
+             {/*  <p style={{textAlign: "center"}} ><strong>PRÓXIMAMENTE</strong></p>  */}
 
-{/* 
+ 
              <iframe
                     src="https://www.google.com/maps/d/embed?mid=1CoGqmWVPuxzKioYecP1hZj3ZRE5KkXs&ehbc=2E312F"
                     width="400"
@@ -406,7 +409,7 @@ function ElDesafio() {
                     title='Mapa interactivo recorridos El Desafio'
                 ></iframe>
 
-
+{/*
                 <h3>RECORRIDO 25K</h3>
 
                  <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' /> 
@@ -447,7 +450,7 @@ function ElDesafio() {
                 <h3>RECORRIDO KIDS</h3>
 
                 <img src={ImagenKids} alt='Recorrido Kids Desafío Sierras' className='recorridos' /> 
- */}
+ 
 
                 
                 <div style={{display:'flex', flexDirection:'column', margin:'auto', textAlign:'center'}}>
@@ -551,19 +554,19 @@ function ElDesafio() {
 
                <h4><strong><mark className='mark'>SÁBADO 03/10</mark></strong></h4>
                <ul>
-                <li><strong>9 a 13 hs:</strong> Acreditación y entrega de kits con prioridad para la modalidad 2 días: Pie de Piedra, Hotel Boutique, Sierra de la Ventana</li>
-                <li><strong>9 a 17 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</li>
+                <li><strong>9 a 13 hs:</strong> Acreditación y entrega de kits con prioridad para la modalidad 2 días: Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</li>
+                <li><strong>9 a 18 hs:</strong> Acreditación y entrega de kits modalidad 1 día: 21K, 10K y Kids. Pie de Piedra, Hotel Boutique, Sierra de la Ventana.</li>
                 <li><strong>13:45 hs:</strong> Charla técnica modalidad 2 días en el arco de largada. Reserva Natural Sierras Grandes, Sierra de la Ventana, Tornquist.</li>
                 <li><strong>14 hs:</strong> Largada de la modalidad de 2 días: 25K. Reserva Natural Sierras Grandes.</li>
                 <li><strong>20 a 21:30 hs:</strong> Cena en el campamento de la Reserva Natural Sierras Grandes.</li>
                </ul>
 
-               <h4><strong><mark className='mark'>DOMINGO 04/10</mark></strong></h4>
+               <h4><strong><mark className='mark'>DOMINGO 04/10:</mark><mark>(NO HAY ACREDITACIÓN EL DOMINGO)</mark></strong></h4>
                <ul>
                 <li><strong>7 a 8:30 hs:</strong> Desayuno en el campamento de Reserva Natural Sierras Grandes.</li>
                 <li><strong>9:45 hs:</strong> Charla técnica en el arco de largada. Reserva Natural Sierras Grandes.</li>
                 <li><strong>10 hs:</strong> Largada 2 días + 1 día: 21K y 10K. Reserva Natural Sierras Grandes.</li>
-                <li><strong>13:30  hs:</strong> Largada Kids (horario aproximado). Reserva Natural Sierras Grandes.
+                <li><strong>13:30 hs:</strong> Largada Kids (horario aproximado). Reserva Natural Sierras Grandes.
                 </li>
                 <li><strong>14 / 14:30 hs:</strong> Premiación (horario aproximado). Reserva Natural Sierras Grandes.</li>
                </ul>
