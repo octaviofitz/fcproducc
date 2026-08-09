@@ -19,30 +19,30 @@ function Carreras() {
         <section className='carreras'>
             
 
-             <Contador />   
+            {/*  <Contador />    */}
 
-       {/* <h1 className='titulo'>RESULTADOS Y FOTOS M42</h1>
+        <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO PINAMAR</h1>
 
 
         <div className='containerGeneral'>
         <article className='container'>
-        <img src={m42} className="carrerasimg" alt='Carrera El Desafío'></img>
-        <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2>
-        <p className='texto'>Acá podrán ver la clasificación de 50K, 42K, 34K, 25K, 15K y 10K del M42 2026 y las fotos del equipo de Locos de las Foto.</p>
+        <img src={DesafioPinamar} className="carrerasimg" alt='Carrera Desafío Pinamar'></img>
+        <h2 className='tituloResultados'>DESAFÍO PINAMAR</h2>
+        <p className='texto'>¡Gracias por participar del Desafío Pinamar Eddie Bauer! Acá vas a poder buscar tu resultado y fotos.</p>
         
 
         <div className='contenedorBotones'>
             
             <div className='contenedorBoton'>
-            <Link to='https://eventols.com/p/m42-maraton-de-montana-2026/results'>
-        <Button variant="info" size='lg' className='botonm42' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
+            <Link to='https://eventols.com/p/el-desafio-pinamar-2026/results'>
+        <Button variant="warning" size='lg' className='botonDesafioPinamar' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
         </Link>
             </div>
         
 
             <div className='contenedorBoton'> 
-              <Link to='https://locosdelafoto.mirelia.net/eventos/e0d84666-e2f2-45aa-bf48-710a13f0bab3'>
-               <Button variant="info" size='lg' className='botonm42' id='fotoResultado'>FOTOS</Button>
+              <Link to='https://locosdelafoto.mirelia.net/eventos/1ff425ca-41d6-42d5-ab29-5139ec8675af'>
+               <Button variant="warning" size='lg' className='botonDesafioPinamar' id='fotoResultado'>FOTOS</Button>
                 </Link> 
                 </div>
 
@@ -52,7 +52,7 @@ function Carreras() {
        
 
         </article>
-        </div>      */}
+        </div>      
 
 
         <h1 className='titulo'>CARRERAS</h1>

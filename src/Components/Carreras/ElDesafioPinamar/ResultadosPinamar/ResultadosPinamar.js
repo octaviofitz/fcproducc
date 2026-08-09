@@ -16,7 +16,7 @@ function ResultadosPinamar() {
     return (
         <article className='resultadosPinamar'>
 
-            <h5 className='titulo'>Resultados Desafio Columbia Pinamar 2025</h5>
+            <h5 className='titulo'>Resultados Desafio Pinamar 2026</h5>
             
             <div className='containerNovedades'>
            
@@ -24,9 +24,9 @@ function ResultadosPinamar() {
                <article className='container' id='novedades'>
            <img src={DesafioPinamarResultados} className="carrerasimg" alt='Carrera Desafio Columbia Pinamar'></img>
            <h4 className='tituloResultados'>RESULTADOS + FOTOS</h4>
-            <p className='texto'>Acá podrán ver los resultados, las fotos y los videos de llegada de cada corredor. A medida que pasan las horas se irá cargando el material audiovisual.</p> 
-            <Button variant="warning" size='lg' className='botonDesafioPinamar'><a href='https://eventols.com/p/desafio-columbia-pinamar-2025/results' without rel="noopener noreferrer">RESULTADOS</a></Button>
-            <Button variant="warning" size='lg' className='botonDesafioPinamar'><a href='https://fotols.com/e/desafio-columbia-pinamar-2025/fc-producciones' without rel="noopener noreferrer">FOTOS</a></Button>
+            <p className='texto'>¡Gracias por participar del Desafío Pinamar Eddie Bauer! Acá vas a poder buscar tu resultado y fotos.</p> 
+            <Button variant="warning" size='lg' className='botonDesafioPinamar'><a href='https://eventols.com/p/el-desafio-pinamar-2026/results' without rel="noopener noreferrer">RESULTADOS</a></Button>
+            <Button variant="warning" size='lg' className='botonDesafioPinamar'><a href='https://locosdelafoto.mirelia.net/eventos/1ff425ca-41d6-42d5-ab29-5139ec8675af' without rel="noopener noreferrer">FOTOS</a></Button>
            </article>
            </div>
 
