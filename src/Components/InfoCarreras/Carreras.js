@@ -19,12 +19,12 @@ function Carreras() {
         <section className='carreras'>
             
 
-            {/*  <Contador />    */}
+              <Contador />    
 
-        <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO PINAMAR</h1>
+        {/* <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO PINAMAR</h1> */}
 
 
-        <div className='containerGeneral'>
+        {/* <div className='containerGeneral'>
         <article className='container'>
         <img src={DesafioPinamar} className="carrerasimg" alt='Carrera Desafío Pinamar'></img>
         <h2 className='tituloResultados'>DESAFÍO PINAMAR</h2>
@@ -52,7 +52,7 @@ function Carreras() {
        
 
         </article>
-        </div>      
+        </div>      */} 
 
 
         <h1 className='titulo'>CARRERAS</h1>
@@ -70,21 +70,21 @@ function Carreras() {
 
            
 
-            <div>
-               <article className='container' id='novedades'>
-           <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
-           <h2 className='tituloResultados'>DESAFÍO PINAMAR</h2>
-            <p className='texto'>Tu desafío diferente por médanos y senderos. 25K, 15K, 10K y KIDS. Te esperamos el 9 de agosto de 2026 Pinamar, Buenos Aires. <strong>Inscripciones abiertas.</strong> </p>
-            <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
-           </article>
-           </div>
-
            <article className='container'>
         <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
         <h2 className='tituloResultados'>DESAFÍO SIERRAS GRANDES</h2>
         <p className='texto'>El Desafío es un evento de dos modalidades. 2 días de competencia: 25K + 21K con campamento opcional o 1 día: 21K, 10K o KIDS por Sierra de la Ventana, Buenos Aires. 3 y 4 de octubre 2026.</p>
         <Button variant="success" size='lg' className='botondesafio'> <Link to='desafio-sierras-grandes'>Más información</Link></Button>
         </article>
+
+        <div>
+               <article className='container' id='novedades'>
+           <img src={DesafioPinamar} className="carrerasimg" alt='Desafio Columbia Pinamar' id='pinamarCard'></img>
+           <h2 className='tituloResultados'>DESAFÍO PINAMAR</h2>
+            <p className='texto'>Tu desafío diferente por médanos y senderos. 25K, 15K, 10K y KIDS. Te esperamos el 9 de agosto de 2026 Pinamar, Buenos Aires.</p>
+            <Button variant="warning" size='lg' className='botonDesafioPinamar'> <Link to='desafio-pinamar'>Más información</Link></Button>
+           </article>
+           </div>
 
         <article className='container'>
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>

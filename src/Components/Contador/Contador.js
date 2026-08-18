@@ -28,8 +28,8 @@ function TimeUnit({ value, label }) {
 function Contador() {
   // Define la fecha y hora objetivo (1 de Mayo, 14:00 hs, zona horaria Argentina UTC-3)
   // Asegúrate que el año sea futuro si quieres ver el contador activo.
-  const targetDate = new Date("2026-08-09T10:00:00-03:00").getTime();
-  // --- Lógica interna del contador ---
+  const targetDate = new Date("2026-10-03T14:00:00-03:00").getTime();
+    // --- Lógica interna del contador ---
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
     const difference = targetDate - now;
@@ -71,7 +71,7 @@ function Contador() {
     <div className="containerContador">
       <div className="countdown-box">
         <h1 className="titleContador">
-          DESAFÍO PINAMAR
+          DESAFÍO SIERRAS GRANDES
         </h1>
 
         {timeLeft.expired ? (
