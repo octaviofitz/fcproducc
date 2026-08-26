@@ -212,9 +212,9 @@ function ElDesafio() {
                     <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más arriba), colocarlo en su casillero.</li>
                     <li>Elegir la distancia.</li>
                     <li>Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podés subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
-                    <li>Abonar la primera cuota vía transferencia o depósito bancario y <strong>subir el comprobante.</strong> (IMPORTANTE: si no lo comparten, la inscripción queda pendiente y a los 5 días se elimina).</li>
+                    <li>Abonar el 50% vía transferencia o depósito bancario y <strong>subir el comprobante</strong>. (IMPORTANTE: si no lo comparten, la inscripción queda pendiente y a los 5 días se elimina).</li>
                     <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li>
-                   <li>Les llegará aviso de cuándo sea momento de abonar la segunda cuota y la tercera. La única forma de quedar confirmados los pagos es subiendo el comprobante a la inscripción.</li> 
+                   <li>El segundo paso se realiza al retirar el kit en efectivo.</li> 
                 </ol>
                 
                       <div className='contenedorBoton'>
@@ -246,22 +246,23 @@ function ElDesafio() {
 
                 <h3>COSTOS</h3>
                 <h4 style={{textAlign: 'center'}}><mark className='mark'><s>PROMO LANZAMIENTO AGOTADA</s></mark></h4>
-                <h4 style={{textAlign: 'center', marginBottom: '2rem'}}><mark className='mark'>ETAPA 1</mark></h4> 
+                <h4 style={{textAlign: 'center', marginBottom: '2rem'}}><mark className='mark'><s>ETAPA 1 AGOTADA</s></mark></h4> 
+                <h4 style={{textAlign: 'center', marginBottom: '2rem'}}><mark className='mark'>ETAPA 2</mark></h4> 
 
-                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <mark className='mark'>$324.000</mark></strong> a pagar en tres cuotas de $108.000 por transferencia bancaria.</p>
 
-                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <mark className='mark'>$273.000</mark></strong> a pagar en tres cuotas de $91.000 por transferencia bancaria.</p>
+                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) CON SERVICIO DE CAMPAMENTO: <mark className='mark'>$340.000</mark></strong> a pagar el 50% al inscribirse por transferencia bancaria ($170.000) y el otro 50% ($170.000) al retirar el kit en efectivo.</p>
 
-                <p><strong>1 DÍA (DOMINGO) 21K: <mark className='mark'>$135.000</mark></strong> a pagar en tres cuotas de $45.000 por transferencia bancaria.</p>
+                <p><strong>DOS DÍAS INDIVIDUAL (25K + 21K) SIN CAMPAMENTO: <mark className='mark'>$286.000</mark></strong> a pagar el 50% al inscribirse por transferencia bancaria ($143.000) y el otro 50% ($143.000) al retirar el kit en efectivo.</p>
 
-                <p><strong>1 DÍA (DOMINGO) 10K: <mark className='mark'>$96.000</mark></strong> a pagar en tres cuotas de $32.000 por transferencia bancaria.</p>
+                <p><strong>1 DÍA (DOMINGO) 21K: <mark className='mark'>$142.000</mark></strong> a pagar el 50% al inscribirse por transferencia bancaria ($71.000) y el otro 50% ($71.000) al retirar el kit en efectivo.</p>
+
+                <p><strong>1 DÍA (DOMINGO) 10K: <mark className='mark'>$100.000</mark></strong> a pagar el 50% al inscribirse por transferencia bancaria ($50.000) y el otro 50% ($50.000) al retirar el kit en efectivo.</p>
 
                 <p><strong>KIDS (DOMINGO) 1K: <mark className='mark'>$25.000</mark></strong> pago total.</p>
                 
 
-
-                <p>Si tenés tu código de descuento por running team (solicitado previamente), debés ponerlo cuando comenzás la inscripción y se hará el 10% de descuento sobre las cuotas.</p>
-                <p><u>Cuando se agoten los cupos, se actualizarán los costos para la ETAPA 2.</u></p>
+                <p>Si tenés tu código de descuento por running team (solicitado previamente), debés ponerlo cuando <strong>comenzás</strong> la inscripción y se hará el 10% de descuento sobre las cuotas. Si lo haces luego, no aplicará.</p>
+                <p><u>Cuando se agoten los cupos, se cerrarán las inscripciones.</u></p>
 
 
                 <h3>POLÍTICA DE PAGO DE CUOTAS</h3>
