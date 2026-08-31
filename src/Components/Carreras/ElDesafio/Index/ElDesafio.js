@@ -410,7 +410,7 @@ function ElDesafio() {
                     title='Mapa interactivo recorridos El Desafio'
                 ></iframe>
 
-{/*
+
                 <h3>RECORRIDO 25K</h3>
 
                  <img src={Imagen25KM} alt='Recorrido 25KM' className='recorridos' /> 
