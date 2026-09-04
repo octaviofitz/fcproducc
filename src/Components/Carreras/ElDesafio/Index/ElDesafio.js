@@ -80,37 +80,41 @@ function ElDesafio() {
                 <ul>
                     <li><strong>El Desafío: 46K divididos en 2 días: (25K + 21K): </strong></li>
                 </ul>
-                <p>El sábado 3 de octubre comienza la aventura para los que corren dos días con la distancia más larga: 25K en el DÍA 1. Largan 14hs.</p>
-                <p>El campamento es opcional, aunque recomendamos vivir la experiencia.</p>
-                <p>El domingo 4, a las 10 am, largan su DÍA 2 (21K) con el resto de las modalidades.</p>
-                <p>Disfrutarán un recorrido duro con varios ascensos; uno de ellos, el sábado, es al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de 1.000 metros.</p>
+                <p>El sábado 3 a las 14 horas comienza su DÍA 1 de aventura con los 25K. El campamento es opcional, aunque recomendamos vivir la experiencia. El domingo 4, a las 10 am, largan su DÍA 2 de 21K con el resto de las modalidades.</p>
+                <p>Disfrutarán un recorrido a puro trail con varios ascensos; uno de ellos, el sábado, al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con una cumbre a 1.000 metros sobre el nivel del mar. Además, descensos técnicos, partes corribles y senderos impresionantes.
+                </p>
                 <p>Es un evento ideal para prepararse para otras carreras exigentes y también de varios días como El Cruce.</p>
+               {/*  <p>Disfrutarán un recorrido duro con varios ascensos; uno de ellos, el sábado, es al Cerro Carpa, convirtiéndose en LA CARRERA MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de 1.000 metros.</p>
+                <p>Es un evento ideal para prepararse para otras carreras exigentes y también de varios días como El Cruce.</p> */}
 
                 <ul>
-                    <li><strong>21K media maratón de domingo</strong></li>
+                    <li><strong>21K, tu media maratón técnica de domingo</strong></li>
                 </ul>
-                <p>Un día de carrera que se corre el domingo. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año.</p>
+                <p>Un día de carrera que se corre el domingo. Un medio maratón ideal diseñado para aquellos corredores que buscan superarse a sí mismos elevando la barrera de los 10K. 
+                </p>
+                <p>Es un verdadero trail donde se sumergirán en el interior de Sierras Grandes con un desnivel interesante que probará tu entrenamiento a lo largo del año. Largar desde la base de la reserva para, a los pocos kilómetros, empezar a subir en un ascenso con paisajes que no olvidarás jamás.</p>
 
                 <ul>
                     <li><strong>10K y un inicio al trail running para muchos</strong></li>
                 </ul>
-                <p>Un día de carrera que se corre el domingo. Una distancia para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados a los que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas.</p>
+                <p>Un día de carrera que se corre el domingo. Una distancia para aquellos corredores que quieran incursionar en el mundo del trail running, y también para aquellos experimentados a los que les gusta la velocidad de los 10K con una mezcla de ascensos pronunciados y llanos para quemar zapatillas. Sí, también suben junto a los de 21K y luego se separan.</p>
 
                 <ul>
                     <li><strong>Distancia kids: introducción al trail</strong></li>
                 </ul>
-                <p>Con FC Producciones nos gusta que la carrera para los más pequeños no sea una más. Buscamos que los chicos se vayan con una enseñanza y recomendaciones sobre cómo actuar ante recorridos con piedras, cruces de arroyos y más. Es 1K controlado y acompañado por el staff. Pueden sumarse los padres.</p>
+                <p>Desde FC Producciones deseamos que la carrera de los más pequeños no sea una más. Buscamos, principalmente, que se diviertan y vivan una experiencia inolvidable. Además, que los chicos se vayan con una enseñanza y recomendaciones sobre cómo actuar ante recorridos con piedras, cruces de arroyos y otros obstáculos. Es 1K controlado y acompañado por el staff. Pueden sumarse los padres.</p>
 
                 <ul>
                     <li><strong>RESUMEN PARA TODAS LAS DISTANCIAS</strong></li>
                 </ul>
-                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado y con elevación donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes. Realmente volverán un poco más enamorados del trail y de los paisajes inigualables que ofrece Sierra de la Ventana.</p>
+                <p>Se van a encontrar con un verdadero TRAIL RUNNING. Es un terreno variado, técnico por momentos y con un interesante desnivel donde disfrutarán las hermosas vistas que nos provee la Reserva Natural Sierras Grandes, un sitio que se encuentra alejado de la ciudad, el asfalto, las luces y el ruido. Realmente volverán un poco más enamorados del trail y de los paisajes inigualables que ofrece Sierra de la Ventana.</p>
 
 
                 <ul>
                     <li><strong>Campamento opcional</strong></li>
                 </ul>
-                <p>No es obligatorio el campamento para aquellos que corran la modalidad de 2 días. Los que quieran vivir esta magnífica experiencia contarán con estadía, desayuno, cena y estacionamiento incluido. Obvio que lo recomendamos porque es el plus que tiene la carrera, esa desconexión total de quedarse en el paraíso que nos ofrece la Reserva junto a otros corredores es inigualable. Revisar apartado de campamento más abajo.</p>
+                <p>No es obligatorio el campamento para aquellos que corran la modalidad de 2 días. Recomendamos vivir la experiencia no solo porque te prepara para otros eventos, sino porque la camaradería que se genera y el contacto con la naturaleza, y con los tuyos, hace que vivas momentos que hace rato, probablemente, no disfrutás.</p>
+                <p>Los que quieran vivir esta magnífica experiencia contarán, incluido en el costo, con estadía, desayuno, cena y estacionamiento incluido. Vivir el campamento es el plus que tiene la carrera, esa desconexión total de quedarse en el paraíso que nos ofrece la Reserva junto a otros corredores es inigualable. Revisar apartado de campamento más abajo.</p>
 
 
                 <h3 id='cartas'>Cartas</h3>
