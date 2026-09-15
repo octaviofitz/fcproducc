@@ -421,7 +421,7 @@ function ElDesafio() {
 
              <h3>RECORRIDO 21K</h3>
 
-              <iframe
+              {/* <iframe
                     src="https://www.instagram.com/p/C_0Ta_lunWl/embed"
                     width="400"
                     height="480"
@@ -430,14 +430,14 @@ function ElDesafio() {
                     allowtransparency="true"
                     allow="encrypted-media"
                     className='recorridos'
-                ></iframe> 
+                ></iframe>  */}
  
 
                 <img src={Imagen21KM} alt='Recorrido 21KM Desafío Sierras' className='recorridos' /> 
 
                 <h3>RECORRIDO 10K</h3>
 
-              <iframe
+              {/* <iframe
                     src="https://www.instagram.com/p/C_9BsyvuV-0/embed"
                     width="400"
                     height="480"
@@ -446,7 +446,7 @@ function ElDesafio() {
                     allowtransparency="true"
                     allow="encrypted-media"
                     className='recorridos'
-                ></iframe> 
+                ></iframe>  */}
                
 
                 <img src={Imagen10KM} alt='Recorrido 10KM Desafío Sierras' className='recorridos' /> 
