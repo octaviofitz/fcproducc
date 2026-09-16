@@ -184,7 +184,7 @@ function M42() {
                 
                 
                 <h3>TRASLADO 50, 42 Y 34K</h3>
-                <p>Quienes corran 50K, 42K o 34K y no tengan cómo llegar a la largada, pondremos un traslado desde Plaza Salerno (Villa Ventana) hasta Puesta del Sol Houses & Nature (lugar de largada) el sábado 30 de mayo.</p>
+                <p>Quienes corran 50K, 42K o 34K y no tengan cómo llegar a la largada, pondremos un traslado desde Plaza Salerno (Villa Ventana) hasta Puesta del Sol Houses & Nature (lugar de largada) el sábado 29 de mayo.</p>
                 <p>El micro saldrá a las 7:45 de la mañana puntual desde Plaza Salerno. Deben estar 10 min antes.</p>
                 <p>El costo estará próximamente y se paga por transferencia bancaria. Para reservar, comunicarse a <strong>info@fcproducciones.com.ar</strong> o al Whatsapp <strong>11- 5135 - 6267</strong></p>
                 <p>Deben confirmar la reserva con anticipación para obtener su lugar en el traslado.</p>
@@ -556,7 +556,7 @@ function M42() {
                 <h4>SÁBADO 29 DE MAYO</h4>
                 <ul>
         
-                    <li><strong>9 am</strong> LARGADA 50, 42 Y 34K. Lugar: San Andrés de la Sierra.</li>
+                    <li><strong>9 am</strong> LARGADA 50, 42 Y 34K. Lugar: Puesta del Sol Houses & Nature, San Andrés de la Sierra.</li>
                     <li><strong>De 10 a 18 hs</strong> ACREDITACIÓN 25. 15K y 10K Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>17 hs</strong> Premiación 50, 42 Y 34K. Lugar: Plaza Salerno, Villa Ventana.</li>
                     <li><strong>18 hs</strong> Charla técnica 25, 15, 10K. Lugar: Plaza Salerno, Villa Ventana.</li>

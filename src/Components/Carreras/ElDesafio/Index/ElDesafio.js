@@ -393,7 +393,7 @@ function ElDesafio() {
                     <li>HORARIO DE CENA SÁBADO 3/10: 20 a 21:30 horas.</li>
                     <li>HORARIO DE DESAYUNO 4/10: 7 a 8:30 horas.</li>
                     <li>El campamento para los corredores y la Reserva en general no cuenta con una proveeduría. Se les proporcionará la cena y el desayuno correspondientes a quienes contraten campamento. Para los corredores de ambas modalidades habrá posibilidad de comprar únicamente bebidas sin alcohol, sandwiches y agua caliente. Al no haber señal en la zona, y solamente antena de internet, se recomienda llevar efectivo, sin excepción. Recomendamos proveerse de todo lo que consuman fuera de todo lo mencionado ya que la reserva se encuentra en una zona alejada a la ciudad. No olvidemos que el objetivo es disfrutar de dos días de correr y vincularse con la naturaleza.</li>
-                    <li>Contamos con 12 Baños químicos y dos duchas con agua caliente de hombres y dos de mujeres (este último es exclusivo para el campamento).</li>
+                    <li>Contamos con 8 Baños químicos y dos duchas con agua caliente de hombres y dos de mujeres (este último es exclusivo para el campamento).</li>
                 </ul>
                
 
