@@ -669,7 +669,7 @@ function ElDesafio() {
                
               
                 <h4><u>TRANSFERENCIA A OTRO CORREDOR</u></h4>
-                <p>Hasta el viernes 18/09, inclusive, se podrá transferir el 100% de lo abonado a otro corredor para la misma edición. Deberá tener en cuenta que solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
+                <p>Hasta el viernes 18/09, inclusive, se podrá transferir el 100% de lo abonado (es decir: debe estar el total pago) a otro corredor para la misma edición. Deberá tener en cuenta que solo se considerarán aquellos casos en que se solicite a la organización por mail y que solamente hasta 15 días antes de la fecha de la carrera podrá transferir su inscripción a otro corredor.</p>
                 <p>En caso de no avisar con ese tiempo de anticipación, se pierde la inscripción, ya que damos por válida la asistencia y reservamos su remera, dorsal, hidratación, seguro, entre otras cuestiones.</p>
 
 
