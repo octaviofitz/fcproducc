@@ -369,8 +369,8 @@ function ElDesafio() {
                     </Button>
                     </Link> */}
 
-                <h3>REMERA OBLIGATORIA Y DORSAL VISIBLE</h3>
-                <p>La remera oficial es obligatoria y todos los corredores deben utilizarla. Además, es de suma importancia que, durante todo el recorrido, el dorsal esté a la vista. Se debe ver siempre para la seguridad del corredor, para la clasificación y luego para poder adquirir las fotos, es decir, tener fotos disponibles. El dorsal no debe estar tapado por ropa, por mochila de hidratación ni por cualquier objeto que imposibilite su fácil lectura.</p>
+                <h3>DORSAL VISIBLE</h3>
+                <p>Es de suma importancia que, durante todo el recorrido, el dorsal esté a la vista. Se debe ver siempre para la seguridad del corredor, para la clasificación y luego para poder adquirir las fotos, es decir, tener fotos disponibles. El dorsal no debe estar tapado por ropa, por mochila de hidratación ni por cualquier objeto que imposibilite su fácil lectura.</p>
             
 
 
@@ -629,7 +629,7 @@ function ElDesafio() {
                 <li><strong>NÚMERO DE CORREDOR con CHIP incluido</strong>.<br></br>
                 Será provisto por la organización y deberá estar visible en todo momento.</li>
                 <li><strong>APTO MÉDICO. Cargar en la web o entregar en la acreditación</strong></li>
-                <li><strong>REMERA OFICIAL (Provista por la organización)</strong></li>
+               {/*  <li><strong>REMERA OFICIAL (Provista por la organización)</strong></li> */}
                 <li><strong>HIDRATACIÓN PROPIA</strong>. Más allá de la provista por la organización</li>
                </ul>
 
