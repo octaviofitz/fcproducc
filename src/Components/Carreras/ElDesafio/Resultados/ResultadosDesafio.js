@@ -12,7 +12,7 @@ import CategoriasDesafio from '../../../../PDF/desafioResultados/CATEGORIASDESAF
 import SUMATIEMPOS from '../../../../PDF/desafioResultados/SUMATIEMPOS.pdf' */
 import PersonalColumbia from '../../../../Img/index/PersonalColumbia.webp'
 import GeneralColumbia from '../../../../Img/index/GeneralColumbia.webp'
-import DesafioColumbia from '../../../../Img/index/elDesafio.webp'
+import DesafioSierras from '../../../../Img/index/elDesafio.webp'
 
 
 import '../Resultados/resultadosDesafio.css'
@@ -30,11 +30,11 @@ function ResultadosDesafio() {
             <div className='Container'>
               <div>
             <article className='cards'>
-            <img src={DesafioColumbia} className='logo' alt='Resultados Desafío' />
+            <img src={DesafioSierras} className='logo' alt='Resultados Desafío' />
             <p className='texto'><strong>CLASIFICACIÓN</strong></p>
             <p className='texto'>Acá podrán ver su resultado </p>
 
-           <Button variant="success" size="lg" className="boton"> <a href='https://eventols.com/p/desafio-columbia-sierra-de-la-ventana-2025/results'>RESULTADOS</a></Button>
+           <Button variant="success" size="lg" className="boton"> <a href='https://eventols.com/p/desafio-sierra-de-la-ventana-2026/results'>RESULTADOS</a></Button>
             
             </article>
             </div>
@@ -42,10 +42,10 @@ function ResultadosDesafio() {
             <div>
 
             <article className='cards'>
-            <img src={DesafioColumbia} className='logo' alt='Resultados Desafío' />
+            <img src={DesafioSierras} className='logo' alt='Resultados Desafío' />
             <p className='texto'><strong>TODAS LAS FOTOS DE LA CARRERA</strong></p>
             <p className='texto'>Fotos de todo el fin de semana: acreditación, salidas, recorrido, campamento y mucho más</p>
-           <Button variant="success" size="lg" className="boton"> <a href='https://fotols.com/e/desafio-columbia-sierra-de-la-ventana-2025/fc-producciones'>FOTOS</a></Button>
+           <Button variant="success" size="lg" className="boton"> <a href='https://locosdelafoto.mirelia.net/eventos/7aee9454-c638-4089-b789-254541b3d4fe'>FOTOS</a></Button>
 
             </article>
             </div>

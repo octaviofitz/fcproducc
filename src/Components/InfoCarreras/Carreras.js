@@ -19,30 +19,30 @@ function Carreras() {
         <section className='carreras'>
             
 
-              <Contador />    
+         {/*      <Contador />     */}
 
-        {/* <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO PINAMAR</h1> */}
+        <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO SIERRAS GRANDES</h1> 
 
 
-        {/* <div className='containerGeneral'>
+         <div className='containerGeneral'>
         <article className='container'>
-        <img src={DesafioPinamar} className="carrerasimg" alt='Carrera Desafío Pinamar'></img>
-        <h2 className='tituloResultados'>DESAFÍO PINAMAR</h2>
-        <p className='texto'>¡Gracias por participar del Desafío Pinamar Eddie Bauer! Acá vas a poder buscar tu resultado y fotos.</p>
+        <img src={eldesafio} className="carrerasimg" alt='Carrera Desafío Sierras'></img>
+        <h2 className='tituloResultados'>RESULTADOS Y FOTOS</h2>
+        <p className='texto'>Acá podrán ver la clasificación de las dos modalidades y todas las fotos del equipo de Locos de la Foto.</p>
         
 
         <div className='contenedorBotones'>
             
             <div className='contenedorBoton'>
-            <Link to='https://eventols.com/p/el-desafio-pinamar-2026/results'>
-        <Button variant="warning" size='lg' className='botonDesafioPinamar' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
+            <Link to='https://eventols.com/p/desafio-sierra-de-la-ventana-2026/results'>
+        <Button variant="success" size='lg' className='botondesafio' style={{marginBottom: '1rem'}}>RESULTADOS</Button>
         </Link>
             </div>
         
 
             <div className='contenedorBoton'> 
-              <Link to='https://locosdelafoto.mirelia.net/eventos/1ff425ca-41d6-42d5-ab29-5139ec8675af'>
-               <Button variant="warning" size='lg' className='botonDesafioPinamar' id='fotoResultado'>FOTOS</Button>
+              <Link to='https://locosdelafoto.mirelia.net/eventos/7aee9454-c638-4089-b789-254541b3d4fe'>
+               <Button variant="success" size='lg' className='botondesafio' id='fotoResultado'>FOTOS</Button>
                 </Link> 
                 </div>
 
@@ -52,7 +52,7 @@ function Carreras() {
        
 
         </article>
-        </div>      */} 
+        </div>      
 
 
         <h1 className='titulo'>CARRERAS</h1>
