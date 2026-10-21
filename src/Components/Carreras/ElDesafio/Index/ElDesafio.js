@@ -55,7 +55,7 @@ function ElDesafio() {
                     <p className='descripcion'>El Desafío es la carrera MÁS ALTA DE LA PROVINCIA DE BUENOS AIRES con un ascenso de más de 1.000 metros al Cerro Carpa. Es una prueba perfecta para prepararte para El Cruce.</p>
                     <p className='descripcion'>Armar tu carpa, correr, cenar, compartir momentos en el fogón, dormir, desayunar y volver a correr en un contexto de camaradería entre deportistas que buscan lo mismo que vos: vivir una aventura única, en un lugar único, desconectados del estresante día a día.</p>
                     <p className='descripcion'><mark className='mark'><strong>3 Y 4 DE OCTUBRE 2026</strong></mark></p>
-                    <p className='descripcion'><mark className='mark'><strong>INSCRIPCIONES ABIERTAS</strong></mark></p>
+                    {/* <p className='descripcion'><mark className='mark'><strong>INSCRIPCIONES ABIERTAS</strong></mark></p> */}
                     <ul className='redes'>
                     
                       <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>

@@ -20,7 +20,7 @@ function Carreras() {
             
 
          {/*      <Contador />     */}
-
+{/* 
         <h1 className='titulo'>RESULTADOS Y FOTOS DESAFÍO SIERRAS GRANDES</h1> 
 
 
@@ -53,7 +53,7 @@ function Carreras() {
 
         </article>
         </div>      
-
+ */}
 
         <h1 className='titulo'>CARRERAS</h1>
 
@@ -68,7 +68,14 @@ function Carreras() {
 
             <div className='containerGeneral'>
 
-           
+
+            <article className='container'>
+            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
+            <h2 className='tituloResultados'>MARATÓN M42</h2>
+            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 29 y 30 de mayo 2027. <strong>INSCRIPCIONES ABIERTAS.</strong></p>
+             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
+            </article>
+
 
            <article className='container'>
         <img src={eldesafio} className="carrerasimg" alt='Carrera El Desafío'></img>
@@ -86,18 +93,13 @@ function Carreras() {
            </article>
            </div>
 
-        <article className='container'>
-            <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
-            <h2 className='tituloResultados'>MARATÓN M42</h2>
-            <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 29 y 30 de mayo 2027. <strong>Inscripciones abiertas.</strong></p>
-             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
-            </article>
+       
 
 
             <article className='container'>
            <img src={DesafioColinas} id='AlcecPrueba' className="carrerasimg" alt='Carrera Colinas Verdes' style={{borderRadius: '0px', objectFit: 'contain'}}></img>
            <h2 className='tituloResultados'>COLINAS EN ACCIÓN</h2>
-            <p className='texto'>Colinas en acción es un evento solidario organizado junto al colegio Colinas Verdes de Lomas de Zamora, en su cuarta edición. Son 7K competitivos, 3.5K participativos y 1k para los más peques. <strong>NUEVA FECHA: 30 DE NOVIEMBRE 2025</strong> </p>
+            <p className='texto'>Colinas en acción es un evento solidario organizado junto al colegio Colinas Verdes de Lomas de Zamora, en su cuarta edición. Son 7K competitivos, 3.5K participativos y 1k para los más peques.</p>
               <Button variant="secondary" size='lg' className='botonColinas'> <Link to='colinasenaccion'>Más información</Link></Button> 
            {/*   <Link to='https://eventols.com/e/colinas-en-accion/results'>
         <Button variant="success" size='lg' className='botonColinas'>RESULTADOS</Button>

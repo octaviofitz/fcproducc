@@ -53,7 +53,7 @@ function ElDesafioPinamar() {
               <p className='descripcion'>Pinamar siempre tuvo carreras, pero ninguna como ésta. El domingo 9 de agosto tenés una nueva cita con FC Producciones en la costa atlántica con distancias de 25K, 15k, 10K y KIDS.  
               </p>
               <p className='descripcion'>Partiendo desde el Centro Comercial Pinamar Norte, con el DESAFÍO PINAMAR 3° EDICIÓN vivirás un recorrido realmente soñado y diferente, en donde conocerás la ciudad desde otro lado: bosques, médanos, mar y muuuucha, pero mucha arena.</p>
-              <p className='descripcion'><mark className='mark'><b>Inscripciones abiertas. Aquí abajo toda la información.</b></mark></p>   
+              {/* <p className='descripcion'><mark className='mark'><b>Inscripciones abiertas. Aquí abajo toda la información.</b></mark></p>    */}
               <ul className='redes'>
               
                 <li><Link to='https://www.instagram.com/desafiocrosstrail/' target='_blank' rel="noopener noreferrer"> <i className="fab fa-instagram"></i></Link></li>
