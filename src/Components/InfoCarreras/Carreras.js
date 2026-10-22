@@ -73,7 +73,25 @@ function Carreras() {
             <img src={m42} className="carrerasimg" alt='Carrera M42'></img>
             <h2 className='tituloResultados'>MARATÓN M42</h2>
             <p className='texto'>El Maratón M42 es el clásico trail running de Villa Ventana y San Andrés de la Sierra, Buenos Aires. 50K, 42K, 34K, 25K, 15K, 10K y KIDS. ¡Nueva distancia para el domingo! 29 y 30 de mayo 2027. <strong>INSCRIPCIONES ABIERTAS.</strong></p>
-             <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button>
+             {/* <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información </Link></Button> */}
+
+             <div className='contenedorBotones'>
+            
+            <div className='contenedorBoton'>
+            {/* <Link to='https://eventols.com/p/desafio-sierra-de-la-ventana-2026/results'> */}
+        <Button variant="info" size='lg' className='botonm42'><Link to='m42'>Más información</Link></Button>
+      {/*   </Link> */}
+            </div>
+        
+
+            <div className='contenedorBoton'> 
+              <Link to='https://eventols.com/p/m42-maraton-de-montana-2027'>
+               <Button variant="info" size='lg' className='botonm42' id='inscripcion m42'>INSCRIBIRSE</Button>
+                </Link> 
+                </div>
+
+        
+        </div>
             </article>
 
 

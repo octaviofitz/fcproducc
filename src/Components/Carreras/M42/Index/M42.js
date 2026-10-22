@@ -449,11 +449,12 @@ function M42() {
                 <p>Los pasos para inscribirse online son:</p>
 
                 <ol>
-                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero. <mark className='mark' style={{backgroundColor:'yellow', color:'black', marginTop:'20px'}}><strong></strong>¡ATENCIÓN, EN LA INSTANCIA DE PRECIO LANZAMIENTO NO ES VÁLIDO  EL DESCUENTO TEAM)</mark></li>
+                    <li>En caso de tener un código de descuento por ser 10 o más en un running team (leer apartado de teams más abajo), colocarlo en su casillero.{/*  <mark className='mark' style={{backgroundColor:'yellow', color:'black', marginTop:'20px'}}><strong></strong>¡ATENCIÓN, EN LA INSTANCIA DE PRECIO LANZAMIENTO NO ES VÁLIDO  EL DESCUENTO TEAM)</mark> */}</li>
                     <li>Elegir la distancia.</li>
                     <li> Completar los datos personales. Firmar el deslinde virtual y adjuntar el apto médico. Si aún no tenés el apto, podes subirlo hasta el día anterior a la carrera desde el estado de tu inscripción. (Ver apartado “a presentar en acreditación”).</li>
                     <li>Abonar la primera cuota vía transferencia o depósito bancario y <strong>subir el comprobante</strong>. (IMPORTANTE: si no lo comparten la inscripción queda pendiente y a los 5 días se elimina).</li>
                     <li>Una vez realizados todos los pasos, les llegará un mail de confirmación desde eventols, donde pueden ver el estado de su inscripción, y por ese mismo mail, la clasificación cuando esté disponible. <strong>ES DE SUMA IMPORTANCIA QUE INDIQUEN CORRECTAMENTE EL MAIL</strong>.</li>
+                    <li>A los 30 días se abona por transferencia la cuota 2 y a los 60 días de inscripto, la tercera. El aviso de pago les llega por mail. La única forma de quedar confirmados los pagos es subiendo el comprobante a la inscripción.</li>
                 </ol>
 
                 
@@ -492,21 +493,21 @@ function M42() {
                
                 <h3>COSTOS</h3>
                 {/* <h4><strong><s>PROMO LANZAMIENTO 150 CUPOS: COMPLETA</s></strong></h4> */}
-                   <h4><strong><mark>PROMO LANZAMIENTO: ¡PRECIO IRRISORIO HASTA AGOTAR LOS PRIMEROS 100 CUPOS</mark></strong></h4>
+                   <h4><strong><mark>ETAPA 1</mark></strong></h4>
                    {/* <h4><strong>ETAPA 2</strong></h4> */}
                 <ul>
-                    <li><strong>50K: $248.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($124.000) y la otra a los 30 días ($124.000).</strong></li>
-                    <li><strong>42K: $220.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($110.000) y la otra a los 30 días ($110.000).</strong></li>
-                    <li><strong>34K: $190.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($95.000) y la otra a los 30 días ($95.000).</strong></li>
-                    <li><strong>25K: $172.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($86.000) y la otra a los 30 días ($86.000).</strong></li>
-                    <li><strong>15K: $146.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($73.000) y la otra a los 30 días ($73.000).</strong></li>
-                    <li><strong>10K: $122.000 a pagar en dos cuotas por transferencia bancaria. Una al inscribirse ($61.000) y la otra a los 30 días ($61.000).</strong></li>
-                    <li><strong>KIDS 3K (de 10 a 15 años): $20.000</strong> pago total al inscribirse por transferencia bancaria.</li>
-                    <li><strong>KIDS 1K (sin límite de edad): $15.000</strong> pago total al inscribirse por transferencia bancaria.</li>
+                    <li><strong>50K: $273.000 a pagar en tres cuotas por transferencia bancaria. Una al inscribirse ($91.000), la otra a los 30 días ($91.000) y la tercera a los 60 días ($91.000)</strong></li>
+                    <li><strong>42K: $243.000 a pagar en tres cuotas por transferencia bancaria. Una al inscribirse ($81.000), la otra a los 30 días ($81.000) y la tercera a los 60 días ($81.000)</strong></li>
+                    <li><strong>34K: $210.000 a pagar en tres cuotas por transferencia bancaria. Una al inscribirse ($70.000), la otra a los 30 días ($70.000) y la tercera a los 60 días ($70.000)</strong></li>
+                    <li><strong>25K: $189.000 a pagar en tres cuotas por transferencia bancaria. Una al inscribirse ($73.000), la otra a los 30 días ($73.000) y la tercera a los 60 días ($73.000)</strong></li>
+                    <li><strong>15K: $159.000 a pagar en tres cuotas por transferencia bancaria. Una al inscribirse ($53.000), la otra a los 30 días ($53.000) y la tercera a los 60 días ($53.000)</strong></li>
+                    <li><strong>10K: $135.000 a pagar en tres cuotas por transferencia bancaria. Una al inscribirse ($45.000), la otra a los 30 días ($45.000) y la tercera a los 60 días ($45.000)</strong></li>
+                    <li><strong>KIDS 3K (de 10 a 15 años): $25.000 pago total al inscribirse por transferencia bancaria.</strong></li>
+                    <li><strong>KIDS 1K (sin límite de edad): $20.000 pago total al inscribirse por transferencia bancaria.</strong></li>
                 </ul> 
                 <br></br>
-                <p><b>NO ES COMPATIBLE CON OTROS DESCUENTOS.</b></p>
-                <p><b>Cuando los cupos de la etapa se agoten, el precio pasará a ser a costo 2027.</b></p>
+                <p>Si tenés tu código de descuento por running team (solicitado previamente), debés ponerlo cuando <strong>comenzás</strong> la inscripción y se hará el 10% de descuento sobre las cuotas. Si lo haces luego, no aplicará.</p>
+                <p><b>Cuando se agoten los cupos de la ETAPA 1, se modificarán los costos.</b></p>
 
                {/*  <p>Si te inscribiste en las ETAPAS ANTERIORES (1 Y 2) donde el pago era en tres pagos sin interés (uno al inscribirse, el segundo a los 30 días y el tercero a los 60 días de inscribirse) debés tener en cuenta que: si no se abona la segunda o tercera cuota en tiempo y forma, pasados los 7 días de la fecha cumplida, el costo aumentará y pasará a valer el precio vigente.</p>    */} 
  
